@@ -42,14 +42,14 @@ head(hhhe)
 
 ## Search Genius API for HHH Essentials
 
-```{r Search artists}
+```{r Genius - search artists, eval=FALSE, include=FALSE}
 kanye_search <- search_artist(search_term = "Kanye")
 kanye_search <- slice(kanye_search,1)
 kanye_search <- select(kanye_search,1:2)
 head(kanye_search)
 ```
 
-```{r Genius - search songs}
+```{r Genius - search songs, eval=FALSE, include=FALSE}
 # Clear last test
 jesuswalks_search <- search_song(search_term = "Jesus Walks")
 jesuswalks_search <- slice(jesuswalks_search,1)
@@ -57,22 +57,20 @@ jesuswalks_search <- select(jesuswalks_search,1:2)
 head(jesuswalks_search)
 ```
 
-```{r Genius - search an artist's songs filtered by album}
+```{r Genius - search an artist's songs filtered by album, eval=FALSE, include=FALSE}
 kanye_songs <- get_artist_songs(artist_id = kanye_search[[1]])
 head(kanye_songs)
 ```
 
-```{r Genius - pull metadata for one song}
+```{r Genius - pull metadata for one song, eval=FALSE, include=FALSE}
 jesuswalks_meta <- get_song_meta(song_id = 519)
 head(jesuswalks_meta)
 ```
 
-```{r Genius - pull tracklist for one album}
+```{r Genius - pull tracklist for one album, eval=FALSE, include=FALSE}
 college_dropout <- scrape_tracklist(album_id = 111578)
 head(college_dropout)
 ```
-
-
 
 
 ## Search Spotify API for HHH Essentials
@@ -132,7 +130,7 @@ mac_miller_tracks_w_feats$feature_list <- mac_miller_tracks_w_feats$feature_list
 
 
 # Iterative calls to the Spotify API
-```{r}
+```{r Get artists}
 # Read in the cleaned overposted list
 hhhe <- read_csv("r_hiphopheads_overposted.csv")
 
@@ -145,92 +143,79 @@ artists_df <- map_dfr(artists, get_artists) %>%
   filter(artist_name %in% artists) %>%
   select(artist_name, artist_uri)
 
+write.csv(artists_df, file = "all_artists.csv")
+
+head(artists_df)
+```
+
+```{r Get albums}
 artist_ids <- artists_df$artist_uri
 
 # Get Spotify album identifiers for all these artists
-albums_all <- map_if(artist_ids, is.vector, get_albums)
+album_list <- list()
+
+for (i in 1:length(artist_ids)){
+  temp <- get_albums(artist_ids[[i]])
+  Sys.sleep(1) # Pause to avoid breaking the API calls
+  album_list[[i]] <- temp
+}
+
+all_albums <- do.call(rbind, album_list)
+
+write.csv(all_albums, file = "all_albums.csv")
+
+head(all_albums)
+```
+
+```{r Get album tracks}
+all_albums_1 <- all_albums[1:100,]
+all_albums_2 <- all_albums[101:200,]
+all_albums_3 <- all_albums[201:300,]
+all_albums_4 <- all_albums[301:400,]
+all_albums_5 <- all_albums[401:500,]
+all_albums_6 <- all_albums[501:600,]
+all_albums_7 <- all_albums[601:636,]
+
+
+tracks_1 <- get_album_tracks(all_albums_1)
+tracks_2 <- get_album_tracks(all_albums_2)
+tracks_3 <- get_album_tracks(all_albums_3)
+tracks_4 <- get_album_tracks(all_albums_4)
+tracks_5 <- get_album_tracks(all_albums_5)
+tracks_6 <- get_album_tracks(all_albums_6)
+tracks_7 <- get_album_tracks(all_albums_7)
+
+all_tracks <- rbind(tracks_1,tracks_2,tracks_3,tracks_4,tracks_5,tracks_6,tracks_7)
+
+write.csv(all_tracks, file = "all_tracks.csv")
+
+head(all_tracks)
 
 ```
 
-```{r}
-albums_1 <- get_albums(artists_df$artist_uri[1])
-albums_2 <- get_albums(artists_df$artist_uri[2])
-albums_3 <- get_albums(artists_df$artist_uri[3])
-albums_4 <- get_albums(artists_df$artist_uri[4])
-albums_5 <- get_albums(artists_df$artist_uri[5])
-albums_6 <- get_albums(artists_df$artist_uri[6])
-albums_7 <- get_albums(artists_df$artist_uri[7])
-albums_8 <- get_albums(artists_df$artist_uri[8])
-albums_9 <- get_albums(artists_df$artist_uri[9])
-albums_10 <- get_albums(artists_df$artist_uri[10])
-albums_11 <- get_albums(artists_df$artist_uri[11])
-albums_12 <- get_albums(artists_df$artist_uri[12])
-albums_13 <- get_albums(artists_df$artist_uri[13])
-albums_14 <- get_albums(artists_df$artist_uri[14])
-albums_15 <- get_albums(artists_df$artist_uri[15])
-albums_16 <- get_albums(artists_df$artist_uri[16])
-albums_17 <- get_albums(artists_df$artist_uri[17])
-albums_18 <- get_albums(artists_df$artist_uri[18])
-albums_19 <- get_albums(artists_df$artist_uri[19])
-albums_20 <- get_albums(artists_df$artist_uri[20])
-albums_21 <- get_albums(artists_df$artist_uri[21])
-albums_22 <- get_albums(artists_df$artist_uri[22])
-albums_23 <- get_albums(artists_df$artist_uri[23])
-albums_24 <- get_albums(artists_df$artist_uri[24])
-albums_25 <- get_albums(artists_df$artist_uri[25])
-albums_26 <- get_albums(artists_df$artist_uri[26])
-albums_27 <- get_albums(artists_df$artist_uri[27])
-albums_28 <- get_albums(artists_df$artist_uri[28])
-albums_29 <- get_albums(artists_df$artist_uri[29])
-albums_30 <- get_albums(artists_df$artist_uri[30])
-albums_31 <- get_albums(artists_df$artist_uri[31])
-albums_32 <- get_albums(artists_df$artist_uri[32])
-albums_33 <- get_albums(artists_df$artist_uri[33])
-albums_34 <- get_albums(artists_df$artist_uri[34])
-albums_35 <- get_albums(artists_df$artist_uri[35])
-albums_36 <- get_albums(artists_df$artist_uri[36])
-albums_37 <- get_albums(artists_df$artist_uri[37])
-albums_38 <- get_albums(artists_df$artist_uri[38])
-albums_39 <- get_albums(artists_df$artist_uri[39])
-albums_40 <- get_albums(artists_df$artist_uri[40])
-albums_41 <- get_albums(artists_df$artist_uri[41])
-albums_42 <- get_albums(artists_df$artist_uri[42])
-albums_43 <- get_albums(artists_df$artist_uri[43])
-albums_44 <- get_albums(artists_df$artist_uri[44])
-albums_45 <- get_albums(artists_df$artist_uri[45])
-albums_46 <- get_albums(artists_df$artist_uri[46])
-albums_47 <- get_albums(artists_df$artist_uri[47])
-albums_48 <- get_albums(artists_df$artist_uri[48])
-albums_49 <- get_albums(artists_df$artist_uri[49])
-albums_50 <- get_albums(artists_df$artist_uri[50])
-albums_51 <- get_albums(artists_df$artist_uri[51])
-albums_52 <- get_albums(artists_df$artist_uri[52])
-albums_53 <- get_albums(artists_df$artist_uri[53])
-albums_54 <- get_albums(artists_df$artist_uri[54])
-albums_55 <- get_albums(artists_df$artist_uri[55])
-albums_56 <- get_albums(artists_df$artist_uri[56])
-albums_57 <- get_albums(artists_df$artist_uri[57])
-albums_58 <- get_albums(artists_df$artist_uri[58])
-albums_59 <- get_albums(artists_df$artist_uri[59])
-albums_60 <- get_albums(artists_df$artist_uri[60])
-albums_61 <- get_albums(artists_df$artist_uri[61])
-albums_62 <- get_albums(artists_df$artist_uri[62])
-albums_63 <- get_albums(artists_df$artist_uri[63])
-albums_64 <- get_albums(artists_df$artist_uri[64])
-albums_65 <- get_albums(artists_df$artist_uri[65])
-albums_66 <- get_albums(artists_df$artist_uri[66])
-albums_67 <- get_albums(artists_df$artist_uri[67])
-albums_68 <- get_albums(artists_df$artist_uri[68])
-albums_69 <- get_albums(artists_df$artist_uri[69])
-albums_70 <- get_albums(artists_df$artist_uri[70])
-albums_71 <- get_albums(artists_df$artist_uri[71])
-albums_72 <- get_albums(artists_df$artist_uri[72])
-albums_73 <- get_albums(artists_df$artist_uri[73])
-albums_74 <- get_albums(artists_df$artist_uri[74])
-albums_75 <- get_albums(artists_df$artist_uri[75])
-albums_76 <- get_albums(artists_df$artist_uri[76])
-albums_77 <- get_albums(artists_df$artist_uri[77])
+
+```{r Turn all tracks into an edge list}
+# All to lowercase
+all_tracks$track_name <- str_to_lower(all_tracks$track_name) 
+
+# Working with the "tracks" dataframe
+all_tracks_w_feats <- all_tracks
+
+
+# RESUME BELOW
+# Need to find a way to merge the main artist name back into this df
+mac_miller_tracks_w_feats$artist <- "mac miller"
+
+mac_miller_tracks_w_feats <- mac_miller_tracks_w_feats %>%
+  dplyr::filter(str_detect(mac_miller_tracks_w_feats$track_name, "feat\\.")) %>%
+  select(track_name, artist) %>%
+  separate(track_name, c("track", "feature"), "feat\\.") %>%
+  mutate(feature_list = str_split(feature, m_fts_match, n = Inf)) %>%
+  unnest(feature_list)
+
+mac_miller_tracks_w_feats$feature_list <- mac_miller_tracks_w_feats$feature_list %>%
+  str_replace_all("\\)","") %>%
+  str_replace_all("\\]","")
+
 ```
-
-
 
