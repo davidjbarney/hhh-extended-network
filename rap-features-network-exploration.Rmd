@@ -1,0 +1,236 @@
+---
+title: "Hip Hop Feature Network Exploration"
+author: "David J. Barney"
+date: "1/26/2019"
+output: html_document
+---
+
+# Data Wrangling
+## Interacting with the Genius & Spotify APIs
+First, install `geniusr` and `spotifyr` packages. You'll need to get a "client access token" from Genius [here](https://genius.com/api-clients) and from Spotify [here](https://developer.spotify.com/) and then assign it to your R environment with the `geniusr::genius_token()` function.
+
+```{r setup, eval=FALSE}
+#install.packages("geniusr")
+#install.packages("spotifyr")
+```
+
+Now we can search the Genius API for songs and their metadata. 
+
+## Reading in r/HHH Essentials lists
+
+```{r Reading in r/HHH Essentials lists}
+library(tidyverse)
+#library(tidytext)
+#library(geniusr)
+library(spotifyr)
+
+# Read in the regional essentials
+# I've already cleaned these for easy aggregation
+hhh_east <- read_csv("./r_hiphopheads_Essentials_List_East.csv")
+hhh_west <- read_csv("./r_hiphopheads_Essentials_List_West.csv")
+hhh_south <- read_csv("./r_hiphopheads_Essentials_List_South.csv")
+hhh_midwest <- read_csv("./r_hiphopheads_Essentials_List_Midwest.csv")
+
+# Combine into one dataframe
+hhhe <- rbind(hhh_east,hhh_west,hhh_south,hhh_midwest)
+
+# Select the artist and album vectors
+hhhe <- select(hhhe,artist_name:album_title)
+
+head(hhhe)
+```
+
+## Search Genius API for HHH Essentials
+
+```{r Search artists}
+kanye_search <- search_artist(search_term = "Kanye")
+kanye_search <- slice(kanye_search,1)
+kanye_search <- select(kanye_search,1:2)
+head(kanye_search)
+```
+
+```{r Genius - search songs}
+# Clear last test
+jesuswalks_search <- search_song(search_term = "Jesus Walks")
+jesuswalks_search <- slice(jesuswalks_search,1)
+jesuswalks_search <- select(jesuswalks_search,1:2)
+head(jesuswalks_search)
+```
+
+```{r Genius - search an artist's songs filtered by album}
+kanye_songs <- get_artist_songs(artist_id = kanye_search[[1]])
+head(kanye_songs)
+```
+
+```{r Genius - pull metadata for one song}
+jesuswalks_meta <- get_song_meta(song_id = 519)
+head(jesuswalks_meta)
+```
+
+```{r Genius - pull tracklist for one album}
+college_dropout <- scrape_tracklist(album_id = 111578)
+head(college_dropout)
+```
+
+
+
+
+## Search Spotify API for HHH Essentials
+```{r Spotify - search artists}
+mac_miller_search <- get_artists('mac miller') %>%
+  slice(.,1) %>%
+  select(.,1:2)
+
+```
+
+```{r Spotify - search albums}
+mac_miller_album_search <- get_albums(mac_miller_search$artist_uri)
+
+```
+
+```{r Spotify - pull tracklists}
+mac_miller_tracks <- get_album_tracks(mac_miller_album_search)
+```
+
+## Regex to identify features in track names
+
+```{r Regex setup}
+library(stringr)
+library(tidyr)
+
+# Define the features conjunctions
+featuring <- c("feat\\.","ft\\.", "feat", "ft", "featuring")
+ft_match <- str_c(featuring, collapse = "|")
+
+multiple_fts <- c(",","&","[[:space:]]+and[[:space:]]+")
+m_fts_match <- str_c(multiple_fts, collapse = "|")
+
+#brackets <- c(".\\(.",".\\).",".\\[.",".\\].")
+#brackets_match <- str_c(brackets, collapse = "|")
+brackets <- c("\\[$","\\]$")
+brackets_match <- str_c(brackets, collapse = "|")
+
+# All to lowercase
+mac_miller_tracks$track_name <- str_to_lower(mac_miller_tracks$track_name) 
+
+# Working with the "tracks" dataframe
+mac_miller_tracks_w_feats <- mac_miller_tracks 
+mac_miller_tracks_w_feats$artist <- "mac miller"
+
+mac_miller_tracks_w_feats <- mac_miller_tracks_w_feats %>%
+  dplyr::filter(str_detect(mac_miller_tracks_w_feats$track_name, "feat\\.")) %>%
+  select(track_name, artist) %>%
+  separate(track_name, c("track", "feature"), "feat\\.") %>%
+  mutate(feature_list = str_split(feature, m_fts_match, n = Inf)) %>%
+  unnest(feature_list)
+
+mac_miller_tracks_w_feats$feature_list <- mac_miller_tracks_w_feats$feature_list %>%
+  str_replace_all("\\)","") %>%
+  str_replace_all("\\]","")
+
+```
+
+
+# Iterative calls to the Spotify API
+```{r}
+# Read in the cleaned overposted list
+hhhe <- read_csv("r_hiphopheads_overposted.csv")
+
+# Get character vectors of the unique artists & albums
+artists <- unique(hhhe$Artist)
+albumnames <- unique(hhhe$Album)
+
+# Get Spotify artist uri identifiers
+artists_df <- map_dfr(artists, get_artists) %>%
+  filter(artist_name %in% artists) %>%
+  select(artist_name, artist_uri)
+
+artist_ids <- artists_df$artist_uri
+
+# Get Spotify album identifiers for all these artists
+albums_all <- map_if(artist_ids, is.vector, get_albums)
+
+```
+
+```{r}
+albums_1 <- get_albums(artists_df$artist_uri[1])
+albums_2 <- get_albums(artists_df$artist_uri[2])
+albums_3 <- get_albums(artists_df$artist_uri[3])
+albums_4 <- get_albums(artists_df$artist_uri[4])
+albums_5 <- get_albums(artists_df$artist_uri[5])
+albums_6 <- get_albums(artists_df$artist_uri[6])
+albums_7 <- get_albums(artists_df$artist_uri[7])
+albums_8 <- get_albums(artists_df$artist_uri[8])
+albums_9 <- get_albums(artists_df$artist_uri[9])
+albums_10 <- get_albums(artists_df$artist_uri[10])
+albums_11 <- get_albums(artists_df$artist_uri[11])
+albums_12 <- get_albums(artists_df$artist_uri[12])
+albums_13 <- get_albums(artists_df$artist_uri[13])
+albums_14 <- get_albums(artists_df$artist_uri[14])
+albums_15 <- get_albums(artists_df$artist_uri[15])
+albums_16 <- get_albums(artists_df$artist_uri[16])
+albums_17 <- get_albums(artists_df$artist_uri[17])
+albums_18 <- get_albums(artists_df$artist_uri[18])
+albums_19 <- get_albums(artists_df$artist_uri[19])
+albums_20 <- get_albums(artists_df$artist_uri[20])
+albums_21 <- get_albums(artists_df$artist_uri[21])
+albums_22 <- get_albums(artists_df$artist_uri[22])
+albums_23 <- get_albums(artists_df$artist_uri[23])
+albums_24 <- get_albums(artists_df$artist_uri[24])
+albums_25 <- get_albums(artists_df$artist_uri[25])
+albums_26 <- get_albums(artists_df$artist_uri[26])
+albums_27 <- get_albums(artists_df$artist_uri[27])
+albums_28 <- get_albums(artists_df$artist_uri[28])
+albums_29 <- get_albums(artists_df$artist_uri[29])
+albums_30 <- get_albums(artists_df$artist_uri[30])
+albums_31 <- get_albums(artists_df$artist_uri[31])
+albums_32 <- get_albums(artists_df$artist_uri[32])
+albums_33 <- get_albums(artists_df$artist_uri[33])
+albums_34 <- get_albums(artists_df$artist_uri[34])
+albums_35 <- get_albums(artists_df$artist_uri[35])
+albums_36 <- get_albums(artists_df$artist_uri[36])
+albums_37 <- get_albums(artists_df$artist_uri[37])
+albums_38 <- get_albums(artists_df$artist_uri[38])
+albums_39 <- get_albums(artists_df$artist_uri[39])
+albums_40 <- get_albums(artists_df$artist_uri[40])
+albums_41 <- get_albums(artists_df$artist_uri[41])
+albums_42 <- get_albums(artists_df$artist_uri[42])
+albums_43 <- get_albums(artists_df$artist_uri[43])
+albums_44 <- get_albums(artists_df$artist_uri[44])
+albums_45 <- get_albums(artists_df$artist_uri[45])
+albums_46 <- get_albums(artists_df$artist_uri[46])
+albums_47 <- get_albums(artists_df$artist_uri[47])
+albums_48 <- get_albums(artists_df$artist_uri[48])
+albums_49 <- get_albums(artists_df$artist_uri[49])
+albums_50 <- get_albums(artists_df$artist_uri[50])
+albums_51 <- get_albums(artists_df$artist_uri[51])
+albums_52 <- get_albums(artists_df$artist_uri[52])
+albums_53 <- get_albums(artists_df$artist_uri[53])
+albums_54 <- get_albums(artists_df$artist_uri[54])
+albums_55 <- get_albums(artists_df$artist_uri[55])
+albums_56 <- get_albums(artists_df$artist_uri[56])
+albums_57 <- get_albums(artists_df$artist_uri[57])
+albums_58 <- get_albums(artists_df$artist_uri[58])
+albums_59 <- get_albums(artists_df$artist_uri[59])
+albums_60 <- get_albums(artists_df$artist_uri[60])
+albums_61 <- get_albums(artists_df$artist_uri[61])
+albums_62 <- get_albums(artists_df$artist_uri[62])
+albums_63 <- get_albums(artists_df$artist_uri[63])
+albums_64 <- get_albums(artists_df$artist_uri[64])
+albums_65 <- get_albums(artists_df$artist_uri[65])
+albums_66 <- get_albums(artists_df$artist_uri[66])
+albums_67 <- get_albums(artists_df$artist_uri[67])
+albums_68 <- get_albums(artists_df$artist_uri[68])
+albums_69 <- get_albums(artists_df$artist_uri[69])
+albums_70 <- get_albums(artists_df$artist_uri[70])
+albums_71 <- get_albums(artists_df$artist_uri[71])
+albums_72 <- get_albums(artists_df$artist_uri[72])
+albums_73 <- get_albums(artists_df$artist_uri[73])
+albums_74 <- get_albums(artists_df$artist_uri[74])
+albums_75 <- get_albums(artists_df$artist_uri[75])
+albums_76 <- get_albums(artists_df$artist_uri[76])
+albums_77 <- get_albums(artists_df$artist_uri[77])
+```
+
+
+

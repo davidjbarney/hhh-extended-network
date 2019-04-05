@@ -1,0 +1,22 @@
+---
+title: "Rap Feature Network of r/hiphopheads Favorites"
+author: "David J. Barney"
+date: "3/30/2019"
+output: html_document
+---
+
+# Setup
+To use the `spotifyr` package, you'll need to assign your API credentials ([accessible here](https://developer.spotify.com/)) to your R environment by following the instructions found [here](https://github.com/charlie86/spotifyr).
+
+```{r Reading in r/HHH Essentials lists}
+library(tidyverse)
+library(tidyr)
+library(spotifyr)
+
+# Read in the overposted/favorites list
+hhhe <- read_csv("r_hiphopheads_overposted.csv")
+
+head(hhhe)
+```
+
+
