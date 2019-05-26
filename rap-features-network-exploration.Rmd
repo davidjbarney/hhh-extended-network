@@ -5,8 +5,9 @@ date: "1/26/2019"
 output: html_document
 ---
 
-# Data Wrangling
-## Interacting with the Genius & Spotify APIs
+# Exploration and API Testing
+## Data Wrangling
+### Interacting with the Genius & Spotify APIs
 First, install `geniusr` and `spotifyr` packages. You'll need to get a "client access token" from Genius [here](https://genius.com/api-clients) and from Spotify [here](https://developer.spotify.com/) and then assign it to your R environment with the `geniusr::genius_token()` function.
 
 ```{r setup, eval=FALSE}
@@ -16,31 +17,30 @@ First, install `geniusr` and `spotifyr` packages. You'll need to get a "client a
 
 Now we can search the Genius API for songs and their metadata. 
 
-## Reading in r/HHH Essentials lists
+### Reading in r/HHH Essentials lists
 
-```{r Reading in r/HHH Essentials lists}
+```{r Reading in r/HHH Essentials lists, eval=FALSE, include=FALSE}
 library(tidyverse)
 #library(tidytext)
 #library(geniusr)
 library(spotifyr)
 
-# Read in the regional essentials
-# I've already cleaned these for easy aggregation
-hhh_east <- read_csv("./r_hiphopheads_Essentials_List_East.csv")
-hhh_west <- read_csv("./r_hiphopheads_Essentials_List_West.csv")
-hhh_south <- read_csv("./r_hiphopheads_Essentials_List_South.csv")
-hhh_midwest <- read_csv("./r_hiphopheads_Essentials_List_Midwest.csv")
+## ALTERNATE DATA - Read in the regional essentials
+# hhh_east <- read_csv("./r_hiphopheads_Essentials_List_East.csv")
+# hhh_west <- read_csv("./r_hiphopheads_Essentials_List_West.csv")
+# hhh_south <- read_csv("./r_hiphopheads_Essentials_List_South.csv")
+# hhh_midwest <- read_csv("./r_hiphopheads_Essentials_List_Midwest.csv")
 
 # Combine into one dataframe
-hhhe <- rbind(hhh_east,hhh_west,hhh_south,hhh_midwest)
+#hhhe <- rbind(hhh_east,hhh_west,hhh_south,hhh_midwest)
 
 # Select the artist and album vectors
-hhhe <- select(hhhe,artist_name:album_title)
+#hhhe <- select(hhhe,artist_name:album_title)
 
 head(hhhe)
 ```
 
-## Search Genius API for HHH Essentials
+### Search Genius API for HHH Essentials
 
 ```{r Genius - search artists, eval=FALSE, include=FALSE}
 kanye_search <- search_artist(search_term = "Kanye")
@@ -73,26 +73,27 @@ head(college_dropout)
 ```
 
 
-## Search Spotify API for HHH Essentials
-```{r Spotify - search artists}
+
+### Search Spotify API for HHH Essentials
+```{r Spotify - search artists, eval=FALSE, include=FALSE}
 mac_miller_search <- get_artists('mac miller') %>%
   slice(.,1) %>%
   select(.,1:2)
 
 ```
 
-```{r Spotify - search albums}
+```{r Spotify - search albums, eval=FALSE, include=FALSE}
 mac_miller_album_search <- get_albums(mac_miller_search$artist_uri)
 
 ```
 
-```{r Spotify - pull tracklists}
+```{r Spotify - pull tracklists, eval=FALSE, include=FALSE}
 mac_miller_tracks <- get_album_tracks(mac_miller_album_search)
 ```
 
-## Regex to identify features in track names
+### Regex to identify features in track names
 
-```{r Regex setup}
+```{r Regex setup, eval=FALSE, include=FALSE}
 library(stringr)
 library(tidyr)
 
@@ -128,8 +129,8 @@ mac_miller_tracks_w_feats$feature_list <- mac_miller_tracks_w_feats$feature_list
 
 ```
 
-
-# Iterative calls to the Spotify API
+# Working Method
+## Iterative calls to the Spotify API
 ```{r Get artists}
 # Read in the cleaned overposted list
 hhhe <- read_csv("r_hiphopheads_overposted.csv")
@@ -149,14 +150,15 @@ head(artists_df)
 ```
 
 ```{r Get albums}
-artist_ids <- artists_df$artist_uri
+#artist_ids <- artists_df$artist_uri
 
 # Get Spotify album identifiers for all these artists
 album_list <- list()
 
-for (i in 1:length(artist_ids)){
-  temp <- get_albums(artist_ids[[i]])
+for (i in 1:nrow(artists_df)){
+  temp <- get_albums(artists_df$artist_uri[[i]])
   Sys.sleep(1) # Pause to avoid breaking the API calls
+  temp$artist <- artists_df$artist_name[[i]]
   album_list[[i]] <- temp
 }
 
@@ -168,54 +170,154 @@ head(all_albums)
 ```
 
 ```{r Get album tracks}
-all_albums_1 <- all_albums[1:100,]
-all_albums_2 <- all_albums[101:200,]
-all_albums_3 <- all_albums[201:300,]
-all_albums_4 <- all_albums[301:400,]
-all_albums_5 <- all_albums[401:500,]
-all_albums_6 <- all_albums[501:600,]
-all_albums_7 <- all_albums[601:636,]
+tracks_list <- list()
+
+for (i in 1:nrow(all_albums)){
+  temp <- get_album_tracks(all_albums[i,])
+  Sys.sleep(1) # Pause to avoid breaking the API calls
+  temp$artist <- all_albums$artist[i]
+  tracks_list[[i]] <- temp
+}
+
+all_tracks <- do.call(rbind, tracks_list)
 
 
-tracks_1 <- get_album_tracks(all_albums_1)
-tracks_2 <- get_album_tracks(all_albums_2)
-tracks_3 <- get_album_tracks(all_albums_3)
-tracks_4 <- get_album_tracks(all_albums_4)
-tracks_5 <- get_album_tracks(all_albums_5)
-tracks_6 <- get_album_tracks(all_albums_6)
-tracks_7 <- get_album_tracks(all_albums_7)
-
-all_tracks <- rbind(tracks_1,tracks_2,tracks_3,tracks_4,tracks_5,tracks_6,tracks_7)
+#all_tracks <- rbind(tracks_1,tracks_2,tracks_3,tracks_4,tracks_5,tracks_6,tracks_7)
 
 write.csv(all_tracks, file = "all_tracks.csv")
 
 head(all_tracks)
+rm(all_tracks)
+```
 
+## Data Wrangling
+```{r Read in aggregate tracklist}
+library(tidyverse)
+library(spotifyr)
+library(stringi)
+all_tracks <- read.csv("all_tracks.csv")
+head(all_tracks)
 ```
 
 
-```{r Turn all tracks into an edge list}
+```{r Define regex patterns for wrangling}
+# Define the features conjunctions
+featuring <- c("feat\\.","ft\\.", "feat", "ft", "featuring")
+ft_match <- str_c(featuring, collapse = "|")
+
+multiple_fts <- c(",","&","[[:space:]]+and[[:space:]]+")
+m_fts_match <- str_c(multiple_fts, collapse = "|")
+
+#brackets <- c(".\\(.",".\\).",".\\[.",".\\].")
+#brackets_match <- str_c(brackets, collapse = "|")
+brackets <- c("\\[$","\\]$")
+brackets_match <- str_c(brackets, collapse = "|")
+```
+
+```{r Wrangle into an initial edge list}
 # All to lowercase
-all_tracks$track_name <- str_to_lower(all_tracks$track_name) 
+all_tracks$track_name <- str_to_lower(all_tracks$track_name)
+all_tracks$artist <- str_to_lower(all_tracks$artist)
+all_tracks$artist <- trimws(all_tracks$artist, which = "both")
+all_tracks$track_name <- trimws(all_tracks$track_name, which = "both")
 
 # Working with the "tracks" dataframe
 all_tracks_w_feats <- all_tracks
 
-
-# RESUME BELOW
-# Need to find a way to merge the main artist name back into this df
-mac_miller_tracks_w_feats$artist <- "mac miller"
-
-mac_miller_tracks_w_feats <- mac_miller_tracks_w_feats %>%
-  dplyr::filter(str_detect(mac_miller_tracks_w_feats$track_name, "feat\\.")) %>%
+all_tracks_w_feats <- all_tracks_w_feats %>%
+  dplyr::filter(str_detect(all_tracks_w_feats$track_name, "feat\\.")) %>%
   select(track_name, artist) %>%
   separate(track_name, c("track", "feature"), "feat\\.") %>%
   mutate(feature_list = str_split(feature, m_fts_match, n = Inf)) %>%
   unnest(feature_list)
 
-mac_miller_tracks_w_feats$feature_list <- mac_miller_tracks_w_feats$feature_list %>%
-  str_replace_all("\\)","") %>%
-  str_replace_all("\\]","")
+all_tracks_w_feats$feature_list <- all_tracks_w_feats$feature_list %>%
+  str_replace_all("[^[:alnum:][:space:]]","")
+  # str_replace_all("\\)","") %>%
+  # str_replace_all("\\]","") #%>%
+  # #str_replace_all("\\(","") %>%
+
+
+edge_list <- all_tracks_w_feats %>%
+  select(artist, feature_list) %>%
+  rename(featured = feature_list)
+
+head(edge_list)
+```
+
+```{r Add frequency weights to the edge list}
+weighted_edge_list <- edge_list %>%
+  group_by(artist,featured) %>%
+  summarise(weight = n()) %>%
+  ungroup()
+
+head(weighted_edge_list)
+```
+
+```{r Create a nodes list}
+# Isolate artists and features
+artists <- weighted_edge_list %>%
+  distinct(artist) %>% 
+  rename(label = artist) %>%
+  as.tibble()
+
+features <- weighted_edge_list %>%
+  distinct(featured) %>% 
+  rename(label = featured) %>%
+  as.tibble()
+
+
+# Bring it all together
+nodes <- bind_rows(artists,features) %>% 
+  rowid_to_column("id")
+
+#Remove duplicate entities
+entity_dupes <- c()
+
+for (i in 1:nrow(nodes)){
+  dupe_search <- paste(nodes[i,2])
+  temp <- grep(dupe_search, nodes$label, value = TRUE)
+  if (length(temp) > 1){
+    #entity_dupes <- c(entity_dupes, temp[-1])
+    print(temp)
+  }
+  # entity_dupes[[i]] <- temp
+}
+
+entity_dupes <- unique(entity_dupes)
+
+# nodes <- nodes %>%
+#   distinct(label)
+
+nodes_test <- nodes %>%
+  distinct_at(label)
+
+
+
+# %>%
+#   rowid_to_column("id") %>%
+#   distinct(label)
+
+head(nodes)
+```
+
+```{r Merge edge and node lists}
+# edges <- weighted_edge_list %>%
+  # rename(artist_chr = artist) %>%
+  # rename(featured_chr = featured) %>%
+#   mutate(artist = artist_chr %in% nodes$)
+
+edges <- weighted_edge_list %>%
+  rename(artist_chr = artist) %>%
+  rename(featured_chr = featured)
+
+edges <- edges %>% 
+  left_join(nodes, by = c("artist_chr" = "label")) %>%
+  rename(artist = id)
+
+edges <- edges %>%
+  left_join(nodes, by = c("featured_chr" = "label")) %>%
+  rename(featured = id)
 
 ```
 
