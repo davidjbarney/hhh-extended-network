@@ -208,42 +208,93 @@ ft_match <- str_c(featuring, collapse = "|")
 multiple_fts <- c(",","&","[[:space:]]+and[[:space:]]+")
 m_fts_match <- str_c(multiple_fts, collapse = "|")
 
-#brackets <- c(".\\(.",".\\).",".\\[.",".\\].")
-#brackets_match <- str_c(brackets, collapse = "|")
-brackets <- c("\\[$","\\]$")
+brackets <- c("\\[$","]$")
 brackets_match <- str_c(brackets, collapse = "|")
+
+parens <- c("\\($",")$")
+parens_match <- str_c(parens, collapse = "|")
 ```
 
-```{r Wrangle into an initial edge list}
+```{r Wrangle tracklistings into initial edge list}
 # All to lowercase
 all_tracks$track_name <- str_to_lower(all_tracks$track_name)
 all_tracks$artist <- str_to_lower(all_tracks$artist)
-all_tracks$artist <- trimws(all_tracks$artist, which = "both")
-all_tracks$track_name <- trimws(all_tracks$track_name, which = "both")
+all_tracks$artist <- trimws(all_tracks$artist)
+all_tracks$track_name <- trimws(all_tracks$track_name)
 
 # Working with the "tracks" dataframe
 all_tracks_w_feats <- all_tracks
 
 all_tracks_w_feats <- all_tracks_w_feats %>%
-  dplyr::filter(str_detect(all_tracks_w_feats$track_name, "feat\\.")) %>%
+  dplyr::filter(str_detect(all_tracks_w_feats$track_name, ft_match)) %>%
   select(track_name, artist) %>%
-  separate(track_name, c("track", "feature"), "feat\\.") %>%
+  separate(track_name, c("track", "feature"), ft_match) %>%
   mutate(feature_list = str_split(feature, m_fts_match, n = Inf)) %>%
   unnest(feature_list)
 
 all_tracks_w_feats$feature_list <- all_tracks_w_feats$feature_list %>%
-  str_replace_all("[^[:alnum:][:space:]]","")
-  # str_replace_all("\\)","") %>%
-  # str_replace_all("\\]","") #%>%
-  # #str_replace_all("\\(","") %>%
+  str_replace_all("\\[","") %>%
+  str_replace_all("]","") %>%
+  str_replace_all("\\(","") %>%
+  str_replace_all("\\)","") %>%
+  str_replace_all("/","")
 
+all_tracks_w_feats$feature_list <- gsub("^ ","",all_tracks_w_feats$feature_list)
+all_tracks_w_feats$feature_list <- gsub(" $","",all_tracks_w_feats$feature_list)
+all_tracks_w_feats$feature_list <- gsub(" $","",all_tracks_w_feats$feature_list)
+all_tracks_w_feats$feature_list <- gsub("-","",all_tracks_w_feats$feature_list)
+all_tracks_w_feats$feature_list <- gsub("^uring","",all_tracks_w_feats$feature_list)
+all_tracks_w_feats$feature_list <- gsub("2014.","",all_tracks_w_feats$feature_list)
+all_tracks_w_feats$feature_list <- gsub("explicit.","",all_tracks_w_feats$feature_list)
+all_tracks_w_feats$feature_list <- gsub("album.","",all_tracks_w_feats$feature_list)
 
-edge_list <- all_tracks_w_feats %>%
-  select(artist, feature_list) %>%
-  rename(featured = feature_list)
+entities <- all_tracks_w_feats %>%
+  select(artist, feature_list)
 
-head(edge_list)
+head(entities)
+``` 
+
+```{r Create a nodes list}
+# Isolate artists and features
+artists <- entities %>%
+  distinct(artist) %>% 
+  rename(label = artist) %>%
+  as.data.frame()
+
+features <- entities %>%
+  distinct(feature_list) %>% 
+  rename(label = feature_list) %>%
+  as.data.frame()
+
+# Aggregate all entities
+nodes <- bind_rows(artists,features) %>%
+  rowid_to_column("id")
+
+#Remove duplicate entities
+# entity_vec <- as.character(nodes$label)
+# 
+# for (i in 1:length(entity_vec)){
+#   dupe_search <- paste0("^",entity_vec[i])
+#   temp_chr <- grep(dupe_search, nodes$label, value = TRUE)
+#   temp_ind <- grep(dupe_search, nodes$label, value = FALSE)
+#   if (length(temp_ind) > 1){
+#     print(temp_chr)
+#     # for (j in 2:length(temp_ind)){
+#     #   
+#     # }
+#   }
+# }
+# 
+# head(nodes)
 ```
+
+
+```{r De-duplicate the edge list and node list}
+
+
+```
+
+
 
 ```{r Add frequency weights to the edge list}
 weighted_edge_list <- edge_list %>%
@@ -252,53 +303,6 @@ weighted_edge_list <- edge_list %>%
   ungroup()
 
 head(weighted_edge_list)
-```
-
-```{r Create a nodes list}
-# Isolate artists and features
-artists <- weighted_edge_list %>%
-  distinct(artist) %>% 
-  rename(label = artist) %>%
-  as.tibble()
-
-features <- weighted_edge_list %>%
-  distinct(featured) %>% 
-  rename(label = featured) %>%
-  as.tibble()
-
-
-# Bring it all together
-nodes <- bind_rows(artists,features) %>% 
-  rowid_to_column("id")
-
-#Remove duplicate entities
-entity_dupes <- c()
-
-for (i in 1:nrow(nodes)){
-  dupe_search <- paste(nodes[i,2])
-  temp <- grep(dupe_search, nodes$label, value = TRUE)
-  if (length(temp) > 1){
-    #entity_dupes <- c(entity_dupes, temp[-1])
-    print(temp)
-  }
-  # entity_dupes[[i]] <- temp
-}
-
-entity_dupes <- unique(entity_dupes)
-
-# nodes <- nodes %>%
-#   distinct(label)
-
-nodes_test <- nodes %>%
-  distinct_at(label)
-
-
-
-# %>%
-#   rowid_to_column("id") %>%
-#   distinct(label)
-
-head(nodes)
 ```
 
 ```{r Merge edge and node lists}
