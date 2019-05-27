@@ -195,36 +195,35 @@ rm(all_tracks)
 library(tidyverse)
 library(spotifyr)
 library(stringi)
+library(igraph)
 all_tracks <- read.csv("all_tracks.csv")
-head(all_tracks)
+all_tracks[sample(nrow(all_tracks), 5), ]
 ```
 
 
 ```{r Define regex patterns for wrangling}
 # Define the features conjunctions
-featuring <- c("feat\\.","ft\\.", "feat", "ft", "featuring")
+featuring <- c("featuring", "feat\\.","ft\\.", "feat", "ft")
 ft_match <- str_c(featuring, collapse = "|")
 
+# Patterns for multiple features
 multiple_fts <- c(",","&","[[:space:]]+and[[:space:]]+")
 m_fts_match <- str_c(multiple_fts, collapse = "|")
 
-brackets <- c("\\[$","]$")
-brackets_match <- str_c(brackets, collapse = "|")
-
-parens <- c("\\($",")$")
-parens_match <- str_c(parens, collapse = "|")
+# Punctuation for cleaning
+punctuation <- c("\\[","]","\\(","\\)","/","-")
+punc_match <- str_c(punctuation, collapse = "|")
 ```
 
 ```{r Wrangle tracklistings into initial edge list}
-# All to lowercase
-all_tracks$track_name <- str_to_lower(all_tracks$track_name)
-all_tracks$artist <- str_to_lower(all_tracks$artist)
-all_tracks$artist <- trimws(all_tracks$artist)
-all_tracks$track_name <- trimws(all_tracks$track_name)
-
-# Working with the "tracks" dataframe
+## Tidy and clean tracks dataframe
 all_tracks_w_feats <- all_tracks
 
+# All to lowercase
+all_tracks_w_feats$track_name <- str_to_lower(all_tracks_w_feats$track_name)
+all_tracks_w_feats$artist <- str_to_lower(all_tracks_w_feats$artist)
+
+# Split strings at feature pattern into new column
 all_tracks_w_feats <- all_tracks_w_feats %>%
   dplyr::filter(str_detect(all_tracks_w_feats$track_name, ft_match)) %>%
   select(track_name, artist) %>%
@@ -232,39 +231,73 @@ all_tracks_w_feats <- all_tracks_w_feats %>%
   mutate(feature_list = str_split(feature, m_fts_match, n = Inf)) %>%
   unnest(feature_list)
 
+# Clean out punctuation and whitespace
 all_tracks_w_feats$feature_list <- all_tracks_w_feats$feature_list %>%
-  str_replace_all("\\[","") %>%
-  str_replace_all("]","") %>%
-  str_replace_all("\\(","") %>%
-  str_replace_all("\\)","") %>%
-  str_replace_all("/","")
+  str_replace_all(punc_match,"") %>%
+  str_trim(side = "both") %>%
+  str_squish()
 
-all_tracks_w_feats$feature_list <- gsub("^ ","",all_tracks_w_feats$feature_list)
-all_tracks_w_feats$feature_list <- gsub(" $","",all_tracks_w_feats$feature_list)
-all_tracks_w_feats$feature_list <- gsub(" $","",all_tracks_w_feats$feature_list)
-all_tracks_w_feats$feature_list <- gsub("-","",all_tracks_w_feats$feature_list)
-all_tracks_w_feats$feature_list <- gsub("^uring","",all_tracks_w_feats$feature_list)
+# Some custom cleaning  
 all_tracks_w_feats$feature_list <- gsub("2014.","",all_tracks_w_feats$feature_list)
 all_tracks_w_feats$feature_list <- gsub("explicit.","",all_tracks_w_feats$feature_list)
 all_tracks_w_feats$feature_list <- gsub("album.","",all_tracks_w_feats$feature_list)
 
-entities <- all_tracks_w_feats %>%
+## Filter out entities with only 1 occurence
+# Count occurences in artists vector
+artist_count <- all_tracks_w_feats %>%
+  group_by(artist) %>%
+  summarise(artist_count = n()) %>%
+  rename(entity = artist) %>%
+  ungroup()
+
+# Count occurences in feature_list vector
+feature_list_count <- all_tracks_w_feats %>%
+  group_by(feature_list) %>%
+  summarise(feature_list_count = n()) %>%
+  rename(entity = feature_list) %>%
+  ungroup()
+
+# Aggregate occurences
+entity_counts <- full_join(artist_count, 
+                           feature_list_count,
+                           by = "entity")
+
+entity_counts <- entity_counts %>%
+  rowwise() %>%
+  mutate(total_counts = sum(artist_count,feature_list_count, na.rm = TRUE))
+
+entity_counts <- entity_counts %>%
+  select(entity, total_counts) %>%
+  filter(total_counts >= 2)
+
+# Filter final dataframe based on counts
+all_tracks_w_feats <- all_tracks_w_feats %>%
+  filter(artist %in% entity_counts$entity | feature_list %in% entity_counts$entity )
+
+# Edge list
+edge_list <- all_tracks_w_feats %>%
   select(artist, feature_list)
 
-head(entities)
+edge_list[sample(nrow(edge_list), 5), ]
 ``` 
 
 ```{r Create a nodes list}
 # Isolate artists and features
-artists <- entities %>%
+artists <- edge_list %>%
   distinct(artist) %>% 
-  rename(label = artist) %>%
-  as.data.frame()
+  rename(label = artist)
 
-features <- entities %>%
+artists <- artists[[1]]
+
+features <- edge_list %>%
   distinct(feature_list) %>% 
-  rename(label = feature_list) %>%
-  as.data.frame()
+  rename(label = feature_list)
+
+features <- features[[1]]
+
+entities <- c(artists,features)
+
+entities <- stri_unique(entities)
 
 # Aggregate all entities
 nodes <- bind_rows(artists,features) %>%
@@ -285,15 +318,8 @@ nodes <- bind_rows(artists,features) %>%
 #   }
 # }
 # 
-# head(nodes)
+nodes[sample(nrow(nodes), 5), ]
 ```
-
-
-```{r De-duplicate the edge list and node list}
-
-
-```
-
 
 
 ```{r Add frequency weights to the edge list}
