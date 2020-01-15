@@ -1,0 +1,427 @@
+---
+title: "Rap Feature Network - Notebook"
+author: "David J. Barney"
+date: "1/26/2019"
+output: html_document
+---
+
+# Example Data Pipeline
+First, set the working directory to the `../2_scripts/` subfolder of this repository to keep things organized.
+
+Next, install and source the `spotifyr` package. You'll need to get a "client access token" from Spotify [here](https://developer.spotify.com/) and pass it through the `spotifyr::get_spotify_access_token()` function. Additional instructions from the package developer can be found [here](https://github.com/charlie86/spotifyr). 
+
+We'll also be using the `tidyverse`, `stringi`, `igraph`, and `viridis` packages, so be sure to install and source those as well.
+
+```{r Load libraries}
+#install.packages("spotifyr")
+library(spotifyr)
+#install.packages("tidyverse")
+library(tidyverse)
+#install.packages("stringi")
+library(stringi)
+#install.packages("igraph")
+library(igraph)
+#install.packages("viridis")
+library(viridis)
+```
+
+Now we can search the Spotify API for artists, albums, songs, their metadata, etc. 
+
+## Spotify API Usage
+Let's try pulling tracklists for Mac Miller to get familiar with the Spotify API. 
+
+```{r Search artists for Mac}
+mac_miller_search <- get_artists('mac miller') %>%
+  slice(.,1) %>%
+  select(.,1:2)
+```
+
+```{r Search Mac's albums}
+mac_miller_album_search <- get_albums(mac_miller_search$artist_uri)
+```
+
+```{r Pull tracklists for Mac's albums}
+mac_miller_tracks <- get_album_tracks(mac_miller_album_search)
+```
+
+## Feature Extraction Approach
+Now that we have the tracklist for Mac Miller's discography, let's parse the listed features into a tidy format with some regular expressions.
+
+```{r Regex setup}
+# Define the features conjunctions
+featuring <- c("feat\\.","ft\\.", "feat", "ft", "featuring")
+ft_match <- str_c(featuring, collapse = "|")
+
+multiple_fts <- c(",","&","[[:space:]]+and[[:space:]]+")
+m_fts_match <- str_c(multiple_fts, collapse = "|")
+
+brackets <- c("\\[$","\\]$")
+brackets_match <- str_c(brackets, collapse = "|")
+
+# All to lowercase
+mac_miller_tracks$track_name <- str_to_lower(mac_miller_tracks$track_name) 
+
+# Working with the "tracks" dataframe
+mac_miller_tracks_w_feats <- mac_miller_tracks 
+mac_miller_tracks_w_feats$artist <- "mac miller"
+
+mac_miller_tracks_w_feats <- mac_miller_tracks_w_feats %>%
+  dplyr::filter(str_detect(mac_miller_tracks_w_feats$track_name, "feat\\.")) %>%
+  select(track_name, artist) %>%
+  separate(track_name, c("track", "feature"), "feat\\.") %>%
+  mutate(feature_list = str_split(feature, m_fts_match, n = Inf)) %>%
+  unnest(feature_list)
+
+mac_miller_tracks_w_feats$feature_list <- mac_miller_tracks_w_feats$feature_list %>%
+  str_replace_all("\\)","") %>%
+  str_replace_all("\\]","")
+```
+
+# Implement Data Pipeline
+This section scales up the previous process to a larger set of hip hop artists. To keep things reasonable, we'll scrape the discography tracklists for all artists that appear in the ["Overposted Albums" list](https://docs.google.com/spreadsheets/d/1Qpbd-fHbMyfWXlWPRA_XfgzYayc8cIjn8J9CuL-aNpE/edit#gid=0) from the [r/hiphopheads](https://www.reddit.com/r/hiphopheads/) subreddit. 
+
+**Note**: `../1_data/r_hiphopheads_overposted.csv` was pulled on 2019-03-31, and is likely to have been updated since.
+
+## Query Spotify API
+```{r Read in Reddit data}
+hhhe <- read_csv("../1_data/r_hiphopheads_overposted.csv")
+hhhe[sample(nrow(hhhe), 5), ]
+```
+
+```{r Get Spotify artist IDs}
+# Get character vectors of the unique artists & albums
+artists <- unique(hhhe$Artist)
+albumnames <- unique(hhhe$Album)
+
+# Get Spotify artist uri identifiers
+artists_df <- map_dfr(artists, get_artists) %>%
+  filter(artist_name %in% artists) %>%
+  select(artist_name, artist_uri)
+
+write.csv(artists_df, file = "../1_data/all_artists.csv")
+
+head(artists_df)
+```
+
+```{r Get Spotify album IDs}
+# Get Spotify album identifiers for all these artists
+album_list <- list()
+
+for (i in 1:nrow(artists_df)){
+  temp <- get_albums(artists_df$artist_uri[[i]])
+  Sys.sleep(1) # Pause to avoid breaking the API calls
+  temp$artist <- artists_df$artist_name[[i]]
+  album_list[[i]] <- temp
+}
+
+all_albums <- do.call(rbind, album_list)
+
+write.csv(all_albums, file = "../1_data/all_albums.csv")
+
+head(all_albums)
+```
+
+```{r Get album tracks}
+tracks_list <- list()
+
+for (i in 1:nrow(all_albums)){
+  temp <- get_album_tracks(all_albums[i,])
+  Sys.sleep(1) # Pause to avoid breaking the API calls
+  temp$artist <- all_albums$artist[i]
+  tracks_list[[i]] <- temp
+}
+
+all_tracks <- do.call(rbind, tracks_list)
+
+write.csv(all_tracks, file = "../1_data/all_tracks.csv")
+
+head(all_tracks)
+rm(all_tracks)
+```
+
+## Extract Features
+**Note**: Features are not consistently listed in track name strings from Spotify API. As such, the data here represent a non-random subset of edges (those that can be extracted from track names using the procedure at hand).
+
+```{r Read in aggregate tracklist}
+all_tracks <- read.csv("../1_data/all_tracks.csv")
+all_tracks[sample(nrow(all_tracks), 5), ]
+```
+
+```{r Define regex patterns for wrangling}
+# Define the features conjunctions
+featuring <- c("featuring", "feat\\.","ft\\.", "feat", "ft")
+ft_match <- str_c(featuring, collapse = "|")
+
+# Patterns for multiple features
+multiple_fts <- c(",","&","[[:space:]]+and[[:space:]]+")
+m_fts_match <- str_c(multiple_fts, collapse = "|")
+
+# Punctuation for cleaning
+punctuation <- c("\\[","]","\\(","\\)","/","-")
+punc_match <- str_c(punctuation, collapse = "|")
+```
+
+```{r Wrangle tracklistings into initial edge list}
+## Tidy and clean tracks dataframe
+all_tracks_w_feats <- all_tracks
+
+# All to lowercase
+all_tracks_w_feats$track_name <- str_to_lower(all_tracks_w_feats$track_name)
+all_tracks_w_feats$artist <- str_to_lower(all_tracks_w_feats$artist)
+
+# Split strings at feature pattern into new column
+all_tracks_w_feats <- all_tracks_w_feats %>%
+  dplyr::filter(str_detect(all_tracks_w_feats$track_name, ft_match)) %>%
+  select(track_name, artist) %>%
+  separate(track_name, c("track", "feature"), ft_match) %>%
+  mutate(feature_list = str_split(feature, m_fts_match, n = Inf)) %>%
+  unnest(feature_list)
+
+# Clean out punctuation and whitespace
+all_tracks_w_feats$feature_list <- all_tracks_w_feats$feature_list %>%
+  str_replace_all(punc_match,"") %>%
+  str_trim(side = "both") %>%
+  str_squish()
+
+# Some custom cleaning  
+all_tracks_w_feats$feature_list <- gsub("2014.","",all_tracks_w_feats$feature_list)
+all_tracks_w_feats$feature_list <- gsub("explicit.","",all_tracks_w_feats$feature_list)
+all_tracks_w_feats$feature_list <- gsub("album.","",all_tracks_w_feats$feature_list)
+all_tracks_w_feats$feature_list <- gsub("remix","",all_tracks_w_feats$feature_list)
+```
+
+## Edge and Nodes Lists
+```{r}
+## Filter out entities with only 1 occurence
+# Count occurences in artists vector
+artist_count <- all_tracks_w_feats %>%
+  group_by(artist) %>%
+  summarise(artist_count = n()) %>%
+  rename(entity = artist) %>%
+  ungroup()
+
+# Count occurences in feature_list vector
+feature_list_count <- all_tracks_w_feats %>%
+  group_by(feature_list) %>%
+  summarise(feature_list_count = n()) %>%
+  rename(entity = feature_list) %>%
+  ungroup()
+
+# Aggregate occurences
+entity_counts <- full_join(artist_count, 
+                           feature_list_count,
+                           by = "entity")
+
+entity_counts <- entity_counts %>%
+  rowwise() %>%
+  mutate(total_counts = sum(artist_count,feature_list_count, na.rm = TRUE))
+
+entity_counts <- entity_counts %>%
+  select(entity, total_counts) %>%
+  filter(total_counts >= 2)
+```
+
+```{r}
+# Edge list, filtered
+edge_list <- all_tracks_w_feats %>%
+  filter(artist %in% entity_counts$entity | feature_list %in% entity_counts$entity) %>%
+  select(artist, feature_list)
+
+edge_list[sample(nrow(edge_list), 5), ]
+``` 
+
+```{r Create a nodes list}
+# Isolate artists and features
+artists <- edge_list %>%
+  distinct(artist) %>% 
+  rename(label = artist)
+
+#artists <- artists[[1]]
+
+features <- edge_list %>%
+  distinct(feature_list) %>% 
+  rename(label = feature_list)
+
+#features <- features[[1]]
+
+# Aggregate all entities
+nodes <- full_join(artists,features) %>%
+  rowid_to_column("id")
+
+nodes[sample(nrow(nodes), 5), ]
+```
+
+```{r Add frequency weights to the edge list}
+weighted_edge_list <- edge_list %>%
+  group_by(artist,feature_list) %>%
+  summarise(weight = n()) %>%
+  ungroup()
+
+weighted_edge_list[sample(nrow(weighted_edge_list), 5), ]
+```
+
+```{r Merge edge and node lists}
+edges <- weighted_edge_list %>%
+  rename(artist_chr = artist) %>%
+  rename(featured_chr = feature_list)
+
+edges <- edges %>% 
+  left_join(nodes, by = c("artist_chr" = "label")) %>%
+  rename(artist = id)
+
+edges <- edges %>%
+  left_join(nodes, by = c("featured_chr" = "label")) %>%
+  rename(featured = id) 
+
+edges <- edges %>%
+  select(weight, artist, featured)
+
+edges <- edges[c(2,3,1)]
+```
+
+# Network Analysis with `igraph`
+```{r Create the igraph object}
+routes_igraph <- graph_from_data_frame(d = edges, vertices = nodes, directed = TRUE)
+routes_igraph
+```
+
+```{r Print edgelist from igraph object}
+as_edgelist(routes_igraph, names=T)
+```
+
+```{r Print adjacency matrix}
+as_adjacency_matrix(routes_igraph, attr="weight")
+```
+
+## Plot Entire Network Graph
+```{r Initial network plot, eval=FALSE}
+set.seed(489)
+plot(routes_igraph, edge.arrow.size = 0.2, vertex.size = 5,vertex.label = NA)
+```
+
+```{r Plot with layout from Davidson-Harel algorithm}
+set.seed(475)
+routes_igraph_simple <- simplify(routes_igraph, remove.multiple = F, remove.loops = T) 
+continuous_pal <- viridis(length(unique(degree(routes_igraph_simple))))
+vertex_pal_degree <- continuous_pal[as.factor(as.numeric(degree(routes_igraph_simple)))]
+
+l <- layout_with_dh(routes_igraph_simple)
+
+pdf("../3_output/rap_feat_plot.pdf")
+plot(routes_igraph_simple, layout = l, 
+     edge.arrow.size = 0.2, edge.curved=.1, edge.width = 0.25, 
+     vertex.size = degree(routes_igraph_simple)/4, vertex.color = vertex_pal_degree,
+     vertex.label = ifelse(degree(routes_igraph_simple) > 10, V(routes_igraph_simple)$label, NA),
+     vertex.label.family="Helvetica", vertex.label.cex = 0.5, vertex.label.dist = 1, vertex.label.color="black")
+dev.off()
+```
+
+## Preliminary Community Detection
+```{r  Naive community detection}
+set.seed(475)
+
+communities <- cluster_walktrap(routes_igraph_simple, weights = E(routes_igraph_simple)$weight, steps = 2,
+  merges = TRUE, modularity = TRUE, membership = TRUE)
+
+largest_comms <- which(table(communities$membership) >= 20)
+largest_comms <- as.numeric(largest_comms)
+# Remove the largest community
+largest_comms <- largest_comms[-(which(largest_comms == 2))]
+
+keep_comms <- V(routes_igraph_simple)[communities$membership %in% largest_comms]
+
+routes_igraph_simple_small <- induced_subgraph(routes_igraph_simple, keep_comms)
+communities_subset <- cluster_walktrap(routes_igraph_simple_small, weights = E(routes_igraph_simple_small)$weight, steps = 2,
+  merges = TRUE, modularity = TRUE, membership = TRUE)
+
+pdf(file="../3_output/rap_feat_plot_w_comms.pdf")
+plot(communities_subset, routes_igraph_simple_small, layout = l, 
+     edge.arrow.size = 0.2, edge.curved=.1, edge.width = 0.25,
+     vertex.size = degree(routes_igraph_simple)/4, vertex.color = vertex_pal_degree,
+     vertex.label = ifelse(degree(routes_igraph_simple) > 10, V(routes_igraph_simple)$label, NA),
+     vertex.label.family="Helvetica", vertex.label.cex = 0.5, vertex.label.dist = 1, vertex.label.color="black")
+dev.off()
+```
+
+```{r Show just 1 community}
+one_comm <- largest_comms[1]
+
+keep_one_comm <- V(routes_igraph_simple)[communities$membership %in% one_comm]
+
+routes_igraph_simple_onecomm <- induced_subgraph(routes_igraph_simple, keep_one_comm)
+communities_subset_onecomm <- cluster_walktrap(routes_igraph_simple_onecomm, 
+                                               weights = E(routes_igraph_simple_small)$weight, 
+                                               steps = 2, merges = TRUE, modularity = TRUE, membership = TRUE)
+
+pdf(file="../3_output/rap_feat_plot_one_comm.pdf")
+plot(communities_subset_onecomm, routes_igraph_simple_onecomm, layout = l, 
+     edge.arrow.size = 0.2, edge.curved=.1, edge.width = 0.25,
+     vertex.size = degree(routes_igraph_simple)/4, vertex.color = vertex_pal_degree,
+     vertex.label = ifelse(degree(routes_igraph_simple) > 10, V(routes_igraph_simple)$label, NA),
+     vertex.label.family="Helvetica", vertex.label.cex = 0.5, vertex.label.dist = 1, vertex.label.color="black")
+dev.off()
+```
+
+## Ugly Plots
+
+```{r Create the igraph object}
+routes_igraph <- graph_from_data_frame(d = edges, vertices = nodes, directed = TRUE)
+routes_igraph
+```
+
+```{r Plot a nicer looking graph}
+set.seed(305)
+routes_igraph_simple <- simplify(routes_igraph, remove.multiple = F, remove.loops = T) 
+plot(routes_igraph_simple, 
+     edge.arrow.size = 0.2, edge.curved=.1, edge.width = 0.25,
+     vertex.size = 1,
+     vertex.label = ifelse(degree(routes_igraph_simple) > 10, V(routes_igraph_simple)$label, NA),
+     vertex.label.family="Helvetica", vertex.label.cex = 0.5, vertex.label.dist = 3, vertex.label.color="black") 
+```
+
+```{r Plot with layout as random}
+set.seed(397)
+l <- layout.random(routes_igraph_simple)
+plot(routes_igraph_simple, layout = l,
+     edge.arrow.size = 0.2, edge.curved=.1, edge.width = 0.25,
+     vertex.size = 1, 
+     vertex.label = ifelse(degree(routes_igraph_simple) > 10, V(routes_igraph_simple)$label, NA),
+     vertex.label.family="Helvetica", vertex.label.cex = 0.5, vertex.label.dist = 3, vertex.label.color="black") 
+```
+
+
+```{r Plot with layout from graphopt algorithm}
+set.seed(264)
+l <- layout_with_graphopt(routes_igraph)
+plot(routes_igraph_simple, layout = l,
+     edge.arrow.size = 0.2, edge.curved=.1, edge.width = 0.25,
+     vertex.size = 1, 
+     vertex.label = ifelse(degree(routes_igraph_simple) > 10, V(routes_igraph_simple)$label, NA),
+     vertex.label.family="Helvetica", vertex.label.cex = 0.5, vertex.label.dist = 3, vertex.label.color="black")
+```
+
+```{r Plot with layout from Fruchterman-Reingold algorithm}
+set.seed(761)
+l <- layout_with_fr(routes_igraph)
+plot(routes_igraph_simple, layout = l,
+     edge.arrow.size = 0.2, edge.curved=.1, edge.width = 0.25,
+     vertex.size = 1, 
+     vertex.label = ifelse(degree(routes_igraph_simple) > 10, V(routes_igraph_simple)$label, NA),
+     vertex.label.family="Helvetica", vertex.label.cex = 0.5, vertex.label.dist = 3, vertex.label.color="black")
+```
+
+```{r Plot with layout from mutlidimensional scaling}
+set.seed(678)
+l <- layout_with_mds(routes_igraph)
+plot(routes_igraph_simple, layout = l,
+     edge.arrow.size = 0.2, edge.curved=.1, edge.width = 0.25,
+     vertex.size = 1, 
+     vertex.label = ifelse(degree(routes_igraph_simple) > 10, V(routes_igraph_simple)$label, NA),
+     vertex.label.family="Helvetica", vertex.label.cex = 0.5, vertex.label.dist = 3, vertex.label.color="black")
+```
+
+# Reproducability
+```{r}
+print(sessionInfo())
+```
+
