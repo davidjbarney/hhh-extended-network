@@ -1,654 +1,518 @@
-"","album_uri","album_name","album_img","album_release_date","album_release_year","base_album_name","base_album","num_albums","num_base_albums","album_rank","artist"
-"1","3l2umvdEq50qZ5fmw4iHcI","The Slaughter Tape","https://i.scdn.co/image/ab67616d0000b2734cd4d4a0f03555d9fe8e55f4","2016-05-15",2016-05-15,"the slaughter tape",TRUE,1,1,1,"21 Savage"
-"2","1HSyuTHvLXMWyPJQGnQTLw","Slaughter King","https://i.scdn.co/image/ab67616d0000b2733d945468825e08e5743d244e","2016-05-16",2016-05-16,"slaughter king",TRUE,1,1,2,"21 Savage"
-"3","4I3EcXD4e3KcEoDJfFEZ5b","Savage Mode","https://i.scdn.co/image/ab67616d0000b2732dd1ac4a61495080ef8f78ca","2016-07-15",2016-07-15,"savage mode",TRUE,1,1,3,"21 Savage"
-"4","4PUFxNR729saTb49K0pQBK","21 Gang","https://i.scdn.co/image/ab67616d0000b2732e7d89432a82cf4cfa78a6a9","2016-10-28",2016-10-28,"21 gang",TRUE,1,1,4,"21 Savage"
-"5","6rmP5ImdMFsE0TOseCuG8B","21 UZI","https://i.scdn.co/image/ab67616d0000b27388378f3380801ed45b63ccc6","2017-02-17",2017-02-17,"21 uzi",TRUE,1,1,5,"21 Savage"
-"6","4QUNWTw2FsIz722xjUjFJw","Issa Album","https://i.scdn.co/image/ab67616d0000b273ac3c0aecec76cd7b5a54795e","2017-09-23",2017-09-23,"issa album",TRUE,1,1,6,"21 Savage"
-"7","0MV1yCXcNNQBfwApqAVkH0","Without Warning","https://i.scdn.co/image/ab67616d0000b2730f206fe737d46f2f2d826d83","2017-10-30",2017-10-30,"without warning",TRUE,1,1,7,"21 Savage"
-"8","007DWn799UWvfY1wwZeENR","i am > i was","https://i.scdn.co/image/ab67616d0000b273280689ecc5e4b2038bb5e4bd","2018-12-21",2018-12-21,"i am > i was",TRUE,1,1,8,"21 Savage"
-"9","5Ijk8JGsEkwCZd5i0Iy09a","2Pacalypse Now","https://i.scdn.co/image/afbe30a407de2ebf4c3fff7d12db97e5f2dddad2","1991-11-12",1991-11-12,"2pacalypse now",TRUE,1,1,1,"2Pac"
-"10","7FK1855C3n1Q0RKbmvl7ll","Strictly 4 My N.I.G.G.A.Z...","https://i.scdn.co/image/199585f0d6ab18e1793733340ef44f3e1f38d313","1993-02-16",1993-02-16,"strictly 4 my n.i.g.g.a.z...",TRUE,1,1,2,"2Pac"
-"11","3OrucS4sHv6Bl9GS4rafEk","Me Against The World","https://i.scdn.co/image/1af92e7384c7ffa04bcdc6d1a10f4ac567e36d85","1995-01-01",1995-01-01,"me against the world",TRUE,1,1,3,"2Pac"
-"12","7zURSbIVZ5vl3NIKkrVRvl","R U Still Down? [Remember Me]","https://i.scdn.co/image/40ab9846082bcdcceb7b764806a39c0d839e41f7","1997-01-01",1997-01-01,"r u still down? [remember me]",TRUE,1,1,4,"2Pac"
-"13","17v0WKUfqS4lRiWslYyVWh","The Rose That Grew From Concrete","https://i.scdn.co/image/f56c7029b1cd77116a4544b085f7e9f20f7c308d","2000-10-17",2000-10-17,"the rose that grew from concrete",TRUE,1,1,5,"2Pac"
-"14","7AdntJMWn1KNRGcc2MwSPw","Until The End Of Time","https://i.scdn.co/image/229bf7dd3b7f8bf8eb8b3d41274fb3def7dae89e","2001-03-27",2001-03-27,"until the end of time",TRUE,1,1,6,"2Pac"
-"15","5tue3HeaFm6XHyYXhI1kww","Better Dayz","https://i.scdn.co/image/5ad13f59e5c93a1682644a6077eb37cce68ad715","2002-01-01",2002-01-01,"better dayz",TRUE,1,1,7,"2Pac"
-"16","27Ay0IVSnhfYB2XTEW8gn0","Nu-mixx Klazzics","https://i.scdn.co/image/ab67616d0000b27372d9dddcbd6379f0cbc85762","2003-10-07",2003-10-07,"nu-mixx klazzics",TRUE,1,1,8,"2Pac"
-"17","2QVE1PUAtL4eO7CVAgwdnu","Resurrection (Music From And Inspired By The Motion Picture)","https://i.scdn.co/image/ab67616d0000b273975cbd03915653981045eafb","2003-11-04",2003-11-04,"resurrection (music from and inspired by the motion picture)",TRUE,1,1,9,"2Pac"
-"18","3MJVucN9nO8WHaLo3KHuWO","Resurrection","https://i.scdn.co/image/024f66d43c6af1c7c80b051fde19755316f5db99","2003-11-14",2003-11-14,"resurrection",TRUE,1,1,10,"2Pac"
-"19","33lk2GnP8cJzl7cd1OJrXn","Loyal To The Game","https://i.scdn.co/image/b3fffae06b85054c5e1cc70ed9cee9aff71e8cba","2004-01-01",2004-01-01,"loyal to the game",TRUE,1,1,11,"2Pac"
-"20","0OF5nAcgm2QNTpPj24rJEB","Live","https://i.scdn.co/image/ab67616d0000b273d60e80a15ebbb9aa64eda819","2004-08-10",2004-08-10,"live",TRUE,1,1,12,"2Pac"
-"21","7vwU5cQW3RZ4XrJaglir2x","All Eyez On Me","https://i.scdn.co/image/ab67616d0000b2737a9467e4a693b57c98076103","2005",2005-01-01,"all eyez on me",TRUE,1,1,13,"2Pac"
-"22","2d3RwSNxvWKiKLfJtsJj8v","The Rose - Volume 2 - Music Inspired By 2pacs Poetry","https://i.scdn.co/image/ab67616d0000b273a43c2de2e799420df54ed46c","2005-09-20",2005-09-20,"the rose - volume 2 - music inspired by 2pacs poetry",TRUE,1,1,14,"2Pac"
-"23","1qzfkoM52XWcEzmm8akE26","Live at the House Of Blues","https://i.scdn.co/image/b65457e29028677704343267fb1b0710b47483ad","2005-09-20",2005-09-20,"live at the house of blues",TRUE,1,1,15,"2Pac"
-"24","6D0Hs5x0mIr613AU0jOSM2","Tupac: Live At The House Of Blues","https://i.scdn.co/image/d0700773c91aa399d52c11fff5dfff1fcd59d75d","2005-10-30",2005-10-30,"tupac",FALSE,1,0,16,"2Pac"
-"25","6IrEpFAoaYCR8mlSYPv2Fy","Pacs Life","https://i.scdn.co/image/cf34995979c08fc009682200fe56a300866891e1","2006-01-01",2006-01-01,"pacs life",TRUE,1,1,17,"2Pac"
-"26","5y1YRK4BJCQWKLHr9gcUMK","Nu Mixx Klazzics Vol. 2 (Evolution: Duets And Remixes)","https://i.scdn.co/image/ab67616d0000b273478cfabac647f49e3f556a91","2007-07-03",2007-07-03,"nu mixx klazzics vol. 2 (evolution: duets and remixes)",TRUE,1,1,18,"2Pac"
-"27","5OJSEPm7mDBRDX5Jevjo8F","Ghetto Gospel (The Birth of A Legend)","https://i.scdn.co/image/048bff722ff6e3331e78a319e1d3eb588d67cba3","2012-11-06",2012-11-06,"ghetto gospel (the birth of a legend)",TRUE,1,1,19,"2Pac"
-"28","6Q2yJuo9T7K64gJRlp5dIu","2Gangsta 2Die","https://i.scdn.co/image/ab67616d0000b273602f1b3eb86326ffccd4cbae","2019-08-01",2019-08-01,"2gangsta 2die",TRUE,1,1,20,"2Pac"
-"29","1nGbXgS6toEOcFCDwEl5R3","California Love","https://i.scdn.co/image/ab67616d0000b27387364031183f81349441a45d","2019-08-01",2019-08-01,"california love",TRUE,1,1,21,"2Pac"
-"30","0sJsXR422loumZhRtRLOne","Americaz Most Wanted","https://i.scdn.co/image/ab67616d0000b2736f5c3b56a4c6f97381c68dc6","2019-08-19",2019-08-19,"americaz most wanted",TRUE,1,1,22,"2Pac"
-"31","2UpMdkZlJUuiJ2QYETOrSu","Rare","https://i.scdn.co/image/ab67616d0000b2738eaa6427a86d91da95552012","2003-10-15",2003-10-15,"rare",TRUE,1,1,1,"50 Cent"
-"32","2pidzXTaHV4WaIJYRxKDCH","The Massacre","https://i.scdn.co/image/be6b2aa129123713817f210416b88a04100eef6a","2005-03-03",2005-03-03,"the massacre",TRUE,1,1,2,"50 Cent"
-"33","4MtqyrWPHSzo4rzAnecqA0","Curtis","https://i.scdn.co/image/a7ccef4978349316b29092782a456c007b0d8ca5","2007-01-01",2007-01-01,"curtis",TRUE,1,1,3,"50 Cent"
-"34","7hVj5YSiBCxZmzjnsVwKKC","Live At The Hard Rock (Edited Version)","https://i.scdn.co/image/7aa437dfa02e3268b202790ca694f6f368f83548","2007-01-01",2007-01-01,"live at the hard rock",FALSE,1,0,4,"50 Cent"
-"35","3LtIWfN1EITld1LloQwl2O","Get Rich Or Die Tryin","https://i.scdn.co/image/7b736a79c8c0241ca8b4a8a79c764f51859aeafc","2007-01-01",2007-01-01,"get rich or die tryin",TRUE,1,1,5,"50 Cent"
-"36","3AgCuejBHH780ROyGkKUvj","Bullet Proof","https://i.scdn.co/image/ab67616d0000b273195db6676f2a9a7b2ec7b733","2007-01-30",2007-01-30,"bullet proof",TRUE,1,1,6,"50 Cent"
-"37","7eEjgXDzF8rNVUwuiXtB7Y","Before I Self-Destruct","https://i.scdn.co/image/13a0fd31a09d9e0d5c4dfc108d89e22e6f77840d","2009-01-01",2009-01-01,"before i self-destruct",TRUE,2,1,7,"50 Cent"
-"38","5SGg2y6qyIqGg78XTmaYv4","Before I Self-Destruct - The Selects","https://i.scdn.co/image/de37082d307b5a690389038d32853d242343d062","2009-01-01",2009-01-01,"before i self-destruct - the selects",TRUE,1,1,8,"50 Cent"
-"39","0KmKhrRc4dFTA5dHMJlm5w","Animal Ambition: An Untamed Desire To Win","https://i.scdn.co/image/def8b484a5652dc297aa499e557e7812a2d73dd1","2014-06-03",2014-06-03,"animal ambition: an untamed desire to win",TRUE,1,1,9,"50 Cent"
-"40","58gsOKpgpf5kRiu9IF21k6","The Complete G-Unit","https://i.scdn.co/image/ab67616d0000b273adf0cd6f9aa3f38b906768b0","2019-05-20",2019-05-20,"the complete g-unit",TRUE,1,1,10,"50 Cent"
-"41","7mbaQ9Lyh1B1YxkCufEOAd","Thug Songs","https://i.scdn.co/image/ab67616d0000b27370c490d9de852e77073d6508","2019-07-22",2019-07-22,"thug songs",TRUE,1,1,11,"50 Cent"
-"42","1LGciRIo1ZelXMgUB56Oqr","Solid Gold Rhymes","https://i.scdn.co/image/1860ed8d5a5ebd53a3354d83a9e53f36025e661b","2019-09-30",2019-09-30,"solid gold rhymes",TRUE,1,1,12,"50 Cent"
-"43","3kV0i1qqudjf0PGawJ4jck","Peoples Instinctive Travels and the Paths of Rhythm (25th Anniversary Edition)","https://i.scdn.co/image/ab67616d0000b2734ba1fe238a517021ebcc2ace","1990-04-17",1990-04-17,"peoples instinctive travels and the paths of rhythm",FALSE,1,0,1,"A Tribe Called Quest"
-"44","1p12OAWwudgMqfMzjMvl2a","The Low End Theory","https://i.scdn.co/image/ab67616d0000b273f38c6b37a21334e22005b1f7","1991-09-24",1991-09-24,"the low end theory",TRUE,1,1,2,"A Tribe Called Quest"
-"45","4v5x3Oo3UjQ9YmF3hRAip5","Midnight Marauders","https://i.scdn.co/image/ab67616d0000b27381db9bf27bf2a04a1298eadb","1993-11-09",1993-11-09,"midnight marauders",TRUE,1,1,3,"A Tribe Called Quest"
-"46","0EguP4tsJurU5I8ocCxdyb","Beats, Rhymes & Life","https://i.scdn.co/image/ab67616d0000b273e3b93c08d98f92dc3ab0146a","1996-07-30",1996-07-30,"beats, rhymes & life",TRUE,1,1,4,"A Tribe Called Quest"
-"47","0FH3WsTCWaDmfpEojJ4sN2","The Love Movement","https://i.scdn.co/image/ab67616d0000b27389202df9fbd69ea49e9efe11","1998-09-29",1998-09-29,"the love movement",TRUE,1,1,5,"A Tribe Called Quest"
-"48","3WvQpufOsPzkZvcSuynCf3","We got it from Here... Thank You 4 Your service","https://i.scdn.co/image/ab67616d0000b27389450c8e877bf04203b86819","2016-11-11",2016-11-11,"we got it from here... thank you 4 your service",TRUE,1,1,6,"A Tribe Called Quest"
-"49","3smlfAmejcKMmAPg1G2Kki","Trap Lord","https://i.scdn.co/image/ab67616d0000b2731a4e69446bc76b4812ef115f","2013-08-19",2013-08-19,"trap lord",TRUE,1,1,1,"A$AP Ferg"
-"50","2h5LDCGJCWUyaoEXQZHky6","ALWAYS STRIVE AND PROSPER","https://i.scdn.co/image/ab67616d0000b27331141e4aea4af43feace823a","2016-06-22",2016-06-22,"always strive and prosper",TRUE,1,1,2,"A$AP Ferg"
-"51","0tQ7Iu6EicQTPyhYRNWjaT","Still Striving","https://i.scdn.co/image/ab67616d0000b273d79cfa3155b50beb5dbeeb9a","2017-08-18",2017-08-18,"still striving",TRUE,1,1,3,"A$AP Ferg"
-"52","6bI4IQKBcLX0KsTjQ9NR97","Floor Seats","https://i.scdn.co/image/4c7faa2e80d1b1dc8716210bf9f2b2944712899d","2019-08-16",2019-08-16,"floor seats",TRUE,1,1,4,"A$AP Ferg"
-"53","3RaACfwYTY9uiDy3VSWLLc","Cozy Tapes: Vol. 1 Friends -","https://i.scdn.co/image/ab67616d0000b27330eaf29813f551d9188ad35a","2016-10-31",2016-10-31,"cozy tapes: vol. 1 friends -",TRUE,1,1,1,"A$AP Mob"
-"54","0qr1Fvi1haEDWVbFtekZLb","Cozy Tapes Vol. 2: Too Cozy","https://i.scdn.co/image/ab67616d0000b273ce9a92efb0c3ad4c2fb33072","2017-08-25",2017-08-25,"cozy tapes vol. 2: too cozy",TRUE,1,1,2,"A$AP Mob"
-"55","5WHY4T7LcWAJPb1ddChotC","LONG.LIVE.A$AP","https://i.scdn.co/image/ab67616d0000b27327cbfcede3ccac0945fa56e1","2013",2013-01-01,"long.live.a$ap",TRUE,2,1,1,"A$AP Rocky"
-"56","5b6HBIqolYQCK29Ma4tVqP","AT.LONG.LAST.A$AP","https://i.scdn.co/image/ab67616d0000b27396657f1fbb7539575be55ecb","2015-06-17",2015-06-17,"at.long.last.a$ap",TRUE,1,1,2,"A$AP Rocky"
-"57","3MATDdrpHmQCmuOcozZjDa","TESTING","https://i.scdn.co/image/ab67616d0000b2739feadc48ab0661e9b3a9170b","2018-05-25",2018-05-25,"testing",TRUE,1,1,3,"A$AP Rocky"
-"58","446OAWTQsR7utlWr0gDkX0","Longterm Mentality","https://i.scdn.co/image/ab67616d0000b27331770acc5bf39b3d2875fa64","2011-04-05",2011-04-05,"longterm mentality",TRUE,1,1,1,"Ab-Soul"
-"59","26RLXRJA7aOOffZJGjUaSW","Control System","https://i.scdn.co/image/ab67616d0000b273758f24ced78e29586d931404","2012-05-11",2012-05-11,"control system",TRUE,1,1,2,"Ab-Soul"
-"60","021zMZKO2pUA3yoUQFW2uy","These Days...","https://i.scdn.co/image/ab67616d0000b27334f1894c26ef28b44ffd487e","2014-06-24",2014-06-24,"these days...",TRUE,1,1,3,"Ab-Soul"
-"61","1CEeqK9sKrE7LzUHeT3bfP","Do What Thou Wilt.","https://i.scdn.co/image/ab67616d0000b27353803906b8e69d850567b1a8","2016-12-09",2016-12-09,"do what thou wilt.",TRUE,1,1,4,"Ab-Soul"
-"62","5kE9pfTSekNenqqdlvtBQd","Live From The Underground","https://i.scdn.co/image/3c358b596ce65884852cae2b0ce4535396a73dc2","2012-01-01",2012-01-01,"live from the underground",TRUE,2,1,1,"Big K.R.I.T."
-"63","5ISxyfC6ThuSz2wP7NS2aF","Cadillactica","https://i.scdn.co/image/56fd340c4dd91666cf7b21c482835bfe20bd8019","2014-08-25",2014-08-25,"cadillactica",TRUE,3,1,2,"Big K.R.I.T."
-"64","0XX3FIjtWd56K235GrjJCf","All My Life","https://i.scdn.co/image/177eb996608d3bb4ca76601c96dbd6b426ce41b6","2015-11-20",2015-11-20,"all my life",TRUE,1,1,3,"Big K.R.I.T."
-"65","6vGEX2ejVVsHTIsqI1teZg","4eva Is A Mighty Long Time","https://i.scdn.co/image/ab67616d0000b273f5da2c149c9b9d25ed41a87d","2017-10-27",2017-10-27,"4eva is a mighty long time",TRUE,1,1,4,"Big K.R.I.T."
-"66","7DUNqEpnwePiDrwO4R1xz3","TDT","https://i.scdn.co/image/ab67616d0000b27342cd9bff6cae36cc2c82576b","2019-01-11",2019-01-11,"tdt",TRUE,1,1,5,"Big K.R.I.T."
-"67","1KvZT4NZm69EkOym8rLqW1","K.R.I.T. IZ HERE","https://i.scdn.co/image/445dd6fe8b4f5f56bc0ba8c3d5916dfb069c89bb","2019-07-12",2019-07-12,"k.r.i.t. iz here",TRUE,1,1,6,"Big K.R.I.T."
-"68","6GRzmk9UGL7odxprOPop1Q","Mos Def & Talib Kweli Are Black Star","https://i.scdn.co/image/95509b25aacc4273c397524619f4a54d87956e96","1998-09-29",1998-09-29,"mos def & talib kweli are black star",TRUE,1,1,1,"Black Star"
-"69","6eZdwrhB97A3EYx9QppGfl","T R A P S O U L","https://i.scdn.co/image/ab67616d0000b2731dbcbe3d662ed70f27c1286b","2015-10-02",2015-10-02,"t r a p s o u l",TRUE,1,1,1,"Bryson Tiller"
-"70","7nn2Iaphg0Vc1NCGULkhVo","True to Self","https://i.scdn.co/image/ab67616d0000b273202e628665f6ae3789c998c1","2017-05-26",2017-05-26,"true to self",TRUE,1,1,2,"Bryson Tiller"
-"71","2TlbeyquPcCCBh39IVxpMR","Feed The Streetz","https://i.scdn.co/image/ab67616d0000b273a9a56f47b9810f19b1739edf","2015-10-09",2015-10-09,"feed the streetz",TRUE,1,1,1,"Chief Keef"
-"72","2xRH7weKaBY8SHrJtTteoK","Life Of A GLO Boy","https://i.scdn.co/image/ab67616d0000b2734ca101dbe2f96da56066960e","2015-11-01",2015-11-01,"life of a glo boy",TRUE,1,1,2,"Chief Keef"
-"73","0Eo8LVvxVztPyPRV0L7Ztg","Finally Rollin 2 (Deluxe Edition)","https://i.scdn.co/image/ab67616d0000b2738d74e37bda2c2ce1b24a4548","2015-11-20",2015-11-20,"finally rollin 2",FALSE,1,0,3,"Chief Keef"
-"74","7IkZNsNsDBfPIO2TUdeCg3","The Leek (Vol. 3)","https://i.scdn.co/image/9803a85ba36a181622a4ad102625abf940bd957f","2015-11-20",2015-11-20,"the leek (vol. 3)",TRUE,1,1,4,"Chief Keef"
-"75","05XrUzFFSVQO2m0CwLKbcy","Big Gucci Sosa","https://i.scdn.co/image/f23928377ab9dfa889347b6d9ba60736e69dd76d","2015-12-11",2015-12-11,"big gucci sosa",TRUE,1,1,5,"Chief Keef"
-"76","6ck87dVzuvD6d6ckcb8dO1","Nobody 2","https://i.scdn.co/image/4b732abdb5a9f34073c6f025eb6d0aed81b39c00","2016-12-02",2016-12-02,"nobody 2",TRUE,1,1,6,"Chief Keef"
-"77","24wBNDuNst0P8J6FXmKa3U","Two Zero One Seven (Deluxe Edition)","https://i.scdn.co/image/d0c0ce0f686379096034c1f418b8dd7576f30f21","2017-01-13",2017-01-13,"two zero one seven",FALSE,1,0,7,"Chief Keef"
-"78","33KYUrKPijvlvO7lDtFKiO","I Am Nobody","https://i.scdn.co/image/ab67616d0000b273a6246e22b637f057dad3c639","2017-04-21",2017-04-21,"i am nobody",TRUE,1,1,8,"Chief Keef"
-"79","5Ru6oeqwPzX6wN7VWhKfQp","Thot Breaker","https://i.scdn.co/image/abdd9dcdd774d5eeb2320e985330c62f8458371e","2017-06-08",2017-06-08,"thot breaker",TRUE,1,1,9,"Chief Keef"
-"80","6EaAbqTwbmeqXxzXj32XeF","The W","https://i.scdn.co/image/ab67616d0000b2731cbd5bf9afc70e4b73f0d0cc","2017-09-03",2017-09-03,"the w",TRUE,1,1,10,"Chief Keef"
-"81","7BWglVHlIpRls1Hb0EAKJM","Dedication","https://i.scdn.co/image/ab67616d0000b273cbf88f2caeb40f72fcdcd8b3","2017-12-01",2017-12-01,"dedication",TRUE,1,1,11,"Chief Keef"
-"82","1rNnjxMyzfmjmHo8H4zRCd","The Leek (Vol. 4)","https://i.scdn.co/image/ab67616d0000b273efcc4ef795882ee2097eb1d5","2018-03-02",2018-03-02,"the leek (vol. 4)",TRUE,1,1,12,"Chief Keef"
-"83","29Ok6gMq1ZuUkIfZSKBn7A","The Leek (Vol. 5)","https://i.scdn.co/image/ab67616d0000b2735a60e6d266fd9eb9c533401c","2018-03-23",2018-03-23,"the leek (vol. 5)",TRUE,1,1,13,"Chief Keef"
-"84","5dmZ6V8zSQV5YJI6i2r3Sh","The GloFiles (Pt. 1)","https://i.scdn.co/image/ab67616d0000b273eb2fc22f3d8149102f7b2b6c","2018-05-11",2018-05-11,"the glofiles (pt. 1)",TRUE,1,1,14,"Chief Keef"
-"85","5wZxjDQqndilCFhJWtLBS0","The GloFiles (Pt. 2)","https://i.scdn.co/image/f7dcff7711ae0cfdb04b9cb8bf61b3b44bee4155","2018-05-11",2018-05-11,"the glofiles (pt. 2)",TRUE,1,1,15,"Chief Keef"
-"86","7i3qkHx3vl9vaNKOMctLS0","Mansion Musick","https://i.scdn.co/image/10ff16a955916d239ed74f3b860e68b9500eafba","2018-07-13",2018-07-13,"mansion musick",TRUE,1,1,16,"Chief Keef"
-"87","2H7gR72Pdgr6vSm7ZFgznD","Back From The Dead 3","https://i.scdn.co/image/ab67616d0000b273e399065237b9303946096a1e","2018-10-31",2018-10-31,"back from the dead 3",TRUE,1,1,17,"Chief Keef"
-"88","3fft7xbsjbCB16M4PIVVkM","The Leek (Vol. 6)","https://i.scdn.co/image/ab67616d0000b273b792bcbcce8144c301c5e292","2018-12-07",2018-12-07,"the leek (vol. 6)",TRUE,1,1,18,"Chief Keef"
-"89","5U0NCTYNe7ImfN7VABC6WR","The Leek (Vol. 7)","https://i.scdn.co/image/ab67616d0000b2738f287a92a929eadc5c3aec96","2019-01-18",2019-01-18,"the leek (vol. 7)",TRUE,1,1,19,"Chief Keef"
-"90","2gG16AQytvGhsS51Xg6wh3","GloToven","https://i.scdn.co/image/ab67616d0000b273804d10930d18ce442774ccd0","2019-03-15",2019-03-15,"glotoven",TRUE,1,1,20,"Chief Keef"
-"91","4NGx8eDrb6IosDuXpejiq0","Camp GloTiggy","https://i.scdn.co/image/ab67616d0000b273db32d0a5ccb3e5a9b79b1c34","2019-05-31",2019-05-31,"camp glotiggy",TRUE,1,1,21,"Chief Keef"
-"92","5yrvZXsfvB9hvmY61JjLBT","The Leek (Vol. 8)","https://i.scdn.co/image/ab67616d0000b273993e4b9f53c229d85ec29d48","2019-07-26",2019-07-26,"the leek (vol. 8)",TRUE,1,1,22,"Chief Keef"
-"93","5BisPwmcPAZ6jyo1GZNgIn","The GloFiles (Pt. 3)","https://i.scdn.co/image/5a52aa322759b8bce6bebdf3a32dc29408fac01c","2019-11-08",2019-11-08,"the glofiles (pt. 3)",TRUE,1,1,23,"Chief Keef"
-"94","1beC92PkyCuvr8gOUeR0wW","Camp (Deluxe Edition)","https://i.scdn.co/image/d56feb369713a8bdec5d26ec711555718e6ce9ad","2011",2011-01-01,"camp",FALSE,2,0,1,"Childish Gambino"
-"95","5521VBNriW9xUAaTETHQTE","Heartbeat (Remix Bundle)","https://i.scdn.co/image/ab67616d0000b273a8253be1d6221d6e21dc3713","2012-02-14",2012-02-14,"heartbeat (remix bundle)",TRUE,1,1,2,"Childish Gambino"
-"96","4GNIhgEGXzWGAefgN5qjdU","Because the Internet","https://i.scdn.co/image/ab67616d0000b273fce23dadb51975ebf2e9d75c","2013-12-10",2013-12-10,"because the internet",TRUE,1,1,3,"Childish Gambino"
-"97","5dVKggb6Nvfp7JJdLfHPof","Kauai","https://i.scdn.co/image/ab67616d0000b2738d2c4d1fa63ca708307a5308","2014-10-03",2014-10-03,"kauai",TRUE,1,1,4,"Childish Gambino"
-"98","5F6urHPW92kWUoywW7ZhwF","""Awaken, My Love!""","https://i.scdn.co/image/b12f120f8ac28391dad7ef472b7343fb403fdd6f","2016-12-02",2016-12-02,"""awaken, my love!""",TRUE,1,1,5,"Childish Gambino"
-"99","1Q83nQO2QG81TVa10hW7LX","Lord Willin","https://i.scdn.co/image/ab67616d0000b27395bf7f7dac7b61a95d47f07e","2002-04-01",2002-04-01,"lord willin",TRUE,1,1,1,"Clipse"
-"100","3hs7Vj7dQJBGshp5Mo6Iop","Hell Hath No Fury","https://i.scdn.co/image/ab67616d0000b273cf051ec113ec189321f72a2a","2006-11-28",2006-11-28,"hell hath no fury",TRUE,1,1,2,"Clipse"
-"101","7L5rQPYfIMSkHdcSlRMIz6","Re-Up Gang The Saga Continues","https://i.scdn.co/image/ab67616d0000b27326cebc4755637b8fd93eb974","2008-04-22",2008-04-22,"re-up gang the saga continues",TRUE,1,1,3,"Clipse"
-"102","7nlXoXcGb9DdnUm9iCfQon","Til The Casket Drops","https://i.scdn.co/image/ab67616d0000b273dcc6221e8f32eefa760fd619","2010-04-01",2010-04-01,"til the casket drops",TRUE,1,1,4,"Clipse"
-"103","5CcW5rXAUdUUail7aaDwNi","Can I Borrow A Dollar?","https://i.scdn.co/image/ab67616d0000b27308d06289eee5a778d25bd239","1992-10-06",1992-10-06,"can i borrow a dollar?",TRUE,1,1,1,"Common"
-"104","0JKjuvDUPrnlblAZyB1Aje","Resurrection","https://i.scdn.co/image/ab67616d0000b2734f6c3df7fe1ee45e0f732d76","1994-10-25",1994-10-25,"resurrection",TRUE,1,1,2,"Common"
-"105","6nXto9rlPmmhdoUmGMKbtE","One Day Itll All Make Sense","https://i.scdn.co/image/6fba6ad7940542c120accd83d9bef35d14eccb85","1997-09-30",1997-09-30,"one day itll all make sense",TRUE,1,1,3,"Common"
-"106","59w1ZYEEZu2sYvcyPLfKSv","Like Water For Chocolate","https://i.scdn.co/image/cd53b9eb6e3380875397eb604159e69aa4a6dbcd","2000-03-28",2000-03-28,"like water for chocolate",TRUE,1,1,4,"Common"
-"107","5WRbHe6NaCp8jNa38g7hUd","Electric Circus","https://i.scdn.co/image/7cf2c496b70dd693434a827e99f3ed277a9faf7b","2002-12-10",2002-12-10,"electric circus",TRUE,1,1,5,"Common"
-"108","2UuvBxV56QWWj2uviGS0up","Be","https://i.scdn.co/image/2a2105f4adcc36f8f5b111ad27a06a8c77180d24","2005-01-01",2005-01-01,"be",TRUE,1,1,6,"Common"
-"109","4Jq4PRvkyBUceUFMS2d4jR","Finding Forever","https://i.scdn.co/image/268c8861fd4f92a0a86da520df282ad4d056d4b8","2007-07-31",2007-07-31,"finding forever",TRUE,1,1,7,"Common"
-"110","2EejRWDjKI2hruzpTykT5d","Finding Forever (instrumentals)","https://i.scdn.co/image/a216dfd300447c25f8f27e196aad0038f61ae49b","2007-07-31",2007-07-31,"finding forever (instrumentals)",TRUE,1,1,8,"Common"
-"111","2jzKET5pyoYCqtqROFFU5b","Universal Mind Control","https://i.scdn.co/image/4ada8930b94e77b552f4a811a8f00b4ba6c90c47","2008-12-09",2008-12-09,"universal mind control",TRUE,1,1,9,"Common"
-"112","17eQeA5m7DpsZ42mUAGjgG","The Dreamer, The Believer","https://i.scdn.co/image/ab67616d0000b273c0e5b994774f9cbb18fcda01","2011-12-20",2011-12-20,"the dreamer, the believer",TRUE,1,1,10,"Common"
-"113","6sG3BcBh4DlQ9dzW6BHklG","Nobodys Smiling","https://i.scdn.co/image/67790d01e124faf956322dc62206e3496dd43d6b","2014-07-22",2014-07-22,"nobodys smiling",TRUE,2,1,11,"Common"
-"114","56YOtiHan5yESL5UMju85p","Live at The Jazz Room","https://i.scdn.co/image/ab67616d0000b273fe99616b6973bdb6aebadaf3","2016-03-18",2016-03-18,"live at the jazz room",TRUE,1,1,12,"Common"
-"115","2DTbGcv40CSMW0P4yAQQBa","Black America Again","https://i.scdn.co/image/1ce66962f7aa5f286369a4071587abefad887bfb","2016-11-04",2016-11-04,"black america again",TRUE,1,1,13,"Common"
-"116","74hPuIcd2Wa0T3FRqtTKHX","Black America Again (Commentary)","https://i.scdn.co/image/1ce66962f7aa5f286369a4071587abefad887bfb","2016-11-04",2016-11-04,"black america again (commentary)",TRUE,1,1,14,"Common"
-"117","6Rf7DjuM5vH2SzNJytE9h4","Let Love","https://i.scdn.co/image/ab67616d0000b2734eba559b50e9134d029722e6","2019-08-30",2019-08-30,"let love",TRUE,1,1,15,"Common"
-"118","1h19AU04eolAfpQ3ywiQGX","Hot Soup","https://i.scdn.co/image/ab67616d0000b27333945568b8f585a1a588b257","2008-07-01",2008-07-01,"hot soup",TRUE,1,1,1,"Danny Brown"
-"119","0P4u1ZRM6CXePgpeF8ShmN","The Hybrid - Deluxe Edition","https://i.scdn.co/image/ab67616d0000b2735cd1fbaf0a8d8a8124cf6ee5","2010",2010-01-01,"the hybrid",FALSE,1,0,2,"Danny Brown"
-"120","1QESrfmlfAl19Gr8mXcysi","XXX (Deluxe Edition)","https://i.scdn.co/image/88831b44e5315242100fa1b7902b62807421b164","2012-03-13",2012-03-13,"xxx",FALSE,1,0,3,"Danny Brown"
-"121","5SC0415RIGVX9ZfL0tfbAl","Old","https://i.scdn.co/image/ab67616d0000b27368b3cdb0e859e5c1af35ddbd","2013-10-08",2013-10-08,"old",TRUE,1,1,4,"Danny Brown"
-"122","2L32VPdX8NcICxVf6AhDqD","Hot Soup - Instrumentals","https://i.scdn.co/image/ab67616d0000b273227118db46b8dd3d123e2cf2","2014-04-05",2014-04-05,"hot soup - instrumentals",TRUE,1,1,5,"Danny Brown"
-"123","5pjvBM0oPH7RNcgPKxIJmR","Atrocity Exhibition","https://i.scdn.co/image/ab67616d0000b273db0b5f2d653611e8ca1b1a0e","2016-09-30",2016-09-30,"atrocity exhibition",TRUE,1,1,6,"Danny Brown"
-"124","2ccA8iEqnatp6vGojHNsr5","uknowhatimsayin¿","https://i.scdn.co/image/b599559652de556a039fe4dc528ae36f3d82e67c","2019-11-22",2019-11-22,"uknowhatimsayin¿",TRUE,1,1,7,"Danny Brown"
-"125","08aqY8lv4zx4uaqBUpMD8a","No Love Deep Web","https://i.scdn.co/image/52ebef149030ae8c30fdb8562e75a945a4fd12f8","2012",2012-01-01,"no love deep web",TRUE,1,1,1,"Death Grips"
-"126","1PQDjdBpHPikAodJqjzm6a","The Money Store","https://i.scdn.co/image/ab67616d0000b273b4f8459b0f719f8a97ee1c8c","2012-04-20",2012-04-20,"the money store",TRUE,1,1,2,"Death Grips"
-"127","3T01oOjbrox1jz0pR112oV","Government Plates","https://i.scdn.co/image/ab67616d0000b27398e118bde42a69a0bdb4ea2f","2014-01-14",2014-01-14,"government plates",TRUE,1,1,3,"Death Grips"
-"128","5Y04ylQjDWsawOUJXzY4YO","The Powers That B","https://i.scdn.co/image/72f3a048ae801e1323e1e1ae5ea31679b5125505","2015-02-10",2015-02-10,"the powers that b",TRUE,1,1,4,"Death Grips"
-"129","4dIPUQHheyH9e6ioplvNT2","Bottomless Pit","https://i.scdn.co/image/3de29cee5a755b33c10a5045a4b31c2729a1f06e","2016-05-06",2016-05-06,"bottomless pit",TRUE,1,1,5,"Death Grips"
-"130","0T0hdMTypoYTFhgk4ugXkN","Fashion Week","https://i.scdn.co/image/ab67616d0000b273a0b84af18db0d9a764704538","2016-05-06",2016-05-06,"fashion week",TRUE,1,1,6,"Death Grips"
-"131","46eayJPxf1cBWWUqNa2MJJ","Year Of The Snitch","https://i.scdn.co/image/ab67616d0000b2738b0fd435be942b69343759e9","2018-06-22",2018-06-22,"year of the snitch",TRUE,1,1,7,"Death Grips"
-"132","1t05YAzxjK1HqLD2KcBjx5","32 Zel","https://i.scdn.co/image/04cb5e3dd76d5350e0d7b55bf86b08c563b0466d","2015-06-09",2015-06-09,"32 zel",TRUE,1,1,1,"Denzel Curry"
-"133","42fyKPanos0Q3woi848ktg","Imperial","https://i.scdn.co/image/13ef6193895d687908bd40b4ef498ebbc19148e9","2016-10-14",2016-10-14,"imperial",TRUE,1,1,2,"Denzel Curry"
-"134","6idVoBWP2mt1qoMtASm3gc","TA13OO","https://i.scdn.co/image/ab67616d0000b2737d05dd3ebb77cc048d66b294","2018-07-27",2018-07-27,"ta13oo",TRUE,1,1,3,"Denzel Curry"
-"135","6PkSBdx19zarn4ae1D08gA","ZUU","https://i.scdn.co/image/ab67616d0000b2735d46e4578c8e1adad9206480","2019-05-31",2019-05-31,"zuu",TRUE,1,1,4,"Denzel Curry"
-"136","7q2B4M5EiBkqrlsNW8lB7N","2001","https://i.scdn.co/image/5e1b25c45e9ea76e987c16bfad41bf1c9f4f146c","1999-11-16",1999-11-16,"2001",TRUE,1,1,1,"Dr. Dre"
-"137","3t3Ar2cJUVLY6yTRmrezI8","2001 Instrumental","https://i.scdn.co/image/c9fb1f8baf5c86ab8187df36f4ec01f18e4a6e26","1999-11-16",1999-11-16,"2001 instrumental",TRUE,1,1,2,"Dr. Dre"
-"138","6ZnMFVV5HDv2xmHG7bn7et","Compton","https://i.scdn.co/image/6f13ddefdbf63beb0138b5f5bc70d80607a4420e","2015-08-21",2015-08-21,"compton",TRUE,1,1,3,"Dr. Dre"
-"139","6jlrjFR9mJV3jd1IPSplXU","Thank Me Later","https://i.scdn.co/image/bc0e02901f78db9bfeec5d38409eb4ed599651fe","2010-01-01",2010-01-01,"thank me later",TRUE,2,1,1,"Drake"
-"140","0NGwRz0semIXUCSxR0uffa","Take Care","https://i.scdn.co/image/4cae9019efd7a9eaf2eb2d6eaf461614b92c12e8","2011-11-15",2011-11-15,"take care",TRUE,3,1,2,"Drake"
-"141","1XslIirSxfAhhxRdn4Li9t","Nothing Was The Same","https://i.scdn.co/image/62e7fd03880d562d515091cb2d67b7cfdda9bbe0","2013-01-01",2013-01-01,"nothing was the same",TRUE,2,1,3,"Drake"
-"142","0ptlfJfwGTy0Yvrk14JK1I","If Youre Reading This Its Too Late","https://i.scdn.co/image/4ea99332bacfbe0eccc465480568352048fd8d50","2015-02-12",2015-02-12,"if youre reading this its too late",TRUE,1,1,4,"Drake"
-"143","15QCBYjP6HwHvsff100UBx","What A Time To Be Alive","https://i.scdn.co/image/78dd1f63046b03cb8ac0e474af000358274a3e82","2015-09-25",2015-09-25,"what a time to be alive",TRUE,1,1,5,"Drake"
-"144","0G1ffjfFuTUTVjDrVdLimH","Views","https://i.scdn.co/image/ca02625b4130d1ed5b7eaff215ab54c42db0c14a","2016-05-13",2016-05-13,"views",TRUE,1,1,6,"Drake"
-"145","1lXY618HWkwYKJWBRYR4MK","More Life","https://i.scdn.co/image/0023d6ddf942b9ceac54c66cb4b34af3d7fdd42e","2017-03-18",2017-03-18,"more life",TRUE,1,1,7,"Drake"
-"146","1ATL5GLyefJaxhQzSPVrLX","Scorpion","https://i.scdn.co/image/e6d17a95cac4810507dfb0a8242e4463d4c32a30","2018-06-29",2018-06-29,"scorpion",TRUE,1,1,8,"Drake"
-"147","1LShhEEKRT5MNPcO7jtYHh","So Far Gone","https://i.scdn.co/image/da7218c25677d2edaf10ad7857dfe4eb6948a0ff","2019-02-15",2019-02-15,"so far gone",TRUE,1,1,9,"Drake"
-"148","7dqpveMVcWgbzqYrOdkFTD","Care Package","https://i.scdn.co/image/f424b711dc3843845db9703c65649701264db126","2019-08-02",2019-08-02,"care package",TRUE,1,1,10,"Drake"
-"149","5vRfIDOPJHy3W2wHWbzLlE","Doris","https://i.scdn.co/image/ab67616d0000b27346f9bf1154c7205b0e8b1667","2013-08-16",2013-08-16,"doris",TRUE,1,1,1,"Earl Sweatshirt"
-"150","3wUv2IjD5hPrqlPakpczQa","I Dont Like Shit, I Dont Go Outside: An Album by Earl Sweatshirt","https://i.scdn.co/image/ab67616d0000b27316ac34a19212811cf922ab71","2015-03-23",2015-03-23,"i dont like shit, i dont go outside: an album by earl sweatshirt",TRUE,1,1,2,"Earl Sweatshirt"
-"151","66at85wgO2pu5CccvqUF6i","Some Rap Songs","https://i.scdn.co/image/ab67616d0000b2732b688ab63b1a5f281cfdf451","2018-11-30",2018-11-30,"some rap songs",TRUE,1,1,3,"Earl Sweatshirt"
-"152","0N0EFoE8csbKxl5lxT1ylm","FEET OF CLAY","https://i.scdn.co/image/60184885ae95875244346cbcf7cb4e5173718923","2019-11-01",2019-11-01,"feet of clay",TRUE,1,1,4,"Earl Sweatshirt"
-"153","0vE6mttRTBXRe9rKghyr1l","The Slim Shady LP","https://i.scdn.co/image/559b453d9530bf44cd94ba4691733ebc439122f3","1999-02-23",1999-02-23,"the slim shady lp",TRUE,2,1,1,"Eminem"
-"154","5H0rjI1TW8F2tORPYMJXHJ","The Marshall Mathers LP","https://i.scdn.co/image/c17fe032b01973ee979744877464cfb3ce656afd","2001-08-20",2001-08-20,"the marshall mathers lp",TRUE,1,1,2,"Eminem"
-"155","2cWBwpqMsDJC1ZUwz813lo","The Eminem Show","https://i.scdn.co/image/d5b9c8bf0a66b86e60a52dab0fb480d04e108be1","2002-05-26",2002-05-26,"the eminem show",TRUE,2,1,3,"Eminem"
-"156","7tsXPtLqhab1zWeubbf6JH","Encore","https://i.scdn.co/image/ab04655ad7bf7a8cdef959a141f60acad9153196","2004-11-12",2004-11-12,"encore",TRUE,2,1,4,"Eminem"
-"157","03lYYd9IOnxoacrLOvoPJa","Eminem Presents The Re-Up","https://i.scdn.co/image/41b9a01e90ffd2d0bd123105ba98e67cfa45c51f","2006-01-01",2006-01-01,"eminem presents the re-up",TRUE,1,1,5,"Eminem"
-"158","7MZzYkbHL9Tk3O6WeD4Z0Z","Relapse: Refill","https://i.scdn.co/image/cdd0ceac966212c516e313fad97f3de7acaeb76c","2009-05-15",2009-05-15,"relapse: refill",TRUE,1,1,6,"Eminem"
-"159","6tgULf2EfJoT8n1StuPQJt","Relapse","https://i.scdn.co/image/c909f96b4c1e08df37b465ccd6ad492b6531aad7","2009-05-15",2009-05-15,"relapse",TRUE,3,1,7,"Eminem"
-"160","47BiFcV59TQi2s9SkBo2pb","Recovery","https://i.scdn.co/image/65fef75a3eeaf35d94f1d9e7553222c8d0194cb3","2010-06-18",2010-06-18,"recovery",TRUE,2,1,8,"Eminem"
-"161","3vOgbDjgsZBAPwV2M3bNOj","The Marshall Mathers LP2","https://i.scdn.co/image/7ac7a40e166d0cedfca4d9ead085604fb1c76ffc","2013-11-05",2013-11-05,"the marshall mathers lp2",TRUE,2,1,9,"Eminem"
-"162","0U6ldwLBEMkwgfQRY4V6D2","Revival","https://i.scdn.co/image/9e7a10081fe409efdfad954d94f6ef2c10b4dee0","2017-12-15",2017-12-15,"revival",TRUE,1,1,10,"Eminem"
-"163","3HNnxK7NgLXbDoxRZxNWiR","Kamikaze","https://i.scdn.co/image/1f920bcfbf6707bc36b4df0b0d8d27acdf369991","2018-08-31",2018-08-31,"kamikaze",TRUE,1,1,11,"Eminem"
-"164","392p3shh2jkxUxY2VHvlH8","channel ORANGE","https://i.scdn.co/image/274280f8c875eadbd0c08bf6bf48bf41803c055e","2012-01-01",2012-01-01,"channel orange",TRUE,2,1,1,"Frank Ocean"
-"165","3mH6qwIy9crq0I9YQbOuDf","Blonde","https://i.scdn.co/image/ab67616d0000b273c5649add07ed3720be9d5526","2016-08-20",2016-08-20,"blonde",TRUE,1,1,2,"Frank Ocean"
-"166","4zv8fBnpl74bnzlYYi5Yih","Midwestgangstaboxframecadillacmuzik","https://i.scdn.co/image/ab67616d0000b2737416494434cd8871d2ab09d4","2009-01-01",2009-01-01,"midwestgangstaboxframecadillacmuzik",TRUE,1,1,1,"Freddie Gibbs"
-"167","1c5SNuDvXXiD9g0IKBUh28","The Miseducation of Freddie Gibbs","https://i.scdn.co/image/ab67616d0000b273cc6c270c9de65d133b61e986","2009",2009-01-01,"the miseducation of freddie gibbs",TRUE,1,1,2,"Freddie Gibbs"
-"168","0zrSpGKGnSbKoeIavHiy6I","Str8 Killa","https://i.scdn.co/image/ab67616d0000b2732bb2603b0df8ad3d04bcaa54","2010-08-03",2010-08-03,"str8 killa",TRUE,1,1,3,"Freddie Gibbs"
-"169","15k8vlPxxEjhpHAxuwSBUh","Baby Face Killa","https://i.scdn.co/image/ab67616d0000b273bcba105507b46893bde36f22","2012-09-25",2012-09-25,"baby face killa",TRUE,1,1,4,"Freddie Gibbs"
-"170","6r4A1kEu3HAGMpEYBqocVl","Lord Giveth, Lord Taketh Away","https://i.scdn.co/image/ab67616d0000b273e224aee5b4fdfff13d5b2724","2012-10-02",2012-10-02,"lord giveth, lord taketh away",TRUE,1,1,5,"Freddie Gibbs"
-"171","6z2F5JAAILOH3nyvNcECy8","Cold Day In Hell","https://i.scdn.co/image/ab67616d0000b27362972fcd776e2018b372c4cf","2012-12-11",2012-12-11,"cold day in hell",TRUE,1,1,6,"Freddie Gibbs"
-"172","2CKPvOCCB1aCh5ZHoXm5vT","ESGN - Evil Seeds Grow Naturally","https://i.scdn.co/image/50a9588ddae393e7c801b47b189a06598ca68ab1","2013-06-19",2013-06-19,"esgn - evil seeds grow naturally",TRUE,1,1,7,"Freddie Gibbs"
-"173","43uErencdmuTRFZPG3zXL1","Piñata","https://i.scdn.co/image/ab67616d0000b273d844f6b7311a69b9a08e7a0f","2014-03-18",2014-03-18,"piñata",TRUE,1,1,8,"Freddie Gibbs"
-"174","7nfBj1HTi3LHg5lJt1LbE4","The Tonite Show with Freddie Gibbs & The Worlds Freshest","https://i.scdn.co/image/3aa299d2deba2854b9e007795d766d65e44be328","2014-05-13",2014-05-13,"the tonite show with freddie gibbs & the worlds freshest",TRUE,1,1,9,"Freddie Gibbs"
-"175","3MmQYoMTS3hGiBLKDuId4b","Piñata (Alex Goose Remix)","https://i.scdn.co/image/ab67616d0000b273b5a25146fd9b336d69f59f03","2015-11-13",2015-11-13,"piñata (alex goose remix)",TRUE,1,1,10,"Freddie Gibbs"
-"176","5AW4FwzZSKW1se5qWQCrR1","Piñata (Alex Goose Instrumental Remix)","https://i.scdn.co/image/ab67616d0000b273e84448eccc5ad1d56c91d5f4","2015-11-13",2015-11-13,"piñata (alex goose instrumental remix)",TRUE,1,1,11,"Freddie Gibbs"
-"177","41zRghNRGMG6l8dYtRp3iI","Shadow of a Doubt","https://i.scdn.co/image/ab67616d0000b27320f5448cf75f418b92591262","2015-11-20",2015-11-20,"shadow of a doubt",TRUE,1,1,12,"Freddie Gibbs"
-"178","2LCCg172ZNVAA9aFH2EPst","You Only Live 2wice","https://i.scdn.co/image/ab67616d0000b27394cc1551a6591030d1e96479","2017-03-31",2017-03-31,"you only live 2wice",TRUE,1,1,13,"Freddie Gibbs"
-"179","6JaEv20qGvSgIHQbxwtjUu","Freddie","https://i.scdn.co/image/ab67616d0000b273fa55faa1d9c494e37317734c","2018-06-22",2018-06-22,"freddie",TRUE,1,1,14,"Freddie Gibbs"
-"180","31KbO7WnDp2AjPdmRTJzdf","Bandana","https://i.scdn.co/image/ab67616d0000b2733bf3b1061f9f703b0f6bf532","2019-06-28",2019-06-28,"bandana",TRUE,1,1,15,"Freddie Gibbs"
-"181","56P7aZkTGJGsYGe0DH7mqA","Astronaut Status","https://i.scdn.co/image/ab67616d0000b2732b3b386a936b458495300451","2012-01-17",2012-01-17,"astronaut status",TRUE,1,1,1,"Future"
-"182","6vmsGTuTYTo5GDHkosmq2E","Pluto","https://i.scdn.co/image/ab67616d0000b273e4102e0e769a58abb9666dd5","2012-04-17",2012-04-17,"pluto",TRUE,1,1,2,"Future"
-"183","1MJ0UQh7nta4JGuFYW4gCg","Pluto 3D","https://i.scdn.co/image/ab67616d0000b273350a058cc9f52e641c1ef9cf","2012-11-27",2012-11-27,"pluto 3d",TRUE,1,1,3,"Future"
-"184","76T6VyS7a1I1EwnjUujaA9","First Class Flights","https://i.scdn.co/image/ab67616d0000b2735a7fcef280cc836d4ea5e675","2013-03-04",2013-03-04,"first class flights",TRUE,1,1,4,"Future"
-"185","4anheXx4ephOE9hk1P1eCS","Notice Me","https://i.scdn.co/image/ab67616d0000b273474db4509dfce7f7d001a5bf","2013-05-30",2013-05-30,"notice me",TRUE,1,1,5,"Future"
-"186","5rbqupVSYwvEmXBUnFtUf7","Honest","https://i.scdn.co/image/ab67616d0000b273b226ab81b0934f43465ff5f0","2014-04-22",2014-04-22,"honest",TRUE,1,1,6,"Future"
-"187","5seA8nhyE1OZW5TOORKJAY","Hell and Angels","https://i.scdn.co/image/ab67616d0000b273acb94a0ba88873701e2f0243","2014-10-04",2014-10-04,"hell and angels",TRUE,1,1,7,"Future"
-"188","6LkUDxtz8cJG3n0RbZNkDh","Beast Mode (Instrumentals)","https://i.scdn.co/image/ab67616d0000b273017447e1b9022b379f128a3b","2015-01-25",2015-01-25,"beast mode (instrumentals)",TRUE,1,1,8,"Future"
-"189","3dP0TFEEzTXJQKtrpsKFUj","DS2 - Track by Track Commentary","https://i.scdn.co/image/ab67616d0000b273aaa74e657d014790495e3e0f","2015-07-15",2015-07-15,"ds2 - track by track commentary",TRUE,1,1,9,"Future"
-"190","0fUy6IdLHDpGNwavIlhEsl","DS2 (Deluxe)","https://i.scdn.co/image/ab67616d0000b273b2592bea12d840fd096ef965","2015-07-17",2015-07-17,"ds2",FALSE,1,0,10,"Future"
-"191","3jJKDKdlwRS584zUlHV2Ly","EVOL","https://i.scdn.co/image/ab67616d0000b273626745b3aa04899001a924ad","2016-04-13",2016-04-13,"evol",TRUE,1,1,11,"Future"
-"192","1GvR0Bjqbq1ejwjzLjrOcG","Beast Mode","https://i.scdn.co/image/ab67616d0000b2734db29e1b8885d7bbc493f12b","2016-11-29",2016-11-29,"beast mode",TRUE,1,1,12,"Future"
-"193","2nB4hPkIT80DFtf7lHyviw","Zone","https://i.scdn.co/image/ab67616d0000b27324edfdccd3e08c25d21c8452","2017-02-10",2017-02-10,"zone",TRUE,1,1,13,"Future"
-"194","1P8NvRvykmDrKyfglMerMv","HNDRXX","https://i.scdn.co/image/ab67616d0000b273968822b495da180d0792a437","2017-08-04",2017-08-04,"hndrxx",TRUE,1,1,14,"Future"
-"195","4YtTX4GPvBvewbJvBfXCS2","FUTURE","https://i.scdn.co/image/ab67616d0000b273356884f85665ebdd79223fdf","2017-08-04",2017-08-04,"future",TRUE,1,1,15,"Future"
-"196","0US0Bhn0oOLwVqXVnz0HDb","SUPER SLIMEY","https://i.scdn.co/image/ab67616d0000b2731bfeb9d8a84bcd75650b767b","2017-10-22",2017-10-22,"super slimey",TRUE,1,1,16,"Future"
-"197","0C0Vs4XobImmqpr6kIasde","SUPERFLY (Original Motion Picture Soundtrack)","https://i.scdn.co/image/ab67616d0000b273553162a7641ebb0aac36a90a","2018-06-15",2018-06-15,"superfly (original motion picture soundtrack)",TRUE,1,1,17,"Future"
-"198","6Ew52HWkgfbth9ihRAq2Xd","BEASTMODE 2","https://i.scdn.co/image/ab67616d0000b273c64062196630be5cee367ee8","2018-07-06",2018-07-06,"beastmode 2",TRUE,1,1,18,"Future"
-"199","6P9PZjWXoCRF5b66BafPKY","Future & Juice WRLD Present... WRLD ON DRUGS","https://i.scdn.co/image/ab67616d0000b273644c510e8d4c02ae69028297","2018-10-19",2018-10-19,"future & juice wrld present... wrld on drugs",TRUE,1,1,19,"Future"
-"200","3LpIwZdzFwc10psLingT8x","Future Hndrxx Presents: The WIZRD","https://i.scdn.co/image/ab67616d0000b273e111437ad4fd3f50c8461ec5","2019-01-18",2019-01-18,"future hndrxx presents: the wizrd",TRUE,1,1,20,"Future"
-"201","65hRa80KDworqyE8242rLN","SAVE ME","https://i.scdn.co/image/ab67616d0000b2735cd6070603a9f2e5dcb01d0c","2019-06-07",2019-06-07,"save me",TRUE,1,1,21,"Future"
-"202","6Q3VZtyPCZFMO4cPF4828q","Monster","https://i.scdn.co/image/bef87c8d7ab7c0beb9adbac6bc200a70c60c42ea","2019-10-28",2019-10-28,"monster",TRUE,1,1,22,"Future"
-"203","2mbukOnfZW3KtoelIWEC4x","Ironman","https://i.scdn.co/image/ab67616d0000b273b08f55c6afd940a2a9ef384a","1996-08-19",1996-08-19,"ironman",TRUE,1,1,1,"Ghostface Killah"
-"204","1nbPXw9LtPtbMYjkmA2j1Y","Supreme Clientele","https://i.scdn.co/image/ab67616d0000b2732cb4716c9251db074a8f9939","2000-02-08",2000-02-08,"supreme clientele",TRUE,1,1,2,"Ghostface Killah"
-"205","0BfdrpcjD2oTtmlYRaGDZt","bulletproof wallets featuring raekwon","https://i.scdn.co/image/ab67616d0000b2730d56602251f931e8fc4df5b8","2001-10-16",2001-10-16,"bulletproof wallets featuring raekwon",TRUE,1,1,3,"Ghostface Killah"
-"206","0nUqHFJeVqfFWoV4mpegRW","Ghostface Killah...Shaolins Finest","https://i.scdn.co/image/ab67616d0000b27397a7f65ac0f12096904218a4","2002-04-22",2002-04-22,"ghostface killah...shaolins finest",TRUE,1,1,4,"Ghostface Killah"
-"207","2WmOmegAoaqoplknJiILVU","Milk Em","https://i.scdn.co/image/ab67616d0000b273453530d19c3f36f945d66c3a","2005-05-03",2005-05-03,"milk em",TRUE,1,1,5,"Ghostface Killah"
-"208","0gaLZATMEssSErDzywUqxD","Fishscale (Bonus Track)","https://i.scdn.co/image/d996e9a61028e5fa2dcfbb7d1c096fd32846844e","2006-01-01",2006-01-01,"fishscale (bonus track)",TRUE,1,1,6,"Ghostface Killah"
-"209","7KG4KPy9S7JfbLaXZlTQRG","Fishscale","https://i.scdn.co/image/542a2493f3a2988f1fd0cf1197b2e0cc02ab2fce","2006-01-01",2006-01-01,"fishscale",TRUE,1,1,7,"Ghostface Killah"
-"210","47NRe9ML5KLtsC9kEys3rl","More Fish","https://i.scdn.co/image/7ab1632893b7411cce221dfd8cb4b667026bc546","2006-01-01",2006-01-01,"more fish",TRUE,1,1,8,"Ghostface Killah"
-"211","4FuA2vFO9OdPrlo3CuFbFy","The Big Doe Rehab","https://i.scdn.co/image/8f739430e248f523f112bf81d92791caa255ba20","2007-01-01",2007-01-01,"the big doe rehab",TRUE,1,1,9,"Ghostface Killah"
-"212","0L1Qq8en6hODRCgaAfTBAq","GhostDeini The Great (Bonus Tracks)","https://i.scdn.co/image/92d69fac487a07f6cb9d73ecd5b42bf0f9510730","2008-01-01",2008-01-01,"ghostdeini the great (bonus tracks)",TRUE,1,1,10,"Ghostface Killah"
-"213","4r9ZAw8LePiCYMfn2M7dgE","Wallabee Champ","https://i.scdn.co/image/ab67616d0000b2738691d8e25a00b8c465968a51","2008",2008-01-01,"wallabee champ",TRUE,1,1,11,"Ghostface Killah"
-"214","4imA6mzSbTkAm0GoHh6zRF","Ghostdini Wizard Of Poetry In Emerald City","https://i.scdn.co/image/90e5d90bf265d45e51592c145144994c102bd59b","2009-01-01",2009-01-01,"ghostdini wizard of poetry in emerald city",TRUE,1,1,12,"Ghostface Killah"
-"215","0Qansm2OqCBtfFjSwagZNg","The Wizar Is Coming","https://i.scdn.co/image/90404bdc34ca378752d823b1d01575558cf18c00","2009-11-17",2009-11-17,"the wizar is coming",TRUE,1,1,13,"Ghostface Killah"
-"216","3hPl7uRfNdRvoRW0kUzkVk","Apollo Kids","https://i.scdn.co/image/45b12098ff36330a213b4bc9a661b34bfb7d4f08","2010-01-01",2010-01-01,"apollo kids",TRUE,1,1,14,"Ghostface Killah"
-"217","2o8bBwp8CMxyeCg4P6KF7A","Hidden Darts Special Edition","https://i.scdn.co/image/ab67616d0000b27328f20a708057a21d6dbaa130","2010-09-22",2010-09-22,"hidden darts special edition",TRUE,1,1,15,"Ghostface Killah"
-"218","2I1PykvbFiOv9FW3VTg2sx","Twelve Reasons To Die","https://i.scdn.co/image/ab67616d0000b27368d090dcd7b12bda5ef0d09c","2013-09-02",2013-09-02,"twelve reasons to die",TRUE,1,1,16,"Ghostface Killah"
-"219","2MNtOTfhYOxIw5xWEQHUvZ","36 Seasons","https://i.scdn.co/image/ab67616d0000b273563ac45a3b9429d078967e81","2014-12-09",2014-12-09,"36 seasons",TRUE,1,1,17,"Ghostface Killah"
-"220","3G7WHOu9IDqO4UKyw2IfUr","Adrian Younge Presents: 12 Reasons To Die II","https://i.scdn.co/image/0b018016fdff9da9c188ba32fc9fcd27eb4a2a48","2015-06-26",2015-06-26,"adrian younge presents: 12 reasons to die ii",TRUE,1,1,18,"Ghostface Killah"
-"221","6qNz7HctTGiEBlLAsAYAZm","Twelve Reasons to Die II","https://i.scdn.co/image/ab67616d0000b2737a863b0ad8d41b757db1c1a0","2015-07-10",2015-07-10,"twelve reasons to die ii",TRUE,1,1,19,"Ghostface Killah"
-"222","4iCcWBjN1tNtZb3wTcWxQr","Adrian Younge Presents: Twelve Reasons to Die II","https://i.scdn.co/image/ab67616d0000b2733db28465dae8f1d3b1d1bf0e","2015-07-10",2015-07-10,"adrian younge presents: twelve reasons to die ii",TRUE,1,1,20,"Ghostface Killah"
-"223","7yXfSAtdHFZ1pYSubEio6a","The Brown Tape","https://i.scdn.co/image/ab67616d0000b273b850621fe14c0283b4f0b8ed","2018-01-26",2018-01-26,"the brown tape",TRUE,1,1,21,"Ghostface Killah"
-"224","2fPz4Kn1vZTFZVbP0ia8Vq","Adrian Younge Presents: 12 Reasons to Die I","https://i.scdn.co/image/1895a7c83fe1ddba1f15d80b0cfc67f06855da4e","2018-03-30",2018-03-30,"adrian younge presents: 12 reasons to die i",TRUE,1,1,22,"Ghostface Killah"
-"225","6WkwHbcr6RAIqa72NsDFea","The Lost Tapes","https://i.scdn.co/image/ab67616d0000b273bccfb918f977a5f342780975","2018-10-05",2018-10-05,"the lost tapes",TRUE,1,1,23,"Ghostface Killah"
-"226","40c7E8VG9R8U0NKft7J7Yk","Ghost Files - Bronze Tape","https://i.scdn.co/image/ab67616d0000b273c3e43396857ca7bb386d8ab3","2018-11-30",2018-11-30,"ghost files - bronze tape",TRUE,1,1,24,"Ghostface Killah"
-"227","4t1y7sVACbddwczEcQs5HI","Ghost Files - Propane Tape","https://i.scdn.co/image/ab67616d0000b27306f40ea02911ba543d7930a6","2018-11-30",2018-11-30,"ghost files - propane tape",TRUE,1,1,25,"Ghostface Killah"
-"228","7EYx33pYJKBfjCaDsfIjp4","Ghostface Killahs","https://i.scdn.co/image/b25b8742b2041d9a39e65d6ae6f35c588d27056a","2019-09-13",2019-09-13,"ghostface killahs",TRUE,1,1,26,"Ghostface Killah"
-"229","3k8xoyOXkGgZxUKgpmxz4P","Liquid Swords","https://i.scdn.co/image/f0ce506327cba6e105aaa42f3a6be98770a2bc5f","1995-01-01",1995-01-01,"liquid swords",TRUE,1,1,1,"GZA"
-"230","4QMKELvG0VNODbiFigj4K9","Beneath The Surface","https://i.scdn.co/image/d0e1d1b77d18e387c9d2b2842c24c6f4108a834a","1999-01-01",1999-01-01,"beneath the surface",TRUE,1,1,2,"GZA"
-"231","5uxYLiUKqQNoiD5rIVHnkm","Legend Of The Liquid Sword","https://i.scdn.co/image/df7f9af5fb9d89cefbdcab955fe1006d09c207b2","2002-01-01",2002-01-01,"legend of the liquid sword",TRUE,1,1,3,"GZA"
-"232","5nmN1wW90fbqNbz7ltY7rg","Pro Tools","https://i.scdn.co/image/ab67616d0000b273beaa88cdf9fdce9fd8d233a4","2008-08-19",2008-08-19,"pro tools",TRUE,1,1,4,"GZA"
-"233","0ic6rMSwqDasuXSA7zJ1pw","The Pro Tools Instrumentals","https://i.scdn.co/image/ab67616d0000b27334acc7a30c37ac381df08609","2008-08-19",2008-08-19,"the pro tools instrumentals",TRUE,1,1,5,"GZA"
-"234","6JF49ixyHmOgS0Rsda2k42","Cilvia Demo","https://i.scdn.co/image/ab67616d0000b273986cd6b330f7405b17a604f4","2014-01-28",2014-01-28,"cilvia demo",TRUE,1,1,1,"Isaiah Rashad"
-"235","6jjX8mGrsWtrpYpFhGMrg1","The Suns Tirade","https://i.scdn.co/image/ab67616d0000b273fbdec8696ff05ae19265dfa0","2016-09-02",2016-09-02,"the suns tirade",TRUE,1,1,2,"Isaiah Rashad"
-"236","2KvJwjA8SxHUn1JPG09W4g","Welcome 2 Detroit","https://i.scdn.co/image/ab67616d0000b273ce9c35737e224ac86d68602b","2001",2001-01-01,"welcome 2 detroit",TRUE,1,1,1,"J Dilla"
-"237","1Bvq4XLWstUiiCA5dGURtf","The Beat Generation 10th Anniversary Presents: Jay Dee - Pause","https://i.scdn.co/image/ab67616d0000b2736b14b760dec28a97fbfb343c","2001",2001-01-01,"the beat generation 10th anniversary presents: jay dee - pause",TRUE,1,1,2,"J Dilla"
-"238","7DMgLZcigcqAwdFncT4DRw","Welcome 2 Detroit Instrumental","https://i.scdn.co/image/ab67616d0000b273ef85c38a7ed0a286f514cd4d","2001",2001-01-01,"welcome 2 detroit instrumental",TRUE,1,1,3,"J Dilla"
-"239","7xJ7jHNu3JNfdnao9xwMho","Donuts","https://i.scdn.co/image/ab67616d0000b2735faf4168583d3cb9f9c51cc4","2006-02-07",2006-02-07,"donuts",TRUE,1,1,4,"J Dilla"
-"240","6hXXKsVVTfDbRTEuHaInI5","The Shining","https://i.scdn.co/image/ab67616d0000b273201ae994b1a3f01802d65c2d","2006-08-21",2006-08-21,"the shining",TRUE,1,1,5,"J Dilla"
-"241","4CjZRdriTNh1CyIEwjzoTB","The Shining Instrumentals","https://i.scdn.co/image/ab67616d0000b273e92ef2174425e2bac0077680","2006-10-16",2006-10-16,"the shining instrumentals",TRUE,1,1,6,"J Dilla"
-"242","6oCNEIjBtMujq1papEFLjc","Jay Deelicious 95-98 - The Delicious Vinyl Years (Originals, Remixes & Rarities)","https://i.scdn.co/image/e3aa24881da1da6bf6c9b7d77bc355e77202c7bc","2007-01-01",2007-01-01,"jay deelicious 95-98 - the delicious vinyl years (originals, remixes & rarities)",TRUE,1,1,7,"J Dilla"
-"243","2do1Nni1kX3pTUyUeUEIMU","Ruff Draft","https://i.scdn.co/image/ab67616d0000b2737785ab20a07a3f5cc11f1016","2007-03-20",2007-03-20,"ruff draft",TRUE,1,1,8,"J Dilla"
-"244","5rTGQkvZqXiNxtPCLKbytQ","Jay Stay Paid","https://i.scdn.co/image/ab67616d0000b2732c6b9259351cfd761f61fc39","2009-06-02",2009-06-02,"jay stay paid",TRUE,1,1,9,"J Dilla"
-"245","11ekz5eoUy1yJZDSa5pzBv","Dillatroit","https://i.scdn.co/image/ab67616d0000b2732a3ff7e32feedc170cbcc0f2","2013-12-10",2013-12-10,"dillatroit",TRUE,1,1,10,"J Dilla"
-"246","433E9ZkBccrS3BwE9HQTCp","Rebirth of Detroit Instrumentals","https://i.scdn.co/image/ab67616d0000b2737e63af1c77d374508ccb4ef7","2014-05-06",2014-05-06,"rebirth of detroit instrumentals",TRUE,1,1,11,"J Dilla"
-"247","5dxucrfNPblqH8OdJv3LAo","Lost Tapes, Reels + More","https://i.scdn.co/image/ab67616d0000b2735b6a748dc4aaa97dc7a8b36d","2015-02-05",2015-02-05,"lost tapes, reels + more",TRUE,1,1,12,"J Dilla"
-"248","3rnppXWBl6wECc3tiLyG16","The King of Beats (Batch #1)","https://i.scdn.co/image/ab67616d0000b27324c2cb88b4f03291d9f74581","2015-02-07",2015-02-07,"the king of beats (batch #1)",TRUE,1,1,13,"J Dilla"
-"249","3rx0d5EBLCthDV3jWK5TOG","The King of Beats (Batch #2)","https://i.scdn.co/image/ab67616d0000b273ef5fc0adcacc0118322d071f","2015-02-07",2015-02-07,"the king of beats (batch #2)",TRUE,1,1,14,"J Dilla"
-"250","5vDuDvpv9xwrc1T4RUMpG9","The King of Beats (Batch #3)","https://i.scdn.co/image/ab67616d0000b2736686adabceff8ee37c3b989e","2015-02-07",2015-02-07,"the king of beats (batch #3)",TRUE,1,1,15,"J Dilla"
-"251","3zlzM62D7cMQS4TXL2GNj3","The King of Beats (Batch #4)","https://i.scdn.co/image/ab67616d0000b2736c652b9e83c817942c2cdc4c","2015-02-07",2015-02-07,"the king of beats (batch #4)",TRUE,1,1,16,"J Dilla"
-"252","27xemdV6LEuA82QUa0wW6d","The King of Beats, Vol. 1","https://i.scdn.co/image/ab67616d0000b273eb4f30c3cd308e48ec498f4c","2015-02-07",2015-02-07,"the king of beats, vol. 1",TRUE,1,1,17,"J Dilla"
-"253","2uneuSwxM1Sk4Ku4YqpjEA","The Diary (Instrumentals)","https://i.scdn.co/image/ab67616d0000b273e610274c36ac91b8dface131","2015-07-08",2015-07-08,"the diary (instrumentals)",TRUE,1,1,18,"J Dilla"
-"254","0Kh9j1Van0OshA6ogFPVA9","Dillatronic","https://i.scdn.co/image/ab67616d0000b27306e72a50a5c1dbb080dd7caf","2015-10-30",2015-10-30,"dillatronic",TRUE,1,1,19,"J Dilla"
-"255","5kTINh4kyYiCLhneXGtKDe","The King of Beats, Vol 2: Lost Scrolls","https://i.scdn.co/image/ab67616d0000b273460c9c0b4b8fb271c9bd74d8","2016-02-19",2016-02-19,"the king of beats, vol 2: lost scrolls",TRUE,1,1,20,"J Dilla"
-"256","572uuU7BBaHJpkz6XhveN7","The Diary","https://i.scdn.co/image/ab67616d0000b273dc99ac3960f09250b2f911af","2016-04-15",2016-04-15,"the diary",TRUE,1,1,21,"J Dilla"
-"257","1JKqsdbwfOK1233EOT67ZM","Jay Love Japan","https://i.scdn.co/image/ab67616d0000b27354eca6c29ff37b8634e1efef","2016-06-06",2016-06-06,"jay love japan",TRUE,1,1,22,"J Dilla"
-"258","2Gi3srZ86SA1dJZtR8fsi2","The Diary Of (Instrumental)","https://i.scdn.co/image/ab67616d0000b2732433544405d199091d110b86","2016-07-08",2016-07-08,"the diary of (instrumental)",TRUE,1,1,23,"J Dilla"
-"259","13U6VMbPcQMgIswWcRUMnI","The Shining – the 10th Anniversary Collection","https://i.scdn.co/image/1fcad743579e49081cfa4ab542cf8010c6535d3f","2016-08-19",2016-08-19,"the shining – the 10th anniversary collection",TRUE,1,1,24,"J Dilla"
-"260","4Scp3UTzE630nkPDvkx246","Jay Dee a.k.a. King Dilla","https://i.scdn.co/image/ab67616d0000b273f2d5e6266d0e4d71b42b50c9","2016-10-17",2016-10-17,"jay dee a.k.a. king dilla",TRUE,1,1,25,"J Dilla"
-"261","3cuTZGpaOoSETI0HChtro5","Jay Dees Ma Dukes Collection","https://i.scdn.co/image/ab67616d0000b2733cf54cf7bc277a68a7a1387f","2016-12-23",2016-12-23,"jay dees ma dukes collection",TRUE,1,1,26,"J Dilla"
-"262","0v9TomxoVagPyvVNGhDbyB","Motor City","https://i.scdn.co/image/ab67616d0000b273f6e03a9c4f497e460abebd84","2017-04-21",2017-04-21,"motor city",TRUE,1,1,27,"J Dilla"
-"263","0Plu6TE7pXhLuqIG9VZeoP","J Dillas Delights, Vol. 1","https://i.scdn.co/image/669a2a370eba5f369ee39afd1c544faf7e315d3c","2017-06-16",2017-06-16,"j dillas delights, vol. 1",TRUE,1,1,28,"J Dilla"
-"264","4MCPd6AmA6xfmmggVgtUmP","Ruff Draft (Dillas Mix)","https://i.scdn.co/image/ab67616d0000b2737db191d99e123796e6cc94d5","2018-04-20",2018-04-20,"ruff draft (dillas mix)",TRUE,1,1,29,"J Dilla"
-"265","1e8cicPvrt3Kc26bKLarKI","The Come Up","https://i.scdn.co/image/159524f10c47e076b1c296e791789fe23d7e317c","2009",2009-01-01,"the come up",TRUE,1,1,1,"J. Cole"
-"266","0fhmJYVhW0e4i33pCLPA5i","Cole World: The Sideline Story","https://i.scdn.co/image/c4b1661f1da44734014b1a4e903003c28aac3929","2011-09-27",2011-09-27,"cole world: the sideline story",TRUE,1,1,2,"J. Cole"
-"267","4X6SnBFOFhX2zWtFzoBYzv","Born Sinner","https://i.scdn.co/image/ab67616d0000b2738dd81da6c156e528c686be9b","2013-06-17",2013-06-17,"born sinner",TRUE,1,1,3,"J. Cole"
-"268","1ptk2Jtcr40GKPYSnUl7l8","The Blow Up","https://i.scdn.co/image/ab67616d0000b273bcdfc0c2ca343f704cc36934","2014-11-09",2014-11-09,"the blow up",TRUE,1,1,4,"J. Cole"
-"269","7viNUmZZ8ztn2UB4XB3jIL","2014 Forest Hills Drive","https://i.scdn.co/image/ab67616d0000b2736aca031ccc27d2e4dd829d14","2014-12-09",2014-12-09,"2014 forest hills drive",TRUE,1,1,5,"J. Cole"
-"270","1yZC8xZwv4gsmCZ4p4JWdI","Forest Hills Drive: Live from Fayetteville, NC","https://i.scdn.co/image/ab67616d0000b2737617e402e6b7fef18f4fa7c9","2016-01-28",2016-01-28,"forest hills drive",FALSE,1,0,6,"J. Cole"
-"271","3CCnGldVQ90c26aFATC1PW","4 Your Eyez Only","https://i.scdn.co/image/0d36dfc5c5d0d42507e2327823c90e138e7d4ae4","2016-12-09",2016-12-09,"4 your eyez only",TRUE,1,1,7,"J. Cole"
-"272","4Wv5UAieM1LDEYVq5WmqDd","KOD","https://i.scdn.co/image/568af6f24bd8b86bae18f0327e80027feed6f8e8","2018-04-20",2018-04-20,"kod",TRUE,1,1,8,"J. Cole"
-"273","1gPqbxhs90kppgOVxGOPzd","The Never Story","https://i.scdn.co/image/8aadefebe4c0590638aade96effde479bedf320b","2017-03-10",2017-03-10,"the never story",TRUE,1,1,1,"JID"
-"274","2oI6gtIXrvNiL2VEMmj5kY","DiCaprio 2","https://i.scdn.co/image/9e2fe796fbcfb1105d16e70ab5ae7076253a1d6d","2018-11-26",2018-11-26,"dicaprio 2",TRUE,1,1,2,"JID"
-"275","3MwxfLMaztuCkOnsrisxGn","From Hood Tales to the Cover of XXL","https://i.scdn.co/image/ab67616d0000b273673d5ff6b1e25f46478d4532","2010-07-20",2010-07-20,"from hood tales to the cover of xxl",TRUE,1,1,1,"Jay Rock"
-"276","6bPbKuFNW6Vausf1PExvd9","Follow Me Home","https://i.scdn.co/image/ab67616d0000b27343b788780e13ee12867dd9ca","2014-11-10",2014-11-10,"follow me home",TRUE,1,1,2,"Jay Rock"
-"277","1fsvlnonD95p6VTEdQ7zJn","90059","https://i.scdn.co/image/ab67616d0000b273793a0d50c1af74449ddfba7a","2015-09-11",2015-09-11,"90059",TRUE,1,1,3,"Jay Rock"
-"278","4IAMLhL37kMrpByavj25Ne","Redemption","https://i.scdn.co/image/ab67616d0000b273c30d59775ce5ef3f59138f59","2018-06-15",2018-06-15,"redemption",TRUE,1,1,4,"Jay Rock"
-"279","5ra51AaWF3iVebyhlZ1aqq","1999","https://i.scdn.co/image/ab67616d0000b273fcd3724fba954e6104e4530d","2012-06-12",2012-06-12,"1999",TRUE,1,1,1,"Joey Bada$$"
-"280","4V5UppLGiuDvo4HpVsDc8U","Summer Knights","https://i.scdn.co/image/ab67616d0000b273e0cfd136aee4438489a1aca4","2013-10-29",2013-10-29,"summer knights",TRUE,1,1,2,"Joey Bada$$"
-"281","1rJXQEZ5DnUalRSPB3R0WO","B4.DA.$$","https://i.scdn.co/image/ab67616d0000b273d1d0d79b845c56c86fe670a8","2015-01-20",2015-01-20,"b4.da.$$",TRUE,1,1,3,"Joey Bada$$"
-"282","6swV0WUnPygRIMgEKn6Ige","ALL-AMERIKKKAN BADA$$","https://i.scdn.co/image/ab67616d0000b2736a3c1e51a7d2a2a7fbe172a1","2017-04-07",2017-04-07,"all-amerikkkan bada$$",TRUE,1,1,4,"Joey Bada$$"
-"283","5ZvLqwEbYbLFlAbmOElRNJ","Black Ben Carson","https://i.scdn.co/image/ab67616d0000b273f91eece348846b86aa38529a","2016-02-15",2016-02-15,"black ben carson",TRUE,1,1,1,"JPEGMAFIA"
-"284","51WLEfPEEkzAWurvuY6Gco","Veteran","https://i.scdn.co/image/ab67616d0000b273f8aaeba5e6dee1745371e822","2018-08-22",2018-08-22,"veteran",TRUE,1,1,2,"JPEGMAFIA"
-"285","5ilsl5R2lGACTnPZMKIp7o","All My Heroes Are Cornballs","https://i.scdn.co/image/e26d8ae0b46aa077326a040e27947882ad9c58ab","2019-09-13",2019-09-13,"all my heroes are cornballs",TRUE,1,1,3,"JPEGMAFIA"
-"286","4Uv86qWpGTxf7fU7lG5X6F","The College Dropout","https://i.scdn.co/image/4a86873e4d8b56a0b23585149d791db588cc38ce","2004-02-10",2004-02-10,"the college dropout",TRUE,1,1,1,"Kanye West"
-"287","5ll74bqtkcXlKE7wwkMq4g","Late Registration","https://i.scdn.co/image/3844907e64009a8cbe1f9680849e5bc36f1d1483","2005-09-30",2005-09-30,"late registration",TRUE,1,1,2,"Kanye West"
-"288","0veuYKXCayS7oIfyqlibeR","Late Orchestration","https://i.scdn.co/image/ef037197795f47c0dcc78fb523abeb1ab1017740","2006-01-01",2006-01-01,"late orchestration",TRUE,1,1,3,"Kanye West"
-"289","4WNXpeZR1jc2NFgOAeyLMB","Graduation (Exclusive Edition)","https://i.scdn.co/image/b9004467a0d9cacda6384709ace112e6748e1daf","2007-01-01",2007-01-01,"graduation",FALSE,1,0,4,"Kanye West"
-"290","0FnTw6TY6iB5AHATPzCYkd","Graduation (Alternative Business Partners)","https://i.scdn.co/image/b9004467a0d9cacda6384709ace112e6748e1daf","2007-01-01",2007-01-01,"graduation (alternative business partners)",TRUE,1,1,5,"Kanye West"
-"291","5ykOQlHaE5ZRxMibfI75YW","808s & Heartbreak","https://i.scdn.co/image/54da8cd1ee7d60c6bc54a277c0261cb4b8fab7a2","2008-11-24",2008-11-24,"808s & heartbreak",TRUE,1,1,6,"Kanye West"
-"292","20r762YmB5HeofjMCiPMLv","My Beautiful Dark Twisted Fantasy","https://i.scdn.co/image/d0747e2b961844569ec2f5a3d1e65083f30cf809","2010-01-01",2010-01-01,"my beautiful dark twisted fantasy",TRUE,1,1,7,"Kanye West"
-"293","0A3g19AGFd9Qe3rAIkP8e0","Kanye West Presents Good Music Cruel Summer","https://i.scdn.co/image/a7afe4e67eb70711102106b3b66cb0924a9c162a","2012-01-01",2012-01-01,"kanye west presents good music cruel summer",TRUE,1,1,8,"Kanye West"
-"294","7D2NdGvBHIavgLhmcwhluK","Yeezus","https://i.scdn.co/image/83e561087bf98b0458ffa80e172a9845f4c72c79","2013-01-01",2013-01-01,"yeezus",TRUE,1,1,9,"Kanye West"
-"295","7gsWAHLeT0w7es6FofOXk1","The Life Of Pablo","https://i.scdn.co/image/5a8efefdba4562114d38e0deddd49635550f428c","2016-06-10",2016-06-10,"the life of pablo",TRUE,1,1,10,"Kanye West"
-"296","2Ek1q2haOnxVqhvVKqMvJe","ye","https://i.scdn.co/image/fa3ac7ac6d0d40f3fca5cf3845c03c717396ec24","2018-06-01",2018-06-01,"ye",TRUE,1,1,11,"Kanye West"
-"297","0FgZKfoU2Br5sHOfvZKTI9","JESUS IS KING","https://i.scdn.co/image/8b49a035b93b16d52113dffba0a895a45f70a8ae","2019-10-25",2019-10-25,"jesus is king",TRUE,1,1,12,"Kanye West"
-"298","7MoLQ8vckhwBbQqEYQTYQC","Overly Dedicated","https://i.scdn.co/image/ab67616d0000b2739b035b031d9f0a6a75ae464e","2010-09-14",2010-09-14,"overly dedicated",TRUE,1,1,1,"Kendrick Lamar"
-"299","1bkN9nIkkCnXeG4yitVS1J","Section.80","https://i.scdn.co/image/ab67616d0000b273eddb2639b74ac6c202032ebe","2011-07-02",2011-07-02,"section.80",TRUE,1,1,2,"Kendrick Lamar"
-"300","2ioBMJIiOANfeCaXP9a7Zn","good kid, m.A.A.d city","https://i.scdn.co/image/c691b02d117c077062b44a2484addd8db5b797da","2013-01-01",2013-01-01,"good kid, m.a.a.d city",TRUE,2,1,3,"Kendrick Lamar"
-"301","7ycBtnsMtyVbbwTfJwRjSP","To Pimp A Butterfly","https://i.scdn.co/image/4662ef2e309808ddb0ed7d8819df607350efdc33","2015-03-16",2015-03-16,"to pimp a butterfly",TRUE,1,1,4,"Kendrick Lamar"
-"302","0kL3TYRsSXnu0iJvFO3rud","untitled unmastered.","https://i.scdn.co/image/c01de61bbd8f07ce2b5d9519c0ee0ba498c7fa8f","2016-03-04",2016-03-04,"untitled unmastered.",TRUE,1,1,5,"Kendrick Lamar"
-"303","4eLPsYPBmXABThSJ821sqY","DAMN.","https://i.scdn.co/image/4490d819e1436c1ea450ef9e125726c1959ff4ee","2017-04-14",2017-04-14,"damn.",TRUE,1,1,6,"Kendrick Lamar"
-"304","4alcGHjstaALJHHiljfy3H","DAMN. COLLECTORS EDITION.","https://i.scdn.co/image/a588ccb0f789edb337b003d8f9779f0b9d60d30b","2017-12-08",2017-12-08,"damn. collectors edition.",TRUE,1,1,7,"Kendrick Lamar"
-"305","3pLdWdkj83EYfDN6H2N8MR","Black Panther The Album Music From And Inspired By","https://i.scdn.co/image/2ce9cc82df2088f6212512262ec9ba63f173eb4c","2018-02-09",2018-02-09,"black panther the album music from and inspired by",TRUE,1,1,8,"Kendrick Lamar"
-"306","1OnCqi7IuzjnrOh2ZNvJHd","Man On The Moon: The End Of Day","https://i.scdn.co/image/7c4b989de628cee6ab1457b95a3474693e23eff6","2009-01-01",2009-01-01,"man on the moon: the end of day",TRUE,3,1,1,"Kid Cudi"
-"307","2mr2NvdOc5fDTuYPQWNtUm","Day N Nite","https://i.scdn.co/image/ab67616d0000b2730df4cabee96aff601bd61d2b","2009-03-13",2009-03-13,"day n nite",TRUE,1,1,2,"Kid Cudi"
-"308","08eM9GRdr5BCCHNqS3Wwud","Man On The Moon II: The Legend Of Mr. Rager","https://i.scdn.co/image/1b77d0b397195b7acb8ac26421b653623270465a","2010-01-01",2010-01-01,"man on the moon ii: the legend of mr. rager",TRUE,3,1,3,"Kid Cudi"
-"309","5svfcB1dHyUWTWlhb4TihU","Indicud","https://i.scdn.co/image/d28e593f699ff1413162f0bceb8c8f994551ca40","2013-01-01",2013-01-01,"indicud",TRUE,1,1,4,"Kid Cudi"
-"310","4u9kEyafQ7sW0Z1gpJrDxp","KiD CuDi presents SATELLITE FLIGHT: The journey to Mother Moon","https://i.scdn.co/image/3263b166fd07f8a37a3f63e705f7b3fc24426031","2014-01-01",2014-01-01,"kid cudi presents satellite flight: the journey to mother moon",TRUE,1,1,5,"Kid Cudi"
-"311","6e8pwYKSF9iZjpPep1DVzx","Speedin Bullet 2 Heaven","https://i.scdn.co/image/59c3e3c21e61cd0a7ff55c5b35d9b1a755a9073e","2015-12-04",2015-12-04,"speedin bullet 2 heaven",TRUE,1,1,6,"Kid Cudi"
-"312","5bCk3kWAy2JbbTfHqzZCII","Passion, Pain & Demon Slayin","https://i.scdn.co/image/1fcb0bea73c3bbc33474cab38adf1a740907bf89","2016-12-16",2016-12-16,"passion, pain & demon slayin",TRUE,1,1,7,"Kid Cudi"
-"313","105DKMawvJxl1imfGlmtiD","The Killer","https://i.scdn.co/image/ab67616d0000b2737b60a4fb67be45f9d71485ce","2005",2005-01-01,"the killer",TRUE,1,1,1,"Killer Mike"
-"314","1t6Ip5Meiu0qTSQJPCc6MZ","I Pledge Allegiance to the Grind II","https://i.scdn.co/image/ab67616d0000b2734bff382f2e3e75c3fcafcda1","2008-07-08",2008-07-08,"i pledge allegiance to the grind ii",TRUE,1,1,2,"Killer Mike"
-"315","179YO0N2ks3rC6qWlKbMGl","Underground Atlanta","https://i.scdn.co/image/ab67616d0000b27338becf29e154cf1de4de214f","2009-09-01",2009-09-01,"underground atlanta",TRUE,1,1,3,"Killer Mike"
-"316","6NCXLwH6hMwUiU9d6qYAEc","Pl3dge","https://i.scdn.co/image/ab67616d0000b2735f368bfdd7ae25a4578b028d","2011-04-19",2011-04-19,"pl3dge",TRUE,1,1,4,"Killer Mike"
-"317","26BmsM9kCoN20PS3R9VFPH","BANGx3","https://i.scdn.co/image/ab67616d0000b273fa694fe087f1261fc0dc67a1","2011-11-29",2011-11-29,"bangx3",TRUE,1,1,5,"Killer Mike"
-"318","5EAhUoAz1G3WTvIfGZvmrh","R.A.P. Music","https://i.scdn.co/image/ab67616d0000b273395afe547468f53ce908d819","2012-05-15",2012-05-15,"r.a.p. music",TRUE,1,1,6,"Killer Mike"
-"319","1gvkFTPF1rKpNnbfzitx5T","R.A.P. Music [Instrumentals]","https://i.scdn.co/image/ab67616d0000b2734901982c44f085886117d081","2012-09-18",2012-09-18,"r.a.p. music [instrumentals]",TRUE,1,1,7,"Killer Mike"
-"320","6FtqZFgeAT84TJDpN2qbGk","Killer Mike Chronicles","https://i.scdn.co/image/ab67616d0000b273101fcc3728a4f20a828209fd","2015-03-31",2015-03-31,"killer mike chronicles",TRUE,1,1,8,"Killer Mike"
-"321","2VVvm4zJlUQm9XmBCvGN6z","Lil Pump","https://i.scdn.co/image/ab67616d0000b273d52ef190ae5253eb2c3c764c","2017-10-06",2017-10-06,"lil pump",TRUE,1,1,1,"Lil Pump"
-"322","3zGtADK8O9cFL3x6B2yvsB","Harverd Dropout","https://i.scdn.co/image/ab67616d0000b273a89a23025e950aa2aeaa4a22","2019-02-22",2019-02-22,"harverd dropout",TRUE,1,1,2,"Lil Pump"
-"323","6jTdFctvoG5GkE619VgIy4","Playaz Circle","https://i.scdn.co/image/b7147b23296dc0cc9c9551bcf74bde755720e037","2011-02-01",2011-02-01,"playaz circle",TRUE,1,1,1,"Lil Ugly Mane"
-"324","6VNXIYzXocTyZMNDLG88Gb","Mista Thug Isolation","https://i.scdn.co/image/ab67616d0000b273b704e1460866f465fe8421cf","2012-02-11",2012-02-11,"mista thug isolation",TRUE,1,1,2,"Lil Ugly Mane"
-"325","6mueTLPXfvXjl61ymHHwY8","Oblivion Access","https://i.scdn.co/image/ab67616d0000b2737ba8dea676c6c6ee353229b6","2015-12-18",2015-12-18,"oblivion access",TRUE,1,1,3,"Lil Ugly Mane"
-"326","5zHx5hj3bxfcN9f9VIdGaN","Songs That People Emailed Me About Asking Why I Hadnt Put Them on Streaming Platforms","https://i.scdn.co/image/cefb2ccbba6c760a398173f7c50284e1ed8188e3","2019-09-11",2019-09-11,"songs that people emailed me about asking why i hadnt put them on streaming platforms",TRUE,1,1,4,"Lil Ugly Mane"
-"327","5WrbKW1nRN4vSsu70uizxX","Luv Is Rage","https://i.scdn.co/image/ab67616d0000b273dc7fa10440eb5ddd8d90a8aa","2015-12-18",2015-12-18,"luv is rage",TRUE,1,1,1,"Lil Uzi Vert"
-"328","7mgdTKTCdfnLoa1HXHvLYM","Lil Uzi Vert vs. The World","https://i.scdn.co/image/ab67616d0000b2738be07181aa935225a6f25d56","2016-05-27",2016-05-27,"lil uzi vert vs. the world",TRUE,1,1,2,"Lil Uzi Vert"
-"329","6LX75kNicFqjjiAOeZgN67","The Perfect LUV Tape","https://i.scdn.co/image/ab67616d0000b2732143db1c88358d70dd898aa3","2016-08-10",2016-08-10,"the perfect luv tape",TRUE,1,1,3,"Lil Uzi Vert"
-"330","733e1ZfktLSwj96X5rsMeE","Luv Is Rage 2","https://i.scdn.co/image/ab67616d0000b27341b41e6f7924e530a9b00f9c","2017-08-25",2017-08-25,"luv is rage 2",TRUE,1,1,4,"Lil Uzi Vert"
-"331","1Do3y8IAcbYOToYQJnGwSO","Tha Carter III","https://i.scdn.co/image/f06af3f1baf992244b6ac18b5851db9b4dc6cdb6","2008-01-01",2008-01-01,"tha carter iii",TRUE,2,1,1,"Lil Wayne"
-"332","7GNr4PXYVHMJyOWkCqZDVp","Tha Carter III [Edited (MTV Bonus Version)]","https://i.scdn.co/image/4b025677835b8aa61aad971772554984a5b61879","2008-01-01",2008-01-01,"tha carter iii [edited]",FALSE,1,0,2,"Lil Wayne"
-"333","2nOW4KIsrMnoL4hJZRODKl","Lights Out","https://i.scdn.co/image/c94e888e067f9da8b0f776df85da5334b49438a8","2009-01-01",2009-01-01,"lights out",TRUE,1,1,3,"Lil Wayne"
-"334","2v3xdUz73rd6Nness5SSIh","Rebirth","https://i.scdn.co/image/e66187f0b2be4fbaf4e5295d8246c4a9c4895980","2009-01-01",2009-01-01,"rebirth",TRUE,2,1,4,"Lil Wayne"
-"335","79GI9WcgP4SxMJCrcsEx0q","I Am Not A Human Being","https://i.scdn.co/image/c5790716d4645d5e18a0989c632883738b2432a6","2010-01-01",2010-01-01,"i am not a human being",TRUE,3,1,5,"Lil Wayne"
-"336","3seLEYrsszham3IxskYwt7","Tear Drop Tune Part 3","https://i.scdn.co/image/ab67616d0000b273d4e6406b6d75b7f2356b430f","2010-02-28",2010-02-28,"tear drop tune part 3",TRUE,1,1,6,"Lil Wayne"
-"337","1MGEMBqM3v8OUM2glv7MSx","Tha Carter IV","https://i.scdn.co/image/5382c3f4775dad682f63b625fb642bf30f593bcd","2011-01-01",2011-01-01,"tha carter iv",TRUE,5,1,7,"Lil Wayne"
-"338","4nbRpshGpfPgAu7wumKqe1","I Am Not A Human Being II (Japan Version)","https://i.scdn.co/image/6af23282e3a4a50f389636ba7318299d34dee639","2013-01-01",2013-01-01,"i am not a human being ii",FALSE,2,0,8,"Lil Wayne"
-"339","1MROip7w49w3Rlokn2gmXJ","Loosing Myself","https://i.scdn.co/image/ab67616d0000b273ae04b4df28823ff082af0d83","2015-01-18",2015-01-18,"loosing myself",TRUE,1,1,9,"Lil Wayne"
-"340","5wYgsQRpjIoYHGdGvpbsBf","Sorry 4 the Wait 2","https://i.scdn.co/image/ab67616d0000b2739d311bdab7178d5d27762f00","2015-02-17",2015-02-17,"sorry 4 the wait 2",TRUE,1,1,10,"Lil Wayne"
-"341","6FZ0Q7sIo4itjsjn4WYw2C","Heres to the Roc","https://i.scdn.co/image/ab67616d0000b27385c68ecd002764dbbac5c072","2015-07-08",2015-07-08,"heres to the roc",TRUE,1,1,11,"Lil Wayne"
-"342","50yFYgKdwJANZ5O9MIbMkg","Tha Carter V","https://i.scdn.co/image/4ecc050e7259009b332d7fb97d9177e084edc1ea","2018-09-28",2018-09-28,"tha carter v",TRUE,1,1,12,"Lil Wayne"
-"343","4hxmBjxENo2VDMShZRp3fW","Welcome To The Concrete Jungle","https://i.scdn.co/image/ab67616d0000b273d11a372d37505b076727527e","2019-07-30",2019-07-30,"welcome to the concrete jungle",TRUE,1,1,13,"Lil Wayne"
-"344","6dfr7L9cjlVXLdMAc82W52","Face 2 Face","https://i.scdn.co/image/ab67616d0000b273b35a036b3eeb373afe6fd77d","2019-08-09",2019-08-09,"face 2 face",TRUE,1,1,14,"Lil Wayne"
-"345","5YsSXiWHgY0EhB53CJVYjQ","Gettin Some Head","https://i.scdn.co/image/2215f4aad7873e176727090e41bde6cb8558d627","2019-08-28",2019-08-28,"gettin some head",TRUE,1,1,15,"Lil Wayne"
-"346","0rNnEH6cCO4T0F4lTEnHK2","After Da Boat","https://i.scdn.co/image/ab67616d0000b273d16854351ef49161ee5c661f","2016-06-10",2016-06-10,"after da boat",TRUE,1,1,1,"Lil Yachty"
-"347","4bJqW1SBOvsfcEzZwsjdjx","Lil Boat","https://i.scdn.co/image/ec0164175e699256254cd66172aeb1d8c47dab1d","2016-07-05",2016-07-05,"lil boat",TRUE,1,1,2,"Lil Yachty"
-"348","1Ea4UfFW7K1UzbjkDVaPri","Summer Songs 2","https://i.scdn.co/image/de6438d132d50331be33d3e131d88be2875c04f6","2016-07-29",2016-07-29,"summer songs 2",TRUE,1,1,3,"Lil Yachty"
-"349","6upTR3RFKR7K20OnHRXDkL","Teenage Emotions","https://i.scdn.co/image/7f3daca673264e3f60a9fef319b18baba334ae73","2017-05-26",2017-05-26,"teenage emotions",TRUE,1,1,4,"Lil Yachty"
-"350","4nHOF3neSo6Y7OG5OAflkC","Lil Boat 2","https://i.scdn.co/image/fc74818096170883a40d334ace3a2f9d81e64581","2018-03-09",2018-03-09,"lil boat 2",TRUE,1,1,5,"Lil Yachty"
-"351","4qplno3lbet8WvuTGdDG3T","Nuthin 2 Prove","https://i.scdn.co/image/87b3146d55ce3a537ab2e340edb4078f45344186","2018-10-19",2018-10-19,"nuthin 2 prove",TRUE,1,1,6,"Lil Yachty"
-"352","0TDJRkEr2SrhWTetdkEzED","Lupe Fiascos Food & Liquor","https://i.scdn.co/image/ab67616d0000b273a81ec0503c55850ad4687940","2006-06-27",2006-06-27,"lupe fiascos food & liquor",TRUE,3,1,1,"Lupe Fiasco"
-"353","0MihD70HInk2rDaChdAdEy","Lupe Fiascos The Cool","https://i.scdn.co/image/ab67616d0000b273c3244d303444a43b933b9bf4","2007-01-01",2007-01-01,"lupe fiascos the cool",TRUE,1,1,2,"Lupe Fiasco"
-"354","4DP4IfbpAvbm9HyPnSboiX","Lasers (Deluxe)","https://i.scdn.co/image/ab67616d0000b273b20a4d7130a23bb0444bea37","2011-03-04",2011-03-04,"lasers",FALSE,1,0,3,"Lupe Fiasco"
-"355","5rCCCernTo6IwFwEZM4H53","Food & Liquor II: The Great American Rap Album Pt. 1","https://i.scdn.co/image/ab67616d0000b2734b9f3b34399b7ae4cc7a45be","2012-09-25",2012-09-25,"food & liquor ii: the great american rap album pt. 1",TRUE,1,1,4,"Lupe Fiasco"
-"356","7F58zK8t8whSFjX5X09d28","Tetsuo & Youth","https://i.scdn.co/image/ab67616d0000b273cc5c6f9f9d6ca3353dbb6c75","2015-01-20",2015-01-20,"tetsuo & youth",TRUE,1,1,5,"Lupe Fiasco"
-"357","5URLytQmeXTIT7B4U1Tynd","DROGAS Light","https://i.scdn.co/image/ab67616d0000b273cd08112cfadef2a6b5c255ea","2017-02-10",2017-02-10,"drogas light",TRUE,1,1,6,"Lupe Fiasco"
-"358","7w4KDcKXJ5qDERK0cGq1Yv","Drogas","https://i.scdn.co/image/ab67616d0000b2738278a8f973b4e73238b3d31b","2017-09-08",2017-09-08,"drogas",TRUE,1,1,7,"Lupe Fiasco"
-"359","2liBYuCYfW37CmNkub2BaH","DROGAS WAVE","https://i.scdn.co/image/ab67616d0000b273ca4c93e86a1e8096c23bc7f8","2018-09-21",2018-09-21,"drogas wave",TRUE,1,1,8,"Lupe Fiasco"
-"360","6VhDYmsjHqRxKXd0z7hmXI","Blue Slide Park","https://i.scdn.co/image/ab67616d0000b27382a2fe856191e66bc0b9c6ce","2011-11-15",2011-11-15,"blue slide park",TRUE,3,1,1,"Mac Miller"
-"361","7nVdkG4gZZxB1I1RLN27fJ","Macadelic (Remastered Edition)","https://i.scdn.co/image/ab67616d0000b273908afd2dae7320208da889fd","2012-03-23",2012-03-23,"macadelic",FALSE,1,0,2,"Mac Miller"
-"362","0LdaWkTotOqOcUxwEPBF6N","Mac Miller : Live From London (With The Internet)","https://i.scdn.co/image/db1c251281cd89b0cf7366b496e80d427c981453","2013-01-01",2013-01-01,"mac miller ",FALSE,1,0,3,"Mac Miller"
-"363","3ZNMAkjR6M4T0r6Of6jC08","Watching Movies with the Sound Off","https://i.scdn.co/image/ab67616d0000b27399eb561d2e98f944fcc97d72","2013-06-18",2013-06-18,"watching movies with the sound off",TRUE,2,1,4,"Mac Miller"
-"364","0oPKygNJATeXkPWre0R0Nr","Live From Space","https://i.scdn.co/image/ab67616d0000b2734052e974e7fc03fa49770986","2013-12-17",2013-12-17,"live from space",TRUE,1,1,5,"Mac Miller"
-"365","2ptzgWBwkKEA8gH2FsyJRZ","Mac Miller","https://i.scdn.co/image/bab9807bca4b6c0adc94967c6b34b0245334af1b","2014-08-19",2014-08-19,"mac miller",TRUE,1,1,6,"Mac Miller"
-"366","2Tyx5dLhHYkx6zeAdVaTzN","GO:OD AM","https://i.scdn.co/image/ab67616d0000b273ee0f38410382a255e4fb15f4","2015-09-18",2015-09-18,"go:od am",TRUE,1,1,7,"Mac Miller"
-"367","13fsGE9UN5VaAkETSs94un","Best Day Ever (5th Anniversary Remastered Edition)","https://i.scdn.co/image/ab67616d0000b273caed626d0cb2f60220977db8","2016-06-03",2016-06-03,"best day ever",FALSE,1,0,8,"Mac Miller"
-"368","6f6tko6NWoH00cyFOl4VYQ","The Divine Feminine","https://i.scdn.co/image/ab67616d0000b2732e92f776279eaf45d14a33fd","2016-09-16",2016-09-16,"the divine feminine",TRUE,1,1,9,"Mac Miller"
-"369","5wtE5aLX5r7jOosmPhJhhk","Swimming","https://i.scdn.co/image/ab67616d0000b273175c577a61aa13d4fb4b6534","2018-08-03",2018-08-03,"swimming",TRUE,1,1,10,"Mac Miller"
-"370","01FCoGEQ3NFWF4fHJzdiax","Madvillainy","https://i.scdn.co/image/ab67616d0000b27382222510029565a4816998b9","2004-03-24",2004-03-24,"madvillainy",TRUE,1,1,1,"Madvillain"
-"371","39qfFzn2Cii6N0AdAXdg9p","Four Tet Remixes","https://i.scdn.co/image/ab67616d0000b273d8d377c5499bb95770d7acd2","2005",2005-01-01,"four tet remixes",TRUE,1,1,2,"Madvillain"
-"372","3giQKi73ayOnj7jxGevJwg","Madvillainy 2: The Madlib Remix","https://i.scdn.co/image/ab67616d0000b273577433f060dc061ac1322496","2008-09-30",2008-09-30,"madvillainy 2: the madlib remix",TRUE,1,1,3,"Madvillain"
-"373","5xeG9ijS4cGYGmKXCycDYr","Flamers 2","https://i.scdn.co/image/ab67616d0000b2739525c35e77e044e7c3dedccb","2011-06-11",2011-06-11,"flamers 2",TRUE,1,1,1,"Meek Mill"
-"374","40SFz21xgwvkJn2Ea1z5iH","Dreamchasers","https://i.scdn.co/image/ab67616d0000b27335b8de4158624ef237e3c531","2011-08-11",2011-08-11,"dreamchasers",TRUE,1,1,2,"Meek Mill"
-"375","2zcNo17NuIEyPyj6wye10u","The Real Me","https://i.scdn.co/image/dc2b52eb1637a353c0051747e45fdfe1dbdb040c","2012-04-10",2012-04-10,"the real me",TRUE,1,1,3,"Meek Mill"
-"376","0kpslw9IHk7EsK40BGUbX9","Dreamchasers 2","https://i.scdn.co/image/ab67616d0000b2733e1a2db813bd01027106e470","2012-05-07",2012-05-07,"dreamchasers 2",TRUE,1,1,4,"Meek Mill"
-"377","4PFkUNIHlYs0KjWej3iBMR","Flamers (Mixed By DJ Difference)","https://i.scdn.co/image/ab67616d0000b273c0b73aa9303698874019aa7f","2012-07-02",2012-07-02,"flamers (mixed by dj difference)",TRUE,1,1,5,"Meek Mill"
-"378","4N18KBTt5H7OMBlLNfiqIF","Flamers 2 (Hottest in Tha City)","https://i.scdn.co/image/ab67616d0000b27374aecd35b33ef03d904746a9","2012-07-02",2012-07-02,"flamers 2 (hottest in tha city)",TRUE,1,1,6,"Meek Mill"
-"379","5sIwLcjRMKmFmNpzTyk4Km","The Freestyles (DJ Trigga & Grz Tapez Present)","https://i.scdn.co/image/ab67616d0000b27358e5f09349e54c34b01132c1","2012-08-13",2012-08-13,"the freestyles (dj trigga & grz tapez present)",TRUE,1,1,7,"Meek Mill"
-"380","4iR6LofqGl4Il2K9E6wAlD","Im Mike Vickin It","https://i.scdn.co/image/ab67616d0000b2736b913d23324add481c273fce","2012-08-20",2012-08-20,"im mike vickin it",TRUE,1,1,8,"Meek Mill"
-"381","2gCDECEHhsqNpqZtN5QtqA","Milladelphia","https://i.scdn.co/image/ab67616d0000b2735b60316927d2e1bd24bb79bb","2012-08-20",2012-08-20,"milladelphia",TRUE,1,1,9,"Meek Mill"
-"382","6O1ZOZuTKIK1QyaodF3Xf1","Gs In Maybach 2","https://i.scdn.co/image/d275627927681e19f1fdd0553749ed058b1a9dc8","2012-09-25",2012-09-25,"gs in maybach 2",TRUE,1,1,10,"Meek Mill"
-"383","61WG7UfXuREckYVyOgTStY","Dont Panic","https://i.scdn.co/image/ab67616d0000b27355ca7a7b47cc80c2b21d5231","2012-10-02",2012-10-02,"dont panic",TRUE,1,1,11,"Meek Mill"
-"384","6h1S9asb6qPfuvP6NMfgbJ","Philadephia Eagles 4","https://i.scdn.co/image/ab67616d0000b273fe0b14cf3707daa1b9dc3010","2012-10-22",2012-10-22,"philadephia eagles 4",TRUE,1,1,12,"Meek Mill"
-"385","0zhZDmHEtDtok393SbZ3d7","Dreams and Nightmares (Deluxe Version)","https://i.scdn.co/image/ab67616d0000b273f0c746d1b52c883c19b25a51","2012-10-26",2012-10-26,"dreams and nightmares",FALSE,1,0,13,"Meek Mill"
-"386","3hTCeJBd6Lvtlxn7varJ8t","Motivation","https://i.scdn.co/image/ab67616d0000b27321806444066763e11efbd1e7","2012-11-19",2012-11-19,"motivation",TRUE,1,1,14,"Meek Mill"
-"387","4clCJBX0M4KWsCPqHo66QI","American Dreamer","https://i.scdn.co/image/ab67616d0000b2736e2e9d05acb44a1617916bb3","2012-12-10",2012-12-10,"american dreamer",TRUE,1,1,15,"Meek Mill"
-"388","36lriexMBNgcbU3YsgnUcc","Phillystyles","https://i.scdn.co/image/ab67616d0000b27342e112dfe6202aea1f5953c3","2013-01-30",2013-01-30,"phillystyles",TRUE,1,1,16,"Meek Mill"
-"389","32hW2gSn4pEavsOnAWX6EO","Lion Hearted","https://i.scdn.co/image/ab67616d0000b273b9cf3ce2d062db618be6ead5","2013-05-01",2013-05-01,"lion hearted",TRUE,1,1,17,"Meek Mill"
-"390","2A6C6SKDgCtK3RIN6BUMwG","Lionhearted 3","https://i.scdn.co/image/ab67616d0000b273b8ee5821313992487cbdd0f1","2013-06-15",2013-06-15,"lionhearted 3",TRUE,1,1,18,"Meek Mill"
-"391","2p4V2gXBz7hRQjzEaBv32q","The Real Me Pt. 2","https://i.scdn.co/image/ef34d19feb6ca20b15d68af9b9f9b617a037b77e","2013-09-10",2013-09-10,"the real me pt. 2",TRUE,1,1,19,"Meek Mill"
-"392","5k21b6J72f19J3NmPXgPUu","Dreamchasers 3","https://i.scdn.co/image/ab67616d0000b273f7118f3f9c17e9f0a7cf263f","2013-09-29",2013-09-29,"dreamchasers 3",TRUE,1,1,20,"Meek Mill"
-"393","68kfmoOxPVDQBuygNPFpsZ","Dream Chaser 3","https://i.scdn.co/image/b289a435fad2c3df92acaa63e66b81abfc08868e","2013-10-01",2013-10-01,"dream chaser 3",TRUE,1,1,21,"Meek Mill"
-"394","6dgbk5Q0s7mmh723iKfmNb","Give Me the World","https://i.scdn.co/image/ab67616d0000b27336df324f2a4ff21ee8b82ecc","2014-07-25",2014-07-25,"give me the world",TRUE,1,1,22,"Meek Mill"
-"395","3CjBOwf3HzW7fWxUGCU8NQ","Unreleased Killadelphia Muzik","https://i.scdn.co/image/ab67616d0000b2735f53bed8c38ae1876de6d9ae","2014-10-27",2014-10-27,"unreleased killadelphia muzik",TRUE,1,1,23,"Meek Mill"
-"396","6rLBLQHnasRYdv2kQG38nJ","Free You Till I See You","https://i.scdn.co/image/ab67616d0000b273066788ced46c2becfdb8a39d","2014-11-09",2014-11-09,"free you till i see you",TRUE,1,1,24,"Meek Mill"
-"397","01tA5lORkfOO3N0kG44Oxo","Free You Till I See You, Vol. 2","https://i.scdn.co/image/ab67616d0000b273634ec2a4ba1fe13ef8e0d61b","2015-02-06",2015-02-06,"free you till i see you, vol. 2",TRUE,1,1,25,"Meek Mill"
-"398","2O3OKOYCub892PUGprsaQo","Dreams Worth More Than Money","https://i.scdn.co/image/ab67616d0000b273fd31cd96c4ba94c40532cc34","2015-06-29",2015-06-29,"dreams worth more than money",TRUE,1,1,26,"Meek Mill"
-"399","31ZNLGjARu4skCvhGc1bfA","First Come First Serve","https://i.scdn.co/image/ab67616d0000b273374fec75cb20136baf80db1a","2015-09-02",2015-09-02,"first come first serve",TRUE,1,1,27,"Meek Mill"
-"400","5YMlzVkGiuhoRH80Jfh9Li","Dream Chaser 2016","https://i.scdn.co/image/ab67616d0000b273e1d6f6a2dc63330e11d13325","2016-10-21",2016-10-21,"dream chaser 2016",TRUE,1,1,28,"Meek Mill"
-"401","6sNbRwX0lZREkdmUSDsVzo","DC4","https://i.scdn.co/image/ab67616d0000b2730a6f4e78a01fd779ebaace83","2016-10-28",2016-10-28,"dc4",TRUE,1,1,29,"Meek Mill"
-"402","2SCQAZZ5pc90l9SPBsWCIQ","Wins & Losses","https://i.scdn.co/image/ab67616d0000b2733e52eda6f8625563e05112ac","2017-07-21",2017-07-21,"wins & losses",TRUE,1,1,30,"Meek Mill"
-"403","4Zni60dy8tgWwxLrDjlNeq","Meekend","https://i.scdn.co/image/ab67616d0000b27301718a65911feea9435cfae6","2017-10-27",2017-10-27,"meekend",TRUE,1,1,31,"Meek Mill"
-"404","6UYZEYjpN1DYRW0kqFy9ZE","Championships","https://i.scdn.co/image/ab67616d0000b273cd63c5962050729d260077d6","2018-11-30",2018-11-30,"championships",TRUE,1,1,32,"Meek Mill"
-"405","6bPpXqJRpjwy0hLyUGtzYc","FATHER OF 4","https://i.scdn.co/image/f1dca959501c7ce9b7d702203844f628213df115","2019-02-22",2019-02-22,"father of 4",TRUE,1,1,1,"Offset"
-"406","5170B9wvcKvzWRWmTp5lCV","The Water (S)","https://i.scdn.co/image/ab67616d0000b273fc9575d24f452f2584958bb7","2014-08-12",2014-08-12,"the water (s)",TRUE,1,1,1,"Mick Jenkins"
-"407","2gSh19Qplm8gsM7Tp8IeOu","Wave[s]","https://i.scdn.co/image/ab67616d0000b2733e04957a1ffe0aa974529964","2015-08-21",2015-08-21,"wave[s]",TRUE,1,1,2,"Mick Jenkins"
-"408","1355FmCtrXQa0VeMd3eMzT","The Healing Component","https://i.scdn.co/image/ab67616d0000b273366d7dafc62053baa009f294","2016-09-23",2016-09-23,"the healing component",TRUE,1,1,3,"Mick Jenkins"
-"409","2oenkFNS8GLDubNAn2gxQH","Pieces of a Man","https://i.scdn.co/image/ab67616d0000b273617b31c8562163cd1ec4587c","2018-10-26",2018-10-26,"pieces of a man",TRUE,1,1,4,"Mick Jenkins"
-"410","4SnWrk06dIt4ynFRLpNX6e","The Circus","https://i.scdn.co/image/4c4435ab8e3de4cca7bfb584b8ee8813d587a6eb","2020-01-10",2020-01-10,"the circus",TRUE,1,1,5,"Mick Jenkins"
-"411","4YmTZjHk8SmTFTiVMXBN1A","Young Rich N*ggas","https://i.scdn.co/image/ab67616d0000b273adf74d8984ea3fbe8399ba9d","2013-07-09",2013-07-09,"young rich n*ggas",TRUE,1,1,1,"Migos"
-"412","7J6fSYFHb5Kgouc4Nr8SZg","No Label","https://i.scdn.co/image/ab67616d0000b27302e7b8dbb5a0c9ace5117456","2013-07-30",2013-07-30,"no label",TRUE,1,1,2,"Migos"
-"413","70HXQp5RAjM37JHBuvL8Dg","Juug Season",NA,"2013-07-30",2013-07-30,"juug season",TRUE,1,1,3,"Migos"
-"414","56PJDByaunMWwCqs5rV3Nc","No Label II","https://i.scdn.co/image/ab67616d0000b273c0f275798fc87a26c3d3c5e4","2014-06-03",2014-06-03,"no label ii",TRUE,1,1,4,"Migos"
-"415","0ty5iwaiepWlGq8g0DKtEy","Rich Ni**a Timeline","https://i.scdn.co/image/ab67616d0000b27378a5f3cd2c5e6574bf0fdcd5","2014-11-05",2014-11-05,"rich ni**a timeline",TRUE,1,1,5,"Migos"
-"416","0sv4nM5FtA8Y3DrvG4CXH8","Yung Rich Nation","https://i.scdn.co/image/ab67616d0000b273337940daef2b57170edd5c3b","2015-07-31",2015-07-31,"yung rich nation",TRUE,1,1,6,"Migos"
-"417","4R8gIy454OjbyRspuPu5A7","Currency","https://i.scdn.co/image/ab67616d0000b27346767e03e155e95b24c6a88b","2015-09-02",2015-09-02,"currency",TRUE,1,1,7,"Migos"
-"418","7qLM7egb40QyDHa3CknQqs","Rich Shooters","https://i.scdn.co/image/ab67616d0000b273e837972e128cde0623176127","2015-11-01",2015-11-01,"rich shooters",TRUE,1,1,8,"Migos"
-"419","4Rj8KShBw1IrBW3A7wsEmi","MigoThuggin","https://i.scdn.co/image/ab67616d0000b273bca9fa10bf963415cf05f768","2016-03-18",2016-03-18,"migothuggin",TRUE,1,1,9,"Migos"
-"420","7Hd1Gqx8xFRAnQOLHAZxn3","YRN 2 (Young Rich Niggas 2)","https://i.scdn.co/image/ab67616d0000b273b462ad328dc32384e92df508","2016-10-14",2016-10-14,"yrn 2 (young rich niggas 2)",TRUE,1,1,10,"Migos"
-"421","2AvupjUeMnSffKEV05x222","Culture","https://i.scdn.co/image/ab67616d0000b27399a8ab6da9d593939302828a","2017-01-27",2017-01-27,"culture",TRUE,1,1,11,"Migos"
-"422","7fd7SEK25VS3gJAUgSwL6y","Culture II","https://i.scdn.co/image/cab69be60564cd8bcc917eaf1e429fe23e1a345b","2018-01-26",2018-01-26,"culture ii",TRUE,1,1,12,"Migos"
-"423","2Y8JEb0HiAioGra55OwKhE","Juvenile Hell","https://i.scdn.co/image/9d6891ca10a9419559a288bc80f381f8757707a2","1993-01-01",1993-01-01,"juvenile hell",TRUE,1,1,1,"Mobb Deep"
-"424","1cCAb1vN8uUsdfEylVmTLs","The Infamous","https://i.scdn.co/image/ab67616d0000b27368c92f2112860896f905c6c9","1995-04-25",1995-04-25,"the infamous",TRUE,1,1,2,"Mobb Deep"
-"425","6BWf3fxsgSDhES4Cm4oyy5","Hell On Earth (Explicit)","https://i.scdn.co/image/ab67616d0000b273aaade0aecd37f7c8311e11c7","1996-11-19",1996-11-19,"hell on earth (explicit)",TRUE,1,1,3,"Mobb Deep"
-"426","4DrBvICbM0r3uOCymoFReu","Murda Muzik","https://i.scdn.co/image/ab67616d0000b2738d7aeb9ce4d1f9a6c4d93549","1999-04-27",1999-04-27,"murda muzik",TRUE,1,1,4,"Mobb Deep"
-"427","4JWsxm9SfyzChjYUh8JWef","Mobb Muzik (Clean Version)","https://i.scdn.co/image/ab67616d0000b2734e7681eb71d65bec61a8b641","1999-04-27",1999-04-27,"mobb muzik",FALSE,1,0,5,"Mobb Deep"
-"428","2hSnMHuLYfpp8hvdpZRjAk","Infamy","https://i.scdn.co/image/ab67616d0000b27397349192bc4f50b9c33b0efe","2001-12-11",2001-12-11,"infamy",TRUE,2,1,6,"Mobb Deep"
-"429","6UDhYUew9ULQVtt4HWNRSL","Free Agents","https://i.scdn.co/image/ab67616d0000b273445fe96a11e9dac923d46f5d","2003",2003-01-01,"free agents",TRUE,1,1,7,"Mobb Deep"
-"430","5lJebehZn4M2H8koaJHZ6q","Amerikaz Nightmare","https://i.scdn.co/image/ab67616d0000b273fcf214b14e2b51bcf2f705d8","2004-08-10",2004-08-10,"amerikaz nightmare",TRUE,1,1,8,"Mobb Deep"
-"431","1pdQT9XcveeoI93Qwv80Mf","Blood Money","https://i.scdn.co/image/b45dfdd58dd7aee94ee6897a0e0b1f2ea71d5307","2006-05-02",2006-05-02,"blood money",TRUE,1,1,9,"Mobb Deep"
-"432","4CYb4b3usI1WdGWJrEuzpK","No, Rich, Still Tryin","https://i.scdn.co/image/ab67616d0000b273656db5154980e6d919c81162","2019-07-22",2019-07-22,"no, rich, still tryin",TRUE,1,1,10,"Mobb Deep"
-"433","5gK2l2LgWY0BA4p9uy27z6","Black On Both Sides","https://i.scdn.co/image/38b1cfd906dcf98b85d1217483efb87b9470ac38","1999-10-12",1999-10-12,"black on both sides",TRUE,1,1,1,"Mos Def"
-"434","1fB3SvkZpfDjSqyLcRT75V","Mos Def - Live at Benaroya Hall","https://i.scdn.co/image/df280eafe1ab97695f8372007b381c1f9f62b691","2004-01-01",2004-01-01,"mos def",FALSE,1,0,2,"Mos Def"
-"435","43CXEu1OlEd9ZKsH8ZkZz7","The New Danger","https://i.scdn.co/image/43d48cd5d90b0cd40025085f71662ee67e67a75a","2004-10-19",2004-10-19,"the new danger",TRUE,1,1,3,"Mos Def"
-"436","4Rg0nvUI2jt96TNHtpmmpv","TRUE MAGIC","https://i.scdn.co/image/2f066e74360ae3f3074c70d23b204443d78d230a","2006-12-29",2006-12-29,"true magic",TRUE,1,1,4,"Mos Def"
-"437","1ylJW0Tzt73TcrICi0iAyN","We Are Hip Hop, Me, You, Everybody","https://i.scdn.co/image/ed7b3d57f1295f97c01f03a500ed11b1edee88ec","2010-09-17",2010-09-17,"we are hip hop, me, you, everybody",TRUE,1,1,5,"Mos Def"
-"438","3eHcKAlikW4c62i55ZGu0c","We Are Hip Hop, Me, You, Everybody, Pt 2","https://i.scdn.co/image/bb52e20b0889e853cfeeed6234cbdc6016def28a","2011-01-25",2011-01-25,"we are hip hop, me, you, everybody, pt 2",TRUE,1,1,6,"Mos Def"
-"439","0Y7qkJVZ06tS2GUCDptzyW","Straight Outta Compton","https://i.scdn.co/image/55c43dffd876d56f74e71462c1c8406dcb113a30","1988-08-08",1988-08-08,"straight outta compton",TRUE,1,1,1,"N.W.A."
-"440","3OSID3YChn6nOjfUAlSXQZ","Efil4zaggin","https://i.scdn.co/image/733c66bd823cb9c9160edb7ee8e3dda6a9fa3daa","1991-05-28",1991-05-28,"efil4zaggin",TRUE,1,1,2,"N.W.A."
-"441","6oSHgr3TZJPCFshYUfBDqE","Illmatic XX","https://i.scdn.co/image/ab67616d0000b27375d9ecf8d29744037d2d6064","1994",1994-01-01,"illmatic xx",TRUE,1,1,1,"Nas"
-"442","69C7wlBDl96476XcRmsPc6","iTunes Originals: Nas","https://i.scdn.co/image/ab67616d0000b273bcf6d422489460c7787136a0","1994",1994-01-01,"itunes originals: nas",TRUE,1,1,2,"Nas"
-"443","3kEtdS2pH6hKcMU9Wioob1","Illmatic","https://i.scdn.co/image/ab67616d0000b273b1178724f4be59abf7acc6c5","1994-04-19",1994-04-19,"illmatic",TRUE,1,1,3,"Nas"
-"444","78Fgb88MY0ECc4GVMejqTg","It Was Written","https://i.scdn.co/image/ab67616d0000b273886d823ecbfcbe661a6b0ab9","1996-07-02",1996-07-02,"it was written",TRUE,1,1,4,"Nas"
-"445","4UhEjfIRx4tE1XRY21vwNa","I Am...","https://i.scdn.co/image/ab67616d0000b273f36e0749d597769ed1592847","1999-04-06",1999-04-06,"i am...",TRUE,1,1,5,"Nas"
-"446","0yv3K62ndWgrZ0bbAEMzj5","Nastradamus","https://i.scdn.co/image/ab67616d0000b27312a4d3e639e9d2ea02384c20","1999-11-23",1999-11-23,"nastradamus",TRUE,1,1,6,"Nas"
-"447","1H1l1x4y10wp848cBq2Lig","Stillmatic","https://i.scdn.co/image/ab67616d0000b273b6ca1a9e6527feb1d07ab10c","2001-12-18",2001-12-18,"stillmatic",TRUE,1,1,7,"Nas"
-"448","2mU2jRMwrsL1tG97xKoiav","The Lost Tapes","https://i.scdn.co/image/ab67616d0000b273267e806f40829db77ac0827b","2002",2002-01-01,"the lost tapes",TRUE,1,1,8,"Nas"
-"449","3rV1aPkrWyMs6YTvTpSbIY","Gods Son","https://i.scdn.co/image/ab67616d0000b273c4370159af71d16473158140","2002-12-13",2002-12-13,"gods son",TRUE,1,1,9,"Nas"
-"450","586sDXSThASjmWwSYnHbqP","QB 2 Compton Ringtones","https://i.scdn.co/image/ab67616d0000b273515c39b143f8d84e0241bf56","2003",2003-01-01,"qb 2 compton ringtones",TRUE,1,1,10,"Nas"
-"451","0jghcWTsQzux5T9sAfZO13","Streets Disciple","https://i.scdn.co/image/ab67616d0000b2732cf1755770b6c0c9aa38f41c","2004-11-30",2004-11-30,"streets disciple",TRUE,1,1,11,"Nas"
-"452","2ogVzdMcoa1P38YIUCCyIW","Hip Hop Is Dead","https://i.scdn.co/image/258d03907491abe5a7f90a6909d757f874658843","2006-12-19",2006-12-19,"hip hop is dead",TRUE,2,1,12,"Nas"
-"453","5sGyPalpUY2tzwsSdq0EMg","Hip Hop Is Dead (Bonus Tracks)","https://i.scdn.co/image/5da453c6a2ed441992683ff43fe3cdad9ae52c01","2006-12-19",2006-12-19,"hip hop is dead (bonus tracks)",TRUE,1,1,13,"Nas"
-"454","3biN7VzJrWSp0qgIhaGzpn","Nas","https://i.scdn.co/image/30881f6ddec62c0baffc04f4dc355575080fe99b","2008-01-01",2008-01-01,"nas",TRUE,2,1,14,"Nas"
-"455","5dMmFu9NCxSjDk3ekggogc","Untitled","https://i.scdn.co/image/6a6b31b3bfe637a0d6fb7c3c3c22ccdef2cd1d84","2008-01-01",2008-01-01,"untitled",TRUE,1,1,15,"Nas"
-"456","0ddTtajzPmxZ7UVW2VEAln","Life Is Good (Explicit Version)","https://i.scdn.co/image/5be3209070d1c42fa189a9e2af710fc49613e954","2012-01-01",2012-01-01,"life is good",FALSE,2,0,16,"Nas"
-"457","66EwBbt2kPgugo8Wz0SKAw","NASIR","https://i.scdn.co/image/ab67616d0000b2734c2ab67f7da8208998f35d51","2018-06-15",2018-06-15,"nasir",TRUE,1,1,17,"Nas"
-"458","4tRNl7PwUzXrxTP3YZjWgS","The Lost Tapes 2","https://i.scdn.co/image/ab67616d0000b273e1d2f4ab4e7cda21e1772fa6","2019-07-19",2019-07-19,"the lost tapes 2",TRUE,1,1,18,"Nas"
-"459","18Scpsg5OV1iYNtSaCsjwz","Telefone","https://i.scdn.co/image/ab67616d0000b273e9ef4d0bab9c9bf9ef5d3f36","2016-08-12",2016-08-12,"telefone",TRUE,1,1,1,"Noname"
-"460","3mpA4v2tvEM5aAYtNGnbzD","Room 25","https://i.scdn.co/image/ab67616d0000b273b182a9b2b2904cbbcfe41d4e","2018-09-14",2018-09-14,"room 25",TRUE,1,1,2,"Noname"
-"461","5FrjDW96mCYw9ECc74c637","Metaphorical Music","https://i.scdn.co/image/ab67616d0000b273a1a897ee5e642da6d945bcd7","2003-08-21",2003-08-21,"metaphorical music",TRUE,1,1,1,"Nujabes"
-"462","6nVACH6a27eOWiumAJhDWS","Modal Soul","https://i.scdn.co/image/ab67616d0000b273912cc8fe2e9a53d328757a41","2005-11-11",2005-11-11,"modal soul",TRUE,1,1,2,"Nujabes"
-"463","0gbBJq6yNqv3Y9CKrbjdIC","Impression Reissue","https://i.scdn.co/image/ab67616d0000b2737315172d67c45ea152e31562","2009",2009-01-01,"impression reissue",TRUE,1,1,3,"Nujabes"
-"464","1JZHc4kOkTOM50MqPn91iX","Impression: Samurai Champloo OST","https://i.scdn.co/image/ab67616d0000b2731ed696411749957838a058e9","2009",2009-01-01,"impression: samurai champloo ost",TRUE,1,1,4,"Nujabes"
-"465","724juUMeWRW82bDoyH91Vd","Spiritual State","https://i.scdn.co/image/ab67616d0000b2739bad5ebfe556fa260f31bedd","2011-12-03",2011-12-03,"spiritual state",TRUE,1,1,5,"Nujabes"
-"466","4oT4YRVe43ESrT9rx2LKCM","Luv(sic) Hexalogy","https://i.scdn.co/image/ab67616d0000b2731a1ba7785a4b91c8aee7a79c","2015-12-09",2015-12-09,"luv(sic) hexalogy",TRUE,1,1,6,"Nujabes"
-"467","5oMLrgmPNs35zhR38X6ET4","In Abundance","https://i.scdn.co/image/ab67616d0000b273e6778eb47c6b217e4412850d","2016-09-30",2016-09-30,"in abundance",TRUE,1,1,1,"Playboi Carti"
-"468","4rJgzzfFHAVFhCSt2P4I3j","Playboi Carti","https://i.scdn.co/image/e85dc35551fbd35825d80f1cfdc235fad45027f8","2017-04-14",2017-04-14,"playboi carti",TRUE,1,1,2,"Playboi Carti"
-"469","7dAm8ShwJLFm9SaJ6Yc58O","Die Lit","https://i.scdn.co/image/acca2e7a1e842f02255f2f55b5a6292328f9fc07","2018-05-11",2018-05-11,"die lit",TRUE,1,1,3,"Playboi Carti"
-"470","3zAcZrky4QNM28YS0tHSYQ","Stoney","https://i.scdn.co/image/c17e558d633b4d3d2c589abf4478fd4e2b52a09b","2016-12-09",2016-12-09,"stoney",TRUE,2,1,1,"Post Malone"
-"471","6trNtQUgC8cgbWcqoMYkOR","beerbongs & bentleys","https://i.scdn.co/image/08569f4ebf39ea275f9601a0f5ae62c489485a7b","2018-04-27",2018-04-27,"beerbongs & bentleys",TRUE,1,1,2,"Post Malone"
-"472","4g1ZRSobMefqF6nelkgibi","Hollywoods Bleeding","https://i.scdn.co/image/94105e271865c28853bfb7b44b38353a2fea45d6","2019-09-06",2019-09-06,"hollywoods bleeding",TRUE,1,1,3,"Post Malone"
-"473","0tS7jye0zKwGF0H4rqFGvz","Fear Of God II: Let Us Pray","https://i.scdn.co/image/ab67616d0000b2738663058486e0dc76dea96fd3","2011-11-08",2011-11-08,"fear of god ii: let us pray",TRUE,1,1,1,"Pusha T"
-"474","1BXlBg7Rc1qKMG06IJY9A4","Still Ya Pusha","https://i.scdn.co/image/ab67616d0000b27394212667eb01381e27326cfe","2013-03-16",2013-03-16,"still ya pusha",TRUE,1,1,2,"Pusha T"
-"475","2GU6rwhz2k5Z6dGMLcjPkK","The Animosity Of Caine","https://i.scdn.co/image/038cc26630153624d21df7fae5c015384b9da641","2013-03-19",2013-03-19,"the animosity of caine",TRUE,1,1,3,"Pusha T"
-"476","0LgwP5HQ7psvJAY2KSGPMH","My Name Is My Name","https://i.scdn.co/image/a7c2bd7bf526f2fa3e77ad5cc9bcb8e6b467c175","2014-01-01",2014-01-01,"my name is my name",TRUE,1,1,4,"Pusha T"
-"477","7e51fH5KpL87BCIVO068fh","Spotify Sessions","https://i.scdn.co/image/a48e0a52e86467b3df06d9c44ecda02fae9cac31","2014-06-10",2014-06-10,"spotify sessions",TRUE,1,1,5,"Pusha T"
-"478","1pHosDXkGsWTt1elzpDLzp","Wireless Live !","https://i.scdn.co/image/ab67616d0000b2736537cd2b483c58e2bd36b4f5","2015-09-04",2015-09-04,"wireless live !",TRUE,1,1,6,"Pusha T"
-"479","4OoNqHBpbgDoqtN3u1IdiC","King Push – Darkest Before Dawn: The Prelude","https://i.scdn.co/image/c4a7db18edd5e5d93a2d90644dd44eea1074d6f2","2015-12-18",2015-12-18,"king push – darkest before dawn: the prelude",TRUE,1,1,7,"Pusha T"
-"480","07bIdDDe3I3hhWpxU6tuBp","DAYTONA","https://i.scdn.co/image/ab67616d0000b273263555eebbe2b375593aa31e","2018-05-25",2018-05-25,"daytona",TRUE,1,1,8,"Pusha T"
-"481","6eDx949ONWDCN0O22wFZf7","SremmLife","https://i.scdn.co/image/216d1a5a31d62a1d4bfac6aaca1f99045d089a70","2015-01-06",2015-01-06,"sremmlife",TRUE,1,1,1,"Rae Sremmurd"
-"482","2KhzKZOq9MVNSCKkNkLtbp","SremmLife 2","https://i.scdn.co/image/8b3081c3e639bedbbaf3d9df989b8d1a83c11c54","2016-08-12",2016-08-12,"sremmlife 2",TRUE,2,1,2,"Rae Sremmurd"
-"483","4vLYreWxd2ptOAzPwTyBI3","SR3MM","https://i.scdn.co/image/ab67616d0000b273ba9015f4504a9dfd7560bfa9","2018-05-04",2018-05-04,"sr3mm",TRUE,1,1,3,"Rae Sremmurd"
-"484","7btiyhWzUfzxN3ijSiBpC8","Only Built 4 Cuban Linx","https://i.scdn.co/image/ab67616d0000b2731e797f1552a1136091145fd9","1995",1995-01-01,"only built 4 cuban linx",TRUE,1,1,1,"Raekwon"
-"485","41gZK0HtvO5zaOwJlT2Sed","Immobilarity","https://i.scdn.co/image/ab67616d0000b273a4d84452e701b1b32dad1c02","1999-11-16",1999-11-16,"immobilarity",TRUE,1,1,2,"Raekwon"
-"486","1kMki3taQHmpptDNDDVSq4","The Lex Diamond Story","https://i.scdn.co/image/9231faa59d9cfe95feefc70f99718e6d32ccdee6","2003-01-01",2003-01-01,"the lex diamond story",TRUE,1,1,3,"Raekwon"
-"487","4i7N6dwHDmHtrJsWAjRYMc","Heroin Only","https://i.scdn.co/image/ab67616d0000b2739f9714d49d2c9d1fbcb31f5d","2006-11-10",2006-11-10,"heroin only",TRUE,1,1,4,"Raekwon"
-"488","6ZCuEXxjVc3TgQUdZJVHBs","The Vatican Mixtape, Vol. 1","https://i.scdn.co/image/ab67616d0000b273c268cb9078e1f89cc7a6408b","2007-02-27",2007-02-27,"the vatican mixtape, vol. 1",TRUE,1,1,5,"Raekwon"
-"489","1WJST5QsA23XFgOVYGLlTt","The Vatican Mixtape, Vol. 3","https://i.scdn.co/image/ab67616d0000b2731d249a2223f9e1133a71d4d3","2007-09-25",2007-09-25,"the vatican mixtape, vol. 3",TRUE,1,1,6,"Raekwon"
-"490","5QpSt1QtT7MaCKZNQE82fv","Only Built 4 Cuban Linx 2","https://i.scdn.co/image/f171f36ddb800a7e73122e2f66bb985b48fd7d00","2009-01-01",2009-01-01,"only built 4 cuban linx 2",TRUE,1,1,7,"Raekwon"
-"491","09CMsxWaO8Hald9q5NHkWb","The Babygrande Recordings","https://i.scdn.co/image/ab67616d0000b2738a4938f6026ccfbac918f440","2009-09-01",2009-09-01,"the babygrande recordings",TRUE,1,1,8,"Raekwon"
-"492","4LYCKraQJCoJrBvfRXUFXP","Only Built 4 Cuban Linx... Pt. II","https://i.scdn.co/image/ab67616d0000b2731e1552e7f42bd411d6e41832","2009-09-07",2009-09-07,"only built 4 cuban linx... pt. ii",TRUE,1,1,9,"Raekwon"
-"493","7ptasBIxZ2VVI4wgQlnzZC","Only Built For Cuban Linx, Part II","https://i.scdn.co/image/3dc61a8bcaa4f54eb539e5f5a46f86004c215243","2009-09-18",2009-09-18,"only built for cuban linx, part ii",TRUE,1,1,10,"Raekwon"
-"494","7y9thaBm7wBPzsvcAWyWbH","Shaolin Vs. Wu-tang","https://i.scdn.co/image/16976c3894e2240c7e964e860589ace2b21103d0","2011-01-01",2011-01-01,"shaolin vs. wu-tang",TRUE,1,1,11,"Raekwon"
-"495","3N9IY9o0oOOWwj3zn6FjWK","Shaolin vs Wutang (iTunes Exclusive)","https://i.scdn.co/image/ab67616d0000b2735a82dc61fd0a11e9278c5338","2011-03-08",2011-03-08,"shaolin vs wutang (itunes exclusive)",TRUE,1,1,12,"Raekwon"
-"496","3LyXjF69HIKhRWARBEmF4U","Shaolin vs Wutang","https://i.scdn.co/image/ab67616d0000b2730208a59599545cd242333c27","2011-03-08",2011-03-08,"shaolin vs wutang",TRUE,1,1,13,"Raekwon"
-"497","2FsS4ly4NDoNlDMh4qoBwU","Wu Victory","https://i.scdn.co/image/f933af4337f440731978ecae636e3660c491c066","2012-08-14",2012-08-14,"wu victory",TRUE,1,1,14,"Raekwon"
-"498","1lCxVzi6tCtuVlUDrPwSmO","The Tonite Show","https://i.scdn.co/image/ab67616d0000b273f30faf38ed153c98d08e431f","2013-03-05",2013-03-05,"the tonite show",TRUE,1,1,15,"Raekwon"
-"499","1ObEOr5EAd15rbdsYfL794","F.I.L.A","https://i.scdn.co/image/da9c2294c06299e921bb66e6ff42f9e4c232ef02","2015-04-27",2015-04-27,"f.i.l.a",TRUE,1,1,16,"Raekwon"
-"500","1DjD44E7NIEiRrhuQbbv01","Fly International Luxurious Art","https://i.scdn.co/image/bbb7a01625882a2ff62fad397b6b1fb6634eacaf","2015-04-28",2015-04-28,"fly international luxurious art",TRUE,1,1,17,"Raekwon"
-"501","4kQCM7kzTEivQGquNEzkTl","The Wild","https://i.scdn.co/image/ab67616d0000b27367763f999a4e0622cfd80eb1","2017-03-24",2017-03-24,"the wild",TRUE,1,1,18,"Raekwon"
-"502","4vKcewiCloFlttCdZKHcPb","Rich Gang","https://i.scdn.co/image/d1c2430793f07dba385660180e7ec1de7df4dd51","2013-01-01",2013-01-01,"rich gang",TRUE,2,1,1,"Rich Gang"
-"503","5R9wir5X8dVr7B6NC9dXD8","!","https://i.scdn.co/image/ab67616d0000b2735cf4e3792334d33013dc0664","2019-07-26",2019-07-26,"!",TRUE,1,1,2,"Rich Gang"
-"504","7Dg45in5QAfGluUc1x874g","Slimewop 3","https://i.scdn.co/image/ab67616d0000b273bc9b7c668959af4dc8445162","2019-08-22",2019-08-22,"slimewop 3",TRUE,1,1,3,"Rich Gang"
-"505","7BUlAwJBzKyllRuDTKV8Ae","Run the Jewels","https://i.scdn.co/image/3f2580a1b82961dde5084bc41d9df6e971f8b44a","2013-06-26",2013-06-26,"run the jewels",TRUE,1,1,1,"Run The Jewels"
-"506","2ZyrfJY5s31jPFFxKrgKK1","Run the Jewels Instrumentals","https://i.scdn.co/image/ab67616d0000b273daca2ade07af7907eb6d41fa","2014-04-25",2014-04-25,"run the jewels instrumentals",TRUE,1,1,2,"Run The Jewels"
-"507","3jsGTpdRkOnbn8VhU9J4A7","Run the Jewels 2","https://i.scdn.co/image/ab67616d0000b273c33e657e256bb7205b4e689d","2014-12-19",2014-12-19,"run the jewels 2",TRUE,1,1,3,"Run The Jewels"
-"508","4nmmSzq9V6UEn0j3KL6jSn","Meow The Jewels","https://i.scdn.co/image/ab67616d0000b273687d38467517592ee766b997","2015-10-02",2015-10-02,"meow the jewels",TRUE,1,1,4,"Run The Jewels"
-"509","1BXpr3cjIipApKheeStyEL","Spotify Sessions","https://i.scdn.co/image/ab67616d0000b2737bc759042f7a07f1ac89c6e4","2016-05-26",2016-05-26,"spotify sessions",TRUE,1,1,5,"Run The Jewels"
-"510","508kK3Kneu7yPgfIyVRUzB","Run The Jewels 3","https://i.scdn.co/image/ab67616d0000b2734bce73abd8d3361c42dfd8d4","2016-12-26",2016-12-26,"run the jewels 3",TRUE,2,1,6,"Run The Jewels"
-"511","5QGtxFOTTr0Z4TyUQNVOKO","Setbacks","https://i.scdn.co/image/ab67616d0000b273b972e856818dbcae8525b545","2011-01-11",2011-01-11,"setbacks",TRUE,1,1,1,"ScHoolboy Q"
-"512","6Xz8eKy8TeAyzwGr8QSOAS","Habits & Contradictions","https://i.scdn.co/image/ab67616d0000b273adbae0d44ccbeeab44d47920","2012-01-14",2012-01-14,"habits & contradictions",TRUE,1,1,2,"ScHoolboy Q"
-"513","3WrybrSHu1vSZaQegAZTyn","Oxymoron","https://i.scdn.co/image/84eda2716476cb416692e5bef9c9eec87fdc86f8","2014-01-01",2014-01-01,"oxymoron",TRUE,2,1,3,"ScHoolboy Q"
-"514","1X8E2o48nvyOJL3gVMKLse","Schoolboy Q","https://i.scdn.co/image/ae940c479664903199cf58b96edb19f9da43c151","2014-09-15",2014-09-15,"schoolboy q",TRUE,1,1,4,"ScHoolboy Q"
-"515","1hI5GG5ohUzIINay1D0OjY","Schoolboy Q 2","https://i.scdn.co/image/ba3cd45919fe81763abc39a993f42795e02ffba5","2015-04-06",2015-04-06,"schoolboy q 2",TRUE,1,1,5,"ScHoolboy Q"
-"516","0YbpATCIng8Fz2JrfHmEf7","Blank Face LP","https://i.scdn.co/image/027c1ebcf62f5728714eade187abb56093d17054","2016-07-08",2016-07-08,"blank face lp",TRUE,1,1,6,"ScHoolboy Q"
-"517","3UTp6spxkyTdvsmJDPfb7n","CrasH Talk","https://i.scdn.co/image/6f502397813f0ced44e9f63b7b20087c543af092","2019-04-26",2019-04-26,"crash talk",TRUE,1,1,7,"ScHoolboy Q"
-"518","5QGtxFOTTr0Z4TyUQNVOKO","Setbacks","https://i.scdn.co/image/ab67616d0000b273b972e856818dbcae8525b545","2011-01-11",2011-01-11,"setbacks",TRUE,1,1,1,"ScHoolboy Q"
-"519","6Xz8eKy8TeAyzwGr8QSOAS","Habits & Contradictions","https://i.scdn.co/image/ab67616d0000b273adbae0d44ccbeeab44d47920","2012-01-14",2012-01-14,"habits & contradictions",TRUE,1,1,2,"ScHoolboy Q"
-"520","3WrybrSHu1vSZaQegAZTyn","Oxymoron","https://i.scdn.co/image/84eda2716476cb416692e5bef9c9eec87fdc86f8","2014-01-01",2014-01-01,"oxymoron",TRUE,2,1,3,"ScHoolboy Q"
-"521","1X8E2o48nvyOJL3gVMKLse","Schoolboy Q","https://i.scdn.co/image/ae940c479664903199cf58b96edb19f9da43c151","2014-09-15",2014-09-15,"schoolboy q",TRUE,1,1,4,"ScHoolboy Q"
-"522","1hI5GG5ohUzIINay1D0OjY","Schoolboy Q 2","https://i.scdn.co/image/ba3cd45919fe81763abc39a993f42795e02ffba5","2015-04-06",2015-04-06,"schoolboy q 2",TRUE,1,1,5,"ScHoolboy Q"
-"523","0YbpATCIng8Fz2JrfHmEf7","Blank Face LP","https://i.scdn.co/image/027c1ebcf62f5728714eade187abb56093d17054","2016-07-08",2016-07-08,"blank face lp",TRUE,1,1,6,"ScHoolboy Q"
-"524","3UTp6spxkyTdvsmJDPfb7n","CrasH Talk","https://i.scdn.co/image/6f502397813f0ced44e9f63b7b20087c543af092","2019-04-26",2019-04-26,"crash talk",TRUE,1,1,7,"ScHoolboy Q"
-"525","4blm7LkC8y6FiyPsPVmqIt","Presents Welcome To Tha Chuuch Tha Album","https://i.scdn.co/image/ab67616d0000b2737d382cad38c623cbb38c2ffa","2005-12-13",2005-12-13,"presents welcome to tha chuuch tha album",TRUE,1,1,1,"Snoop Dogg"
-"526","5EyEI8tm60S6y2YKbjE0xI","Tha Blue Carpet Treatment","https://i.scdn.co/image/eb8dc1b804fc2f91674d4265851b98887fe4f897","2006-01-01",2006-01-01,"tha blue carpet treatment",TRUE,1,1,2,"Snoop Dogg"
-"527","2BbqE0ewA8MJyI9QkIkpCL","Boss Life","https://i.scdn.co/image/ab67616d0000b27345d5e3daf1fc49f32db4c5bd","2007-06-12",2007-06-12,"boss life",TRUE,1,1,3,"Snoop Dogg"
-"528","69Kum1Cx2Q4LM42IhA6ESa","Ego Trippin","https://i.scdn.co/image/bfaf0fc99811c1d8ef66b3b56856d784b55404e0","2008-01-01",2008-01-01,"ego trippin",TRUE,1,1,4,"Snoop Dogg"
-"529","0yQoUg2JVq4r2YcVkPFciu","Malice N Wonderland","https://i.scdn.co/image/82e688fe1adb4737e028f20a9489414aeb3fd79b","2009-01-01",2009-01-01,"malice n wonderland",TRUE,1,1,5,"Snoop Dogg"
-"530","23saWrWdtEpTNOSnAsheZj","Death Row: The Lost Sessions Vol. 1","https://i.scdn.co/image/6c04e2eb0a34a6369e4870f284be00b3af7224b6","2009-10-13",2009-10-13,"death row: the lost sessions vol. 1",TRUE,1,1,6,"Snoop Dogg"
-"531","1LybIpXAcGc39uDu26jaPq","Snoop Dogg Presents: My #1 Priority","https://i.scdn.co/image/e914734ab93cf44ad1b637d15eb760b8589106da","2010-01-01",2010-01-01,"snoop dogg presents: my #1 priority",TRUE,1,1,7,"Snoop Dogg"
-"532","5sbxCOBoB0gCU0A9uss96I","More Malice","https://i.scdn.co/image/ab67616d0000b273ce315195fbfb69b5cb2db6df","2010-03-19",2010-03-19,"more malice",TRUE,1,1,8,"Snoop Dogg"
-"533","4o1mKc2sR3ooi5wiCGB2Yg","Doggumentary","https://i.scdn.co/image/49447c611f261a6e0feb75fcef823622e2e6c002","2011-01-01",2011-01-01,"doggumentary",TRUE,1,1,9,"Snoop Dogg"
-"534","12pnVAswzLE6hArSl0bF0h","Mac and Devin Go To High School (Music From and Inspired By The Movie)","https://i.scdn.co/image/ab67616d0000b273f8fa110661ccdfb74cbcb447","2011-12-12",2011-12-12,"mac and devin go to high school (music from and inspired by the movie)",TRUE,1,1,10,"Snoop Dogg"
-"535","6PmDpErJDG0vOcr5XldKjl","Live At Coachella (2012)","https://i.scdn.co/image/a7ab5d1d5f11bbb47b45a0d4ab8dd7f981e71721","2013-05-14",2013-05-14,"live at coachella (2012)",TRUE,1,1,11,"Snoop Dogg"
-"536","5sZ9Qa9WlFI0shV6pIE1qk","Kush","https://i.scdn.co/image/be55c24f86cae40380d1d8e021bf06df6c16da28","2014-01-07",2014-01-07,"kush",TRUE,1,1,12,"Snoop Dogg"
-"537","5eyq5aoLHIiEEYnzkzl65m","California Times","https://i.scdn.co/image/183dfff74cb6636e4b9b54b8d52fd3cd8e7df3eb","2014-06-16",2014-06-16,"california times",TRUE,1,1,13,"Snoop Dogg"
-"538","6VCjQZqZ0lhp9wBby3Djfh","BUSH","https://i.scdn.co/image/ab67616d0000b273c64cf8ff1b6428c1e5d6b0c4","2015-05-11",2015-05-11,"bush",TRUE,1,1,14,"Snoop Dogg"
-"539","5Rd4xjjrhHvLVSFDAMi1nr","COOLAID (Clean Edited Version)","https://i.scdn.co/image/ab67616d0000b2734982a27ad8acdefd0cbc4b80","2016-07-01",2016-07-01,"coolaid",FALSE,1,0,15,"Snoop Dogg"
-"540","4HGpekiabmZyat5xw23uZB","Neva Left","https://i.scdn.co/image/ab67616d0000b273a086c1a2b464df2c41c964d4","2017-05-19",2017-05-19,"neva left",TRUE,1,1,16,"Snoop Dogg"
-"541","6MRg8FgwKDNmNO0D9neSmo","Make America Crip Again","https://i.scdn.co/image/ab67616d0000b273577a94a601abdd6572c59559","2017-10-27",2017-10-27,"make america crip again",TRUE,1,1,17,"Snoop Dogg"
-"542","7JH7jIpL9JwnBEpYAtyi2f","220","https://i.scdn.co/image/ab67616d0000b2731fadc24799bbe13a6d20185d","2018-02-20",2018-02-20,"220",TRUE,1,1,18,"Snoop Dogg"
-"543","4zeITicw3oKpOV5EMQIUQH","Snoop Dogg Presents Bible of Love","https://i.scdn.co/image/ab67616d0000b273780a21fe3b87ae241f3eb70f","2018-03-16",2018-03-16,"snoop dogg presents bible of love",TRUE,1,1,19,"Snoop Dogg"
-"544","7q659RJq4LXjzlZxwByzLk","The Snoop Story","https://i.scdn.co/image/ab67616d0000b273c7a0050e1b3e08463389235a","2019-07-22",2019-07-22,"the snoop story",TRUE,1,1,20,"Snoop Dogg"
-"545","0a8d4BfLP3XEiuZZTWxxEQ","I Wanna Thank Me","https://i.scdn.co/image/ab67616d0000b273d900a0caa82b1e56836de85d","2019-08-16",2019-08-16,"i wanna thank me",TRUE,1,1,21,"Snoop Dogg"
-"546","7cS62bPE6jQvq68kcSZZK3","Give It 2 Em Dogg","https://i.scdn.co/image/c6fc77e0eaacc690469b010b1ffb4426fc6b7b5e","2019-10-01",2019-10-01,"give it 2 em dogg",TRUE,1,1,22,"Snoop Dogg"
-"547","2qCyMMQ785sPH4Yx25GQZ8","Z","https://i.scdn.co/image/ab67616d0000b27332f1a3721efb2ddfb91b9c82","2014-04-08",2014-04-08,"z",TRUE,1,1,1,"SZA"
-"548","76290XdXVF9rPzGdNRWdCh","Ctrl","https://i.scdn.co/image/ab67616d0000b2734c79d5ec52a6d0302f3add25","2017-06-09",2017-06-09,"ctrl",TRUE,1,1,2,"SZA"
-"549","0erQUWkQZhFkL2Qx5Umdfl","The Blackwall Street Vol. 2","https://i.scdn.co/image/ab67616d0000b2735135b0d9236767fbe286c68b","2012-11-20",2012-11-20,"the blackwall street vol. 2",TRUE,1,1,1,"The Game"
-"550","3OYo1AeMggSM03RIkoKOI0","The Blackwall Street Vol. 3","https://i.scdn.co/image/ab67616d0000b273efe4b3451a3eab59a70468bd","2012-11-20",2012-11-20,"the blackwall street vol. 3",TRUE,1,1,2,"The Game"
-"551","5xZobK2IRpMeuaOCld7KxX","The Blackwall Street Vol. 1","https://i.scdn.co/image/ab67616d0000b2739b056a1dd62033d89e7098fc","2012-11-27",2012-11-27,"the blackwall street vol. 1",TRUE,1,1,3,"The Game"
-"552","2fo86xBW71XmO4m3bS99tN","The Black Wallstreet, Vol. 4","https://i.scdn.co/image/ab67616d0000b27358d852a42874e8c18f2db803","2012-11-30",2012-11-30,"the black wallstreet, vol. 4",TRUE,1,1,4,"The Game"
-"553","61OEfavu9kM9nHTdbPPH3H","The Blackwall Street, Vol. 6","https://i.scdn.co/image/ab67616d0000b273206e91b297dbc5cbf871c2b0","2012-11-30",2012-11-30,"the blackwall street, vol. 6",TRUE,1,1,5,"The Game"
-"554","4uuIqbf6sSMD8Iouva6wLp","The Blackwall Street, Vol. 5","https://i.scdn.co/image/ab67616d0000b27315ad2b46d954d1ba246a6ad9","2012-11-30",2012-11-30,"the blackwall street, vol. 5",TRUE,1,1,6,"The Game"
-"555","3bwegLVfKKCoy68mT5KxqO","The Blackwall Street, Vol. 7","https://i.scdn.co/image/ab67616d0000b2739903e3b5610ca51f4ead3527","2012-12-03",2012-12-03,"the blackwall street, vol. 7",TRUE,1,1,7,"The Game"
-"556","60Ps0wi75O2g2ufu11j6Ft","Superman","https://i.scdn.co/image/ab67616d0000b273c58a49164b01141f19e50cd3","2013-01-30",2013-01-30,"superman",TRUE,1,1,8,"The Game"
-"557","4rjyX5vguboyTaXvypC8gB","Mo Thugs Presents: The Game Last of a Compton Breed","https://i.scdn.co/image/ab67616d0000b273063f8218f5844ad62ac39b4a","2013-06-11",2013-06-11,"mo thugs presents: the game last of a compton breed",TRUE,1,1,9,"The Game"
-"558","5MjgWZRnEWtqEcAa3foL7x","The Next Documentary","https://i.scdn.co/image/c6914eee9afa3006cc16ba001a8aa8ae0a8ab4b9","2013-07-09",2013-07-09,"the next documentary",TRUE,1,1,10,"The Game"
-"559","5uA3r5ucAXyJgn3iWCWIJb","OKE - Deluxe Edition","https://i.scdn.co/image/ab67616d0000b2734e99272f0bfa1a5d1e9efad3","2013-10-10",2013-10-10,"oke",FALSE,1,0,11,"The Game"
-"560","3gonfk2iaTvHcz7Gi0bayp","Unreleased R.E.D.","https://i.scdn.co/image/6b3e4c3cb8955fedb9cebcc0414f2d80b4d4c812","2014-03-10",2014-03-10,"unreleased r.e.d.",TRUE,1,1,12,"The Game"
-"561","5A2KhChS9TkI0uK6FXqeFv","Blood Moon: Year Of The Wolf (Bonus Version)","https://i.scdn.co/image/ab67616d0000b273d19c842b071d838631eff061","2014-10-14",2014-10-14,"blood moon: year of the wolf",FALSE,1,0,13,"The Game"
-"562","4HOgjzVpNPYLRPRT4WIOlM","West Coast Resurrection (Deluxe Version)","https://i.scdn.co/image/ab67616d0000b273f59ec9b50c053c674c3eebe2","2014-11-11",2014-11-11,"west coast resurrection",FALSE,1,0,14,"The Game"
-"563","0iudlzm4a5WB3jiMlApspv","R.E.D. II","https://i.scdn.co/image/56129b9446b70086806d1d4f8afad37c1b83a5fc","2015-01-19",2015-01-19,"r.e.d. ii",TRUE,1,1,15,"The Game"
-"564","37PDUywhZDqvf1Z7pOl1Ih","The Documentary 2","https://i.scdn.co/image/ab67616d0000b273fd2da455f4000311f87636fb","2015-10-09",2015-10-09,"the documentary 2",TRUE,1,1,16,"The Game"
-"565","16rW2uj8mpSmH5DSmEvDWN","The Documentary 2.5","https://i.scdn.co/image/ab67616d0000b2732e817ba61dd0c8f45757d2bb","2015-10-16",2015-10-16,"the documentary 2.5",TRUE,1,1,17,"The Game"
-"566","1EpbLlgrkKbYJrvx0rtMrD","The Documentary 2 + 2.5","https://i.scdn.co/image/ab67616d0000b273152153b1da4e3184b4f761c3","2016-01-22",2016-01-22,"the documentary 2 + 2.5",TRUE,2,1,18,"The Game"
-"567","312aMSfZzbXhhr0WzYDF0x","Streets Of Compton","https://i.scdn.co/image/ab67616d0000b2736b4529e2c9fa37bc929960c8","2016-06-17",2016-06-17,"streets of compton",TRUE,1,1,19,"The Game"
-"568","65f7xk2mAPmUeY3MifzWnp","Block Wars","https://i.scdn.co/image/ab67616d0000b2732fa6d033ff2d46d9b339def7","2016-07-29",2016-07-29,"block wars",TRUE,1,1,20,"The Game"
-"569","4RjeyDmgeOPj2zlDayPFjy","1992","https://i.scdn.co/image/ab67616d0000b27327b06bbe1c8e9c74b3100fa8","2016-10-14",2016-10-14,"1992",TRUE,1,1,21,"The Game"
-"570","51pWPRmyRyrh4GDwUjWmkM","1992 (Bonus Track Edition) [Clean]","https://i.scdn.co/image/ab67616d0000b27345bc10fadddaa769a25449d9","2016-10-14",2016-10-14,"1992 [clean]",FALSE,1,0,22,"The Game"
-"571","5MDmKDe9kmJBsf8yYn8dUM","Born 2 Rap","https://i.scdn.co/image/178886fd259038d0989f4d7c1d7c1ca658eced59","2019-11-29",2019-11-29,"born 2 rap",TRUE,1,1,23,"The Game"
-"572","2HTbQ0RHwukKVXAlTmCZP2","Ready to Die (The Remaster)","https://i.scdn.co/image/ab67616d0000b273a4950162a626593b7340f6c7","1994-09-13",1994-09-13,"ready to die",FALSE,2,0,1,"The Notorious B.I.G."
-"573","7dRdaGSxgcBdJnrOviQRuB","Life After Death (2014 Remastered Edition)","https://i.scdn.co/image/ab67616d0000b273fde79b88e2a659c394c5ae30","1997-03-04",1997-03-04,"life after death",FALSE,2,0,2,"The Notorious B.I.G."
-"574","7zg9ZSOQtYLjWnvSawflg6","Born Again","https://i.scdn.co/image/ab67616d0000b273a136f71553f34d930b43f7bb","1999",1999-01-01,"born again",TRUE,1,1,3,"The Notorious B.I.G."
-"575","0nyTuDV4qohpivHna2kKF8","Duets: The Final Chapter","https://i.scdn.co/image/ab67616d0000b273fee3cf117cef2ae39c10ac4a","2005-12-13",2005-12-13,"duets: the final chapter",TRUE,1,1,4,"The Notorious B.I.G."
-"576","4NQNWfXDGo6MPCscpwuTgz","Trilogy","https://i.scdn.co/image/5f205c354dc01e73d15ba6ea39e4f073d7987029","2013-01-01",2013-01-01,"trilogy",TRUE,1,1,1,"The Weeknd"
-"577","522VpsDblCDf3rMSnDU4tZ","Kiss Land","https://i.scdn.co/image/c244a8b147468882c095b02d2da66b9eca777972","2013-09-09",2013-09-09,"kiss land",TRUE,2,1,2,"The Weeknd"
-"578","36yJ6fcaSCVsK1tybnNizj","Beauty Behind The Madness","https://i.scdn.co/image/f1bc9058c6cb9d6fb53f3a076cc7c66fabf30ee6","2016-03-16",2016-03-16,"beauty behind the madness",TRUE,1,1,3,"The Weeknd"
-"579","2ODvWsOgouMbaA5xf0RkJe","Starboy","https://i.scdn.co/image/96be0d7941fbafb03e457b23db5783f8a2929098","2016-11-25",2016-11-25,"starboy",TRUE,1,1,4,"The Weeknd"
-"580","4qZBW3f2Q8y0k1A84d4iAO","My Dear Melancholy,","https://i.scdn.co/image/25f579bf1460f3983a8c5bbc1f016f36b3d86009","2018-03-30",2018-03-30,"my dear melancholy,",TRUE,1,1,5,"The Weeknd"
-"581","4PWBTB6NYSKQwfo79I3prg","Rodeo (Expanded Edition)","https://i.scdn.co/image/ab67616d0000b2737433176f037e0ba14190c34f","2015-09-04",2015-09-04,"rodeo",FALSE,1,0,1,"Travis Scott"
-"582","42WVQWuf1teDysXiOupIZt","Birds In The Trap Sing McKnight","https://i.scdn.co/image/ab67616d0000b273f54b99bf27cda88f4a7403ce","2016-09-16",2016-09-16,"birds in the trap sing mcknight",TRUE,1,1,2,"Travis Scott"
-"583","41GuZcammIkupMPKH2OJ6I","ASTROWORLD","https://i.scdn.co/image/ab67616d0000b273072e9faef2ef7b6db63834a3","2018-08-03",2018-08-03,"astroworld",TRUE,1,1,3,"Travis Scott"
-"584","4PWBTB6NYSKQwfo79I3prg","Rodeo (Expanded Edition)","https://i.scdn.co/image/ab67616d0000b2737433176f037e0ba14190c34f","2015-09-04",2015-09-04,"rodeo",FALSE,1,0,1,"Travis Scott"
-"585","42WVQWuf1teDysXiOupIZt","Birds In The Trap Sing McKnight","https://i.scdn.co/image/ab67616d0000b273f54b99bf27cda88f4a7403ce","2016-09-16",2016-09-16,"birds in the trap sing mcknight",TRUE,1,1,2,"Travis Scott"
-"586","41GuZcammIkupMPKH2OJ6I","ASTROWORLD","https://i.scdn.co/image/ab67616d0000b273072e9faef2ef7b6db63834a3","2018-08-03",2018-08-03,"astroworld",TRUE,1,1,3,"Travis Scott"
-"587","7tjZ51DOxwxIcnY20ThkaV","Goblin","https://i.scdn.co/image/ab67616d0000b273817b73e86c3b87b7c0b5fa1f","2011-05-10",2011-05-10,"goblin",TRUE,2,1,1,"Tyler, The Creator"
-"588","40QTqOBBxCEIQlLNdSjFQB","Wolf","https://i.scdn.co/image/ab67616d0000b2734893508eb6495df8ddb015e0","2013-04-01",2013-04-01,"wolf",TRUE,1,1,2,"Tyler, The Creator"
-"589","6hSjwUPL9jSBtZPgyFWfjI","Live At Splash!","https://i.scdn.co/image/6bea75a71456dd1619b61c45aede7fbbfa0d5429","2013-09-02",2013-09-02,"live at splash!",TRUE,1,1,3,"Tyler, The Creator"
-"590","621OhgnZJ7Pz8iUazct1In","Cherry Bomb","https://i.scdn.co/image/ab67616d0000b2730f2e9f092b4e9c4424afb446","2015-04-13",2015-04-13,"cherry bomb",TRUE,1,1,4,"Tyler, The Creator"
-"591","5V3Chnpno9oTI7JSPXKUf3","Cherry Bomb + Instrumentals","https://i.scdn.co/image/ab67616d0000b27337906edcfbfde42b203097f2","2015-04-13",2015-04-13,"cherry bomb + instrumentals",TRUE,1,1,5,"Tyler, The Creator"
-"592","2nkto6YNI4rUYTLqEwWJ3o","Flower Boy","https://i.scdn.co/image/ab67616d0000b2738940ac99f49e44f59e6f7fb3","2017-07-21",2017-07-21,"flower boy",TRUE,1,1,6,"Tyler, The Creator"
-"593","5zi7WsKlIiUXv09tbGLKsE","IGOR","https://i.scdn.co/image/ab67616d0000b2737005885df706891a3c182a57","2019-05-17",2019-05-17,"igor",TRUE,1,1,7,"Tyler, The Creator"
-"594","33NDfcTx9E0aMZbcDDBPq7","Too Hard To Swallow","https://i.scdn.co/image/ab67616d0000b27355402afc3265423c490851b2","1992-11-10",1992-11-10,"too hard to swallow",TRUE,1,1,1,"UGK"
-"595","4rjGyhPnaKV5hfwFNiHtQA","Super Tight","https://i.scdn.co/image/ab67616d0000b2732635795d66b9f4dc6aed54db","1994-08-30",1994-08-30,"super tight",TRUE,1,1,2,"UGK"
-"596","4jTPQq9PSlKMOm1yLx2ATN","Ridin Dirty","https://i.scdn.co/image/ab67616d0000b273027d7f96a41d5e218291ad2f","1996-07-30",1996-07-30,"ridin dirty",TRUE,1,1,3,"UGK"
-"597","1HWeoKv9Pi7Mkw3oQA7Yud","Dirty Money","https://i.scdn.co/image/ab67616d0000b2736c7a50bcf0ed574fa8169430","2001-11-11",2001-11-11,"dirty money",TRUE,1,1,4,"UGK"
-"598","7jlzVc3FDwo8JD3xF6ww9S","Side Hustles","https://i.scdn.co/image/ab67616d0000b273d6803b16f0e4e8ea416728b6","2002-09-23",2002-09-23,"side hustles",TRUE,1,1,5,"UGK"
-"599","2GVOVA37Vzl1vgsPRBA6Nj","The Southern Way (Mixed By Big Chance)","https://i.scdn.co/image/ab67616d0000b2735b4b2ba39afe749d2b6887eb","2003",2003-01-01,"the southern way (mixed by big chance)",TRUE,1,1,6,"UGK"
-"600","6Q7TCZ31DUdPr4wOYi8lPG","Best of UGK","https://i.scdn.co/image/ab67616d0000b273f30ead1f890e9d9b38bff46d","2003-06-12",2003-06-12,"best of ugk",TRUE,1,1,7,"UGK"
-"601","4jQHkYsqRf31j3g9nHhwcM","Jive Records Presents: UGK - Chopped & Screwed","https://i.scdn.co/image/ab67616d0000b273ee3859832fe4e545caa3a8f2","2004-12-13",2004-12-13,"jive records presents: ugk - chopped & screwed",TRUE,1,1,8,"UGK"
-"602","57o546dE7TYNTtmdnh9wzo","UGK (UnderGround Kingz)","https://i.scdn.co/image/ab67616d0000b273524370bf646c8414f4df23a9","2007-08-17",2007-08-17,"ugk (underground kingz)",TRUE,1,1,9,"UGK"
-"603","2DFK9pm59cvDaFWKgJVUtk","UGK 4 Life","https://i.scdn.co/image/ab67616d0000b273708246d265957faafb09fc9f","2009-03-26",2009-03-26,"ugk 4 life",TRUE,1,1,10,"UGK"
-"604","52D2v3pzp70PRdjH2HDKO0","The Bigtyme Way 1992-1997 (Bonus Edition)","https://i.scdn.co/image/ab67616d0000b27359dd07522168717ca0811548","2015-04-07",2015-04-07,"the bigtyme way 1992-1997",FALSE,1,0,11,"UGK"
-"605","3615jyGdFlOI0uLCBnzWXA","The Bigtyme Way (1992-1997) [Slow’d & Tap’t]","https://i.scdn.co/image/ab67616d0000b2734bf64643b55c997c65b125f2","2016-11-29",2016-11-29,"the bigtyme way (1992-1997) [slow’d & tap’t]",TRUE,1,1,12,"UGK"
-"606","791Vf45uel4npVmy9jCjpE","The Southern Way","https://i.scdn.co/image/ab67616d0000b273826dc0745bcc4e4eae3ef0c5","2018-06-30",2018-06-30,"the southern way",TRUE,1,1,13,"UGK"
-"607","6SRxt5KPZbpJ4dB8ssYvQ0","Banned (Slowed & Chopped by DJ Red)","https://i.scdn.co/image/ab67616d0000b2730c591aa636e61b4d7d709608","2018-11-23",2018-11-23,"banned (slowed & chopped by dj red)",TRUE,1,1,14,"UGK"
-"608","7mxpMxmMM8RN39YRlo08v7","Hell Can Wait","https://i.scdn.co/image/e720567ba63c72d94abf61a4e33961e9b3e0c7d2","2014-09-23",2014-09-23,"hell can wait",TRUE,1,1,1,"Vince Staples"
-"609","4Csoz10NhNJOrCTUoPBdUD","Summertime 06","https://i.scdn.co/image/32027c2d5f0f611ddd741d74d638fddbef11fa4a","2015-06-30",2015-06-30,"summertime 06",TRUE,1,1,2,"Vince Staples"
-"610","2haR5qnQopCdVASZ92YTGn","Prima Donna","https://i.scdn.co/image/2e89a5b4ca0dacb47c6ad7c57b4adfcc069e3d80","2016-08-25",2016-08-25,"prima donna",TRUE,1,1,3,"Vince Staples"
-"611","5h3WJG0aZjNOrayFu3MhCS","Big Fish Theory","https://i.scdn.co/image/61e1f07e00c6419d03b66017894864191a614dbc","2017-06-23",2017-06-23,"big fish theory",TRUE,1,1,4,"Vince Staples"
-"612","1XGGeqLZxjOMdCJhmamIn8","FM!","https://i.scdn.co/image/ab67616d0000b2739b2f8a4adddf78565ad543ab","2018-11-02",2018-11-02,"fm!",TRUE,1,1,5,"Vince Staples"
-"613","6acGx168JViE5LLFR1rGRE","Enter The Wu-Tang (36 Chambers)","https://i.scdn.co/image/ab67616d0000b2734bb7f2a23345b7fcf10ced1e","1993-11-09",1993-11-09,"enter the wu-tang (36 chambers)",TRUE,2,1,1,"Wu-Tang Clan"
-"614","4r3TaXjF2b1qwCpxjIpW43","Wu-Tang Forever","https://i.scdn.co/image/ab67616d0000b27377e8e20e0ac6182f94654a23","1997-06-03",1997-06-03,"wu-tang forever",TRUE,1,1,2,"Wu-Tang Clan"
-"615","0LeJgUggHvmlymp6u9Dy1V","ウータン・キラー・ビーズ","https://i.scdn.co/image/ab67616d0000b2734b83ab328bd094601bdd716b","1998",1998-01-01,"ウータン・キラー・ビーズ",TRUE,1,1,3,"Wu-Tang Clan"
-"616","5bmhS3cVf6noVqzley0iq4","ウー・クロニクルズ","https://i.scdn.co/image/ab67616d0000b27370a0e9f59983bc47df46442a","1999",1999-01-01,"ウー・クロニクルズ",TRUE,1,1,4,"Wu-Tang Clan"
-"617","2WU4hhnp2kjPckmjqdL1RT","The W","https://i.scdn.co/image/ab67616d0000b273c9ca9a87fdd48578fc0144ec","2000-11-20",2000-11-20,"the w",TRUE,1,1,5,"Wu-Tang Clan"
-"618","4yKvg39shQ51oDPMStRif0","ウー・クロニクルズ・チャプター・ツー","https://i.scdn.co/image/ab67616d0000b27361f68a9c6cb82b3ca3b7f977","2001",2001-01-01,"ウー・クロニクルズ・チャプター・ツー",TRUE,1,1,6,"Wu-Tang Clan"
-"619","1gKAuYWacmDF9bpHlLBLcX","Wu-Tang Iron Flag","https://i.scdn.co/image/ab67616d0000b273e4a01dd6397b08347f96c859","2001-12-18",2001-12-18,"wu-tang iron flag",TRUE,1,1,7,"Wu-Tang Clan"
-"620","1EXv4IhK4CBVE7O4Zr5jb6","ウータン・コレクティヴ","https://i.scdn.co/image/ab67616d0000b273e39021d235a38fd38d3b070f","2003",2003-01-01,"ウータン・コレクティヴ",TRUE,1,1,8,"Wu-Tang Clan"
-"621","1QzsV8brEcEwOe7jcMUz13","Disciples of the 36 Chambers: Chapter 1 (Live) [2019 - Remaster]","https://i.scdn.co/image/ab67616d0000b273a0c453d88b725fee4978464d","2004-03-12",2004-03-12,"disciples of the 36 chambers: chapter 1",FALSE,2,0,9,"Wu-Tang Clan"
-"622","71i2DEJp6T0ywlT62T3gLv","Wu-Tang Meets The Indie Culture","https://i.scdn.co/image/ab67616d0000b2734b54c6f083e52b1f83d761af","2005-10-18",2005-10-18,"wu-tang meets the indie culture",TRUE,1,1,10,"Wu-Tang Clan"
-"623","14u4xxov9oj509A7sGPJdH","8 Diagrams","https://i.scdn.co/image/ab67616d0000b273c991dd5bf71db252f716d751","2007-12-11",2007-12-11,"8 diagrams",TRUE,1,1,11,"Wu-Tang Clan"
-"624","7E41BxBIjPfESE4i75oDVR","Live At Montreux 2007","https://i.scdn.co/image/38290e8dedfb8affa0a0a048d6b5112da1d2f434","2008-09-22",2008-09-22,"live at montreux 2007",TRUE,1,1,12,"Wu-Tang Clan"
-"625","7GvdgeSyGWQ8x7RrchZkU3","Wu-Tang Meets The Indie Culture Instrumentals","https://i.scdn.co/image/ab67616d0000b273324d2414d06acbbc3cd5ba9b","2009-04-14",2009-04-14,"wu-tang meets the indie culture instrumentals",TRUE,1,1,13,"Wu-Tang Clan"
-"626","762XfNqBx6GV8IseS2zSuq","Wu-Tang Meets the Indie Culture Vol. 2: Enter the Dubstep","https://i.scdn.co/image/ab67616d0000b2738b19883aec2be09e0d9cdea5","2009-11-10",2009-11-10,"wu-tang meets the indie culture vol. 2: enter the dubstep",TRUE,1,1,14,"Wu-Tang Clan"
-"627","5obiyJomz6ypITdwLIdNkv","Wu-Tang Meets the Indie Culture, Vol. 2 - Enter the Dubstep (Instrumentals)","https://i.scdn.co/image/ab67616d0000b273687fef889e82be4b90e02143","2010",2010-01-01,"wu-tang meets the indie culture, vol. 2 - enter the dubstep (instrumentals)",TRUE,1,1,15,"Wu-Tang Clan"
-"628","62IgDbNTi6rvc11a1XgCd4","Legendary Weapons","https://i.scdn.co/image/ab67616d0000b2738c04bb8d7936cca640e055e9","2011-07-26",2011-07-26,"legendary weapons",TRUE,1,1,16,"Wu-Tang Clan"
-"629","0Y3CKi4iATySALWZnhoxmu","Wu-Block","https://i.scdn.co/image/4ba81681a2bfe07697d8d5c1761e69f96cc21907","2012-07-17",2012-07-17,"wu-block",TRUE,1,1,17,"Wu-Tang Clan"
-"630","1rsA8ofEIHtvfR1FTwt0xj","Soundtracks from the Shaolin Temple","https://i.scdn.co/image/ab67616d0000b273713184f9cbd76216fe9f8205","2013-05-14",2013-05-14,"soundtracks from the shaolin temple",TRUE,1,1,18,"Wu-Tang Clan"
-"631","1XiCmEinrmarN4R6F9saUf","A Better Tomorrow","https://i.scdn.co/image/ab67616d0000b273ee9567b83f175aaa548cf2f7","2014-12-01",2014-12-01,"a better tomorrow",TRUE,1,1,19,"Wu-Tang Clan"
-"632","3g8KDFecnLPa6YiBdHTl8K","The Saga Continues","https://i.scdn.co/image/ab67616d0000b273c1cb94398329ca206145bdd7","2017-10-13",2017-10-13,"the saga continues",TRUE,1,1,20,"Wu-Tang Clan"
-"633","2xnuEN4FUvEJ7au1j82Y1L","Of Mics And Men (Music From The Showtime Documentary Series)","https://i.scdn.co/image/ab67616d0000b2737a88bc22f4e23c8407df353a","2019-05-17",2019-05-17,"of mics and men (music from the showtime documentary series)",TRUE,1,1,21,"Wu-Tang Clan"
-"634","4T2mQ3Ou4VOt2257bYYAZy","Just Red Up","https://i.scdn.co/image/ab67616d0000b273d76f346531f45f49cc8fe156","2011-05-11",2011-05-11,"just red up",TRUE,1,1,1,"YG"
-"635","6LYs6vCaIZd3kemw1JDGti","Just Red up 2","https://i.scdn.co/image/ab67616d0000b273ed2b3a14904a17f887caa450","2013-01-02",2013-01-02,"just red up 2",TRUE,1,1,2,"YG"
-"636","00ZongxwSU87MBYWcUgDGf","My Krazy Life","https://i.scdn.co/image/96b58f301eb9b2bb618337326c9a1d59b291f30c","2014-01-01",2014-01-01,"my krazy life",TRUE,2,1,3,"YG"
-"637","3ldsrFbLgrIJ00byb2tncW","Blame It On The Streets","https://i.scdn.co/image/1d70683f9a1d0858247794c15057a2c98265d4d7","2014-11-24",2014-11-24,"blame it on the streets",TRUE,1,1,4,"YG"
-"638","4nwd6ernojhNIIRifDJoRz","Still Brazy (Deluxe)","https://i.scdn.co/image/3018a56f0d169870db1d3a6f60feb3284cbceaf3","2016-06-17",2016-06-17,"still brazy",FALSE,1,0,5,"YG"
-"639","4VqdntbxmB7r1At6sPKRnb","Red Friday","https://i.scdn.co/image/2cd4011336b3292fe4d90329a954e7057baa31c1","2016-11-25",2016-11-25,"red friday",TRUE,1,1,6,"YG"
-"640","5IYvKd22yQkJRfoIStesbX","STAY DANGEROUS","https://i.scdn.co/image/374db95c20470ee921fa802ecfda4608c9bf3e56","2018-08-03",2018-08-03,"stay dangerous",TRUE,1,1,7,"YG"
-"641","5zuM1EG06X1J7VsIF1omRm","4REAL 4REAL","https://i.scdn.co/image/c0678e2120e6cddfebb6fb6012a0a6b2fffe40f2","2019-05-24",2019-05-24,"4real 4real",TRUE,1,1,8,"YG"
-"642","4k4w4MLXdY084qrbMGy9Sg","I Came from Nothing 2","https://i.scdn.co/image/ab67616d0000b27323297a33434c317e427ec0fb","2011-12-20",2011-12-20,"i came from nothing 2",TRUE,1,1,1,"Young Thug"
-"643","6gALrQWLe3Z2cMMZvV4Dz7","Street Is Watching (The Mix-Tape)","https://i.scdn.co/image/ab67616d0000b2739d91c063159249ef92580c01","2014",2014-01-01,"street is watching (the mix-tape)",TRUE,1,1,2,"Young Thug"
-"644","1ohvUqk3WHrOnRWnwyA4X6","Ready for War","https://i.scdn.co/image/ab67616d0000b2736b15b9f7835c7028e21d7730","2014-08-15",2014-08-15,"ready for war",TRUE,1,1,3,"Young Thug"
-"645","7a3rhn1csJY4CbdqcQsMcy","Brick Sqaud","https://i.scdn.co/image/ab67616d0000b27362808c6cdede0fbb905bc157","2014-11-18",2014-11-18,"brick sqaud",TRUE,1,1,4,"Young Thug"
-"646","0BsMZIueWsJLWng8A7sE8e","Barter 6","https://i.scdn.co/image/ab67616d0000b27388053a98d0abb8ed3a02efe1","2015-04-16",2015-04-16,"barter 6",TRUE,1,1,5,"Young Thug"
-"647","3etiSiRWBRUkJ4vMW2s3DK","1017 Thug","https://i.scdn.co/image/ab67616d0000b273528597a6d0b44b1ba1e31d00","2015-12-11",2015-12-11,"1017 thug",TRUE,1,1,6,"Young Thug"
-"648","4sAB9WulPpnAcig7alDGTg","Im Up","https://i.scdn.co/image/ab67616d0000b2739cd3a5bb6e2ad118c4a16460","2016-02-05",2016-02-05,"im up",TRUE,1,1,7,"Young Thug"
-"649","2z4c8M8aVzl7CTobIp36KF","Slime Season 3","https://i.scdn.co/image/ab67616d0000b273a875c3ec944b4f164ab5c350","2016-03-25",2016-03-25,"slime season 3",TRUE,1,1,8,"Young Thug"
-"650","7EpUpNUkkEGnaCvkcn1j4H","JEFFERY","https://i.scdn.co/image/ab67616d0000b273d0c72291cd96834e199e1ff8","2016-08-26",2016-08-26,"jeffery",TRUE,1,1,9,"Young Thug"
-"651","51KZKzPd3OQT1r46a55VTt","Beautiful Thugger Girls","https://i.scdn.co/image/ab67616d0000b273419cedff7b313b962a93932e","2017-06-16",2017-06-16,"beautiful thugger girls",TRUE,1,1,10,"Young Thug"
-"652","4OHfmMUq6xwCo8zfQuc9Rf","Slime Language","https://i.scdn.co/image/ab67616d0000b273fbd8ead00d2fb0649a534212","2018-08-17",2018-08-17,"slime language",TRUE,1,1,11,"Young Thug"
-"653","1bnHPO4dKK7IjvgrtVBcQh","So Much Fun","https://i.scdn.co/image/ab67616d0000b2736fcd1b6e205d0d19d9efa0cc","2019-08-16",2019-08-16,"so much fun",TRUE,1,1,12,"Young Thug"
+album_uri,album_name,artist,release_date
+6guJZpZ52v4MrJKIH7tASl,i am > i was (Deluxe),21 Savage,2018-12-24
+007DWn799UWvfY1wwZeENR,i am > i was,21 Savage,2018-12-21
+3IO8IPjwXuzPJnoaqkwYrj,NOT ALL HEROES WEAR CAPES (Deluxe),21 Savage,2018-11-06
+0MV1yCXcNNQBfwApqAVkH0,Without Warning,21 Savage,2017-10-30
+4QUNWTw2FsIz722xjUjFJw,Issa Album,21 Savage,2017-09-23
+4I3EcXD4e3KcEoDJfFEZ5b,Savage Mode,21 Savage,2016-07-15
+1HSyuTHvLXMWyPJQGnQTLw,Slaughter King,21 Savage,2016-05-16
+3l2umvdEq50qZ5fmw4iHcI,The Slaughter Tape,21 Savage,2016-05-15
+2qmmPaaWXRM1kZujpUKKsO,Soldier 2 Soldier (Collector's Edition),2Pac,2010-11-23
+5y1YRK4BJCQWKLHr9gcUMK,Nu Mixx Klazzics Vol. 2 (Evolution: Duets And Remixes),2Pac,2007-07-03
+5eVcXpQNaB4ILrocqaUdmT,Pac's Life,2Pac,2006-01-01
+2d3RwSNxvWKiKLfJtsJj8v,The Rose - Volume 2 - Music Inspired By 2pac's Poetry,2Pac,2005-09-20
+1qzfkoM52XWcEzmm8akE26,Live at the House Of Blues,2Pac,2005-09-20
+7vwU5cQW3RZ4XrJaglir2x,All Eyez On Me,2Pac,2005
+3bCGjEpp17jWKqyKzATiny,Live,2Pac,2004-08-10
+33lk2GnP8cJzl7cd1OJrXn,Loyal To The Game,2Pac,2004-01-01
+3MJVucN9nO8WHaLo3KHuWO,Resurrection,2Pac,2003-11-14
+2QVE1PUAtL4eO7CVAgwdnu,Resurrection (Music From And Inspired By The Motion Picture),2Pac,2003-11-04
+27Ay0IVSnhfYB2XTEW8gn0,Nu-mixx Klazzics,2Pac,2003-10-07
+0KmKhrRc4dFTA5dHMJlm5w,Animal Ambition: An Untamed Desire To Win,50 Cent,2014-06-03
+7eEjgXDzF8rNVUwuiXtB7Y,Before I Self-Destruct,50 Cent,2009-01-01
+5SGg2y6qyIqGg78XTmaYv4,Before I Self-Destruct - The Selects,50 Cent,2009-01-01
+3AgCuejBHH780ROyGkKUvj,Bullet Proof,50 Cent,2007-01-30
+5VfBwkAoSsQwtZjPU0Gr7h,Curtis,50 Cent,2007-01-01
+7hVj5YSiBCxZmzjnsVwKKC,Live At The Hard Rock (Edited Version),50 Cent,2007-01-01
+3LtIWfN1EITld1LloQwl2O,Get Rich Or Die Tryin,50 Cent,2007-01-01
+2pidzXTaHV4WaIJYRxKDCH,The Massacre,50 Cent,2005-03-03
+2UpMdkZlJUuiJ2QYETOrSu,Rare,50 Cent,2003-10-15
+0OfzVAXf5aVP4W4NIOLTKj,Get Rich Or Die Tryin',50 Cent,2003-02-06
+3WvQpufOsPzkZvcSuynCf3,We got it from Here... Thank You 4 Your service,A Tribe Called Quest,2016-11-11
+0FH3WsTCWaDmfpEojJ4sN2,The Love Movement,A Tribe Called Quest,1998-09-29
+0EguP4tsJurU5I8ocCxdyb,"Beats, Rhymes & Life",A Tribe Called Quest,1996-07-30
+4v5x3Oo3UjQ9YmF3hRAip5,Midnight Marauders,A Tribe Called Quest,1993-11-09
+1p12OAWwudgMqfMzjMvl2a,The Low End Theory,A Tribe Called Quest,1991-09-24
+3kV0i1qqudjf0PGawJ4jck,People's Instinctive Travels and the Paths of Rhythm (25th Anniversary Edition),A Tribe Called Quest,1990-04-17
+6bI4IQKBcLX0KsTjQ9NR97,Floor Seats,A$AP Ferg,2019-08-16
+0tQ7Iu6EicQTPyhYRNWjaT,Still Striving,A$AP Ferg,2017-08-18
+2h5LDCGJCWUyaoEXQZHky6,ALWAYS STRIVE AND PROSPER,A$AP Ferg,2016-06-22
+3smlfAmejcKMmAPg1G2Kki,Trap Lord,A$AP Ferg,2013-08-19
+0qr1Fvi1haEDWVbFtekZLb,Cozy Tapes Vol. 2: Too Cozy,A$AP Mob,2017-08-25
+3RaACfwYTY9uiDy3VSWLLc,Cozy Tapes: Vol. 1 Friends -,A$AP Mob,2016-10-31
+3MATDdrpHmQCmuOcozZjDa,TESTING,A$AP Rocky,2018-05-25
+3arNdjotCvtiiLFfjKngMc,AT.LONG.LAST.A$AP,A$AP Rocky,2015-05-26
+6rzMufuu8sLkIizM4q9c7J,LONG.LIVE.A$AP (Deluxe Version),A$AP Rocky,2013
+1CEeqK9sKrE7LzUHeT3bfP,Do What Thou Wilt.,Ab-Soul,2016-12-09
+021zMZKO2pUA3yoUQFW2uy,These Days...,Ab-Soul,2014-06-24
+26RLXRJA7aOOffZJGjUaSW,Control System,Ab-Soul,2012-05-11
+446OAWTQsR7utlWr0gDkX0,Longterm Mentality,Ab-Soul,2011-04-05
+1KvZT4NZm69EkOym8rLqW1,K.R.I.T. IZ HERE,Big K.R.I.T.,2019-07-12
+7DUNqEpnwePiDrwO4R1xz3,TDT,Big K.R.I.T.,2019-01-11
+6vGEX2ejVVsHTIsqI1teZg,4eva Is A Mighty Long Time,Big K.R.I.T.,2017-10-27
+0XX3FIjtWd56K235GrjJCf,All My Life,Big K.R.I.T.,2015-11-20
+7AUsm4Nzd6ApSgkLCHSjia,Cadillactica (Deluxe Version),Big K.R.I.T.,2014-08-25
+2UltMFyGSTrCmIPnb5gjZX,Cadillactica (Deluxe),Big K.R.I.T.,2014-08-25
+5ISxyfC6ThuSz2wP7NS2aF,Cadillactica,Big K.R.I.T.,2014-08-25
+5yBkCapvSn1B6eTAbkcCfi,Live From The Underground (Explicit Version),Big K.R.I.T.,2012-01-01
+5kE9pfTSekNenqqdlvtBQd,Live From The Underground,Big K.R.I.T.,2012-01-01
+6GRzmk9UGL7odxprOPop1Q,Mos Def & Talib Kweli Are Black Star,Black Star,1998-09-29
+7nn2Iaphg0Vc1NCGULkhVo,True to Self,Bryson Tiller,2017-05-26
+6eZdwrhB97A3EYx9QppGfl,T R A P S O U L,Bryson Tiller,2015-10-02
+5BisPwmcPAZ6jyo1GZNgIn,The GloFiles (Pt. 3),Chief Keef,2019-11-08
+5yrvZXsfvB9hvmY61JjLBT,The Leek (Vol. 8),Chief Keef,2019-07-26
+7Emb8y1pVooAMZHOUmqduR,Camp GloTiggy,Chief Keef,2019-05-31
+2gG16AQytvGhsS51Xg6wh3,GloToven,Chief Keef,2019-03-15
+5U0NCTYNe7ImfN7VABC6WR,The Leek (Vol. 7),Chief Keef,2019-01-18
+3fft7xbsjbCB16M4PIVVkM,The Leek (Vol. 6),Chief Keef,2018-12-07
+2H7gR72Pdgr6vSm7ZFgznD,Back From The Dead 3,Chief Keef,2018-10-31
+1Wfr7zwBCyHH2n9A2s651R,Mansion Musick,Chief Keef,2018-07-13
+5dmZ6V8zSQV5YJI6i2r3Sh,The GloFiles (Pt. 1),Chief Keef,2018-05-11
+5wZxjDQqndilCFhJWtLBS0,The GloFiles (Pt. 2),Chief Keef,2018-05-11
+4Carzsnpd6yvuHZ49I0oz8,"""Awaken, My Love!""",Childish Gambino,2016-12-02
+5dVKggb6Nvfp7JJdLfHPof,Kauai,Childish Gambino,2014-10-03
+4GNIhgEGXzWGAefgN5qjdU,Because the Internet,Childish Gambino,2013-12-10
+5521VBNriW9xUAaTETHQTE,Heartbeat (Remix Bundle),Childish Gambino,2012-02-14
+32KdoFFhgjCLdU0DWL71tx,Camp,Childish Gambino,2011-11-15
+3fFlGU0k3z7wle0gp4wNrU,Til The Casket Drops,Clipse,2009-12-08
+7L5rQPYfIMSkHdcSlRMIz6,Re-Up Gang The Saga Continues,Clipse,2008-04-22
+1HftQWyKWoGsrmG5lRkJDE,Hell Hath No Fury,Clipse,2006-11-25
+1Q83nQO2QG81TVa10hW7LX,Lord Willin',Clipse,2002-04-01
+6Rf7DjuM5vH2SzNJytE9h4,Let Love,Common,2019-08-30
+2DTbGcv40CSMW0P4yAQQBa,Black America Again,Common,2016-11-04
+74hPuIcd2Wa0T3FRqtTKHX,Black America Again (Commentary),Common,2016-11-04
+0ymZEUngBCetAJcJaqO63b,Nobody's Smiling (Deluxe),Common,2014-07-22
+6sG3BcBh4DlQ9dzW6BHklG,Nobody's Smiling,Common,2014-07-22
+17eQeA5m7DpsZ42mUAGjgG,"The Dreamer, The Believer",Common,2011-12-20
+6wl2laSmw3sucFUwRlqAP2,Universal Mind Control,Common,2008-01-01
+5159VIYNslxNMzF3m53kSu,Finding Forever,Common,2007-07-31
+2UuvBxV56QWWj2uviGS0up,Be,Common,2005-01-01
+4eD2SoySMPRl0SBv7rqk1X,Electric Circus,Common,2002-01-01
+59w1ZYEEZu2sYvcyPLfKSv,Like Water For Chocolate,Common,2000-03-28
+4G3BRVsGEpWzUdplFJ1VBl,uknowhatimsayin¿,Danny Brown,2019-10-04
+3e7vtKJ3m1zVh38VGq2g3H,Atrocity Exhibition,Danny Brown,2016-09-27
+2L32VPdX8NcICxVf6AhDqD,Hot Soup - Instrumentals,Danny Brown,2014-04-05
+5SC0415RIGVX9ZfL0tfbAl,Old,Danny Brown,2013-10-08
+1QESrfmlfAl19Gr8mXcysi,XXX (Deluxe Edition),Danny Brown,2012-03-13
+61KN8iSYTZq58bfsCfEwiZ,Black And Brown,Danny Brown,2011-11-01
+0P4u1ZRM6CXePgpeF8ShmN,The Hybrid - Deluxe Edition,Danny Brown,2010
+1h19AU04eolAfpQ3ywiQGX,Hot Soup,Danny Brown,2008-07-01
+46eayJPxf1cBWWUqNa2MJJ,Year Of The Snitch,Death Grips,2018-06-22
+4dIPUQHheyH9e6ioplvNT2,Bottomless Pit,Death Grips,2016-05-06
+0T0hdMTypoYTFhgk4ugXkN,Fashion Week,Death Grips,2016-05-06
+5Y04ylQjDWsawOUJXzY4YO,The Powers That B,Death Grips,2015-02-10
+3T01oOjbrox1jz0pR112oV,Government Plates,Death Grips,2014-01-14
+1PQDjdBpHPikAodJqjzm6a,The Money Store,Death Grips,2012-04-20
+08aqY8lv4zx4uaqBUpMD8a,No Love Deep Web,Death Grips,2012
+6PkSBdx19zarn4ae1D08gA,ZUU,Denzel Curry,2019-05-31
+6idVoBWP2mt1qoMtASm3gc,TA13OO,Denzel Curry,2018-07-27
+42fyKPanos0Q3woi848ktg,Imperial,Denzel Curry,2016-10-14
+1t05YAzxjK1HqLD2KcBjx5,32 Zel,Denzel Curry,2015-06-09
+6ZnMFVV5HDv2xmHG7bn7et,Compton,Dr. Dre,2015-08-21
+7q2B4M5EiBkqrlsNW8lB7N,2001,Dr. Dre,1999-11-16
+3t3Ar2cJUVLY6yTRmrezI8,2001 Instrumental,Dr. Dre,1999-11-16
+7dqpveMVcWgbzqYrOdkFTD,Care Package,Drake,2019-08-02
+1LShhEEKRT5MNPcO7jtYHh,So Far Gone,Drake,2019-02-15
+1ATL5GLyefJaxhQzSPVrLX,Scorpion,Drake,2018-06-29
+1lXY618HWkwYKJWBRYR4MK,More Life,Drake,2017-03-18
+0G1ffjfFuTUTVjDrVdLimH,Views,Drake,2016-05-13
+15QCBYjP6HwHvsff100UBx,What A Time To Be Alive,Drake,2015-09-25
+0ptlfJfwGTy0Yvrk14JK1I,If You're Reading This It's Too Late,Drake,2015-02-12
+5mz0mJxb80gqJIcRf9LGHJ,Nothing Was The Same (Deluxe),Drake,2013-01-01
+1XslIirSxfAhhxRdn4Li9t,Nothing Was The Same,Drake,2013-01-01
+0N0EFoE8csbKxl5lxT1ylm,FEET OF CLAY,Earl Sweatshirt,2019-11-01
+66at85wgO2pu5CccvqUF6i,Some Rap Songs,Earl Sweatshirt,2018-11-30
+3wUv2IjD5hPrqlPakpczQa,"I Don't Like Shit, I Don't Go Outside: An Album by Earl Sweatshirt",Earl Sweatshirt,2015-03-23
+5vRfIDOPJHy3W2wHWbzLlE,Doris,Earl Sweatshirt,2013-08-16
+4otkd9As6YaxxEkIjXPiZ6,Music To Be Murdered By,Eminem,2020-01-17
+3HNnxK7NgLXbDoxRZxNWiR,Kamikaze,Eminem,2018-08-31
+7cwcyW39NGUAiukHc1MOFD,Revival,Eminem,2017-12-15
+6DN7GcZF1HywzrkGN6Eeqk,The Marshall Mathers LP2 (Deluxe),Eminem,2013-11-05
+3vOgbDjgsZBAPwV2M3bNOj,The Marshall Mathers LP2,Eminem,2013-11-05
+47BiFcV59TQi2s9SkBo2pb,Recovery,Eminem,2010-06-18
+7MZzYkbHL9Tk3O6WeD4Z0Z,Relapse: Refill,Eminem,2009-05-15
+7h2OEj0ifXb3UdgvTmCqfY,Relapse,Eminem,2009-05-15
+6HXlnhMr40FP2qBTnKXRbA,Relapse [Deluxe],Eminem,2009-05-15
+1kTlYbs28MXw7hwO0NLYif,Encore (Deluxe Version),Eminem,2004-11-12
+3mH6qwIy9crq0I9YQbOuDf,Blonde,Frank Ocean,2016-08-20
+392p3shh2jkxUxY2VHvlH8,channel ORANGE,Frank Ocean,2012-01-01
+31KbO7WnDp2AjPdmRTJzdf,Bandana,Freddie Gibbs,2019-06-28
+3JgtFZroTUGoklTtb2xOne,Fetti,Freddie Gibbs,2018-10-31
+6JaEv20qGvSgIHQbxwtjUu,Freddie,Freddie Gibbs,2018-06-22
+2LCCg172ZNVAA9aFH2EPst,You Only Live 2wice,Freddie Gibbs,2017-03-31
+41zRghNRGMG6l8dYtRp3iI,Shadow of a Doubt,Freddie Gibbs,2015-11-20
+3MmQYoMTS3hGiBLKDuId4b,Piñata (Alex Goose Remix),Freddie Gibbs,2015-11-13
+5AW4FwzZSKW1se5qWQCrR1,Piñata (Alex Goose Instrumental Remix),Freddie Gibbs,2015-11-13
+0WGBGGhEa9RjcLNWkYFMuJ,Piñata (Alex Goose Remixes),Freddie Gibbs,2015-10-30
+1GYG80diXFWYwH7FJB7KeC,Piñata Beats,Freddie Gibbs,2014-06-03
+7nfBj1HTi3LHg5lJt1LbE4,The Tonite Show with Freddie Gibbs & The Worlds Freshest,Freddie Gibbs,2014-05-13
+43uErencdmuTRFZPG3zXL1,Piñata,Freddie Gibbs,2014-03-18
+2CKPvOCCB1aCh5ZHoXm5vT,ESGN - Evil Seeds Grow Naturally,Freddie Gibbs,2013-06-19
+6z2F5JAAILOH3nyvNcECy8,Cold Day In Hell,Freddie Gibbs,2012-12-11
+6r4A1kEu3HAGMpEYBqocVl,"Lord Giveth, Lord Taketh Away",Freddie Gibbs,2012-10-02
+15k8vlPxxEjhpHAxuwSBUh,Baby Face Killa,Freddie Gibbs,2012-09-25
+0zrSpGKGnSbKoeIavHiy6I,Str8 Killa,Freddie Gibbs,2010-08-03
+4zv8fBnpl74bnzlYYi5Yih,Midwestgangstaboxframecadillacmuzik,Freddie Gibbs,2009-01-01
+1c5SNuDvXXiD9g0IKBUh28,The Miseducation of Freddie Gibbs,Freddie Gibbs,2009
+6Q3VZtyPCZFMO4cPF4828q,Monster,Future,2019-10-28
+65hRa80KDworqyE8242rLN,SAVE ME,Future,2019-06-07
+3LpIwZdzFwc10psLingT8x,Future Hndrxx Presents: The WIZRD,Future,2019-01-18
+6P9PZjWXoCRF5b66BafPKY,Future & Juice WRLD Present... WRLD ON DRUGS,Future,2018-10-19
+6Ew52HWkgfbth9ihRAq2Xd,BEASTMODE 2,Future,2018-07-06
+0C0Vs4XobImmqpr6kIasde,SUPERFLY (Original Motion Picture Soundtrack),Future,2018-06-15
+187UNqZ7MX3neMYkkevmdm,SUPER SLIMEY,Future,2017-10-20
+7K6OykPbezfgKgBufihn6X,HNDRXX,Future,2017-07-27
+17FBoXK1NU2rvJBbzdzw0r,FUTURE,Future,2017-06-30
+1GvR0Bjqbq1ejwjzLjrOcG,Beast Mode,Future,2016-11-29
+3jJKDKdlwRS584zUlHV2Ly,EVOL,Future,2016-04-13
+0fUy6IdLHDpGNwavIlhEsl,DS2 (Deluxe),Future,2015-07-17
+3dP0TFEEzTXJQKtrpsKFUj,DS2 - Track by Track Commentary,Future,2015-07-15
+7EYx33pYJKBfjCaDsfIjp4,Ghostface Killahs,Ghostface Killah,2019-09-13
+4hQXk5RY7rL0NMxdR0x49U,Czarface Meets Ghostface,Ghostface Killah,2019-02-15
+40c7E8VG9R8U0NKft7J7Yk,Ghost Files - Bronze Tape,Ghostface Killah,2018-11-30
+4t1y7sVACbddwczEcQs5HI,Ghost Files - Propane Tape,Ghostface Killah,2018-11-30
+6WkwHbcr6RAIqa72NsDFea,The Lost Tapes,Ghostface Killah,2018-10-05
+2fPz4Kn1vZTFZVbP0ia8Vq,Adrian Younge Presents: 12 Reasons to Die I,Ghostface Killah,2018-03-30
+7yXfSAtdHFZ1pYSubEio6a,The Brown Tape,Ghostface Killah,2018-01-26
+3G7WHOu9IDqO4UKyw2IfUr,Adrian Younge Presents: 12 Reasons To Die II,Ghostface Killah,2015-06-26
+0hWXtK4mP6Be6AHIllknU7,Sour Soul (Instrumentals),Ghostface Killah,2015-05-18
+7gP4vkln7Qmbycgx8WwTzL,Sour Soul,Ghostface Killah,2015-02-19
+2MNtOTfhYOxIw5xWEQHUvZ,36 Seasons,Ghostface Killah,2014-12-09
+2o8bBwp8CMxyeCg4P6KF7A,Hidden Darts Special Edition,Ghostface Killah,2010-09-22
+3hPl7uRfNdRvoRW0kUzkVk,Apollo Kids,Ghostface Killah,2010-01-01
+04HkBvk0hRK9rLqmdDTuB8,Wu Massacre,Ghostface Killah,2010-01-01
+6D9kjJvj2pdYEfjkJZDu9s,Wu Tang Presents…Wu Massacre,Ghostface Killah,2010-01-01
+4imA6mzSbTkAm0GoHh6zRF,Ghostdini Wizard Of Poetry In Emerald City,Ghostface Killah,2009-01-01
+5nmN1wW90fbqNbz7ltY7rg,Pro Tools,GZA,2008-08-19
+0ic6rMSwqDasuXSA7zJ1pw,The Pro Tools Instrumentals,GZA,2008-08-19
+3jSH6iHYvCsAphx5eUkQNb,Grandmasters,GZA,2005-10-25
+5uxYLiUKqQNoiD5rIVHnkm,Legend Of The Liquid Sword,GZA,2002-01-01
+4QMKELvG0VNODbiFigj4K9,Beneath The Surface,GZA,1999-01-01
+3k8xoyOXkGgZxUKgpmxz4P,Liquid Swords,GZA,1995-01-01
+6jjX8mGrsWtrpYpFhGMrg1,The Sun's Tirade,Isaiah Rashad,2016-09-02
+6JF49ixyHmOgS0Rsda2k42,Cilvia Demo,Isaiah Rashad,2014-01-28
+4MCPd6AmA6xfmmggVgtUmP,Ruff Draft (Dilla's Mix),J Dilla,2018-04-20
+0Plu6TE7pXhLuqIG9VZeoP,"J Dilla's Delights, Vol. 1",J Dilla,2017-06-16
+0v9TomxoVagPyvVNGhDbyB,Motor City,J Dilla,2017-04-21
+3cuTZGpaOoSETI0HChtro5,Jay Dee's Ma Dukes Collection,J Dilla,2016-12-23
+339adC6BXzqIBYVfO2gqnN,Champion Sound: The Remix,J Dilla,2016-11-25
+4DVqfowyeO2LGe2TZLJBU8,Jay Dee a.k.a. King Dilla,J Dilla,2016-10-17
+13U6VMbPcQMgIswWcRUMnI,The Shining – the 10th Anniversary Collection,J Dilla,2016-08-19
+1JKqsdbwfOK1233EOT67ZM,Jay Love Japan,J Dilla,2016-06-06
+572uuU7BBaHJpkz6XhveN7,The Diary,J Dilla,2016-04-15
+5kTINh4kyYiCLhneXGtKDe,"The King of Beats, Vol 2: Lost Scrolls",J Dilla,2016-02-19
+0Kh9j1Van0OshA6ogFPVA9,Dillatronic,J Dilla,2015-10-30
+2uneuSwxM1Sk4Ku4YqpjEA,The Diary (Instrumentals),J Dilla,2015-07-08
+3rnppXWBl6wECc3tiLyG16,The King of Beats (Batch #1),J Dilla,2015-02-07
+3rx0d5EBLCthDV3jWK5TOG,The King of Beats (Batch #2),J Dilla,2015-02-07
+5vDuDvpv9xwrc1T4RUMpG9,The King of Beats (Batch #3),J Dilla,2015-02-07
+3zlzM62D7cMQS4TXL2GNj3,The King of Beats (Batch #4),J Dilla,2015-02-07
+27xemdV6LEuA82QUa0wW6d,"The King of Beats, Vol. 1",J Dilla,2015-02-07
+5PerfGh9Smd6XjwkxpmL4V,Revenge Of The Dreamers III: Director's Cut,J. Cole,2020-01-16
+2n3quCZ0anEa46j2IveacI,Revenge Of The Dreamers III,J. Cole,2019-07-05
+4Wv5UAieM1LDEYVq5WmqDd,KOD,J. Cole,2018-04-20
+3CCnGldVQ90c26aFATC1PW,4 Your Eyez Only,J. Cole,2016-12-09
+1yZC8xZwv4gsmCZ4p4JWdI,"Forest Hills Drive: Live from Fayetteville, NC",J. Cole,2016-01-28
+7viNUmZZ8ztn2UB4XB3jIL,2014 Forest Hills Drive,J. Cole,2014-12-09
+1NfrmcXk8xNennyxQ57JcW,Born Sinner,J. Cole,2013-06-14
+0fhmJYVhW0e4i33pCLPA5i,Cole World: The Sideline Story,J. Cole,2011-09-27
+2oI6gtIXrvNiL2VEMmj5kY,DiCaprio 2,JID,2018-11-26
+1gPqbxhs90kppgOVxGOPzd,The Never Story,JID,2017-03-10
+4IAMLhL37kMrpByavj25Ne,Redemption,Jay Rock,2018-06-15
+1fsvlnonD95p6VTEdQ7zJn,90059,Jay Rock,2015-09-11
+6bPbKuFNW6Vausf1PExvd9,Follow Me Home,Jay Rock,2014-11-10
+3MwxfLMaztuCkOnsrisxGn,From Hood Tales to the Cover of XXL,Jay Rock,2010-07-20
+1NPxBmG3k3UzybcaxxSVuB,Escape From New York,Joey Bada$$,2019-05-24
+6swV0WUnPygRIMgEKn6Ige,ALL-AMERIKKKAN BADA$$,Joey Bada$$,2017-04-07
+4diNkL6XWhuGmSQHiyiUPt,B4.Da.$$,Joey Bada$$,2015-01-20
+3s5S4XAC5HgHaTyH5Nm8ED,Joey Bada$$ / Pro Era Instrumentals,Joey Bada$$,2013-11-12
+4Y05rEclWNlQLKD08SsJLC,Summer Knights,Joey Bada$$,2013-10-29
+5ra51AaWF3iVebyhlZ1aqq,1999,Joey Bada$$,2012-06-12
+5ilsl5R2lGACTnPZMKIp7o,All My Heroes Are Cornballs,JPEGMAFIA,2019-09-13
+51WLEfPEEkzAWurvuY6Gco,Veteran,JPEGMAFIA,2018-08-22
+5ZvLqwEbYbLFlAbmOElRNJ,Black Ben Carson,JPEGMAFIA,2016-02-15
+0FgZKfoU2Br5sHOfvZKTI9,JESUS IS KING,Kanye West,2019-10-25
+6pwuKxMUkNg673KETsXPUV,KIDS SEE GHOSTS,Kanye West,2018-06-08
+2Ek1q2haOnxVqhvVKqMvJe,ye,Kanye West,2018-06-01
+7gsWAHLeT0w7es6FofOXk1,The Life Of Pablo,Kanye West,2016-06-10
+7D2NdGvBHIavgLhmcwhluK,Yeezus,Kanye West,2013-01-01
+0A3g19AGFd9Qe3rAIkP8e0,Kanye West Presents Good Music Cruel Summer,Kanye West,2012-01-01
+2P2Xwvh2xWXIZ1OWY9S9o5,Watch The Throne (Deluxe),Kanye West,2011-08-08
+0OcMap99vLEeGkBCfCwRwS,Watch The Throne,Kanye West,2011-08-08
+20r762YmB5HeofjMCiPMLv,My Beautiful Dark Twisted Fantasy,Kanye West,2010-01-01
+3WFTGIO6E3Xh4paEOBY9OU,808s & Heartbreak,Kanye West,2008-01-01
+5fPglEDz9YEwRgbLRvhCZy,Graduation,Kanye West,2007-09-11
+5ll74bqtkcXlKE7wwkMq4g,Late Registration,Kanye West,2005-09-30
+3pLdWdkj83EYfDN6H2N8MR,Black Panther The Album Music From And Inspired By,Kendrick Lamar,2018-02-09
+4alcGHjstaALJHHiljfy3H,DAMN. COLLECTORS EDITION.,Kendrick Lamar,2017-12-08
+4eLPsYPBmXABThSJ821sqY,DAMN.,Kendrick Lamar,2017-04-14
+0kL3TYRsSXnu0iJvFO3rud,untitled unmastered.,Kendrick Lamar,2016-03-04
+7ycBtnsMtyVbbwTfJwRjSP,To Pimp A Butterfly,Kendrick Lamar,2015-03-16
+1DqhWr73Fh5yoNzKLas0G3,"good kid, m.A.A.d city (Deluxe)",Kendrick Lamar,2012-01-01
+6PBZN8cbwkqm1ERj2BGXJ1,"good kid, m.A.A.d city",Kendrick Lamar,2012
+1bkN9nIkkCnXeG4yitVS1J,Section.80,Kendrick Lamar,2011-07-02
+7MoLQ8vckhwBbQqEYQTYQC,Overly Dedicated,Kendrick Lamar,2010-09-14
+5bCk3kWAy2JbbTfHqzZCII,"Passion, Pain & Demon Slayin'",Kid Cudi,2016-12-16
+6e8pwYKSF9iZjpPep1DVzx,Speedin' Bullet 2 Heaven,Kid Cudi,2015-12-04
+7qrXPKTQeYWTp42aJqa9s6,KiD CuDi presents SATELLITE FLIGHT: The journey to Mother Moon,Kid Cudi,2014-01-01
+262o5a05pMUDSV2uzo5EwQ,Indicud,Kid Cudi,2013-01-01
+08eM9GRdr5BCCHNqS3Wwud,Man On The Moon II: The Legend Of Mr. Rager,Kid Cudi,2010-01-01
+47y3PbX8oIDCkYAFylCJz0,Man On The Moon: The End Of Day,Kid Cudi,2009-01-01
+2S8AWAM0nxyFy66YnUfIs3,Man On The Moon: The End Of Day (Deluxe),Kid Cudi,2009-01-01
+6FtqZFgeAT84TJDpN2qbGk,Killer Mike Chronicles,Killer Mike,2015-03-31
+1gvkFTPF1rKpNnbfzitx5T,R.A.P. Music [Instrumentals],Killer Mike,2012-09-18
+5EAhUoAz1G3WTvIfGZvmrh,R.A.P. Music,Killer Mike,2012-05-15
+26BmsM9kCoN20PS3R9VFPH,BANGx3,Killer Mike,2011-11-29
+6hWhW0rklsh8f9J0OiTls6,Underground Atlanta,Killer Mike,2009
+1t6Ip5Meiu0qTSQJPCc6MZ,I Pledge Allegiance to the Grind II,Killer Mike,2008-07-08
+105DKMawvJxl1imfGlmtiD,The Killer,Killer Mike,2005
+3zGtADK8O9cFL3x6B2yvsB,Harverd Dropout,Lil Pump,2019-02-22
+2VVvm4zJlUQm9XmBCvGN6z,Lil Pump,Lil Pump,2017-10-06
+5zHx5hj3bxfcN9f9VIdGaN,Songs That People Emailed Me About Asking Why I Hadn't Put Them on Streaming Platforms,Lil Ugly Mane,2019-09-11
+6mueTLPXfvXjl61ymHHwY8,Oblivion Access,Lil Ugly Mane,2015-12-18
+6VNXIYzXocTyZMNDLG88Gb,Mista Thug Isolation,Lil Ugly Mane,2012-02-11
+6jTdFctvoG5GkE619VgIy4,Playaz Circle,Lil Ugly Mane,2011-02-01
+0zicd2mBV8HTzSubByj4vP,Luv Is Rage 2 (Deluxe),Lil Uzi Vert,2017-11-17
+733e1ZfktLSwj96X5rsMeE,Luv Is Rage 2,Lil Uzi Vert,2017-08-25
+6LX75kNicFqjjiAOeZgN67,The Perfect LUV Tape,Lil Uzi Vert,2016-08-10
+7mgdTKTCdfnLoa1HXHvLYM,Lil Uzi Vert vs. The World,Lil Uzi Vert,2016-05-27
+5WrbKW1nRN4vSsu70uizxX,Luv Is Rage,Lil Uzi Vert,2015-12-18
+50yFYgKdwJANZ5O9MIbMkg,Tha Carter V,Lil Wayne,2018-09-28
+2EZ3h6cM5eC65qSHCghdIZ,I Am Not A Human Being II,Lil Wayne,2013-03-22
+6Pqlfg42Sc3ElNuyt5NUiK,I Am Not A Human Being II (Deluxe),Lil Wayne,2013-01-01
+1uuSC0RCJB3dSp8Mb6GflZ,Tha Carter IV (Deluxe),Lil Wayne,2011-01-01
+1MGEMBqM3v8OUM2glv7MSx,Tha Carter IV,Lil Wayne,2011-01-01
+3seLEYrsszham3IxskYwt7,Tear Drop Tune Part 3,Lil Wayne,2010-02-28
+5vfnsOgLqsgmEb3vGyc2FO,I Am Not A Human Being,Lil Wayne,2010-01-01
+4qplno3lbet8WvuTGdDG3T,Nuthin' 2 Prove,Lil Yachty,2018-10-19
+4nHOF3neSo6Y7OG5OAflkC,Lil Boat 2,Lil Yachty,2018-03-09
+6upTR3RFKR7K20OnHRXDkL,Teenage Emotions,Lil Yachty,2017-05-26
+1Ea4UfFW7K1UzbjkDVaPri,Summer Songs 2,Lil Yachty,2016-07-29
+4bJqW1SBOvsfcEzZwsjdjx,Lil Boat,Lil Yachty,2016-07-05
+2liBYuCYfW37CmNkub2BaH,DROGAS WAVE,Lupe Fiasco,2018-09-21
+2utMSPHiSIHEg2vb9awgDi,DROGAS Light,Lupe Fiasco,2017-02-10
+7F58zK8t8whSFjX5X09d28,Tetsuo & Youth,Lupe Fiasco,2015-01-20
+5rCCCernTo6IwFwEZM4H53,Food & Liquor II: The Great American Rap Album Pt. 1,Lupe Fiasco,2012-09-25
+4Um8wMKUXteqtUlFelOHrg,Lasers,Lupe Fiasco,2011-03-07
+0MihD70HInk2rDaChdAdEy,Lupe Fiasco's The Cool,Lupe Fiasco,2007-01-01
+05gKNAgBzLOGmTNVsGtP6p,Lupe Fiasco's Food & Liquor (5th Anniversary Edition; Deluxe Edition),Lupe Fiasco,2006-06-27
+0TDJRkEr2SrhWTetdkEzED,Lupe Fiasco's Food & Liquor,Lupe Fiasco,2006-06-27
+5sY6UIQ32GqwMLAfSNEaXb,Circles,Mac Miller,2020-01-17
+5wtE5aLX5r7jOosmPhJhhk,Swimming,Mac Miller,2018-08-03
+6f6tko6NWoH00cyFOl4VYQ,The Divine Feminine,Mac Miller,2016-09-16
+13fsGE9UN5VaAkETSs94un,Best Day Ever (5th Anniversary Remastered Edition),Mac Miller,2016-06-03
+2Tyx5dLhHYkx6zeAdVaTzN,GO:OD AM,Mac Miller,2015-09-18
+0oPKygNJATeXkPWre0R0Nr,Live From Space,Mac Miller,2013-12-17
+3T02fCxAjApu18taJLLbyN,Watching Movies with the Sound Off (Deluxe Edition),Mac Miller,2013-06-18
+3ZNMAkjR6M4T0r6Of6jC08,Watching Movies with the Sound Off,Mac Miller,2013-06-18
+7nVdkG4gZZxB1I1RLN27fJ,Macadelic (Remastered Edition),Mac Miller,2012-03-23
+34Vqb2m74NU6Pb682ymHic,Blue Slide Park (Commentary Version),Mac Miller,2011-11-15
+6VhDYmsjHqRxKXd0z7hmXI,Blue Slide Park,Mac Miller,2011-11-15
+16Wn60d87WBlf0Tu8Sqnck,Blue Slide Park (Edited Version),Mac Miller,2011-11-15
+3giQKi73ayOnj7jxGevJwg,Madvillainy 2: The Madlib Remix,Madvillain,2008-09-30
+39qfFzn2Cii6N0AdAXdg9p,Four Tet Remixes,Madvillain,2005
+01FCoGEQ3NFWF4fHJzdiax,Madvillainy,Madvillain,2004-03-24
+6UYZEYjpN1DYRW0kqFy9ZE,Championships,Meek Mill,2018-11-30
+2OWLbSd0bRFLw2M0KlgrgJ,Wins & Losses (Deluxe Edition),Meek Mill,2017-08-04
+2SCQAZZ5pc90l9SPBsWCIQ,Wins & Losses,Meek Mill,2017-07-21
+6sNbRwX0lZREkdmUSDsVzo,DC4,Meek Mill,2016-10-28
+31ZNLGjARu4skCvhGc1bfA,First Come First Serve,Meek Mill,2015-09-02
+2O3OKOYCub892PUGprsaQo,Dreams Worth More Than Money,Meek Mill,2015-06-29
+3CjBOwf3HzW7fWxUGCU8NQ,Unreleased Killadelphia Muzik,Meek Mill,2014-10-27
+5k21b6J72f19J3NmPXgPUu,Dreamchasers 3,Meek Mill,2013-09-29
+0Ckf7JkYnpD084soz5mftm,Dreams and Nightmares,Meek Mill,2012-10-29
+0zhZDmHEtDtok393SbZ3d7,Dreams and Nightmares (Deluxe Version),Meek Mill,2012-10-26
+0kpslw9IHk7EsK40BGUbX9,Dreamchasers 2,Meek Mill,2012-05-07
+40SFz21xgwvkJn2Ea1z5iH,Dreamchasers,Meek Mill,2011-08-11
+6bPpXqJRpjwy0hLyUGtzYc,FATHER OF 4,Offset,2019-02-22
+4SnWrk06dIt4ynFRLpNX6e,The Circus,Mick Jenkins,2020-01-10
+2oenkFNS8GLDubNAn2gxQH,Pieces of a Man,Mick Jenkins,2018-10-26
+1355FmCtrXQa0VeMd3eMzT,The Healing Component,Mick Jenkins,2016-09-23
+302R4KlFy873Aq7YJNPHWr,Wave[s],Mick Jenkins,2015-08-21
+5170B9wvcKvzWRWmTp5lCV,The Water (S),Mick Jenkins,2014-08-12
+7fd7SEK25VS3gJAUgSwL6y,Culture II,Migos,2018-01-26
+2AvupjUeMnSffKEV05x222,Culture,Migos,2017-01-27
+7Hd1Gqx8xFRAnQOLHAZxn3,YRN 2 (Young Rich Niggas 2),Migos,2016-10-14
+7qLM7egb40QyDHa3CknQqs,Rich Shooters,Migos,2015-11-01
+4R8gIy454OjbyRspuPu5A7,Currency,Migos,2015-09-02
+0sv4nM5FtA8Y3DrvG4CXH8,Yung Rich Nation,Migos,2015-07-31
+6r9ryZTveNqFVOmoN0LEum,The Green Album,Migos,2015-06-09
+0ty5iwaiepWlGq8g0DKtEy,Rich Ni**a Timeline,Migos,2014-11-05
+56PJDByaunMWwCqs5rV3Nc,No Label II,Migos,2014-06-03
+7J6fSYFHb5Kgouc4Nr8SZg,No Label,Migos,2013-07-30
+70HXQp5RAjM37JHBuvL8Dg,Juug Season,Migos,2013-07-30
+4YmTZjHk8SmTFTiVMXBN1A,Young Rich N*ggas,Migos,2013-07-09
+74jYy3DtyTfSVyxQUcsTFF,Blood Money,Mobb Deep,2006-05-02
+7j358KRnAMmabpFQoymvCp,Amerikaz Nightmare,Mobb Deep,2004-08-10
+6UDhYUew9ULQVtt4HWNRSL,Free Agents,Mobb Deep,2003
+2hSnMHuLYfpp8hvdpZRjAk,Infamy,Mobb Deep,2001-12-11
+5o6X1oSGpIcD8czW7X3GPG,Infamy (Clean Version),Mobb Deep,2001-12-11
+25NNQGZBd9oLAO1xTeq5oQ,Murda Muzik,Mobb Deep,1999-04-27
+6BWf3fxsgSDhES4Cm4oyy5,Hell On Earth (Explicit),Mobb Deep,1996-11-19
+1cCAb1vN8uUsdfEylVmTLs,The Infamous,Mobb Deep,1995-04-25
+2Y8JEb0HiAioGra55OwKhE,Juvenile Hell,Mobb Deep,1993-01-01
+4Rg0nvUI2jt96TNHtpmmpv,TRUE MAGIC,Mos Def,2006-12-29
+6W05fmxrjjEy6BflrPbzej,The New Danger,Mos Def,2004-10-19
+1fB3SvkZpfDjSqyLcRT75V,Mos Def - Live at Benaroya Hall,Mos Def,2004-01-01
+5gK2l2LgWY0BA4p9uy27z6,Black On Both Sides,Mos Def,1999-10-12
+3OSID3YChn6nOjfUAlSXQZ,Efil4zaggin,N.W.A.,1991-05-28
+0Y7qkJVZ06tS2GUCDptzyW,Straight Outta Compton,N.W.A.,1988-08-08
+3mpA4v2tvEM5aAYtNGnbzD,Room 25,Noname,2018-09-14
+18Scpsg5OV1iYNtSaCsjwz,Telefone,Noname,2016-08-12
+4oT4YRVe43ESrT9rx2LKCM,Luv(sic) Hexalogy,Nujabes,2015-12-09
+724juUMeWRW82bDoyH91Vd,Spiritual State,Nujabes,2011-12-03
+6nVACH6a27eOWiumAJhDWS,Modal Soul,Nujabes,2005-11-11
+5FrjDW96mCYw9ECc74c637,Metaphorical Music,Nujabes,2003-08-21
+7dAm8ShwJLFm9SaJ6Yc58O,Die Lit,Playboi Carti,2018-05-11
+4rJgzzfFHAVFhCSt2P4I3j,Playboi Carti,Playboi Carti,2017-04-14
+4g1ZRSobMefqF6nelkgibi,Hollywood's Bleeding,Post Malone,2019-09-06
+6trNtQUgC8cgbWcqoMYkOR,beerbongs & bentleys,Post Malone,2018-04-27
+5s0rmjP8XOPhP6HhqOhuyC,Stoney (Deluxe),Post Malone,2016-12-09
+07bIdDDe3I3hhWpxU6tuBp,DAYTONA,Pusha T,2018-05-25
+4OoNqHBpbgDoqtN3u1IdiC,King Push – Darkest Before Dawn: The Prelude,Pusha T,2015-12-18
+7e51fH5KpL87BCIVO068fh,Spotify Sessions,Pusha T,2014-06-10
+0LgwP5HQ7psvJAY2KSGPMH,My Name Is My Name,Pusha T,2014-01-01
+0tS7jye0zKwGF0H4rqFGvz,Fear Of God II: Let Us Pray,Pusha T,2011-11-08
+4vLYreWxd2ptOAzPwTyBI3,SR3MM,Rae Sremmurd,2018-05-04
+5v6iBhIlflzR9rEd1LAMbd,SremmLife 2 (Deluxe),Rae Sremmurd,2016-08-12
+6eDx949ONWDCN0O22wFZf7,SremmLife,Rae Sremmurd,2015-01-06
+4kQCM7kzTEivQGquNEzkTl,The Wild,Raekwon,2017-03-24
+1DjD44E7NIEiRrhuQbbv01,Fly International Luxurious Art,Raekwon,2015-04-28
+1lCxVzi6tCtuVlUDrPwSmO,The Tonite Show,Raekwon,2013-03-05
+7y9thaBm7wBPzsvcAWyWbH,Shaolin Vs. Wu-tang,Raekwon,2011-01-01
+0EBuHcZx8qwDxB5FqVkc5p,Shaolin Vs. Wu-Tang,Raekwon,2011-01-01
+09CMsxWaO8Hald9q5NHkWb,The Babygrande Recordings,Raekwon,2009-09-01
+5QpSt1QtT7MaCKZNQE82fv,Only Built 4 Cuban Linx 2,Raekwon,2009-01-01
+1WJST5QsA23XFgOVYGLlTt,"The Vatican Mixtape, Vol. 3",Raekwon,2007-09-25
+6ZCuEXxjVc3TgQUdZJVHBs,"The Vatican Mixtape, Vol. 1",Raekwon,2007-02-27
+4i7N6dwHDmHtrJsWAjRYMc,Heroin Only,Raekwon,2006-11-10
+1kMki3taQHmpptDNDDVSq4,The Lex Diamond Story,Raekwon,2003-01-01
+41gZK0HtvO5zaOwJlT2Sed,Immobilarity,Raekwon,1999-11-16
+6XFQ3XY1IKWuzzmaJips0M,Sorry 4 Tha Wait,Rich Gang,2019-12-19
+1JgT6mYzPEFvsbZWjqmgCJ,Slatt University,Rich Gang,2019-11-02
+7Dg45in5QAfGluUc1x874g,Slimewop 3,Rich Gang,2019-08-22
+5R9wir5X8dVr7B6NC9dXD8,!,Rich Gang,2019-07-26
+2VKPqV9eORha9ke4vOL9WI,Rokkstar Status,Rich Gang,2019-06-19
+5fNDsY6brqufpsJwH9hx9L,SlimeWop 2,Rich Gang,2019-06-12
+6tjdS0dSOwlOmaiz0q68Ov,SlimeWop,Rich Gang,2019-05-17
+2PYJg7uykLolWPJhqqDe9o,Rich $lime,Rich Gang,2019-05-02
+2uhiqri87eC7Xe0tg9p7fB,Rich Gang (Deluxe Version),Rich Gang,2013-01-01
+4vKcewiCloFlttCdZKHcPb,Rich Gang,Rich Gang,2013-01-01
+3v2GjFB9V5kHgrOCXn3sI9,Run the Jewels 3,Run The Jewels,2016-12-25
+2jsjxv51sLt4wDnAixPMIM,Meow The Jewels,Run The Jewels,2015-09-25
+2wwA3sIVfwCSQReRnVOvzL,Run The Jewels 2,Run The Jewels,2014-10-27
+2ZyrfJY5s31jPFFxKrgKK1,Run the Jewels Instrumentals,Run The Jewels,2014-04-25
+5okrDWqn2b0dX1VBpaZRxQ,Run The Jewels (Deluxe European Edition),Run The Jewels,2014-01-13
+7BUlAwJBzKyllRuDTKV8Ae,Run the Jewels,Run The Jewels,2013-06-26
+3UTp6spxkyTdvsmJDPfb7n,CrasH Talk,ScHoolboy Q,2019-04-26
+0YbpATCIng8Fz2JrfHmEf7,Blank Face LP,ScHoolboy Q,2016-07-08
+7Et3bSTLLqdABO1qCxUplS,Oxymoron (Deluxe),ScHoolboy Q,2014-01-01
+3WrybrSHu1vSZaQegAZTyn,Oxymoron,ScHoolboy Q,2014-01-01
+6Xz8eKy8TeAyzwGr8QSOAS,Habits & Contradictions,ScHoolboy Q,2012-01-14
+5QGtxFOTTr0Z4TyUQNVOKO,Setbacks,ScHoolboy Q,2011-01-11
+0a8d4BfLP3XEiuZZTWxxEQ,I Wanna Thank Me,Snoop Dogg,2019-08-16
+4zeITicw3oKpOV5EMQIUQH,Snoop Dogg Presents Bible of Love,Snoop Dogg,2018-03-16
+7JH7jIpL9JwnBEpYAtyi2f,220,Snoop Dogg,2018-02-20
+6MRg8FgwKDNmNO0D9neSmo,Make America Crip Again,Snoop Dogg,2017-10-27
+4HGpekiabmZyat5xw23uZB,Neva Left,Snoop Dogg,2017-05-19
+0TDrWBqGYPnJEd3DZpNnIx,COOLAID,Snoop Dogg,2016-07-01
+5Rd4xjjrhHvLVSFDAMi1nr,COOLAID (Clean Edited Version),Snoop Dogg,2016-07-01
+3uymcMheLvldkL7e7EUXz3,Cuzznz,Snoop Dogg,2016-01-15
+3UesepjW7Scwi8DV62Qqyn,BUSH,Snoop Dogg,2015-05-06
+6YxjD9sRNGNOGGXuFzI5pF,7 Days Instrumentals,Snoop Dogg,2014-03-04
+53a8bJTrR57zOjTlOOm1Hl,7 Days of Funk,Snoop Dogg,2013-12-10
+12pnVAswzLE6hArSl0bF0h,Mac and Devin Go To High School (Music From and Inspired By The Movie),Snoop Dogg,2011-12-12
+4x53rdOiC4Zkb3bbqw9FyM,Doggumentary,Snoop Dogg,2011-01-01
+76290XdXVF9rPzGdNRWdCh,Ctrl,SZA,2017-06-09
+2qCyMMQ785sPH4Yx25GQZ8,Z,SZA,2014-04-08
+5MDmKDe9kmJBsf8yYn8dUM,Born 2 Rap,The Game,2019-11-29
+0oYPYkxc18YCwJR7OKnPdC,1992,The Game,2016-10-14
+51pWPRmyRyrh4GDwUjWmkM,1992 (Bonus Track Edition) [Clean],The Game,2016-10-14
+3EPhRFp9fJqsZwyQ6CfpND,Block Wars,The Game,2016-07-29
+74XwFTMduK9sd5TdIZ2Tae,Streets Of Compton,The Game,2016-06-17
+4SXicgoFSX9TEtxJ2EJHi7,The Documentary 2 + 2.5 (Collector's Edition),The Game,2016-01-22
+4bgRhU3yyBJxuYz61FKsNa,The Documentary 2.5,The Game,2015-10-16
+4CPMuMFHgMhjlx5ZIzypFL,The Documentary 2,The Game,2015-10-09
+3Ezv8bXs9vS908aaKdWrQ3,The King & I,The Notorious B.I.G.,2017-05-19
+0nyTuDV4qohpivHna2kKF8,Duets: The Final Chapter,The Notorious B.I.G.,2005-12-13
+7zg9ZSOQtYLjWnvSawflg6,Born Again,The Notorious B.I.G.,1999
+7dRdaGSxgcBdJnrOviQRuB,Life After Death (2014 Remastered Edition),The Notorious B.I.G.,1997-03-04
+6uMVAiciTpTyrQn5QJDPJM,Life After Death (2014 Remaster),The Notorious B.I.G.,1997-03-04
+2HTbQ0RHwukKVXAlTmCZP2,Ready to Die (The Remaster),The Notorious B.I.G.,1994-09-13
+2ymwUMeW3BySLhKNp8UQZ3,Ready to Die (The Remaster; 2015 Remaster),The Notorious B.I.G.,1994-09-13
+4qZBW3f2Q8y0k1A84d4iAO,"My Dear Melancholy,",The Weeknd,2018-03-30
+2ODvWsOgouMbaA5xf0RkJe,Starboy,The Weeknd,2016-11-25
+0P3oVJBFOv3TDXlYRhGL7s,Beauty Behind The Madness,The Weeknd,2015-08-28
+522VpsDblCDf3rMSnDU4tZ,Kiss Land,The Weeknd,2013-09-09
+4NQNWfXDGo6MPCscpwuTgz,Trilogy,The Weeknd,2013-01-01
+1Sf8GsXG32t0jNrX11xqWx,JACKBOYS,Travis Scott,2019-12-27
+41GuZcammIkupMPKH2OJ6I,ASTROWORLD,Travis Scott,2018-08-03
+6FED8aeieEnUWwQqAO9zT1,"Huncho Jack, Jack Huncho",Travis Scott,2017-12-21
+42WVQWuf1teDysXiOupIZt,Birds In The Trap Sing McKnight,Travis Scott,2016-09-16
+4PWBTB6NYSKQwfo79I3prg,Rodeo (Expanded Edition),Travis Scott,2015-09-04
+5zi7WsKlIiUXv09tbGLKsE,IGOR,"Tyler, The Creator",2019-05-17
+2nkto6YNI4rUYTLqEwWJ3o,Flower Boy,"Tyler, The Creator",2017-07-21
+621OhgnZJ7Pz8iUazct1In,Cherry Bomb,"Tyler, The Creator",2015-04-13
+5V3Chnpno9oTI7JSPXKUf3,Cherry Bomb + Instrumentals,"Tyler, The Creator",2015-04-13
+40QTqOBBxCEIQlLNdSjFQB,Wolf,"Tyler, The Creator",2013-04-01
+40ucxnGO51wcTGNI6xge6z,Goblin (Deluxe Edition),"Tyler, The Creator",2011-05-10
+7tjZ51DOxwxIcnY20ThkaV,Goblin,"Tyler, The Creator",2011-05-10
+6SRxt5KPZbpJ4dB8ssYvQ0,Banned (Slowed & Chopped by DJ Red),UGK,2018-11-23
+791Vf45uel4npVmy9jCjpE,The Southern Way,UGK,2018-06-30
+3615jyGdFlOI0uLCBnzWXA,The Bigtyme Way (1992-1997) [Slow’d & Tap’t],UGK,2016-11-29
+52D2v3pzp70PRdjH2HDKO0,The Bigtyme Way 1992-1997 (Bonus Edition),UGK,2015-04-07
+2DFK9pm59cvDaFWKgJVUtk,UGK 4 Life,UGK,2009-03-26
+4GXlMz68LyGZeHzJcetFi1,UGK (Underground Kingz),UGK,2007-08-07
+04F8RvzrP94IgFnim6jOom,Jive Records Presents: UGK - Chopped & Screwed,UGK,2004-12-03
+6Q7TCZ31DUdPr4wOYi8lPG,Best of UGK,UGK,2003-06-12
+2GVOVA37Vzl1vgsPRBA6Nj,The Southern Way (Mixed By Big Chance),UGK,2003
+7jlzVc3FDwo8JD3xF6ww9S,Side Hustles,UGK,2002-09-23
+1HWeoKv9Pi7Mkw3oQA7Yud,Dirty Money,UGK,2001-11-11
+4jTPQq9PSlKMOm1yLx2ATN,Ridin' Dirty,UGK,1996-07-30
+4rjGyhPnaKV5hfwFNiHtQA,Super Tight,UGK,1994-08-30
+4HzHd0EcjdHYKDi5NbS5xU,Too Hard To Swallow,UGK,1992-09-11
+1XGGeqLZxjOMdCJhmamIn8,FM!,Vince Staples,2018-11-02
+5h3WJG0aZjNOrayFu3MhCS,Big Fish Theory,Vince Staples,2017-06-23
+2haR5qnQopCdVASZ92YTGn,Prima Donna,Vince Staples,2016-08-25
+4Csoz10NhNJOrCTUoPBdUD,Summertime '06,Vince Staples,2015-06-30
+7mxpMxmMM8RN39YRlo08v7,Hell Can Wait,Vince Staples,2014-09-23
+2xnuEN4FUvEJ7au1j82Y1L,Of Mics And Men (Music From The Showtime Documentary Series),Wu-Tang Clan,2019-05-17
+3g8KDFecnLPa6YiBdHTl8K,The Saga Continues,Wu-Tang Clan,2017-10-13
+1XiCmEinrmarN4R6F9saUf,A Better Tomorrow,Wu-Tang Clan,2014-12-01
+1rsA8ofEIHtvfR1FTwt0xj,Soundtracks from the Shaolin Temple,Wu-Tang Clan,2013-05-14
+0BZ96QoCk1mZa1VdyzRiX4,Legendary Weapons,Wu-Tang Clan,2011-07-26
+5obiyJomz6ypITdwLIdNkv,"Wu-Tang Meets the Indie Culture, Vol. 2 - Enter the Dubstep (Instrumentals)",Wu-Tang Clan,2010
+762XfNqBx6GV8IseS2zSuq,Wu-Tang Meets the Indie Culture Vol. 2: Enter the Dubstep,Wu-Tang Clan,2009-11-10
+7GvdgeSyGWQ8x7RrchZkU3,Wu-Tang Meets The Indie Culture Instrumentals,Wu-Tang Clan,2009-04-14
+7E41BxBIjPfESE4i75oDVR,Live At Montreux 2007,Wu-Tang Clan,2008-09-22
+14u4xxov9oj509A7sGPJdH,8 Diagrams,Wu-Tang Clan,2007-12-11
+71i2DEJp6T0ywlT62T3gLv,Wu-Tang Meets The Indie Culture,Wu-Tang Clan,2005-10-18
+1QzsV8brEcEwOe7jcMUz13,Disciples of the 36 Chambers: Chapter 1 (Live) [2019 - Remaster],Wu-Tang Clan,2004-03-12
+1gKAuYWacmDF9bpHlLBLcX,Wu-Tang Iron Flag,Wu-Tang Clan,2001-12-18
+5zuM1EG06X1J7VsIF1omRm,4REAL 4REAL,YG,2019-05-24
+5IYvKd22yQkJRfoIStesbX,STAY DANGEROUS,YG,2018-08-03
+4VqdntbxmB7r1At6sPKRnb,Red Friday,YG,2016-11-25
+4nwd6ernojhNIIRifDJoRz,Still Brazy (Deluxe),YG,2016-06-17
+023jioejd2M0SHsBo3tXrP,California Livin,YG,2015-10-09
+3ldsrFbLgrIJ00byb2tncW,Blame It On The Streets,YG,2014-11-24
+60QP93G98tBVQnB6qWROtY,My Krazy Life (Deluxe Edition),YG,2014-03-18
+10jogO732o8oGvsjVpWRmO,My Krazy Life (Deluxe),YG,2014-01-01
+51o7e7jwDTbX8r43zbjieM,My Krazy Life,YG,2014-01-01
+6LYs6vCaIZd3kemw1JDGti,Just Re'd up 2,YG,2013-01-02
+4T2mQ3Ou4VOt2257bYYAZy,Just Re'd Up,YG,2011-05-11
+24jAbLMFzCTlIv3kQ94HwK,So Much Fun (Deluxe),Young Thug,2019-12-20
+1bnHPO4dKK7IjvgrtVBcQh,So Much Fun,Young Thug,2019-08-16
+4OHfmMUq6xwCo8zfQuc9Rf,Slime Language,Young Thug,2018-08-17
+5Dwws0oO0fQLDsrwZE7rvW,Slime Season 4,Young Thug,2017-12-04
+51KZKzPd3OQT1r46a55VTt,Beautiful Thugger Girls,Young Thug,2017-06-16
+7EpUpNUkkEGnaCvkcn1j4H,JEFFERY,Young Thug,2016-08-26
+2z4c8M8aVzl7CTobIp36KF,Slime Season 3,Young Thug,2016-03-25
+4sAB9WulPpnAcig7alDGTg,I'm Up,Young Thug,2016-02-05
+3etiSiRWBRUkJ4vMW2s3DK,1017 Thug,Young Thug,2015-12-11
+0ZTiZtSpSm5Px4sVZQa0WR,Young Thugger Mane La Flare,Young Thug,2015-12-11
+5yu0WHG7kYQuFA7GdOQL9Y,The Purple Album,Young Thug,2015-06-09
+0BsMZIueWsJLWng8A7sE8e,Barter 6,Young Thug,2015-04-16
+7a3rhn1csJY4CbdqcQsMcy,Brick Sqaud,Young Thug,2014-11-18
+4N0QH3uy5K5T3fMtpLIpKq,1017 Thug 3 The Finale,Young Thug,2014-08-29
+56hYCG1iltKiEgSPOeRRYd,Young Thugga Mane La Flare,Young Thug,2014-04-24
+4k4w4MLXdY084qrbMGy9Sg,I Came from Nothing 2,Young Thug,2011-12-20

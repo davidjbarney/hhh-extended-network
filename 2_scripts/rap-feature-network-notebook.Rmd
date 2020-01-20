@@ -5,7 +5,7 @@ date: "1/26/2019"
 output: html_document
 ---
 
-# Example Data Pipeline
+# Setup
 First, set the working directory to the `../2_scripts/` subfolder of this repository to keep things organized.
 
 Next, install and source the `spotifyr` package. You'll need to get a "client access token" from Spotify [here](https://developer.spotify.com/) and pass it through the `spotifyr::get_spotify_access_token()` function. Additional instructions from the package developer can be found [here](https://github.com/charlie86/spotifyr). 
@@ -27,181 +27,152 @@ library(viridis)
 
 Now we can search the Spotify API for artists, albums, songs, their metadata, etc. 
 
-## Spotify API Usage
-Let's try pulling tracklists for Mac Miller to get familiar with the Spotify API. 
-
-```{r Search artists for Mac}
-mac_miller_search <- get_artists('mac miller') %>%
-  slice(.,1) %>%
-  select(.,1:2)
-```
-
-```{r Search Mac's albums}
-mac_miller_album_search <- get_albums(mac_miller_search$artist_uri)
-```
-
-```{r Pull tracklists for Mac's albums}
-mac_miller_tracks <- get_album_tracks(mac_miller_album_search)
-```
-
-## Feature Extraction Approach
-Now that we have the tracklist for Mac Miller's discography, let's parse the listed features into a tidy format with some regular expressions.
-
-```{r Regex setup}
-# Define the features conjunctions
-featuring <- c("feat\\.","ft\\.", "feat", "ft", "featuring")
-ft_match <- str_c(featuring, collapse = "|")
-
-multiple_fts <- c(",","&","[[:space:]]+and[[:space:]]+")
-m_fts_match <- str_c(multiple_fts, collapse = "|")
-
-brackets <- c("\\[$","\\]$")
-brackets_match <- str_c(brackets, collapse = "|")
-
-# All to lowercase
-mac_miller_tracks$track_name <- str_to_lower(mac_miller_tracks$track_name) 
-
-# Working with the "tracks" dataframe
-mac_miller_tracks_w_feats <- mac_miller_tracks 
-mac_miller_tracks_w_feats$artist <- "mac miller"
-
-mac_miller_tracks_w_feats <- mac_miller_tracks_w_feats %>%
-  dplyr::filter(str_detect(mac_miller_tracks_w_feats$track_name, "feat\\.")) %>%
-  select(track_name, artist) %>%
-  separate(track_name, c("track", "feature"), "feat\\.") %>%
-  mutate(feature_list = str_split(feature, m_fts_match, n = Inf)) %>%
-  unnest(feature_list)
-
-mac_miller_tracks_w_feats$feature_list <- mac_miller_tracks_w_feats$feature_list %>%
-  str_replace_all("\\)","") %>%
-  str_replace_all("\\]","")
-```
-
-# Implement Data Pipeline
-This section scales up the previous process to a larger set of hip hop artists. To keep things reasonable, we'll scrape the discography tracklists for all artists that appear in the ["Overposted Albums" list](https://docs.google.com/spreadsheets/d/1Qpbd-fHbMyfWXlWPRA_XfgzYayc8cIjn8J9CuL-aNpE/edit#gid=0) from the [r/hiphopheads](https://www.reddit.com/r/hiphopheads/) subreddit. 
+# Data Pipeline
+Now we're ready to pull data from Spotify. To keep things reasonable, we'll scrape the discography tracklists for all artists that appear in the ["Overposted Albums" list](https://docs.google.com/spreadsheets/d/1Qpbd-fHbMyfWXlWPRA_XfgzYayc8cIjn8J9CuL-aNpE/edit#gid=0) from the [r/hiphopheads](https://www.reddit.com/r/hiphopheads/) subreddit. 
 
 **Note**: `../1_data/r_hiphopheads_overposted.csv` was pulled on 2019-03-31, and is likely to have been updated since.
 
 ## Query Spotify API
-```{r Read in Reddit data}
+```{r Read in Reddit data, eval=FALSE}
 hhhe <- read_csv("../1_data/r_hiphopheads_overposted.csv")
 hhhe[sample(nrow(hhhe), 5), ]
 ```
 
-```{r Get Spotify artist IDs}
+```{r Get Spotify artist IDs, eval=FALSE}
 # Get character vectors of the unique artists & albums
 artists <- unique(hhhe$Artist)
 albumnames <- unique(hhhe$Album)
 
 # Get Spotify artist uri identifiers
-artists_df <- map_dfr(artists, get_artists) %>%
+artists_df <- map_dfr(artists, search_spotify, type = "artist", limit = 1) %>%
+  rename(artist_uri = id, artist_name = name) %>%
   filter(artist_name %in% artists) %>%
   select(artist_name, artist_uri)
 
-write.csv(artists_df, file = "../1_data/all_artists.csv")
-
-head(artists_df)
+write_csv(artists_df, "../1_data/all_artists.csv")
 ```
 
-```{r Get Spotify album IDs}
+To update below: remove duplicates (e.g. keep only "deluxe" version of an album)
+
+```{r Get Spotify album IDs, eval=FALSE}
 # Get Spotify album identifiers for all these artists
 album_list <- list()
 
-for (i in 1:nrow(artists_df)){
-  temp <- get_albums(artists_df$artist_uri[[i]])
-  Sys.sleep(1) # Pause to avoid breaking the API calls
+for(i in 1:nrow(artists_df)){
+  temp <- get_artist_albums(artists_df$artist_uri[[i]], 
+                            include_groups = "album", 
+                            market = "US")
+  Sys.sleep(3) # Pause to avoid breaking the API calls
   temp$artist <- artists_df$artist_name[[i]]
   album_list[[i]] <- temp
 }
 
-all_albums <- do.call(rbind, album_list)
+albums_df <- do.call(rbind, album_list)
 
-write.csv(all_albums, file = "../1_data/all_albums.csv")
+albums_df <- albums_df %>%
+  distinct(name, .keep_all = TRUE) %>%
+  select(id, name, artist, release_date) %>%
+  rename(album_uri = id, album_name = name)
 
-head(all_albums)
+write_csv(albums_df, "../1_data/all_albums.csv")
 ```
 
-```{r Get album tracks}
-tracks_list <- list()
+```{r Get tracks, eval=FALSE}
+albums_df <- read_csv("../1_data/all_albums.csv")
 
-for (i in 1:nrow(all_albums)){
-  temp <- get_album_tracks(all_albums[i,])
+tracklists_list <- list()
+
+for (i in 1:nrow(albums_df)){
+  temp <- get_album_tracks(albums_df$album_uri[i])
   Sys.sleep(1) # Pause to avoid breaking the API calls
-  temp$artist <- all_albums$artist[i]
-  tracks_list[[i]] <- temp
+  temp$artist_name <- albums_df$artist[i]
+  temp$album_name <- albums_df$album_name[i]
+  tracklists_list[[i]] <- temp
 }
 
-all_tracks <- do.call(rbind, tracks_list)
+all_tracklists <- do.call(rbind, tracklists_list)
 
-write.csv(all_tracks, file = "../1_data/all_tracks.csv")
+all_tracklists <- all_tracklists %>%
+  rename(track_uri = id, track_name = name) %>%
+  select(artist_name, album_name, track_uri, track_name)
 
-head(all_tracks)
-rm(all_tracks)
+all_tracklists <- all_tracklists %>%
+  group_by(artist_name) %>%
+  distinct(track_name, .keep_all = TRUE) %>%
+  ungroup()
+
+write_csv(all_tracklists, "../1_data/all_tracklists.csv")
 ```
 
-## Extract Features
-**Note**: Features are not consistently listed in track name strings from Spotify API. As such, the data here represent a non-random subset of edges (those that can be extracted from track names using the procedure at hand).
+```{r Get track data from tracklists, eval=FALSE}
+all_tracklists <- read_csv("../1_data/all_tracklists.csv")
+all_tracklists$feature <- NA
+all_tracklists$track_popularity <- NA
 
-```{r Read in aggregate tracklist}
-all_tracks <- read.csv("../1_data/all_tracks.csv")
-all_tracks[sample(nrow(all_tracks), 5), ]
+for (i in 1:nrow(all_tracklists)){
+  metadata <- get_track(all_tracklists$track_uri[i])
+  Sys.sleep(1) # Pause to avoid breaking the API calls
+  temp_feats <- metadata[[2]][["name"]]
+  if (length(temp_feats) > 1){
+    all_tracklists$feature[i] <- list(temp_feats[-1])
+  }
+  all_tracklists$track_popularity <- metadata[["popularity"]]
+}
+
+all_tracklists_with_features_nested <- all_tracklists %>%
+  mutate(feature = map_chr(feature, toString))
 ```
 
-```{r Define regex patterns for wrangling}
-# Define the features conjunctions
-featuring <- c("featuring", "feat\\.","ft\\.", "feat", "ft")
-ft_match <- str_c(featuring, collapse = "|")
+```{r Bind all data together, eval=FALSE}
+artists_df <- read_csv("../1_data/all_artists.csv")
+albums_df <- read_csv("../1_data/all_albums.csv")
 
-# Patterns for multiple features
-multiple_fts <- c(",","&","[[:space:]]+and[[:space:]]+")
-m_fts_match <- str_c(multiple_fts, collapse = "|")
+tidy_tracks <- all_tracklists_with_features_nested %>%
+  left_join(albums_df, by = "album_name") %>%
+  left_join(artists_df, by = "artist_name")
 
-# Punctuation for cleaning
-punctuation <- c("\\[","]","\\(","\\)","/","-")
-punc_match <- str_c(punctuation, collapse = "|")
+write_csv(tidy_tracks, "../1_data/tidy_tracks.csv")
 ```
 
-```{r Wrangle tracklistings into initial edge list}
-## Tidy and clean tracks dataframe
-all_tracks_w_feats <- all_tracks
+## Create edge weights
+```{r Lengthen feature lists}
+tidy_tracks <- read_csv("../1_data/tidy_tracks.csv")
 
-# All to lowercase
-all_tracks_w_feats$track_name <- str_to_lower(all_tracks_w_feats$track_name)
-all_tracks_w_feats$artist <- str_to_lower(all_tracks_w_feats$artist)
+tidy_tracks_long <- tidy_tracks %>%
+  mutate(feature = str_split(feature, ",")) %>%
+  unchop(feature)
 
-# Split strings at feature pattern into new column
-all_tracks_w_feats <- all_tracks_w_feats %>%
-  dplyr::filter(str_detect(all_tracks_w_feats$track_name, ft_match)) %>%
-  select(track_name, artist) %>%
-  separate(track_name, c("track", "feature"), ft_match) %>%
-  mutate(feature_list = str_split(feature, m_fts_match, n = Inf)) %>%
-  unnest(feature_list)
+all_tracklists_with_features_unnested <-
+  all_tracklists %>%
+  unnest(feature, keep_empty = TRUE)
 
-# Clean out punctuation and whitespace
-all_tracks_w_feats$feature_list <- all_tracks_w_feats$feature_list %>%
-  str_replace_all(punc_match,"") %>%
-  str_trim(side = "both") %>%
-  str_squish()
-
-# Some custom cleaning  
-all_tracks_w_feats$feature_list <- gsub("2014.","",all_tracks_w_feats$feature_list)
-all_tracks_w_feats$feature_list <- gsub("explicit.","",all_tracks_w_feats$feature_list)
-all_tracks_w_feats$feature_list <- gsub("album.","",all_tracks_w_feats$feature_list)
-all_tracks_w_feats$feature_list <- gsub("remix","",all_tracks_w_feats$feature_list)
+write_csv(tidy_tracks_long, "../1_data/tidy_tracks_long.csv")
 ```
 
-## Edge and Nodes Lists
+```{r Prep}
+## Filter out entities with only 1 occurence
+# Count occurences in artists vector
+artist_count <- feats %>%
+  group_by(artist) %>%
+  summarise(artist_count = n()) 
+
+# Count occurences in feature_list vector
+feature_list_count <- feats %>%
+  group_by(feature) %>%
+  summarise(feature_list_count = n())
+```
+
 ```{r}
 ## Filter out entities with only 1 occurence
 # Count occurences in artists vector
-artist_count <- all_tracks_w_feats %>%
+artist_count <- feats %>%
   group_by(artist) %>%
   summarise(artist_count = n()) %>%
   rename(entity = artist) %>%
   ungroup()
 
 # Count occurences in feature_list vector
-feature_list_count <- all_tracks_w_feats %>%
+feature_list_count <- feats %>%
   group_by(feature_list) %>%
   summarise(feature_list_count = n()) %>%
   rename(entity = feature_list) %>%
@@ -223,7 +194,7 @@ entity_counts <- entity_counts %>%
 
 ```{r}
 # Edge list, filtered
-edge_list <- all_tracks_w_feats %>%
+edge_list <- feats %>%
   filter(artist %in% entity_counts$entity | feature_list %in% entity_counts$entity) %>%
   select(artist, feature_list)
 
