@@ -34,7 +34,7 @@ Now we're ready to pull data from Spotify. To keep things reasonable, we'll scra
 
 ## Query Spotify API
 ```{r Read in Reddit data, eval=FALSE}
-hhhe <- read_csv("../1_data/r_hiphopheads_overposted.csv")
+hhhe <- read_csv("../1_data/Reddit/r_hiphopheads_overposted.csv")
 hhhe[sample(nrow(hhhe), 5), ]
 ```
 
@@ -49,7 +49,7 @@ artists_df <- map_dfr(artists, search_spotify, type = "artist", limit = 1) %>%
   filter(artist_name %in% artists) %>%
   select(artist_name, artist_uri)
 
-write_csv(artists_df, "../1_data/all_artists.csv")
+write_csv(artists_df, "../1_data/Spotify/all_artists.csv")
 ```
 
 To update below: remove duplicates (e.g. keep only "deluxe" version of an album)
@@ -74,12 +74,10 @@ albums_df <- albums_df %>%
   select(id, name, artist, release_date) %>%
   rename(album_uri = id, album_name = name)
 
-write_csv(albums_df, "../1_data/all_albums.csv")
+write_csv(albums_df, "../1_data/Spotify/all_albums.csv")
 ```
 
 ```{r Get tracks, eval=FALSE}
-albums_df <- read_csv("../1_data/all_albums.csv")
-
 tracklists_list <- list()
 
 for (i in 1:nrow(albums_df)){
@@ -101,11 +99,11 @@ all_tracklists <- all_tracklists %>%
   distinct(track_name, .keep_all = TRUE) %>%
   ungroup()
 
-write_csv(all_tracklists, "../1_data/all_tracklists.csv")
+write_csv(all_tracklists, "../1_data/Spotify/all_tracklists.csv")
 ```
 
 ```{r Get track data from tracklists, eval=FALSE}
-all_tracklists <- read_csv("../1_data/all_tracklists.csv")
+all_tracklists <- read_csv("../1_data/Spotify/all_tracklists.csv")
 all_tracklists$feature <- NA
 all_tracklists$track_popularity <- NA
 
@@ -124,8 +122,8 @@ all_tracklists_with_features_nested <- all_tracklists %>%
 ```
 
 ```{r Bind all data together, eval=FALSE}
-artists_df <- read_csv("../1_data/all_artists.csv")
-albums_df <- read_csv("../1_data/all_albums.csv")
+artists_df <- read_csv("../1_data/Spotify/all_artists.csv")
+albums_df <- read_csv("../1_data/Spotify/all_albums.csv")
 
 tidy_tracks <- all_tracklists_with_features_nested %>%
   left_join(albums_df, by = "album_name") %>%
