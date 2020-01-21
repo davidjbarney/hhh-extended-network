@@ -13,6 +13,7 @@ Next, install and source the `spotifyr` package. You'll need to get a "client ac
 We'll also be using the `tidyverse`, `stringi`, `igraph`, and `viridis` packages, so be sure to install and source those as well.
 
 ```{r Load libraries}
+## Libraries
 #install.packages("spotifyr")
 library(spotifyr)
 #install.packages("tidyverse")
@@ -23,6 +24,9 @@ library(stringi)
 library(igraph)
 #install.packages("viridis")
 library(viridis)
+
+## Helper scripts
+source("../2_scripts/query_flat.R")
 ```
 
 Now we can search the Spotify API for artists, albums, songs, their metadata, etc. 
@@ -33,97 +37,67 @@ Now we're ready to pull data from Spotify. To keep things reasonable, we'll scra
 **Note**: `../1_data/r_hiphopheads_overposted.csv` was pulled on 2019-03-31, and is likely to have been updated since.
 
 ## Query Spotify API
-```{r Read in Reddit data, eval=FALSE}
+```{r Load data, eval=TRUE}
 hhhe <- read_csv("../1_data/Reddit/r_hiphopheads_overposted.csv")
-hhhe[sample(nrow(hhhe), 5), ]
 ```
 
-```{r Get Spotify artist IDs, eval=FALSE}
+```{r Get Spotify artist data, eval=TRUE}
 # Get character vectors of the unique artists & albums
-artists <- unique(hhhe$Artist)
-albumnames <- unique(hhhe$Album)
+hhhe_artists <- unique(hhhe$Artist)
 
-# Get Spotify artist uri identifiers
-artists_df <- map_dfr(artists, search_spotify, type = "artist", limit = 1) %>%
-  rename(artist_uri = id, artist_name = name) %>%
-  filter(artist_name %in% artists) %>%
-  select(artist_name, artist_uri)
+artists_df <- query_artists_flat(hhhe_artists)
 
-write_csv(artists_df, "../1_data/Spotify/all_artists.csv")
+artists_df <- artists_df %>%
+  rename(artist_uri = id, artist_name = name, artist_followers = followers.total) %>%
+  select(artist_name, artist_uri, genres, artist_followers) %>%
+  mutate(genres = as.character(genres))
+  
+artists_df$artist_name <- str_remove(string = artists_df$artist_name, pattern = ",")
+
+write_csv(artists_df, "../1_data/Spotify/artists.csv")
 ```
 
 To update below: remove duplicates (e.g. keep only "deluxe" version of an album)
 
-```{r Get Spotify album IDs, eval=FALSE}
+```{r Get Spotify album IDs, eval=TRUE}
 # Get Spotify album identifiers for all these artists
-album_list <- list()
+#artists_df <- read_csv("../1_data/Spotify/artists.csv")
 
-for(i in 1:nrow(artists_df)){
-  temp <- get_artist_albums(artists_df$artist_uri[[i]], 
-                            include_groups = "album", 
-                            market = "US")
-  Sys.sleep(3) # Pause to avoid breaking the API calls
-  temp$artist <- artists_df$artist_name[[i]]
-  album_list[[i]] <- temp
-}
-
-albums_df <- do.call(rbind, album_list)
+albums_df <- query_albums_flat(artists_df$artist_uri)
 
 albums_df <- albums_df %>%
   distinct(name, .keep_all = TRUE) %>%
-  select(id, name, artist, release_date) %>%
-  rename(album_uri = id, album_name = name)
+  select(id, name, artist, release_date, type) %>%
+  rename(album_uri = id, album_name = name, album_type = type)
 
-write_csv(albums_df, "../1_data/Spotify/all_albums.csv")
+albums_df$artist <- str_replace(string = albums_df$artist, pattern = "Tyler, The Creator", replacement = "Tyler The Creator")
+
+write_csv(albums_df, "../1_data/Spotify/albums.csv")
 ```
 
-```{r Get tracks, eval=FALSE}
-tracklists_list <- list()
+```{r Get tracks, eval=TRUE}
+tracks_df <- query_tracks_flat(albums_df$album_uri, albums_df$album_name)
 
-for (i in 1:nrow(albums_df)){
-  temp <- get_album_tracks(albums_df$album_uri[i])
-  Sys.sleep(1) # Pause to avoid breaking the API calls
-  temp$artist_name <- albums_df$artist[i]
-  temp$album_name <- albums_df$album_name[i]
-  tracklists_list[[i]] <- temp
-}
-
-all_tracklists <- do.call(rbind, tracklists_list)
-
-all_tracklists <- all_tracklists %>%
+tracks_df <- tracks_df %>%
   rename(track_uri = id, track_name = name) %>%
-  select(artist_name, album_name, track_uri, track_name)
+  select(track_artists, album_name, track_uri, track_name)
 
-all_tracklists <- all_tracklists %>%
-  group_by(artist_name) %>%
-  distinct(track_name, .keep_all = TRUE) %>%
-  ungroup()
+tracks_df$track_artists <- str_replace(string = tracks_df$track_artists, 
+                                       pattern = "Tyler, The Creator", 
+                                       replacement = "Tyler The Creator")
 
-write_csv(all_tracklists, "../1_data/Spotify/all_tracklists.csv")
-```
+# tracks_df <- tracks_df %>%
+#   group_by(artist_name) %>%
+#   distinct(track_name, .keep_all = TRUE) %>%
+#   ungroup()
 
-```{r Get track data from tracklists, eval=FALSE}
-all_tracklists <- read_csv("../1_data/Spotify/all_tracklists.csv")
-all_tracklists$feature <- NA
-all_tracklists$track_popularity <- NA
-
-for (i in 1:nrow(all_tracklists)){
-  metadata <- get_track(all_tracklists$track_uri[i])
-  Sys.sleep(1) # Pause to avoid breaking the API calls
-  temp_feats <- metadata[[2]][["name"]]
-  if (length(temp_feats) > 1){
-    all_tracklists$feature[i] <- list(temp_feats[-1])
-  }
-  all_tracklists$track_popularity <- metadata[["popularity"]]
-}
-
-all_tracklists_with_features_nested <- all_tracklists %>%
-  mutate(feature = map_chr(feature, toString))
+write_csv(tracks_df, "../1_data/Spotify/tracks.csv")
 ```
 
 ```{r Bind all data together, eval=FALSE}
-artists_df <- read_csv("../1_data/Spotify/all_artists.csv")
-albums_df <- read_csv("../1_data/Spotify/all_albums.csv")
+artists_df <- read_csv("../1_data/Spotify/artists.csv")
+albums_df <- read_csv("../1_data/Spotify/albums.csv")
+tracks_df <- read_csv("../1_data/Spotify/tracks.csv")
 
 tidy_tracks <- all_tracklists_with_features_nested %>%
   left_join(albums_df, by = "album_name") %>%
