@@ -84,13 +84,13 @@ rm(list=ls())
 ```
 
 ## Extended Artist List
-```{r Load data from initial queries}
+```{r Load data from initial queries, eval=FALSE}
 artists_df <- read_csv("../1_data/Spotify/artists.csv")
 albums_df <- read_csv("../1_data/Spotify/albums.csv")
 tracks_df <- read_csv("../1_data/Spotify/tracks.csv")
 ```
 
-```{r Get extended artist list}
+```{r Get extended artist list, eval=FALSE}
 extended_artists <- tracks_df$track_artists %>%
   str_split(", ") %>%
   unlist() %>%
@@ -99,7 +99,7 @@ extended_artists <- tracks_df$track_artists %>%
 extended_artists <- extended_artists[extended_artists != ""]
 ```
 
-```{r Get extended Spotify artist data}
+```{r Get extended Spotify artist data, eval=FALSE}
 artists_df_2 <- query_artists_flat(extended_artists)
 
 artists_df_2 <- artists_df_2 %>%
@@ -110,11 +110,10 @@ artists_df_2 <- artists_df_2 %>%
 
 artists_df_2$artist_name <- str_remove(string = artists_df_2$artist_name, pattern = ",")
 
-artists_df_combined <- bind_rows(artists_df, artists_df_2)
-write_csv(artists_df_combined, "../1_data/Spotify/artists.csv")
+write_csv(artists_df_2, "../1_data/Spotify/artists_extended.csv")
 ```
 
-```{r Get extended Spotify album IDs}
+```{r Get extended Spotify album IDs, eval=FALSE}
 # Get Spotify album identifiers for all these artists
 albums_df_2 <- query_albums_flat(artists_df_2$artist_uri)
 
@@ -125,10 +124,15 @@ albums_df_2 <- albums_df_2 %>%
 
 albums_df_2$artist <- str_replace(string = albums_df_2$artist, pattern = "Tyler, The Creator", replacement = "Tyler The Creator")
 
-albums_df_combined <- bind_rows(albums_df, albums_df_2)
-
-write_csv(albums_df_combined, "../1_data/Spotify/albums.csv")
+write_csv(albums_df_2, "../1_data/Spotify/albums_extended.csv")
 ```
+
+**In progress**
+```{r Split extended albums dataframe into smaller chunks for manageable queries}
+albums_df_2 <- read_csv("../1_data/Spotify/albums_extended.csv")
+split(x = albums_df_2, f = rep(1:ceiling(nrow(albums_df_2)/1000)))
+```
+
 
 ```{r Get extended Spotify album tracks}
 tracks_df_2 <- query_tracks_flat(albums_df_2$album_uri, albums_df_2$album_name)
@@ -151,6 +155,10 @@ write_csv(tracks_df, "../1_data/Spotify/tracks.csv")
 artists_df <- read_csv("../1_data/Spotify/artists.csv")
 albums_df <- read_csv("../1_data/Spotify/albums.csv")
 tracks_df <- read_csv("../1_data/Spotify/tracks.csv")
+
+#artists_df_combined <- bind_rows(artists_df, artists_df_2)
+#albums_df_combined <- bind_rows(albums_df, albums_df_2)
+
 
 tidy_tracks <- all_tracklists_with_features_nested %>%
   left_join(albums_df, by = "album_name") %>%
