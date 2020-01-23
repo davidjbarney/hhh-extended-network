@@ -80,7 +80,7 @@ album_uri,album_name,artist,release_date,album_type
 2Scq3cyNzKxmN6L8qtWaCc,Energy (with A$AP Rocky & Sabrina Claudio),"BURNS, A$AP Rocky, Sabrina Claudio",2019-04-30,album
 4xuCAF5P2diMaCbRUxNlzz,Walk (Remix),"Comethazine, A$AP Rocky",2019-03-18,album
 3AlyvIIMZyT5LjWFeK5LSl,Sundress,A$AP Rocky,2018-11-20,album
-02KFVEA5tnY0YnypmWY1tz,Potato Salad,"Tyler, The Creator, A$AP Rocky",2018-09-28,album
+02KFVEA5tnY0YnypmWY1tz,Potato Salad,"Tyler The Creator, A$AP Rocky",2018-09-28,album
 67Em0g7VkNZGzICh4SZQdY,A$AP Forever (feat. Moby),A$AP Rocky,2018-04-05,album
 2IB4u7CExI80gM2KbkDtDp,Bad Company (feat. BlocBoy JB),A$AP Rocky,2018-03-28,album
 1CEeqK9sKrE7LzUHeT3bfP,Do What Thou Wilt.,Ab-Soul,2016-12-09,album
@@ -168,7 +168,7 @@ album_uri,album_name,artist,release_date,album_type
 5yrvZXsfvB9hvmY61JjLBT,The Leek (Vol. 8),Chief Keef,2019-07-26,album
 7Emb8y1pVooAMZHOUmqduR,Camp GloTiggy,Chief Keef,2019-05-31,album
 2gG16AQytvGhsS51Xg6wh3,GloToven,"Chief Keef, Zaytoven",2019-03-15,album
-5U0NCTYNe7ImfN7VABC6WR,The Leek (Vol. 7),Chief Keef,2019-01-18,album
+13RcoaQNDCWNrBNlHaTCS3,The Leek (Vol. 7),Chief Keef,2019-01-18,album
 3fft7xbsjbCB16M4PIVVkM,The Leek (Vol. 6),Chief Keef,2018-12-07,album
 2H7gR72Pdgr6vSm7ZFgznD,Back From The Dead 3,Chief Keef,2018-10-31,album
 1Wfr7zwBCyHH2n9A2s651R,Mansion Musick,Chief Keef,2018-07-13,album
@@ -371,11 +371,11 @@ album_uri,album_name,artist,release_date,album_type
 2nyOnMxNFesS4LgbiTJLng,Smile,Isaiah Rashad,2016-01-15,album
 1zRXmMa2gKZ9C2giHrnj4D,Nelly,Isaiah Rashad,2015-09-30,album
 4MCPd6AmA6xfmmggVgtUmP,Ruff Draft (Dilla's Mix),J Dilla,2018-04-20,album
-0Plu6TE7pXhLuqIG9VZeoP,"J Dilla's Delights, Vol. 1",J Dilla,2017-06-16,album
+1rkeTe6U87qi8yCRuaAjL7,"J Dilla's Delights, Vol. 1",J Dilla,2017-06-16,album
 0v9TomxoVagPyvVNGhDbyB,Motor City,J Dilla,2017-04-21,album
 3cuTZGpaOoSETI0HChtro5,Jay Dee's Ma Dukes Collection,J Dilla,2016-12-23,album
 339adC6BXzqIBYVfO2gqnN,Champion Sound: The Remix,"Jaylib, J Dilla, Madlib",2016-11-25,album
-4DVqfowyeO2LGe2TZLJBU8,Jay Dee a.k.a. King Dilla,J Dilla,2016-10-17,album
+4Scp3UTzE630nkPDvkx246,Jay Dee a.k.a. King Dilla,J Dilla,2016-10-17,album
 13U6VMbPcQMgIswWcRUMnI,The Shining – the 10th Anniversary Collection,J Dilla,2016-08-19,album
 1JKqsdbwfOK1233EOT67ZM,Jay Love Japan,J Dilla,2016-06-06,album
 572uuU7BBaHJpkz6XhveN7,The Diary,J Dilla,2016-04-15,album
@@ -699,11 +699,20 @@ album_uri,album_name,artist,release_date,album_type
 0Y7qkJVZ06tS2GUCDptzyW,Straight Outta Compton,N.W.A.,1988-08-08,album
 2Y4B6Trqus0soAH3Gs8mPj,100 Miles And Runnin',N.W.A.,1990-08-14,album
 2AdzxDWUs5YWbEJiZnMIOK,Express Yourself,N.W.A.,1989-03-27,album
-71BrrQxz8mZAneNSDE9Lov,Panini,Lil Nas X,2019-09-13,album
-7CQho9XJ69KLTUdM9vUZyW,Old Town Road (feat. RM of BTS) [Seoul Town Road Remix],"Lil Nas X, RM, BTS",2019-07-24,album
-0ycVaTFV4Me1jr7wM9Zqip,Old Town Road (Remix),"Lil Nas X, Billy Ray Cyrus, Mason Ramsey",2019-07-12,album
-4IRiXE5NROxknUSAUSjMoO,7 EP,Lil Nas X,2019-06-21,album
-66FxETmTBazRMZNbvGtGQl,Old Town Road (Diplo Remix),"Lil Nas X, Billy Ray Cyrus, Diplo",2019-04-29,album
+4tRNl7PwUzXrxTP3YZjWgS,The Lost Tapes 2,Nas,2019-07-19,album
+66EwBbt2kPgugo8Wz0SKAw,NASIR,Nas,2018-06-15,album
+1Xd9sCWxvNx02wCTZbKoek,Illmatic: Live from the Kennedy Center with the National Symphony Orchestra,Nas,2018-04-20,album
+6WHX1SpLq3D5fDtsK78w8r,Life Is Good,Nas,2012-07-17,album
+39FNg2ShzXn1VFUiqY6IWe,Life Is Good (Deluxe),Nas,2012-07-17,album
+0ddTtajzPmxZ7UVW2VEAln,Life Is Good (Explicit Version),Nas,2012-01-01,album
+55Abnzdg1IREQmVWo7cwTc,Life Is Good (Edited Version),Nas,2012-01-01,album
+6Cj4gSdavyZCIhmeoCcrI6,Distant Relatives,"Damian Marley, Nas",2010-05-18,album
+41LyFl0XPrCqYeNml7obol,Nas,Nas,2008-01-01,album
+5dMmFu9NCxSjDk3ekggogc,Untitled,Nas,2008-01-01,album
+7sHrPadM39466NY7DW3s4r,Hip Hop Is Dead (Expanded Edition),Nas,2007-01-23,album
+3NoAhTU75FB99lyEEJqDns,Hip Hop Is Dead (Deluxe Edition),Nas,2006-12-19,album
+5sGyPalpUY2tzwsSdq0EMg,Hip Hop Is Dead (Bonus Tracks),Nas,2006-12-19,album
+0jghcWTsQzux5T9sAfZO13,Street's Disciple,Nas,2004-11-30,album
 3mpA4v2tvEM5aAYtNGnbzD,Room 25,Noname,2018-09-14,album
 18Scpsg5OV1iYNtSaCsjwz,Telefone,Noname,2016-08-12,album
 7eVx4XXwY3KrIPGRrW66UI,Song 32,Noname,2019-04-05,album
@@ -831,8 +840,8 @@ album_uri,album_name,artist,release_date,album_type
 51pWPRmyRyrh4GDwUjWmkM,1992 (Bonus Track Edition) [Clean],The Game,2016-10-14,album
 65f7xk2mAPmUeY3MifzWnp,Block Wars,The Game,2016-07-29,album
 3FNH8aPUttj3rlDRsguJwx,Streets Of Compton,The Game,2016-06-17,album
-4SXicgoFSX9TEtxJ2EJHi7,The Documentary 2 + 2.5 (Collector's Edition),The Game,2016-01-22,album
-19tRwHQ4ZoKnwa1S8zB041,The Documentary 2.5,The Game,2015-10-16,album
+0emTtJfR6Kxd6XnX6Cv3ZZ,The Documentary 2 + 2.5 (Collector's Edition),The Game,2016-01-22,album
+4bgRhU3yyBJxuYz61FKsNa,The Documentary 2.5,The Game,2015-10-16,album
 37PDUywhZDqvf1Z7pOl1Ih,The Documentary 2,The Game,2015-10-09,album
 3Ezv8bXs9vS908aaKdWrQ3,The King & I,"Faith Evans, The Notorious B.I.G.",2017-05-19,album
 0nyTuDV4qohpivHna2kKF8,Duets: The Final Chapter,The Notorious B.I.G.,2005-12-13,album
@@ -875,24 +884,24 @@ album_uri,album_name,artist,release_date,album_type
 1x2nZMdADxqrWWcDveYNYN,Fish N Grits (feat. Travis Scott),"Wale, Travis Scott",2017-04-07,album
 3G9US0Byt1UldeKifKPIwa,Go Off,"Lil Uzi Vert, Quavo, Travis Scott",2017-03-02,album
 4MDMfOdhV1IyoRnklwOHG9,pick up the phone,"Young Thug, Travis Scott",2016-06-03,album
-5zi7WsKlIiUXv09tbGLKsE,IGOR,"Tyler, The Creator",2019-05-17,album
-2nkto6YNI4rUYTLqEwWJ3o,Flower Boy,"Tyler, The Creator",2017-07-21,album
-621OhgnZJ7Pz8iUazct1In,Cherry Bomb,"Tyler, The Creator",2015-04-13,album
-5V3Chnpno9oTI7JSPXKUf3,Cherry Bomb + Instrumentals,"Tyler, The Creator",2015-04-13,album
-40QTqOBBxCEIQlLNdSjFQB,Wolf,"Tyler, The Creator",2013-04-01,album
-40ucxnGO51wcTGNI6xge6z,Goblin (Deluxe Edition),"Tyler, The Creator",2011-05-10,album
-7tjZ51DOxwxIcnY20ThkaV,Goblin,"Tyler, The Creator",2011-05-10,album
-2gIJO0RLORaeRCT9G1E52V,EARFQUAKE (Channel Tres Remix),"Tyler, The Creator, Channel Tres",2019-10-04,album
-05qQ4Sl7LjxDhZFB1ChVvH,Music Inspired by Illumination & Dr. Seuss' The Grinch,"Tyler, The Creator",2018-11-16,album
-0mON6NgLc1WR44HQ3CkNZb,Peach Fuzz,"Tyler, The Creator",2018-09-21,album
-5wWkfNvfwMfQFbas9Gjggq,435,"Tyler, The Creator",2018-06-08,album
-0dXN05tQ4StX1W0lwN95Q6,OKRA,"Tyler, The Creator",2018-03-30,album
-1IwLvI6D1ZQbnRjdTNdEJu,I Ain't Got Time!,"Tyler, The Creator",2017-07-19,album
-5CNavGuUL6Ztukid91qgVB,Boredom,"Tyler, The Creator",2017-07-12,album
-0RffqgthNhj28TMkTUc4h3,Who Dat Boy / 911,"Tyler, The Creator",2017-06-30,album
-4n7vzMjIJLuU4yMSFaoQ9h,Domo23,"Tyler, The Creator",2013-02-15,album
-1scDXjzL5XDnu1Sp7twX8V,Sandwitches,"Tyler, The Creator, Hodgy",2011-02-15,album
-1rHPGCGcTUUzeFtGs2SGPZ,Yonkers,"Tyler, The Creator",2011-02-15,album
+5zi7WsKlIiUXv09tbGLKsE,IGOR,Tyler The Creator,2019-05-17,album
+2nkto6YNI4rUYTLqEwWJ3o,Flower Boy,Tyler The Creator,2017-07-21,album
+621OhgnZJ7Pz8iUazct1In,Cherry Bomb,Tyler The Creator,2015-04-13,album
+5V3Chnpno9oTI7JSPXKUf3,Cherry Bomb + Instrumentals,Tyler The Creator,2015-04-13,album
+40QTqOBBxCEIQlLNdSjFQB,Wolf,Tyler The Creator,2013-04-01,album
+40ucxnGO51wcTGNI6xge6z,Goblin (Deluxe Edition),Tyler The Creator,2011-05-10,album
+7tjZ51DOxwxIcnY20ThkaV,Goblin,Tyler The Creator,2011-05-10,album
+2gIJO0RLORaeRCT9G1E52V,EARFQUAKE (Channel Tres Remix),"Tyler The Creator, Channel Tres",2019-10-04,album
+05qQ4Sl7LjxDhZFB1ChVvH,Music Inspired by Illumination & Dr. Seuss' The Grinch,Tyler The Creator,2018-11-16,album
+0mON6NgLc1WR44HQ3CkNZb,Peach Fuzz,Tyler The Creator,2018-09-21,album
+5wWkfNvfwMfQFbas9Gjggq,435,Tyler The Creator,2018-06-08,album
+0dXN05tQ4StX1W0lwN95Q6,OKRA,Tyler The Creator,2018-03-30,album
+1IwLvI6D1ZQbnRjdTNdEJu,I Ain't Got Time!,Tyler The Creator,2017-07-19,album
+5CNavGuUL6Ztukid91qgVB,Boredom,Tyler The Creator,2017-07-12,album
+0RffqgthNhj28TMkTUc4h3,Who Dat Boy / 911,Tyler The Creator,2017-06-30,album
+4n7vzMjIJLuU4yMSFaoQ9h,Domo23,Tyler The Creator,2013-02-15,album
+1scDXjzL5XDnu1Sp7twX8V,Sandwitches,"Tyler The Creator, Hodgy",2011-02-15,album
+1rHPGCGcTUUzeFtGs2SGPZ,Yonkers,Tyler The Creator,2011-02-15,album
 6SRxt5KPZbpJ4dB8ssYvQ0,Banned (Slowed & Chopped by DJ Red),UGK,2018-11-23,album
 791Vf45uel4npVmy9jCjpE,The Southern Way,UGK,2018-06-30,album
 3615jyGdFlOI0uLCBnzWXA,The Bigtyme Way (1992-1997) [Slow’d & Tap’t],UGK,2016-11-29,album
@@ -926,7 +935,7 @@ album_uri,album_name,artist,release_date,album_type
 3g8KDFecnLPa6YiBdHTl8K,The Saga Continues,Wu-Tang Clan,2017-10-13,album
 1XiCmEinrmarN4R6F9saUf,A Better Tomorrow,Wu-Tang Clan,2014-12-01,album
 1rsA8ofEIHtvfR1FTwt0xj,Soundtracks from the Shaolin Temple,Wu-Tang Clan,2013-05-14,album
-0BZ96QoCk1mZa1VdyzRiX4,Legendary Weapons,Wu-Tang Clan,2011-07-26,album
+62IgDbNTi6rvc11a1XgCd4,Legendary Weapons,Wu-Tang Clan,2011-07-26,album
 5obiyJomz6ypITdwLIdNkv,"Wu-Tang Meets the Indie Culture, Vol. 2 - Enter the Dubstep (Instrumentals)",Wu-Tang Clan,2010,album
 762XfNqBx6GV8IseS2zSuq,Wu-Tang Meets the Indie Culture Vol. 2: Enter the Dubstep,Wu-Tang Clan,2009-11-10,album
 7GvdgeSyGWQ8x7RrchZkU3,Wu-Tang Meets The Indie Culture Instrumentals,Wu-Tang Clan,2009-04-14,album
@@ -958,7 +967,7 @@ album_uri,album_name,artist,release_date,album_type
 3ldsrFbLgrIJ00byb2tncW,Blame It On The Streets,YG,2014-11-24,album
 60QP93G98tBVQnB6qWROtY,My Krazy Life (Deluxe Edition),YG,2014-03-18,album
 10jogO732o8oGvsjVpWRmO,My Krazy Life (Deluxe),YG,2014-01-01,album
-51o7e7jwDTbX8r43zbjieM,My Krazy Life,YG,2014-01-01,album
+00ZongxwSU87MBYWcUgDGf,My Krazy Life,YG,2014-01-01,album
 6LYs6vCaIZd3kemw1JDGti,Just Re'd up 2,YG,2013-01-02,album
 4T2mQ3Ou4VOt2257bYYAZy,Just Re'd Up,YG,2011-05-11,album
 24jAbLMFzCTlIv3kQ94HwK,So Much Fun (Deluxe),Young Thug,2019-12-20,album
@@ -970,7 +979,7 @@ album_uri,album_name,artist,release_date,album_type
 2z4c8M8aVzl7CTobIp36KF,Slime Season 3,Young Thug,2016-03-25,album
 4sAB9WulPpnAcig7alDGTg,I'm Up,Young Thug,2016-02-05,album
 3etiSiRWBRUkJ4vMW2s3DK,1017 Thug,Young Thug,2015-12-11,album
-0ZTiZtSpSm5Px4sVZQa0WR,Young Thugger Mane La Flare,"Gucci Mane, Young Thug",2015-12-11,album
+3qIk608h23slt7KEqhEyj4,Young Thugger Mane La Flare,"Gucci Mane, Young Thug",2015-12-11,album
 5yu0WHG7kYQuFA7GdOQL9Y,The Purple Album,"Gucci Mane, Young Thug",2015-06-09,album
 0BsMZIueWsJLWng8A7sE8e,Barter 6,Young Thug,2015-04-16,album
 7a3rhn1csJY4CbdqcQsMcy,Brick Sqaud,Young Thug,2014-11-18,album

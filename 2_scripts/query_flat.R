@@ -13,7 +13,10 @@ query_artists_flat <- function(artists, authorization = get_spotify_access_token
   }
   artist_list <- list()
   for (i in 1:length(artists)){
-    temp <- search_spotify(artists[[i]], type = "artist", limit = 1)
+    temp <- try(search_spotify(artists[[i]], type = "artist", limit = 1))
+    if(inherits(temp, "try-error")){
+      next
+    }
     Sys.sleep(0.25)
     temp$genres[[1]] <- str_c(temp$genres[[1]], collapse = ", ")
     artist_list[[i]] <- temp
@@ -37,9 +40,12 @@ query_albums_flat <- function(artist_uris, authorization = get_spotify_access_to
   }
   album_list <- list()
   for(i in 1:length(artist_uris)){
-    temp <- get_artist_albums(artist_uris[[i]], 
-                              include_groups = c("album", "single"), 
-                              market = "US")
+    temp <- try(get_artist_albums(artist_uris[[i]], 
+                                  include_groups = c("album", "single"), 
+                                  market = "US"))
+    if(inherits(temp, "try-error")){
+      next
+    }
     Sys.sleep(0.25) # Pause to avoid breaking the API calls
     temp$artist <- NA
     for (j in 1:nrow(temp)){
@@ -73,7 +79,10 @@ query_tracks_flat <- function(album_uris, album_names, authorization = get_spoti
   }
   tracklists_list <- list()
   for (i in 1:length(album_uris)){
-    df_temp <- get_album_tracks(album_uris[[i]])
+    df_temp <- try(get_album_tracks(album_uris[[i]]))
+    if(inherits(df_temp, "try-error")){
+      next
+    }
     Sys.sleep(0.25) # Pause to avoid breaking the API calls
     df_temp$track_artists <- NA
     df_temp$album_name <- NA
