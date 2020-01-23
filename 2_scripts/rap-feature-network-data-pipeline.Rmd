@@ -38,7 +38,7 @@ hhhe <- read_csv("../1_data/Reddit/r_hiphopheads_overposted.csv")
 hhhe_artists <- unique(hhhe$Artist)
 ```
 
-```{r Get Spotify artist data, eval=TRUE}
+```{r Get Spotify artist data, eval=FALSE}
 artists_df <- query_artists_flat(hhhe_artists)
 
 artists_df <- artists_df %>%
@@ -51,10 +51,8 @@ artists_df$artist_name <- str_remove(string = artists_df$artist_name, pattern = 
 write_csv(artists_df, "../1_data/Spotify/artists.csv")
 ```
 
-```{r Get Spotify album IDs, eval=TRUE}
+```{r Get Spotify album IDs, eval=FALSE}
 # Get Spotify album identifiers for all these artists
-#artists_df <- read_csv("../1_data/Spotify/artists.csv")
-
 albums_df <- query_albums_flat(artists_df$artist_uri)
 
 albums_df <- albums_df %>%
@@ -67,7 +65,7 @@ albums_df$artist <- str_replace(string = albums_df$artist, pattern = "Tyler, The
 write_csv(albums_df, "../1_data/Spotify/albums.csv")
 ```
 
-```{r Get tracks, eval=TRUE}
+```{r Get Spotify album tracks, eval=FALSE}
 tracks_df <- query_tracks_flat(albums_df$album_uri, albums_df$album_name)
 
 tracks_df <- tracks_df %>%
@@ -92,9 +90,7 @@ albums_df <- read_csv("../1_data/Spotify/albums.csv")
 tracks_df <- read_csv("../1_data/Spotify/tracks.csv")
 ```
 
-
-```{r All featured artists not appearing in initial dataset}
-tracks_df <- read_csv("../1_data/Spotify/tracks.csv")
+```{r Get extended artist list}
 extended_artists <- tracks_df$track_artists %>%
   str_split(", ") %>%
   unlist() %>%
@@ -103,18 +99,49 @@ extended_artists <- tracks_df$track_artists %>%
 extended_artists <- extended_artists[extended_artists != ""]
 ```
 
-```{r Get Spotify artist data, eval=FALSE}
+```{r Get extended Spotify artist data}
 artists_df_2 <- query_artists_flat(extended_artists)
 
 artists_df_2 <- artists_df_2 %>%
   rename(artist_uri = id, artist_name = name, artist_followers = followers.total) %>%
   select(artist_name, artist_uri, genres, artist_followers) %>%
-  mutate(genres = as.character(genres)) 
+  mutate(genres = as.character(genres)) %>%
+  filter(!grepl("character\\(0\\)", artists_df_2$genres))
 
-artists_df_2$genres <- str_remove(string = artists_df_2$genres, pattern = "character(0)")
 artists_df_2$artist_name <- str_remove(string = artists_df_2$artist_name, pattern = ",")
 
-#write_csv(artists_df, "../1_data/Spotify/artists.csv")
+artists_df_combined <- bind_rows(artists_df, artists_df_2)
+write_csv(artists_df_combined, "../1_data/Spotify/artists.csv")
+```
+
+```{r Get extended Spotify album IDs}
+# Get Spotify album identifiers for all these artists
+albums_df_2 <- query_albums_flat(artists_df_2$artist_uri)
+
+albums_df_2 <- albums_df_2 %>%
+  distinct(name, .keep_all = TRUE) %>%
+  select(id, name, artist, release_date, type) %>%
+  rename(album_uri = id, album_name = name, album_type = type)
+
+albums_df_2$artist <- str_replace(string = albums_df_2$artist, pattern = "Tyler, The Creator", replacement = "Tyler The Creator")
+
+albums_df_combined <- bind_rows(albums_df, albums_df_2)
+
+write_csv(albums_df_combined, "../1_data/Spotify/albums.csv")
+```
+
+```{r Get extended Spotify album tracks}
+tracks_df_2 <- query_tracks_flat(albums_df_2$album_uri, albums_df_2$album_name)
+
+tracks_df_2 <- tracks_df_2 %>%
+  rename(track_uri = id, track_name = name) %>%
+  select(track_artists, album_name, track_uri, track_name, track_popularity)
+
+tracks_df_2$track_artists <- str_replace(string = tracks_df_2$track_artists, 
+                                       pattern = "Tyler, The Creator", 
+                                       replacement = "Tyler The Creator")
+
+write_csv(tracks_df, "../1_data/Spotify/tracks.csv")
 ```
 
 

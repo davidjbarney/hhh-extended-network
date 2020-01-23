@@ -48,10 +48,15 @@ query_albums_flat <- function(artist_uris, authorization = get_spotify_access_to
     }
     Sys.sleep(0.25) # Pause to avoid breaking the API calls
     temp$artist <- NA
-    for (j in 1:nrow(temp)){
-      temp$artist[[j]] <- str_c(temp[j,3][[1]][["name"]], collapse = ", ")
+    
+    if (!is.null(nrow(temp))){
+      for (j in 1:nrow(temp)){
+        temp$artist[[j]] <- str_c(temp[j,3][[1]][["name"]], collapse = ", ")
+      }
+      album_list[[i]] <- temp
+    } else {
+      next
     }
-    album_list[[i]] <- temp
   }
   albums_df <- do.call(rbind, album_list)
   return(albums_df)
