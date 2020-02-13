@@ -32,12 +32,13 @@ Now we're ready to pull data from Spotify. To keep things reasonable, we'll scra
 
 **Note**: `../1_data/r_hiphopheads_overposted.csv` was pulled on 2019-03-31, and is likely to have been updated since.
 
-## Initial Artist List
+## Initial Data
 ```{r Load data, eval=TRUE}
 hhhe <- read_csv("../1_data/Reddit/r_hiphopheads_overposted.csv")
 hhhe_artists <- unique(hhhe$Artist)
 ```
 
+### Initial Artist Data
 ```{r Get Spotify artist data, eval=FALSE}
 artists_df <- query_artists_flat(hhhe_artists)
 
@@ -51,6 +52,7 @@ artists_df$artist_name <- str_remove(string = artists_df$artist_name, pattern = 
 write_csv(artists_df, "../1_data/Spotify/artists.csv")
 ```
 
+### Initial Album Data
 ```{r Get Spotify album IDs, eval=FALSE}
 # Get Spotify album identifiers for all these artists
 albums_df <- query_albums_flat(artists_df$artist_uri)
@@ -65,6 +67,7 @@ albums_df$artist <- str_replace(string = albums_df$artist, pattern = "Tyler, The
 write_csv(albums_df, "../1_data/Spotify/albums.csv")
 ```
 
+### Initial Track Data
 ```{r Get Spotify album tracks, eval=FALSE}
 tracks_df <- query_tracks_flat(albums_df$album_uri, albums_df$album_name)
 
@@ -83,13 +86,14 @@ write_csv(tracks_df, "../1_data/Spotify/tracks.csv")
 rm(list=ls())
 ```
 
-## Extended Artist List
+## Extended Dataset
 ```{r Load data from initial queries, eval=FALSE}
 artists_df <- read_csv("../1_data/Spotify/artists.csv")
 albums_df <- read_csv("../1_data/Spotify/albums.csv")
 tracks_df <- read_csv("../1_data/Spotify/tracks.csv")
 ```
 
+### Extended Artist Data
 ```{r Get extended artist list, eval=FALSE}
 extended_artists <- tracks_df$track_artists %>%
   str_split(", ") %>%
@@ -111,8 +115,21 @@ artists_df_2 <- artists_df_2 %>%
 artists_df_2$artist_name <- str_remove(string = artists_df_2$artist_name, pattern = ",")
 
 write_csv(artists_df_2, "../1_data/Spotify/artists_extended.csv")
+rm(artists_df_2)
 ```
 
+#### Clean Extended Artists
+Manually tagging artists to remove in `../1_data/Spotify/artists_extended_tagged.csv`
+```{r Read in manually cleaned artists, eval=FALSE}
+artists_df_2 <- read_csv("../1_data/Spotify/artists_extended_tagged.csv")
+
+artists_df_2$remove <- replace_na(artists_df_2$remove,0)
+
+artists_df_2 <- artists_df_2 %>%
+  filter(remove == 0)
+```
+
+### Extended Album Data
 ```{r Get extended Spotify album IDs, eval=FALSE}
 # Get Spotify album identifiers for all these artists
 albums_df_2 <- query_albums_flat(artists_df_2$artist_uri)
@@ -125,9 +142,21 @@ albums_df_2 <- albums_df_2 %>%
 albums_df_2$artist <- str_replace(string = albums_df_2$artist, pattern = "Tyler, The Creator", replacement = "Tyler The Creator")
 
 write_csv(albums_df_2, "../1_data/Spotify/albums_extended.csv")
+rm(albums_df_2)
 ```
 
-**In progress**
+#### Clean Extended Albums
+```{r Read in manually cleaned albums, eval=FALSE}
+albums_df_2 <- read_csv("../1_data/Spotify/albums_extended_tagged.csv")
+
+albums_df_2$remove <- replace_na(albums_df_2$remove,0)
+
+albums_df_2 <- albums_df_2 %>%
+  filter(remove == 0)
+```
+
+# In progress
+### Extended Track Data
 ```{r Split extended albums dataframe into smaller chunks for manageable queries}
 albums_df_extended <- read_csv("../1_data/Spotify/albums_extended.csv") 
 
