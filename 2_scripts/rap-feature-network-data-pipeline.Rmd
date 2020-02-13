@@ -129,13 +129,38 @@ write_csv(albums_df_2, "../1_data/Spotify/albums_extended.csv")
 
 **In progress**
 ```{r Split extended albums dataframe into smaller chunks for manageable queries}
-albums_df_2 <- read_csv("../1_data/Spotify/albums_extended.csv")
-split(x = albums_df_2, f = rep(1:ceiling(nrow(albums_df_2)/1000)))
+albums_df_extended <- read_csv("../1_data/Spotify/albums_extended.csv") 
+
+albums_df_extended <- albums_df_extended %>%
+  mutate(index_to_split = as.numeric(row.names(albums_df_extended)),
+         groups_to_split = ntile(index_to_split, 10))
+
+for (i in 1:length(unique(albums_df_extended$groups_to_split))){
+  temp <- subset(albums_df_extended, albums_df_extended$groups_to_split == i)
+  write_csv(x = temp,
+            path =  paste0("../1_data/Spotify/temp_for_query/albums_df_extended_",i,".csv"))
+  assign(x = paste0("albums_df_extended_",i),
+         value = temp)
+}
 ```
 
 
-```{r Get extended Spotify album tracks}
-tracks_df_2 <- query_tracks_flat(albums_df_2$album_uri, albums_df_2$album_name)
+```{r 1 of 10: Extended Spotify album tracks}
+tracks_df_1 <- query_tracks_flat(albums_df_extended_1$album_uri, albums_df_extended_1$album_name)
+
+tracks_df_1 <- tracks_df_1 %>%
+  rename(track_uri = id, track_name = name) %>%
+  select(track_artists, album_name, track_uri, track_name, track_popularity)
+
+tracks_df_1$track_artists <- str_replace(string = tracks_df_1$track_artists, 
+                                       pattern = "Tyler, The Creator", 
+                                       replacement = "Tyler The Creator")
+
+write_csv(tracks_df_1, "../1_data/Spotify/temp_output/tracks_extended_1.csv")
+```
+
+```{r 2 of 10: Extended Spotify album tracks}
+tracks_df_2 <- query_tracks_flat(albums_df_extended_2$album_uri, albums_df_extended_2$album_name)
 
 tracks_df_2 <- tracks_df_2 %>%
   rename(track_uri = id, track_name = name) %>%
@@ -145,9 +170,120 @@ tracks_df_2$track_artists <- str_replace(string = tracks_df_2$track_artists,
                                        pattern = "Tyler, The Creator", 
                                        replacement = "Tyler The Creator")
 
-write_csv(tracks_df, "../1_data/Spotify/tracks.csv")
+write_csv(tracks_df_2, "../1_data/Spotify/temp_output/tracks_extended_2.csv")
 ```
 
+```{r 3 of 10: Extended Spotify album tracks}
+tracks_df_3 <- query_tracks_flat(albums_df_extended_3$album_uri, albums_df_extended_3$album_name)
+
+tracks_df_3 <- tracks_df_3 %>%
+  rename(track_uri = id, track_name = name) %>%
+  select(track_artists, album_name, track_uri, track_name, track_popularity)
+
+tracks_df_3$track_artists <- str_replace(string = tracks_df_3$track_artists, 
+                                       pattern = "Tyler, The Creator", 
+                                       replacement = "Tyler The Creator")
+
+write_csv(tracks_df_3, "../1_data/Spotify/temp_output/tracks_extended_3.csv")
+```
+
+```{r 4 of 10: Extended Spotify album tracks}
+tracks_df_4 <- query_tracks_flat(albums_df_extended_4$album_uri, albums_df_extended_4$album_name)
+
+tracks_df_4 <- tracks_df_4 %>%
+  rename(track_uri = id, track_name = name) %>%
+  select(track_artists, album_name, track_uri, track_name, track_popularity)
+
+tracks_df_4$track_artists <- str_replace(string = tracks_df_4$track_artists, 
+                                       pattern = "Tyler, The Creator", 
+                                       replacement = "Tyler The Creator")
+
+write_csv(tracks_df_4, "../1_data/Spotify/temp_output/tracks_extended_4.csv")
+```
+
+```{r 5 of 10: Extended Spotify album tracks}
+tracks_df_5 <- query_tracks_flat(albums_df_extended_5$album_uri, albums_df_extended_5$album_name)
+
+tracks_df_5 <- tracks_df_5 %>%
+  rename(track_uri = id, track_name = name) %>%
+  select(track_artists, album_name, track_uri, track_name, track_popularity)
+
+tracks_df_5$track_artists <- str_replace(string = tracks_df_5$track_artists, 
+                                       pattern = "Tyler, The Creator", 
+                                       replacement = "Tyler The Creator")
+
+write_csv(tracks_df_5, "../1_data/Spotify/temp_output/tracks_extended_5.csv")
+```
+
+```{r 6 of 10: Extended Spotify album tracks}
+tracks_df_6 <- query_tracks_flat(albums_df_extended_6$album_uri, albums_df_extended_6$album_name)
+
+tracks_df_6 <- tracks_df_6 %>%
+  rename(track_uri = id, track_name = name) %>%
+  select(track_artists, album_name, track_uri, track_name, track_popularity)
+
+tracks_df_6$track_artists <- str_replace(string = tracks_df_6$track_artists, 
+                                       pattern = "Tyler, The Creator", 
+                                       replacement = "Tyler The Creator")
+
+write_csv(tracks_df_6, "../1_data/Spotify/temp_output/tracks_extended_6.csv")
+```
+
+```{r 7 of 10: Extended Spotify album tracks}
+tracks_df_7 <- query_tracks_flat(albums_df_extended_7$album_uri, albums_df_extended_7$album_name)
+
+tracks_df_7 <- tracks_df_7 %>%
+  rename(track_uri = id, track_name = name) %>%
+  select(track_artists, album_name, track_uri, track_name, track_popularity)
+
+tracks_df_7$track_artists <- str_replace(string = tracks_df_7$track_artists, 
+                                       pattern = "Tyler, The Creator", 
+                                       replacement = "Tyler The Creator")
+
+write_csv(tracks_df_7, "../1_data/Spotify/temp_output/tracks_extended_7.csv")
+```
+
+```{r 8 of 10: Extended Spotify album tracks}
+tracks_df_8 <- query_tracks_flat(albums_df_extended_8$album_uri, albums_df_extended_8$album_name)
+
+tracks_df_8 <- tracks_df_8 %>%
+  rename(track_uri = id, track_name = name) %>%
+  select(track_artists, album_name, track_uri, track_name, track_popularity)
+
+tracks_df_8$track_artists <- str_replace(string = tracks_df_8$track_artists, 
+                                       pattern = "Tyler, The Creator", 
+                                       replacement = "Tyler The Creator")
+
+write_csv(tracks_df_8, "../1_data/Spotify/temp_output/tracks_extended_8.csv")
+```
+
+```{r 9 of 10: Extended Spotify album tracks}
+tracks_df_9 <- query_tracks_flat(albums_df_extended_9$album_uri, albums_df_extended_9$album_name)
+
+tracks_df_9 <- tracks_df_9 %>%
+  rename(track_uri = id, track_name = name) %>%
+  select(track_artists, album_name, track_uri, track_name, track_popularity)
+
+tracks_df_9$track_artists <- str_replace(string = tracks_df_9$track_artists, 
+                                       pattern = "Tyler, The Creator", 
+                                       replacement = "Tyler The Creator")
+
+write_csv(tracks_df_9, "../1_data/Spotify/temp_output/tracks_extended_9.csv")
+```
+
+```{r 10 of 10: Extended Spotify album tracks}
+tracks_df_10 <- query_tracks_flat(albums_df_extended_10$album_uri, albums_df_extended_10$album_name)
+
+tracks_df_10 <- tracks_df_10 %>%
+  rename(track_uri = id, track_name = name) %>%
+  select(track_artists, album_name, track_uri, track_name, track_popularity)
+
+tracks_df_10$track_artists <- str_replace(string = tracks_df_10$track_artists, 
+                                       pattern = "Tyler, The Creator", 
+                                       replacement = "Tyler The Creator")
+
+write_csv(tracks_df_10, "../1_data/Spotify/temp_output/tracks_extended_10.csv")
+```
 
 # Aggregate 
 
