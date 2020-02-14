@@ -6184,7 +6184,7 @@ album_uri,album_name,artist,release_date,album_type,remove,notes
 2ggoDXsGIigmkm0rqdeLqt,Freestyle Files,Ras Kass,9/22/18,album,,
 1grkHtq38s6FrHlxYyqPAR,Goldyn Chyld,Ras Kass,3/15/19,album,,
 6TFrP63Fdozpc0EzdLGcXD,Institutionalized Vol. 2,Ras Kass,8/5/08,album,,
-7K2oLhnEPHpeUgCjExrY0J,Intellectual Property #So12: 20th Anniversary,Ras Kass,10/27/17,album,"1	duplicate",
+7K2oLhnEPHpeUgCjExrY0J,Intellectual Property #So12: 20th Anniversary,Ras Kass,10/27/17,album,1,duplicate
 0LkOQqMBP44OW8IC6iFWvw,Line 4 Line presents  Soul On Ice  Revisited,Ras Kass,12/14/18,album,1,duplicate
 6JgnBBR0wzCV9FEqCxNiId,Rasassination (The End),Ras Kass,1/1/98,album,,
 2Fclbi5VpBHutl9hTsX7Du,Soul On Ice,Ras Kass,9/30/96,album,,
@@ -7674,7 +7674,7 @@ album_uri,album_name,artist,release_date,album_type,remove,notes
 0wXijeSP90GcJ5NzNu6I9e,Take London,The Herbaliser,5/31/05,album,,
 1VPUmb6FSO98eKWK4XDK9E,The Herbaliser Band - Session 1 & 2,The Herbaliser,7/27/09,album,1,live
 65z7QlJw7YxFogGCBk0AYM,The Herbaliser Band - Session 2,The Herbaliser,7/27/09,album,1,
-0VwvkpkpEpUKlVcwjSA4aJ,The Missing Suitcase,The Herbaliser,7/1/99,album,live,
+0VwvkpkpEpUKlVcwjSA4aJ,The Missing Suitcase,The Herbaliser,7/1/99,album,,
 2SYNDw6dWFBADgRU1W5y2H,There Were Seven (Remixes),The Herbaliser,7/1/14,album,1,duplicate
 37x3NrO0TjedHOVJk0vtRJ,Time To Build / Distinguished Jamaican English,The Herbaliser,10/21/02,album,,
 1V3a7mBozraa6AXQmUNxFV,Very Mercenary,The Herbaliser,4/1/99,album,,

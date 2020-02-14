@@ -1,1302 +1,678 @@
-album_uri,album_name,artist,release_date,album_type,index_to_split,groups_to_split
-3IO8IPjwXuzPJnoaqkwYrj,NOT ALL HEROES WEAR CAPES (Deluxe),"Metro Boomin, Travis Scott, 21 Savage",2018-11-06,album,1,1
-0llyIxX3nDC3hobbGibVZl,Double Or Nothing (& Metro Boomin),"Big Sean, Metro Boomin",2017-12-08,album,2,1
-0MV1yCXcNNQBfwApqAVkH0,Without Warning,"21 Savage, Offset, Metro Boomin",2017-10-30,album,3,1
-7L9if9x4z9GgtiSbTpMWQs,Perfect Timing,"NAV, Metro Boomin",2017-08-04,album,4,1
-4I3EcXD4e3KcEoDJfFEZ5b,Savage Mode,"21 Savage, Metro Boomin",2016-07-15,album,5,1
-01hoD9mwYe3mH33y2g1Gkw,19 & Boomin,Metro Boomin,2014-06-27,album,6,1
-5sAMmOXr23KOxs2wwNp6xN,Pull Up N Wreck (With Metro Boomin),"Big Sean, Metro Boomin",2017-11-03,album,7,1
-3B59OoKAFqhbnNogoZEDLN,Blue Pill,Metro Boomin,2017-10-06,album,8,1
-4VXEIoFGEjhFMW7wYAvWSf,No Complaints,Metro Boomin,2017-06-23,album,9,1
-31DNY6Wh1KwZWnHrKfIcge,New Designer,"Ni Dollaz, Yg Papi, Metro Boomin",2016-07-03,album,10,1
-5MzXKuMAn7DjzWnbngQuIv,Chanel Vintage (feat. Future & Young Thug) - Single,Metro Boomin,2014-07-28,album,11,1
-41Mzki3Yox73btDc51evLi,East Atlanta Santa 3,Gucci Mane,2019-12-20,album,12,1
-6hopdoEE79EsQ6mjjBUbFU,Woptober II,Gucci Mane,2019-10-18,album,13,1
-2FDYcU1NTibzvrv4XDJofN,Delusions of Grandeur,Gucci Mane,2019-06-21,album,14,1
-5xqQtdlJUY7Fg4BMp13LrX,Evil Genius,Gucci Mane,2018-12-07,album,15,1
-1u5gq15cYorEthAD0IDDOB,El Gato: The Human Glacier,Gucci Mane,2017-12-22,album,16,1
-2aTOwGU66ocsf8IQpOI0XZ,Mr. Davis,Gucci Mane,2017-10-13,album,17,1
-0smWYh2nQsaZNonBGZpZMn,Droptopwop,Gucci Mane,2017-05-26,album,18,1
-4MoVPs5mVFmZ4N6RmNTFWB,The Return of East Atlanta Santa,Gucci Mane,2016-12-16,album,19,1
-4A70XLIysm5lTaZYtCDveX,WOPTOBER,Gucci Mane,2016-10-14,album,20,1
-3WjDB3j2yZL4g0hBGHF04i,Everybody Looking,Gucci Mane,2016-07-22,album,21,1
-7uhnNKFG1UcksJMtg7IjuZ,TRU COLORS,Gucci Mane,2016-05-13,album,22,1
-3ncH3eH5iTUzU73omfc4XG,Birds of a Feather 2,"Don Mega, Gucci Mane",2016-05-06,album,23,1
-4vLYreWxd2ptOAzPwTyBI3,SR3MM,"Rae Sremmurd, Swae Lee, Slim Jxmmi",2018-05-04,album,24,1
-4BU1vWNke8dvJoVgAosZbp,IDKW (with Shenseea & Swae Lee feat. Young Thug),"Rvssian, Shenseea, Swae Lee",2020-01-17,album,25,1
-4v0FSMsulZqfi28KIdwDfb,Won't Be Late (feat. Drake),Swae Lee,2019-08-16,album,26,1
-1Oisz2iTc7flZdYnVMg9sL,Sextasy,Swae Lee,2019-08-16,album,27,1
-36WH4GlECwBUlIQMPkfhw5,Crave (MNEK Remix),"Madonna, Swae Lee",2019-08-02,album,28,1
-6HvlWPldadrpGl5zZyv9tS,Diva (with Swae Lee & Tove Lo),"Aazar, Swae Lee, Tove Lo",2019-05-10,album,29,1
-2tRRqWb7Zfodd3bO0cTDwc,Close To Me (Remixes),"Ellie Goulding, Diplo, Swae Lee",2019-02-01,album,30,1
-6Qx4jA6F8xTrAypkeaVUSk,Christmas At Swae’s,"Swae Lee, Rae Sremmurd, Ear Drummers",2018-12-21,album,31,1
-0289KRg78G6kSjE9tx9sqE,Better To Lie (with Jesse & Swae Lee),"benny blanco, Jesse, Swae Lee",2018-11-30,album,32,1
-3FtwiRgtcCLAiKHDvoj7bO,Arms Around You (feat. Maluma & Swae Lee),"XXXTENTACION, Lil Pump, Swae Lee",2018-10-25,album,33,1
-4bLCVUEB9YWKEeaJm8FfqQ,Close To Me (feat. Swae Lee),"Ellie Goulding, Diplo, Swae Lee",2018-10-24,album,34,1
-61rwEPg49tCJFTXzyWgxJP,Real Friends,"Camila Cabello, Swae Lee",2018-08-16,album,35,1
-1oUzjom2A9xtyRM1SdOAGj,Drip or Drown 2,Gunna,2019-02-22,album,36,1
-2yXnY2NiaZk9QiJJittS81,Drip Harder,"Lil Baby, Gunna",2018-10-05,album,37,1
-5xtAAHr59ozJ2PQ67utEmi,Drip Season 3 (Deluxe),Gunna,2018-02-02,album,38,1
-2zfUkbJbKtO6wGopVtmlWf,Drip Season 3,Gunna,2018-02-02,album,39,1
-3flHKlyXgH4vu277N43sMJ,Drip or Drown,Gunna,2017-11-30,album,40,1
-6XhhzCHUNzZ7FYU1KK9K8u,Drip or Down,Gunna,2017-11-30,album,41,1
-3vObc2h4jNdpjUoA1XlxCQ,Drip Season 2,Gunna,2017-05-11,album,42,1
-0dHaEMMoQ7HP3nBi3yYU0o,Drip Season,Gunna,2016-10-15,album,43,1
-4wjEB2aRFnw4mRAM6rK0ne,CASH COW (NGHTMRE & BLVK JVCK VIP),"NGHTMRE, Gunna, BLVK JVCK",2019-12-20,album,44,1
-4CGh0wfCdEh3xZVHx8uJK5,W (feat. Gunna),"Koffee, Gunna",2019-11-26,album,45,1
-1jd4dq1xm8me7AvD2EHWPH,CASH COW,"NGHTMRE, Gunna",2019-11-15,album,46,1
-7hXWMVDn9SVV7zNYiQGvWO,Hot (Remix) [feat. Gunna and Travis Scott],"Young Thug, Gunna, Travis Scott",2019-11-01,album,47,1
-4Hz8gvmGeimGyNojY01Hh3,Strings,"iann dior, Gunna",2019-10-25,album,48,1
-69lLTPKbTnVIyOnA21r4Xb,Don't Get Me Started,"Pia Mia, Gunna, Carnage",2019-10-02,album,49,1
-4eksthxT0hhR72A46Qr9OT,Speed It Up,Gunna,2019-02-11,album,50,1
-12OKJDXvGwSpi3uJ9aoBcn,One Call,Gunna,2019-02-01,album,51,1
-4h17oeKCAoQ8eKT63ndBFl,My Slime,"Billionaire Burke, Gunna",2018-11-23,album,52,1
-2yUhcn7kF408KjNVuMwV2P,Sounds From The Other Side,WizKid,2017-07-14,album,53,1
-2O8egayngzl1fm5dcE4VX9,Ayo,WizKid,2014-09-17,album,54,1
-4o0rVyqZMIvO3PCgbchcgo,Superstar,WizKid,2011-07-01,album,55,1
-6PodYTnewH2KdvLxaUz9oY,G Love,"Krept & Konan, WizKid",2019-10-18,album,56,1
-0ulDvK6p3mlxus11L8RVes,Ghetto Love (Instrumental),WizKid,2019-10-13,album,57,1
-1Mj4mLvCC9P4b167keUsRh,Joro,WizKid,2019-09-30,album,58,1
-2HEw2wkLTBWlbk8lGSqnY2,Ghetto Love,WizKid,2019-09-13,album,59,1
-7b57oWMZmdG8wjwjtRiKSO,I Like (feat. WizKid),"Kojo Funds, WizKid",2019-08-08,album,60,1
-6CctDPFBLDvKnjR9fIiTgT,Pick Up The Phone Remix,"WizKid, Moveek",2019-08-07,album,61,1
-6F6oQdNtqC7pZCyoWrF3VP,Totori,WizKid,2019-07-15,album,62,1
-7KKFZnoeSDNYCxXBmtdEL0,Consider,"Del B, Flavour, WizKid",2019-04-19,album,63,1
-6ac6Bt19Zkp3QN63K2nkhN,Medicine,WizKid,2019-01-22,album,64,1
-0xXGS8CKCt7PExCXUU2IKL,Tokyo,"King Promise, WizKid",2018-12-07,album,65,1
-6533uOhO0WDdMzgsd8LWyK,Master Groove,WizKid,2018-10-01,album,66,1
-5KBalcanPNHMGSNkyE7HG2,Fever,WizKid,2018-09-30,album,67,1
-0zQleOSgNnH1cd0o4CV7rm,To The Max,"Nana Rogues, WizKid, Not3s",2018-08-24,album,68,1
-6c2FMAZeFKi8pui6dlZqXB,Energy (Stay Far Away),"Skepta, WizKid",2018-06-20,album,69,1
-6ylFfzx32ICw4L1A7YWNLN,OASIS,"J Balvin, Bad Bunny",2019-06-28,album,70,1
-5kprdYds6oZb4iSldfflOT,Vibras,J Balvin,2018-05-25,album,71,1
-79447qgPdAlZVX0Xx4Fzfv,Energía Lado B,J Balvin,2017-10-06,album,72,1
-4cGc9Eeb3Gjff2Aq5ILLEf,Energía,J Balvin,2016-06-24,album,73,1
-4loQMkHOAbqVdyb59KBbsp,La Familia B Sides,J Balvin,2014-09-16,album,74,1
-5Fqdd85mAoGDp0K9lmbPDp,La Familia,J Balvin,2013-09-29,album,75,1
-1xMq6o4CDAa2X0WquvhHkX,J Balvin Mix Tape,J Balvin,2012-01-01,album,76,1
-7ynTaSXD9esXkgY0GG8UFd,Morado,J Balvin,2020-01-09,album,77,1
-3MwzPtb1MkNtwCQJrIkJnE,Pinky Ring (Remix),"Miky Woodz, J Balvin, Myke Towers",2019-12-27,album,78,1
-3CrpfLi8E2VWFf7ZLjgpNt,"Loco Contigo (with J. Balvin & Ozuna feat. Nicky Jam, Natti Natasha, Darell & Sech) [REMIX]","DJ Snake, J Balvin, Ozuna",2019-12-27,album,79,1
-2qhlFdhMEqU3qtQHmHiXxo,RITMO (Bad Boys For Life),"The Black Eyed Peas, J Balvin",2019-12-20,album,80,1
-1F0QPRUbG5VkzXKCuCMYge,Que Calor (with J Balvin & El Alfa) [Remixes],"Major Lazer, J Balvin, El Alfa",2019-12-13,album,81,1
-0HHkshHWYeQEnNpK8R5cMB,Que Calor (with J Balvin & El Alfa) [La Fuente Remix],"Major Lazer, J Balvin, La Fuente",2019-12-11,album,82,1
-6XN6kamiI69Wjzz0IAgX40,Que Calor (with J Balvin & El Alfa) [Good Times Ahead Remix],"Major Lazer, J Balvin, Good Times Ahead",2019-12-04,album,83,1
-1cuWfzX8BHWBMHaWNzns0G,Que Calor (with J Balvin) [Saweetie Remix],"Major Lazer, J Balvin, Saweetie",2019-11-22,album,84,1
-5mcUbpuVL0i5q4cECQ6cV4,Blanco,J Balvin,2019-11-15,album,85,1
-4QNL5L4WqvYddZI478m3rV,Que Calor (with J Balvin) [Badshah Remix],"Major Lazer, J Balvin, Badshah",2019-11-15,album,86,1
-3P2GKkjLASV7KHjVvcYYEN,HUMAN LOST [feat. J. Balvin (Reggaeton Remix by Nao beatz)],"m-flo, J Balvin",2019-10-25,album,87,1
-62f58ja1wxapiDxgXwaxJQ,Que Calor (with J Balvin & El Alfa) [Michael Bibi's 6am Dub],"Major Lazer, J Balvin, Michael Bibi",2019-10-16,album,88,1
-5n1GSzC1Reao29ScnpLYqp,Dying to Live,Kodak Black,2018-12-14,album,89,1
-0U578dQAanKmYDKCvqk2P3,Heart Break Kodak (HBK),Kodak Black,2018-02-14,album,90,1
-0D2kFxAO1YPAuxAtP23g0p,Project Baby 2: All Grown Up (Deluxe Edition),Kodak Black,2017-11-24,album,91,1
-1mUwtBhnrDj0dkwnEjhOj0,FEMA (Finesse Elevate Motivate Achieve),Kodak Black,2017-10-31,album,92,1
-51wp3EOOp2mBIjhZjR7W0i,Project Baby 2,Kodak Black,2017-08-18,album,93,1
-5mG8oNkNKM2my7t9ywra96,Painting Pictures,Kodak Black,2017-03-31,album,94,1
-1Pz7lBRN2k5tLMGoZUJVea,Lil Big Pac,Kodak Black,2016-06-10,album,95,1
-4J5QtgOhv6tPCsxxifVskj,Institution,Kodak Black,2015-12-26,album,96,1
-5Y3yGPqEZkTOCYNPQfzBae,Project Baby,Kodak Black,2015-04-14,album,97,1
-6KFW9lDRKODehZOBESXp3s,Heart of the Projects,Kodak Black,2014-12-25,album,98,1
-4k8EaJwLYu3dfsQtzsqg7O,Zombie (feat. NLE Choppa & DB Omerta),"Kodak Black, DB Omerta",2019-10-25,album,99,1
-70Gkn5J065Nt1IJ5rFqWiX,Zeze,"WiGGER music, Kodak Black",2019-08-22,album,100,1
-5kltcGxaQ7kpkDx05qJlZ0,Pimpin' Ain't Eazy,Kodak Black,2019-03-01,album,101,1
-3BRBcR4GnPmHvzsEPwL5oZ,MoshPit (feat. Juice WRLD),Kodak Black,2018-12-11,album,102,1
-6govTImLGZTpLGgibee1X9,Testimony,Kodak Black,2018-12-07,album,103,1
-2DjfazR5N3TgXBQ7oVALA1,QUAVO HUNCHO,Quavo,2018-10-12,album,104,1
-6FED8aeieEnUWwQqAO9zT1,"Huncho Jack, Jack Huncho","Huncho Jack, Travis Scott, Quavo",2017-12-21,album,105,1
-5fzNN6EKHEZyqfBs4MFMrA,Double Trouble (Quavo feat. Meek Mill),Quavo,2019-08-14,album,106,1
-04FvpoMtidMYTKIl7XqYSk,A Million,"Veronica Vega, Quavo",2019-07-19,album,107,1
-3ohU7IZ0HmrTQd90Xqt3TH,Pose To Do (feat. French Montana and Quavo),"Lil Pump, French Montana, Quavo",2019-07-19,album,108,1
-37Rz3XLdW8ci3K4UslRaHs,Broke Leg (with Quavo & Tyga),"Tory Lanez, Quavo, Tyga",2019-05-31,album,109,1
-0oHUyB9lFZHnCaNEhWMHTt,Too Much Shaft (with Saweetie) [From Shaft: Original Motion Picture Soundtrack],Quavo,2019-05-17,album,110,1
-4uEqlHBpU35jPpYHTvcELq,Bacc At It Again,"Yella Beezy, Quavo, Gucci Mane",2019-03-15,album,111,1
-4oMiA12pUkEghmi9mw9OAm,B U B B L E G U M,Quavo,2018-08-10,album,112,1
-6gQnUie7nF03zOG4HTqqbP,L A M B T A L K,Quavo,2018-08-10,album,113,1
-4XgTZqi7b25HmhO4wxrpWB,W O R K I N M E,Quavo,2018-08-10,album,114,1
-02drHFQa59AoJWU6DXSSjd,No Brainer,"DJ Khaled, Justin Bieber, Quavo",2018-07-27,album,115,1
-6oeUSQqp8hFzy5VSFpwlri,Boo'd Up (with Nicki Minaj & Quavo) [Remix],"Ella Mai, Nicki Minaj, Quavo",2018-07-04,album,116,1
-7ixZfHwD16W5yfPXZFyEKH,Réseaux,"Niska, Quavo, Stefflon Don",2018-04-27,album,117,1
-4LMANShgWEJGRndfFJc6lz,Wake Up & Cook Up,"Zaytoven, Quavo, 2 Chainz",2017-12-08,album,118,1
-3QL5SDLpu79KrQAW3jhJ8y,Ahora Me Llama (Remix),"KAROL G, Bad Bunny, Quavo",2017-10-06,album,119,1
-3oeiU8nG5eDm5YPpDvK6eS,Congratulations (Remix),"Post Malone, Quavo, Future",2017-06-16,album,120,1
-7DQvDCA2cqffxrJkpXYnKj,Stronger ft Quavo (Migos Edition),"Catina Mezereon, Quavo",2017-03-03,album,121,1
-5QNIFVnhZn80T3EteDzvgW,Dum and Dummer,"Young Dolph, Key Glock",2019-07-26,album,122,1
-6BsJaQiuPWfXwytfZXQBLm,Glockoma,Key Glock,2018-11-23,album,123,1
-1J4REuUZfX1OjjQhi9whzA,Glock Bond,Key Glock,2018-02-02,album,124,1
-2kb0RKXJia7VncmOc06wtF,Glock Season,Key Glock,2017-06-16,album,125,1
-0f5m25Bg6i5sCresHmkP5M,Mr. Glock,Key Glock,2020-01-17,album,126,1
-5Zirebbuu2jk4e8C212Mxt,Look At They Face,Key Glock,2020-01-10,album,127,1
-4fIiU2A8hCUzXmTVKvO5XN,Baby Joker,"Young Dolph, Key Glock",2019-07-18,album,128,1
-5ajjliTMmUxLmTJG3dwZtU,Spazzing Out,Key Glock,2019-06-03,album,129,1
-5mbM7o2JOyyh7I4pvEzR49,U Shoulda Stayed Down,"615 Exclusive, Key Glock",2019-04-05,album,130,1
-0pibkieeH0pd4raMmvvWWN,Hahaha,"Blacc Zacc, Key Glock",2019-03-04,album,131,1
-6v25o4TpGxP6S3H12McRrA,Yea!!,Key Glock,2018-11-16,album,132,1
-6KeNBDtLpmOnuJ73wBr8nE,Big Body Benz,Key Glock,2018-06-07,album,133,1
-77cx3z62D7cziIE4cmIi3q,Drink More Water 6,ILOVEMAKONNEN,2016-03-18,album,134,1
-6iCbIqVfjFZUUKKgkAIZRh,I LOVE MAKONNEN 2,ILOVEMAKONNEN,2015-11-20,album,135,1
-0ODv3WTczShCicpZWliTcl,I LOVE MAKONNEN,ILOVEMAKONNEN,2014-12-15,album,136,1
-21J8jNpNLSac1F5WB0pbIJ,Cupid! (Shot Me In The Dark),"Teddy, ILOVEMAKONNEN",2019-07-26,album,137,1
-3erNZUQrZr1sbfpOLLSb4w,Loser,ILOVEMAKONNEN,2019-07-12,album,138,1
-2AL67EF0K5GnmYeA4fPZqZ,M3,ILOVEMAKONNEN,2019-06-21,album,139,1
-4BQUTZlR3OMrBorJo1ahoY,I've Been Waiting (w/ ILoveMakonnen & Fall Out Boy),"Lil Peep, ILOVEMAKONNEN, Fall Out Boy",2019-01-31,album,140,1
-16eEmDvz4f177zmPNesqdu,Spendin' (feat. Gucci Mane),"ILOVEMAKONNEN, Gucci Mane",2019-01-11,album,141,1
-44sGCAuUKSGPbF6fSXO2vZ,Love (feat. Rae Sremmurd),ILOVEMAKONNEN,2017-09-07,album,142,1
-40HBWeFIZ4ySTF7XmHfnPu,Side to Side,ILOVEMAKONNEN,2016-08-05,album,143,1
-5bQDZuoPLeVtcCrMGzFh6L,Live for Real,ILOVEMAKONNEN,2016-03-11,album,144,1
-149U6wEP8EUY0GmEcw8CL6,Sellin,ILOVEMAKONNEN,2016-02-26,album,145,1
-4Via4BFgV3m8Afj9R46i9a,Tuesday,ILOVEMAKONNEN,2014-09-01,album,146,1
-7spFwNVU3TURCOd322YRV5,No Cosign,ManMan Savage,2020-01-07,album,147,1
-5kC0IvV1BjmAccxv4Qy6yx,EA to LA,ManMan Savage,2019-07-30,album,148,1
-6LnE26tW0uBBiLxFuOH2kZ,#FreeManManSavage,ManMan Savage,2014-08-21,album,149,1
-2IhVeCFPuIdM4h0c8WeH3M,I Won't Go Out Sad,"ManMan Savage, Mayhem",2019-12-06,album,150,1
-4X8ZjLTwH4VK2xuhvSXYCA,Any Givin Sunday,ManMan Savage,2019-08-30,album,151,1
-3jewKcDgVGxEGe2yWugwdq,Still Here,ManMan Savage,2019-08-30,album,152,1
-5YWl7TqMi6JL8d9Rb1rZ4i,Glocks Sticks Whatever (Bandhunta Izzy),ManMan Savage,2019-08-13,album,153,1
-04bKqnSgi3ph48mq64ZGKH,Any Given Sunday,ManMan Savage,2019-07-13,album,154,1
-6B20N8349ACH9QLC5hbob6,Ready,ManMan Savage,2019-06-06,album,155,1
-015Dq1TMMUOaprpgpFUA9f,County,ManMan Savage,2019-02-01,album,156,1
-71HxUaNY90Bc2aw0CsIo9S,I'm A Star,ManMan Savage,2018-11-30,album,157,1
-0vL705mx60VIX3MGJOjnxR,She A Freak (feat. Ohgeesy & 03 Greedo),"ManMan Savage, OHGEESY",2018-06-29,album,158,1
-1CwKYaWnLxW13VzVrF2Waq,Pull Up,"Madeaux, ManMan Savage",2016-09-19,album,159,1
-672IdmG7WruWF7LdimSJFO,Takin Shots,ManMan Savage,2015-07-31,album,160,1
-66RQAPD5x5nQgQzOa0X3sz,HERE,Alicia Keys,2016-11-04,album,161,1
-2JimBGRjtQcmMriFKlNaf9,Alicia Keys - VH1 Storytellers,Alicia Keys,2013-06-23,album,162,1
-3qqhNVbjLFNdLviBFrFwCa,Girl On Fire,Alicia Keys,2012-11-26,album,163,1
-0Rxab8t0y7GlaTJTHX2wEN,The Element Of Freedom,Alicia Keys,2009-12-15,album,164,1
-6KlxyxhXEDo1LdheFulN7h,As I Am (Expanded Edition),Alicia Keys,2007-11-09,album,165,1
-4KCe4KPxUSyKPLu5a6mDVg,Unplugged,Alicia Keys,2005-10-11,album,166,1
-2U1Z2tzNEdQpw48QmgmPzB,The Diary Of Alicia Keys (Expanded Edition),Alicia Keys,2003-12-02,album,167,1
-6TqRKHLjDu5QZuC8u5Woij,The Diary Of Alicia Keys,Alicia Keys,2003-12-02,album,168,1
-1SLgJeTdzDAJLcDyQqoWnu,Songs In A Minor (Expanded Edition),Alicia Keys,2001-06-26,album,169,1
-01aNLzRaKJogmxt3hDeII2,Underdog,Alicia Keys,2020-01-09,album,170,1
-7gqZqmM5X8j5lEFGsEUX5H,The Christmas Song,Alicia Keys,2019-12-13,album,171,1
-5AS789PRyPv5B6l17kLfAW,Spotify Singles,Alicia Keys,2019-12-04,album,172,1
-6AyIocBD7P3K6vjTK6Vg0b,Time Machine,Alicia Keys,2019-11-20,album,173,1
-3SUrSBw1oY5yX0Zlpiux7M,Show Me Love (feat. 21 Savage & Miguel),"Alicia Keys, 21 Savage",2019-10-30,album,174,1
-0iHBfyXdfH9Fpeh8BPsVJP,Show Me Love,"Alicia Keys, Miguel",2019-09-17,album,175,1
-6VbLR1kOlmC5pIqnFbNZ0T,Calma (Alicia Remix),"Pedro Capó, Alicia Keys, Farruko",2019-04-19,album,176,1
-1N0iT0PwcXXV1zUXNICAgP,Raise A Man,Alicia Keys,2019-02-11,album,177,1
-7pWw6ozRByPfbII3rqDnct,Us,"James Bay, Alicia Keys",2018-05-22,album,178,1
-0dICqPiSgbmRRRqWAT0XKk,Vault Volume 1,Alicia Keys,2017-04-07,album,179,1
-05LEST8E8mkEIl2LRfUkcI,War & Leisure,Miguel,2017-12-01,album,180,1
-6v1KAcOknj5z6QxMGh3mlY,Spotify Sessions,Miguel,2016-06-24,album,181,1
-6W8ZsoinSMViZMh9aYK7gQ,Wildheart (Deluxe Version),Miguel,2015-06-26,album,182,1
-19Ybi41VIHr3mTjt62I1jG,Wildheart,Miguel,2015-06-26,album,183,1
-3RpDqtToIqvKnD6iQe9WT4,Spotify Sessions London,Miguel,2013-07-02,album,184,1
-6VcyVQu3YmkzIWvxHVyCCB,Kaleidoscope Dream - Track by Track Commentary,Miguel,2012-10-15,album,185,1
-0vlIws8YGMQAbMEkubJgAP,Kaleidoscope Dream,Miguel,2012-10-02,album,186,1
-493HYe7N5pleudEZRyhE7R,All I Want Is You,Miguel,2010-11-26,album,187,1
-4hOMIVFD0c1xFxwyEp5Nxe,Funeral,Miguel,2019-11-01,album,188,1
-6dIpj0BvQgD0BcuPgRt81Q,Te Lo Dije,Miguel,2019-04-05,album,189,1
-1LQCzEUoXIGLH9qLfsV7Ur,I Found You / Nilda’s Story (with Calvin Harris & Miguel),"benny blanco, Calvin Harris, Miguel",2019-01-04,album,190,1
-4UjbL22oH1Y2SaBWywGuUS,Sky Walker (Recorded Live at Austin City Limits),Miguel,2018-09-28,album,191,1
-4OxaQgUMx3r7FAzruF1QAE,Banana Clip (Spanish Version),Miguel,2018-08-03,album,192,1
-3x06wmbNLtSNbxo2okpkHH,Python,Miguel,2018-07-31,album,193,1
-32LYmNL9vi2bGxDKWynbP0,Light Me Up,"RL Grime, Miguel, Julia Michaels",2018-07-25,album,194,1
-2brh6nArR9NUPankXlhmAZ,Diamonds (with Normani),"Megan Thee Stallion, Normani",2020-01-10,album,195,1
-7573vI8N5aDdqoaeSOgflW,Motivation (with 21 Savage) [Savage Remix],"Normani, 21 Savage",2019-10-28,album,196,1
-2r6BEK0wzXbL8JHyCkeJkG,Motivation,Normani,2019-08-16,album,197,1
-2LDzwN4iZ4qbSA32E9CG4Q,Dancing With A Stranger (With Normani) [Cheat Codes Remix],"Sam Smith, Normani",2019-03-08,album,198,1
-0JtZ4dyxvzFUCjeVrgPkHZ,Dancing With A Stranger (With Normani) [Acoustic],"Sam Smith, Normani",2019-02-15,album,199,1
-1V9oE8bVilClrk5naqyyvL,Dancing With A Stranger (with Normani),"Sam Smith, Normani",2019-01-11,album,200,1
-0vwWltI5IYadfWBU1A1gou,Waves (feat. 6LACK),"Normani, 6LACK",2018-11-15,album,201,1
-3OKTeMekMHZCvwlp7uttPE,Normani x Calvin Harris,"Normani, Calvin Harris",2018-10-22,album,202,1
-4CEAev7neETRdqBFtzA8B9,Love Lies (with Normani),"Khalid, Normani",2018-02-14,album,203,1
-7zEh8wIbBvf6tBxs77ppox,Love Lies (Rick Ross Remix),"Khalid, Normani, Rick Ross",2018-02-13,album,204,1
-1jl44H7m4XgQ0M8zdrjAJ3,Love Lies (Snakehips Remix),"Khalid, Normani, Snakehips",2018-02-12,album,205,1
-7CAAClnSiXdMibPT1oyl4k,Trip,Jhené Aiko,2017-09-22,album,206,1
-6UKXuiWFuwxzC5rd0SW4Bo,Souled Out (Deluxe),Jhené Aiko,2014-09-08,album,207,1
-1dfGhmOGPopEReylj0UUDG,Souled Out,Jhené Aiko,2014-09-08,album,208,1
-73TNMu44lT0m1h1Nn6Bfiq,Sail Out,Jhené Aiko,2013-01-01,album,209,1
-0NC1AcoK5y2cBLwzej6tqE,P*$$Y Fairy (OTW),Jhené Aiko,2020-01-17,album,210,1
-2pq9ByHGHMflMY3qy20BMW,None Of Your Concern,Jhené Aiko,2019-11-15,album,211,1
-3YlHS77X9w2OsiADm7pnBS,Triggered (Dance Mix),"Jhené Aiko, Saweetie",2019-10-18,album,212,1
-7gweQOZRW1sGNVXuxsjC2C,Triggered (Remix),"Jhené Aiko, 21 Savage, Summer Walker",2019-10-02,album,213,1
-2NGGOdyDlyb4bu3vqQqF83,Trigger Protection Mantra,Jhené Aiko,2019-09-13,album,214,1
-2svsn7JwsFVNSrlqdmmppd,Triggered (freestyle),Jhené Aiko,2019-05-08,album,215,1
-2zMEyUCS2gU5Igc5A6dhaU,Wasted Love Freestyle,Jhené Aiko,2018-12-20,album,216,1
-54aMsOV9b7WTdRyfYaJcLf,Never Call Me (feat. YG) [Remix],Jhené Aiko,2018-08-03,album,217,1
-1qgJNWnPIeK9rx7hF8JCPK,Over It,Summer Walker,2019-10-04,album,218,1
-4hTM8jZ8DCCqglmZUDMSPz,Last Day Of Summer,Summer Walker,2018-10-19,album,219,1
-3sKfMROqgj9nNxOuyPDndH,Something Real (with London On Da Track & Chris Brown),"Summer Walker, London On Da Track, Chris Brown",2019-11-22,album,220,1
-5SwPxt8aXuenxaIBIbkvpY,CLEAR,Summer Walker,2019-01-25,album,221,1
-1q6DMLVcuKBfYpfJ1KWtKh,Session 32,Summer Walker,2018-04-05,album,222,1
-0YksPVYor2eHo7ILCTAxJs,Squidtastic,SahBabii,2018-08-29,album,223,1
-33fqwRNqon25UnvkOgVcCC,S.A.N.D.A.S.,SahBabii,2017-06-09,album,224,1
-70RKBP08i1zX7unrcZQOFW,3P,SahBabii,2019-02-26,album,225,1
-4gAXFLgWrYWM1IHLT7ijmf,7 Squids (feat. R. Kelly),SahBabii,2018-08-22,album,226,1
-2LmqWWjVdmqUsYyHrDonUc,Watery,SahBabii,2018-06-08,album,227,1
-0mCHJHcYACJZKmRmUMkoOi,Outstanding (feat. 21 Savage),"SahBabii, 21 Savage",2018-04-20,album,228,1
-1SEJyixQNTiWCVCrMLrNZB,Purple Ape (feat. 4orever),SahBabii,2017-06-02,album,229,1
-1HZkSGc2XwYYHIqxIV8zkN,Marsupial Superstars (feat. T3),SahBabii,2017-05-26,album,230,1
-5nHwW82mWFwNSKI3jn77LZ,Pull Up Wit Ah Stick (feat. Loso Loaded),SahBabii,2017-04-07,album,231,1
-2EMsCcDaWAz421AYWN7Rbd,Gotta Pay,SahBabii,2015-11-04,album,232,1
-1YQAG1xQthpMaVptdKUFIE,Dumb Bitch,SahBabii,2015-10-01,album,233,1
-4ppi7pqv48aO8Ji6zkLxqY,Not Safe,SahBabii,2015-09-08,album,234,1
-3DvMjtyNAGVnNR40g40ZjZ,Rules,SahBabii,2015-07-24,album,235,1
-4pAz6zuQCyAXFGpVE1yhi6,I Am Me,BlocBoy JB,2019-06-14,album,236,1
-6NrsgXTJ3x2RRR8b0v2M7S,Simi,BlocBoy JB,2018-05-04,album,237,1
-5vCT8VY0nSeLUZge8NRVMZ,Who Am I 3,BlocBoy JB,2017-10-28,album,238,1
-0GNeGUkYXwXX6mRXSC3MwQ,The Purple M&M,BlocBoy JB,2017-09-12,album,239,1
-58gXxUxvp38hNEXjplbw4m,"Camelot (feat. Yo Gotti, BlocBoy JB & Moneybagg Yo) [Remix]","NLE Choppa, Yo Gotti, BlocBoy JB",2019-12-06,album,240,1
-5Ha42NhWHiUn23pk80YPoQ,ChopBloc 2 (feat. NLE Choppa),BlocBoy JB,2019-10-03,album,241,1
-5Oy4NEFTF4lOs3JrkOPWSk,We Here,"Fast Cash Boyz, BlocBoy JB",2019-07-19,album,242,1
-1Vn6MUy9s3dZfD43B3qEiO,Don't Think That,BlocBoy JB,2018-10-30,album,243,1
-0btwOGczDJirPFeDT1lkwX,Look Alive (Blocboy JB Remix),"Young Loyal, BlocBoy JB",2018-07-18,album,244,1
-0KLd4Sq4wgvzWqkdpwg7au,Nun Of Dat (feat. Lil Pump),BlocBoy JB,2018-05-02,album,245,1
-53zfPOYV1ziCaEuNwDdqvi,Produced by Blocboy,BlocBoy JB,2018-04-18,album,246,1
-091cZVoTJrlORPHFyuJQFi,Rover 2.0 (feat. 21 Savage),"BlocBoy JB, 21 Savage",2018-03-23,album,247,1
-7GGoJfKFOwDNuiLjjfzyCS,Look Alive (feat. Drake),"BlocBoy JB, Drake",2018-02-09,album,248,1
-6TSJdU7bTsYpysT7EN3HLk,Rover,BlocBoy JB,2018-02-09,album,249,1
-3MATDdrpHmQCmuOcozZjDa,TESTING,A$AP Rocky,2018-05-25,album,250,1
-3arNdjotCvtiiLFfjKngMc,AT.LONG.LAST.A$AP,A$AP Rocky,2015-05-26,album,251,1
-6rzMufuu8sLkIizM4q9c7J,LONG.LIVE.A$AP (Deluxe Version),A$AP Rocky,2013,album,252,1
-3zOkSAbg9o7gQ3yXtZhx5v,Babushka Boi,A$AP Rocky,2019-08-28,album,253,1
-5Rpva1nZm0xQZQHlGQfF2F,Energy (Remixes) (feat. Sabrina Claudio) [G010004130946U],"BURNS, A$AP Rocky",2019-08-02,album,254,1
-7eIzTSpFN6bs8gbFZLL8UZ,Live Fast (PUBGM),"Alan Walker, A$AP Rocky",2019-07-25,album,255,1
-1269OELfNNvdgMIobuYBBt,Energy (with A$AP Rocky & Sabrina Claudio) (feat. Sabrina Claudio) [Sonny Fodera Remix],"BURNS, A$AP Rocky, Sonny Fodera",2019-07-19,album,256,1
-2Scq3cyNzKxmN6L8qtWaCc,Energy (with A$AP Rocky & Sabrina Claudio),"BURNS, A$AP Rocky, Sabrina Claudio",2019-04-30,album,257,1
-4xuCAF5P2diMaCbRUxNlzz,Walk (Remix),"Comethazine, A$AP Rocky",2019-03-18,album,258,1
-3AlyvIIMZyT5LjWFeK5LSl,Sundress,A$AP Rocky,2018-11-20,album,259,1
-02KFVEA5tnY0YnypmWY1tz,Potato Salad,"Tyler The Creator, A$AP Rocky",2018-09-28,album,260,1
-67Em0g7VkNZGzICh4SZQdY,A$AP Forever (feat. Moby),A$AP Rocky,2018-04-05,album,261,1
-2IB4u7CExI80gM2KbkDtDp,Bad Company (feat. BlocBoy JB),A$AP Rocky,2018-03-28,album,262,1
-0xpKlXFqcZuIxCcN2rZj7j,Cocky (feat. London On Da Track),"A$AP Rocky, Gucci Mane, 21 Savage",2018-02-16,album,263,1
-4cJY0mS3aDyO6IltK41rAK,The DefAnition,"Dae Dae, London On Da Track",2016-11-04,album,264,1
-28tB8V6k32KtvbqzLv6wsD,fuckyounoah (feat. London On Da Track),"Noah Cyrus, London On Da Track",2019-10-31,album,265,1
-5gyk9wb9zJCNvBzmH06HUB,Throw Fits (feat. City Girls & Juvenile),"London On Da Track, G-Eazy",2019-05-17,album,266,1
-3joOEhJbsckuCFIF5G8veI,Up Now (feat. G-Eazy and Rich The Kid),"Saweetie, London On Da Track",2018-08-22,album,267,1
-3g9IrF7ueivYrMXDpIZck5,Whatever You On,London On Da Track,2017-12-07,album,268,1
-4PuUg0eqqnrg6bV26ctajh,"Whatever You On (feat. Young Thug, Ty Dolla $ign, Jeremih & YG)",London On Da Track,2017-12-07,album,269,1
-0sNUUICRa7ixxjun0s6Puq,Bedroom Floor (London On Da Track Remix),"Liam Payne, London On Da Track",2017-11-24,album,270,1
-4eGt5BVGxdgwgYD6yxXUSD,No Flag,London On Da Track,2017-08-24,album,271,1
-2UYUML0IpUiIovt84rfEaE,"No Flag (feat. Nicki Minaj, 21 Savage & Offset)",London On Da Track,2017-08-24,album,272,1
-1PHZTTQPzS9KtdcwqPyKSR,Soldier 2 Soldier,"Dead Prez, Outlawz",2015-07-28,album,273,1
-1ctEzpKcYukYAOXpyXx7C9,Information Age Deluxe Edition,Dead Prez,2012-10-16,album,274,1
-5taAPwk901vWoehjw4dEyX,Information Age,Dead Prez,2012-10-16,album,275,1
-6rAVMCnPEQJoa7RncuBkba,RBG: revolutionary but gangsta,Dead Prez,2004-03-30,album,276,1
-5CNkf7rD7QiaDetdQasroJ,Turn Off the Radio Vol.2 (Get Free Or Die Tryin),Dead Prez,2003,album,277,1
-7gXuElmegVReY7imkb5bf8,Let's Get Free,Dead Prez,2000-02-08,album,278,1
-7IOr8kKWzTthHxE4IuZeqH,Time Travel (Project Groundation Remix by DJ Child),Dead Prez,2013-10-29,album,279,1
-4lX1qg5TGLSDBr5F1Lq5mt,Dead Prez Time Travel Revisited (John Hugo Remix),Dead Prez,2013-10-15,album,280,1
-13yOYQFRbrCFdyigMoHhDH,No Way as the Way,Dead Prez,2012-03-19,album,281,1
-6d7MfyyGr8u4xipKrvNsNW,Globalization (Scene of the Crime) - Single,Dead Prez,2011-11-12,album,282,1
-41MxVFEbW82dhlFkkpflom,It's Bigger Than Hip Hop UK,"Dead Prez, WTF?",2010-08-09,album,283,1
-3k5fbm5yhhESNvkX6RbuSr,Politrikkks - Single,Dead Prez,2008-11-04,album,284,1
-2dQE1YSUhw2dNfNwL8f2v1,"Classic Collabz, Vol. 2",Outlawz,2019-02-08,album,285,1
-6d1j38KBs2Ei5bauvm3oTB,"Classic Collabz, Vol 1.",Outlawz,2019-02-01,album,286,1
-77SLL2DvkJENoLyrL9w3fW,Thug Brothers 3,"Bone Thugs-N-Harmony, Outlawz",2017-10-06,album,287,1
-5gtsTZcJlfzCpYYg0DO20i,Thug Brothers 2,"Bone Thugs-N-Harmony, Outlawz",2017-07-28,album,288,1
-3FEucNLiYv23pm9P0ndIht,#LastOnezLeft,Outlawz,2017-06-23,album,289,1
-7yBnN9J9myQbvxNqNt9rkO,Livin Legendz,Outlawz,2017-04-04,album,290,1
-6jifKm5oBE5DVp3dzevADQ,Against All Oddz,Outlawz,2015-08-11,album,291,1
-0weguLXW4X0CcT35oOhN5h,All Eyez on Us,"Lil' Flip, Outlawz, Outlawz, Lil' Flip",2015-08-04,album,292,1
-2sROc7NCEeR8dg88ijzK3X,Killuminati 2K11,Outlawz,2011-08-23,album,293,1
-2qmmPaaWXRM1kZujpUKKsO,Soldier 2 Soldier (Collector's Edition),"Dead Prez, Outlawz, 2Pac",2010-11-23,album,294,1
-4ga8LKxUsRHicwDGfSLo88,Killuminati 2K10,Outlawz,2010-10-31,album,295,1
-2ovI8sgpte18SCSuhhlzZd,The Lost Songs Volume One,Outlawz,2010-03-23,album,296,1
-2lUQ4neA7aFwgF5NXaKlEY,The Lost Songs Volume Two,Outlawz,2010-03-23,album,297,1
-2mXQcTkRFoil2aA8kRkV5D,The Lost Songs Volume Three,Outlawz,2010-03-23,album,298,1
-7BT1L40VNGxBSVg71VUCtV,Outlawz Retribution: The Lost Album 10 Years Later...,Outlawz,2009-09-15,album,299,1
-1H23iAwni7vw5DB10zi1SS,Who Ride Wit Us: Kurupt's Greatest Hits,Kurupt,2014-04-29,album,300,1
-7kQHV1Onzl869swTQVHVqQ,Tha Streetz Iz A Mutha (Digitally Remastered),Kurupt,2012-10-24,album,301,1
-4g4z5yi53Y9gg4us8JM4S3,Space Boogie: Smoke Oddessey (Digitally Remastered),Kurupt,2012-10-24,album,302,1
-0naGWvb6y86lRRuVJYkXGJ,Space Boogie: Smoke Oddessey (Clean Version) [Digitally Remastered],Kurupt,2012-10-24,album,303,1
-2aqWEdMaibqastz3J0TdCx,Penagon Rydaz,Kurupt,2011-10-04,album,304,1
-6dKpHi1e4sMSbPvAUQV4tt,Tha 420 Mixtape,Kurupt,2011-04-19,album,305,1
-6e3ndF3afU6K1Fz32CLnLs,Streetlights,Kurupt,2010-04-20,album,306,1
-6Hl4OJzSPU2eV5bXuQXMY6,Down and Dirty,Kurupt,2010-02-09,album,307,1
-0JS9MJI8jeEzfAZgIIWMXc,Tha Penagon Vol. 1,Kurupt,2009-04-14,album,308,1
-7vD9q0nMxMno0lji4KAKLy,The Frank & Jess Story,Kurupt,2008-11-11,album,309,1
-3Z1fdkYXQIJlFfuIRwltVl,"Tangled Thoughts (12"" Single)",Kurupt,2007-04-24,album,310,1
-0WBW3ce6leISM9TYlt0l4d,Digital Smoke (Remastered) [Deluxe Edition],Kurupt,2007,album,311,1
-5zflpexJ9hoBCZ5ncz7dty,Against The Grain,Kurupt,2005-08-23,album,312,1
-6aSrsvvOFkz5rneQr27jRg,To Live And Die In Ca,Kurupt,2004-04-26,album,313,1
-4csRYsXQ1hPrVlvL9Gzo8w,Back b4 you're Lonely,"Butch Cassidy, Damizza",2007-04-03,album,314,1
-1Agxmb3Fr86QY99LFl5jRT,New Life (Remastered),"Eastwood, Butch Cassidy",2019-07-10,album,315,1
-0ZofL9N9pQhTrJ9w4hFKgI,Chillin' On The West Coast (feat. Pr1me),Butch Cassidy,2019-05-31,album,316,1
-0L5ZNWMdjSJlufR04yES4S,Non Stop (feat. Vanessa Marquez),Butch Cassidy,2019-05-31,album,317,1
-1LDS1GeaZTyvUxZGT0SHKB,All I See (feat. Snoop Dogg),Butch Cassidy,2018-01-12,album,318,1
-681sYZSPrHTRCLKQyKx8gS,Get on Up,Butch Cassidy,2016-06-08,album,319,1
-10Sqpo9wtZ1Hyacvp8SnaS,Greater Than One,Dwele,2012-08-28,album,320,1
-0dV8bVMHt6ISthNWYKA9YS,"Wants, World, Women",Dwele,2010-06-29,album,321,1
-1VW9ltXjlRK43xOXS3l0VE,Sketches Of A Man,Dwele,2008-06-24,album,322,1
-09idklQr5JtTTVoBtfn1XN,Some Kinda...,Dwele,2005-01-01,album,323,1
-44knvMChf7CE5Jkg636gXy,Subject,Dwele,2003-01-01,album,324,1
-0ATjoWwI8VfnxbislthXkc,Drive the Future,Dwele,2013-11-14,album,325,1
-4LxNX6a4RgbCnPGnnqAUGX,What Profit,Dwele,2012-05-22,album,326,1
-12EapaiXf7LneRyVaBw8hY,Can 't Take It (Remixes),"Dwele, Recloose",2011-03-15,album,327,1
-5tQm7l3hIGm7XigFxeONkZ,What's Not To Love,Dwele,2010-04-13,album,328,1
-4WYgiWoOGXYjyZaNTnMDql,Hold On (Remix),"Dwele, Consequence",2004-01-01,album,329,1
-1d4ZAEamNfhyITtlvVxBxR,PRESENCE,Styles P,2019-11-15,album,330,1
-701Unuj1hyw9dDXGxKrdx6,S.P. The GOAT: Ghost of All Time,Styles P,2019-05-03,album,331,1
-2tcoPTyD18Jy8PuMYsR71T,Dime Bag,Styles P,2018-11-02,album,332,1
-0LfSJWTgSBu2HyVVq5Mw4x,Beloved,"Dave East, Styles P",2018-10-05,album,333,1
-0NDxmKylZ2ZXmJPw9OFZ2T,Ghost in the Shell,Styles P,2018-07-02,album,334,1
-5cg3f05QCssFzF6c2yryqo,G-Host,Styles P,2018-05-04,album,335,1
-0rmOAX7SqxLvc83bLwO9SS,Ghost Kill,Styles P,2017-12-09,album,336,1
-6IDxckzvaMiomiYX0Fw2Jd,Vibes,"Berner, Styles P",2017-06-23,album,337,1
-6iKtJMhZeawZdLesl5qSIY,The Seven,"Talib Kweli, Styles P",2017-04-14,album,338,1
-08sEa60jXcrEqJ7UpOmsh2,A Wise Guy and a Wise Guy,Styles P,2015-08-14,album,339,1
-0wJPh9Zbxgszyq9b3pLzVY,Phantom and The Ghost,Styles P,2014-04-29,album,340,1
-0bgQdOVAUOFX2lx74HW5vC,Float,Styles P,2013-04-16,album,341,1
-13eesZSeTuWHxQC3xGaZuF,The World's Most Hardest MC Project,Styles P,2012-11-19,album,342,1
-7MOdn4NWVBhAIPqPVGw4kn,Master Of Ceremonies,Styles P,2011-10-04,album,343,1
-18Hv2cCmEgA52sBCX0Y0Hl,Phantom Ghost Menace,Styles P,2010-06-04,album,344,1
-6x8aN98py63x5TJ418RYJa,The Ghost Dub-Dime Mixtape,Styles P,2010-05-18,album,345,1
-1JujzKAq9x06ixPa0eJAzS,Nothing Left to Prove,Krayzie Bone,2019-09-27,album,346,1
-4P8U428JHf7rI5poJP6Ahv,Quick Fix: Level 2,Krayzie Bone,2019-08-12,album,347,1
-4AOOQNYCasSGOQDEm2AjCB,E.1999: The LeathaFace Project,Krayzie Bone,2017-10-13,album,348,1
-6Mhf67jehPvcN3BzXOFEzb,Chasing Glory,"Krayzie Bone, Flesh-n-Bone",2017-08-11,album,349,1
-21gyhk5D561JhP9sc3nMRR,Eternal Legend,Krayzie Bone,2017-06-23,album,350,1
-68FjEVyoRPbAJoMc0bUjqO,Chasing The Devil,Krayzie Bone,2015-11-20,album,351,1
-6BPiiwnJTncoxBUqG74raM,Fixtape: The Complete Collection,Krayzie Bone,2015-02-24,album,352,1
-1C5H3cfLt91mvUFWM5r4e5,Bone Brothers 4 Life by LayzieBone & KrayzieBone,"LayzieBone & KrayzieBone, Layzie Bone, Krayzie Bone",2013-05-28,album,353,1
-1vngjQ0BQhqJLCphEyPUdG,QuickFix: Less Drama. More Music.,Krayzie Bone,2013-03-12,album,354,1
-6sPyO4rWnz45eO0jH64byD,Under The Influence,Krayzie Bone,2011-11-22,album,355,1
-2pKvzoADuXVdCtWARxuuaB,Behind the Harmony (Thug Edition),Krayzie Bone,2011-07-07,album,356,1
-65Fkg9stkXWo8mfVVV8O87,True Thug Never Dies,Krayzie Bone,2011-04-28,album,357,1
-6eI2s0ZVQ6l3PSDZdfBWAB,"Mellow, Smooth & Krayzie",Krayzie Bone,2010-09-09,album,358,1
-6nVAPVX8fn4sq0abCNMSKC,The Fixtape: Ultimate Collection,Krayzie Bone,2010-08-24,album,359,1
-1QCr7q5rezIXJSMbOVPqST,The Fixtape Vol. 3: Lyrical Paraphernalia,Krayzie Bone,2010-07-27,album,360,1
-6BLPwtPvpmqKHp2pFfpSIT,DIME TRAP,T.I.,2018-10-05,album,361,1
-4LE0rkWoiZV5ciq4UCzLia,Us Or Else: Letter To The System,T.I.,2016-12-16,album,362,1
-4FADvCXok2GhepAWLE8Fs1,Paperwork (Deluxe Explicit),T.I.,2014-10-17,album,363,1
-5S39sWIHkhd8jxdUelQxXF,Paperwork (Deluxe Clean),T.I.,2014-10-17,album,364,1
-2pFMXpXNNh3gFn9Mdfezkt,F*ck A Mixtape,T.I.,2013-08-29,album,365,1
-1xo2WZtIdC9ZXEfih5iqts,F*ck Da City Up,T.I.,2013-08-29,album,366,1
-5X46pZekTY2dsWuZDpm14m,Trouble Man: Heavy is the Head,T.I.,2012-12-18,album,367,1
-6LGR2plk2Yk4A33CAktJN3,No Mercy,T.I.,2010-12-06,album,368,1
-5PfepkNWgRR2DI02Y8AawC,Paper Trail,T.I.,2008-09-08,album,369,1
-1TrOr46SzyI7z9C6YnMRnM,T.I. VS T.I.P.,T.I.,2007-06-12,album,370,1
-4QCReojarEyY8twLScsDPO,T.I. vs. T.I.P. (Instrumental),T.I.,2007-06-12,album,371,1
-3hBYHp7pdkRywth5Qj4Su6,Down With The King: Gangsta Grillz,T.I.,2006-10-10,album,372,1
-2X7s6Gt8Xz2qEwlw4GVcQo,King,T.I.,2006-03-27,album,373,1
-6nNdgTawDrOhd2wadfrRiH,Urban Legend (Chopped & Screwed),"T.I., Paul Wall",2004-11-30,album,374,1
-1fq5g178qfMUqw8QIh7hTZ,A Wonderful Christmas With Ashanti (Deluxe),Ashanti,2014-10-28,album,375,1
-7uFV3cIwluXpnISsDGNVYV,Real Don,"Timbamyst, Rappa Dappa, Ashanti",2014-03-21,album,376,1
-3owfb8CT6L9QpVLYCRCInt,Braveheart,Ashanti,2014-03-04,album,377,1
-4EerWJngQfW8tA1Ymt5Q6b,The Vault,Ashanti,2008-10-14,album,378,1
-23d3EfXK0OEtfOB61bBz9d,The Declaration,Ashanti,2008-01-01,album,379,1
-4QAuSt9sLyCwa7lAX6Vp6I,Collectables By Ashanti,Ashanti,2005-01-01,album,380,1
-3oL0vq8diYrPLGWVgjJBPD,Concrete Rose,Ashanti,2004-01-01,album,381,1
-4vjeaWsf9UH2ecdKXAZaq2,Chapter II,Ashanti,2003-01-01,album,382,1
-2cCgsczHC4dG2TSSPSxzL5,Ashanti's Christmas,Ashanti,2003-01-01,album,383,1
-5d3NsRiyUBxEwvNRK55r9F,Ashanti,Ashanti,2003-01-01,album,384,1
-1IGKkQNoAGCMX65iBcGrGO,Pretty Little Thing (feat. Afro B),"Ashanti, Afro B",2019-08-09,album,385,1
-02JhLpxLG18o2Ahk9wGpQC,Floating,Ashanti,2019-06-28,album,386,1
-2G168cGgMn2R8tTqE6sllG,Legendary Status,Hussein Fatal,2018-07-10,album,387,1
-2oSeoD7EpcVDqxALPStHRn,Ridin' All Week On Em,Hussein Fatal,2015-02-28,album,388,1
-5EdYgIsuXY0OJJXlU3EHxF,Fatal,Hussein Fatal,2013-08-15,album,389,1
-642JHCGKoO3sIpyg9FzRZJ,The Interview: It's Not a Gimmik 2 Me,Hussein Fatal,2013-02-13,album,390,1
-0s7MRbdl2U0b4D84PzlaYI,Born Legendary,Hussein Fatal,2009-06-16,album,391,1
-3YUgVGg9ipLPK0oULBKoSP,Thug In Thug Out,Hussein Fatal,2007-09-11,album,392,1
-3QU0XfLHOsU3DvQb1TxDQu,Come Get Me,"Nawfside Outlaw, Hussein Fatal",2017-11-24,album,393,1
-5fF0svtoxvfIaMPZnT58HJ,Pray (feat. Nawfside Outlaw),Hussein Fatal,2015-01-17,album,394,1
-467WU7JjHUcy1yB3lLHUrv,Fuck All Yaw (feat. J. Skyy),Hussein Fatal,2014-12-04,album,395,1
-5YbaoxtX8BRkdXc7SysxID,Ridin All Week On Em (Get It On),Hussein Fatal,2014-11-13,album,396,1
-1dkOlaS3QzYbGClcEu9557,Ridin All Week On Em',Hussein Fatal,2014-07-14,album,397,1
-4Lg2yvg4TZdsNRbmkd9rsT,Wut You Talkin Bout (Feat. Jim Jones),Hussein Fatal,2009-05-05,album,398,1
-01krZ5v9vXxklShkPoaPAV,1090 Official,Hussein Fatal,2007-03-28,album,399,1
-4y3lSEjA6AJGZ6GpKRo6PZ,Underrated,Papoose,2019-02-15,album,400,1
-40ttqpwOACOfcYWz0jCU1G,You Can't Stop Destiny,Papoose,2015-07-17,album,401,1
-3pnKG8w62wwzLneNSBM0YE,Cigar Society,Papoose,2014-03-05,album,402,1
-1ThgMcSHvTMurwDqfec7RC,The Nacirema Dream,Papoose,2013-03-26,album,403,1
-76kXlfzOxGZl4gdZAx3H84,The Nacirema Dream (Commentary Version),Papoose,2013-03-26,album,404,1
-2y32oyqGC3iadb7gInoLpY,The 2nd Coming,Papoose,2011-03-15,album,405,1
-3MTVwEkzHRRwhEhzR8vV6H,Papoose Season,Papoose,2010-06-01,album,406,1
-49PNva6ktlvfOJw3kng0oI,The 1.5 Million Dollar Man,Papoose,2006-07-17,album,407,1
-0teZRUWM5H6EDHvYxWfB3I,Just A Reaction,"Sean T., Papoose",2019-12-13,album,408,1
-6kwOA4HhDOXeIDx1kUspsG,Nasty Time,"Papoose, Bianca Bonnie",2019-12-06,album,409,1
-0uH8UApmZ3b17wlm2fbMBT,CC,Papoose,2019-05-10,album,410,1
-4P28NBxejry4Yruwe8b3hh,Fortune 500 (Instrumental),Papoose,2019-03-07,album,411,1
-6H48Ambf6MITBd05Pm7YOa,Fortune 500,Papoose,2019-03-06,album,412,1
-3R6aywLf0J4JrHW3nMCXvV,Precious Jewel (feat. Musiq Soulchild),Papoose,2019-02-13,album,413,1
-1ffGHQYkqVHioRq0RdeA2k,Numerical Slaughter (feat. DJ Premier),Papoose,2019-02-08,album,414,1
-4OqHamHt4tIprBXkGVsM8P,Have It All From Me,Papoose,2018-11-14,album,415,1
-41pujnytO2WwCJkCCPXQRQ,The Golden Child (feat. Remy Ma & Angelica Vila),Papoose,2018-10-16,album,416,1
-4fCGPhLaTPkeJKPluEIufP,Shooter (feat. Casanova),Papoose,2018-07-04,album,417,1
-1ujnNdAn00DSEuHSHRFfaj,Conquer,Carl Thomas,2011-01-01,album,418,1
-6QInbt28VcWfrEKEfHo76l,Lets Talk About It,Carl Thomas,2004-03-23,album,419,1
-5fjNNSyiwXoOQMCW4dLjJ2,Emotional,Carl Thomas,2000-04-18,album,420,1
-6xN2vyMs9AFxQu9iuzbI3G,One With Heaven,Carl Thomas,2019-01-10,album,421,1
-3IEhGkI7uOXrVHRueEVpon,Christmas in Paris (Yuletide Nights),"S. Marcus Aurelius, Carl Thomas",2014-12-15,album,422,1
-7p4baBa3GLKepL99JcFlX1,2 Pieces,Carl Thomas,2007-01-01,album,423,1
-7AXUeodoVqnIM9vvK5RYgm,11:11 Reset,Keyshia Cole,2017-10-20,album,424,1
-2OlVVFS8QZfQLmAKkfIwmz,Point Of No Return (Deluxe),Keyshia Cole,2014-10-07,album,425,1
-6L9r38KsyYDx3iBLQlO27C,Point Of No Return,Keyshia Cole,2014-10-07,album,426,1
-3rhFyKbGK5dsSdnamXIKZh,Woman To Woman (Deluxe),Keyshia Cole,2012-01-01,album,427,1
-60CQrM7VrADEeRRu1w0hpM,Woman To Woman (Deluxe Version),Keyshia Cole,2012-01-01,album,428,1
-59wAYIinUgDT5340boXKwj,Woman To Woman,Keyshia Cole,2012-01-01,album,429,1
-2RgKoQf4PYKhAf4Chd45jP,Calling All Hearts,Keyshia Cole,2010-01-01,album,430,1
-78lzpyeBeywyc6h9SCFrAO,Calling All Hearts (Deluxe),Keyshia Cole,2010-01-01,album,431,1
-33e65SDeu5HhT5Iq7Gt2f4,A Different Me,Keyshia Cole,2008-01-01,album,432,1
-7mdy09EO4q6F9VWBtXDDjK,Just Like You,Keyshia Cole,2007-01-01,album,433,1
-4zEAsP0RIfbGARdtsgAaUV,The Way It Is,Keyshia Cole,2005-01-01,album,434,1
-1ZlDhiuFmeCLmj3AKufJCI,Don't Waste My Time (feat. Young Thug) - Single,Keyshia Cole,2015-09-24,album,435,1
-6Gdb08xMplbl9EpoN53Sfy,The Rehab (Remix),Young Buck,2019-10-25,album,436,1
-4JlA01SxmYBpyvLTpcZl3N,10 Pints,Young Buck,2018-12-21,album,437,1
-4ZWqFRmtfX8oVym4CA07oh,10 Plugs,Young Buck,2018-07-03,album,438,1
-0MGzRe7dGLVJZImAf8nALI,"Greatest Hits, Vol. 1",Young Buck,2017-12-01,album,439,1
-3XuCZOrKtWPG9CXmX7EN10,The Rehab,Young Buck,2015-08-18,album,440,1
-5ZIAAbPTKcVEL0MzPT4aYP,The Natural 2 & The Rehab (Deluxe Edition),"Haystak / Young Buck, Young Buck, Haystak",2015-05-26,album,441,1
-18kCV5mYXFI0xrE5N7cBc4,Gas 2 - Gangsta & Street 2,Young Buck,2013-06-12,album,442,1
-5F0wR8YxHsRSeASvyMrJaT,No Place for Me,Young Buck,2012-11-06,album,443,1
-1uS79las7phXa4KjTdUcqj,Letter to the Label,Young Buck,2012-11-06,album,444,1
-5PHFMhy6wx5GkVaXRfLZoX,I'm the Shit 153,Young Buck,2012-11-06,album,445,1
-2eBJj0XecZmGYHz9ofT86Y,Live Loyal Die Rich,Young Buck,2012-11-06,album,446,1
-2G0qi4IfwxictGCe2qDMwx,Im the Shit 98,Young Buck,2012-11-06,album,447,1
-5YSHDMpxORYWrHzsK4bhRD,Welcome to the Dirty Dime,Young Buck,2012-11-06,album,448,1
-251Ic6KjTObTBGoihPRgTH,There Will Be Blood Vol 1,Young Buck,2012-11-06,album,449,1
-2jYdjOE7QapeQT2lha95An,The Rehab Screwed,Young Buck,2012-11-06,album,450,1
-36rHjNhx2vhiB9rO0VmdCn,I'm the Shit 44,Young Buck,2012-11-06,album,451,1
-1I2hYH94sTm2kmmtuVJ2Gm,There Will Be Blood Vol 2,Young Buck,2012-11-06,album,452,1
-4vJv8QW1a2rufcnRBkPMLA,My Interview,Young Buck,2012-11-06,album,453,1
-2exN5CG5L7FBmBzzDILGh9,Terminate On Sight,Young Buck,2012-11-06,album,454,1
-4VKQkZAaF9XLj9ZOVcrfN3,Greatest Verses 3,Chamillionaire,2018-04-03,album,455,1
-03qhVCcwmfwZ1QMKaNHdh3,"Greatest Verses, Vol. 2",Chamillionaire,2014-11-04,album,456,1
-6Ff8Ryku6dJyJYSKAsBvhe,Reignfall,Chamillionaire,2013-07-23,album,457,1
-6w20ZdXKCQrgry5SN7vEif,Elevate,Chamillionaire,2013-02-13,album,458,1
-4LgDuu2bMlerf7IoazWyQl,Ammunition,Chamillionaire,2012-03-20,album,459,1
-0I7mn2HO3tBtMb55JjhtU5,Major Pain 1.5,Chamillionaire,2011-04-18,album,460,1
-18a6Jgl3VdxOO2owdQwhC4,Mixtape Messiah 7,Chamillionaire,2009-08-04,album,461,1
-2Bw7ldpwyh57fWT3OttqAc,Mixtape Messiah 6,Chamillionaire,2009-01-13,album,462,1
-0nCb6DnbWycxYHzVCwJkTP,Mixtape Messiah 5,Chamillionaire,2008-11-23,album,463,1
-1D8Y3giSShIGCwA0k47C2q,Mixtape Messiah 4,Chamillionaire,2008-08-27,album,464,1
-5WqA0y5yMd3VXi1geRqOta,Mixtape Messiah 3,Chamillionaire,2007-07-18,album,465,1
-1kqFUWqRNLcb1YyTcAG58N,Ultimate Victory,Chamillionaire,2007-01-01,album,466,1
-2noUNT1e9aglsp5NC7aYyu,GYMC - The Remix Album,Chamillionaire,2006-10-31,album,467,1
-6OVCVispbH2AeNcxEMp5DC,Gymc - The Remix Album,"Paul Wall, Chamillionaire",2006-10-31,album,468,1
-66sgNOcaejAqbGtLU8Lcjd,Mixtape Messiah 2,Chamillionaire,2006-05-01,album,469,1
-3Zwi2BmKBp1EACf3I6K669,Man On Fire,Chamillionaire,2006-01-17,album,470,1
-52XTKwzsmfuyhNRs9Nt0Pf,The Sound Of Revenge CHOPPED AND SCREWED,Chamillionaire,2006-01-01,album,471,1
-6rcbbhcm8Os7EiVRHP9Aef,Victory Lap,Nipsey Hussle,2018-02-16,album,472,1
-1r7w42IgRTrBtFG5atqDud,No Pressure,"Bino Rideaux, Nipsey Hussle",2017-12-17,album,473,1
-6pAP6aJ2SUmhE9VXB8bm02,Slauson Boy 2,Nipsey Hussle,2017-12-10,album,474,1
-0hEI1TzqRgPGxTPFNoKrO0,Mailbox Money,Nipsey Hussle,2015-01-01,album,475,1
-1C5gVWv1k7r0LxsrIL8OL8,Crenshaw,Nipsey Hussle,2013-10-22,album,476,1
-00QRq2fWExmSJUT8qHjJBD,Nip Hussle the Great: Vol. 2,Nipsey Hussle,2013-10-02,album,477,1
-4qG4QOQdwo9nHbMVHfcX3v,Nip Hussle the Great: Vol. 1,Nipsey Hussle,2013-10-02,album,478,1
-1exGH93j0Z8EdGVQehvEUL,"The Leaks, Vol 1.",Nipsey Hussle,2013-09-01,album,479,1
-3NooF98bglI3AGhuUys2Eb,Bullets Ain't Got No Name Vol. 2,Nipsey Hussle,2013-09-01,album,480,1
-5qgpc2AibxlsSRjEOiudqj,Bullets Ain't Got No Name Vol. 1,Nipsey Hussle,2013-09-01,album,481,1
-7HVilT6l3oDge4vqlRegfW,Tmc (Acapellas),Nipsey Hussle,2013-09-01,album,482,1
-0ooAquTpwq99XgS2XEmQYi,X-Tra Laps,Nipsey Hussle,2013-09-01,album,483,1
-51Yt29C0mRQEMDSIrtLvWP,Tmc,Nipsey Hussle,2013-09-01,album,484,1
-0hxGA0AAOMvmzYHPzybcOr,The Marathon,Nipsey Hussle,2013-09-01,album,485,1
-77mgksBIxROwOc5116Ajnp,T M C,Nipsey Hussle,2011-11-01,album,486,1
-3WFPDIex0yJ2YFlNymEEz4,Bullets Aint Got No Name Vol. 3,Nipsey Hussle,2009-08-18,album,487,1
-0z5nZ4JyF8qkN0lHLSI3WL,Bullets Aint Got No Name Vol.2,Nipsey Hussle,2009-04-14,album,488,1
-6Om3WGI8DCFeTu1Y3fpYRp,Bullets Aint Got No Name Vol.1,Nipsey Hussle,2009-04-14,album,489,1
-08EwzqoQQ0THI69fVssQFT,Confident,Lil Scrappy,2018-06-08,album,490,1
-3LNgeamFYsPouu3pv2Yzdx,Hopeless Romantic,Lil Scrappy,2017-11-14,album,491,1
-5urto4pWWUwSolFKDGITyz,Prince of the South,Lil Scrappy,2015-08-04,album,492,1
-3Guz7kGfmXjOYBrJkSzIhR,Prince of The South 2,Lil Scrappy,2015-08-04,album,493,1
-71yE69uj3rsaSJczd46xVY,Prince of the South 1 & 2 (Deluxe Edition),Lil Scrappy,2015-05-26,album,494,1
-7mbiMnIIehnCpDSwt7E3J9,Prince of the South & ATL's Finest (Deluxe Edition),"YoungBloodZ, Lil Scrappy, Youngbloodz, Lil Scrappy",2015-05-26,album,495,1
-1IDJuLEiAITZqDtMoxDoud,Success and Failure & Prince of the South 2 (Deluxe Edition),"Chingy, Lil Scrappy, Lil Scrappy, Chingy",2015-05-19,album,496,1
-0GB6d4po2rluKj2Zulpe5L,Merlo's Way,Lil Scrappy,2015-02-14,album,497,1
-2iq1aamDOZe5eZAdiY7FH9,The Grustle,Lil Scrappy,2012-06-26,album,498,1
-4bHl73RBx8MsDmUPg5mE6h,Prince of the South / Prince of the South 2 (2 for 1: Special Edition),Lil Scrappy,2011-03-22,album,499,1
-2jshuwZArypj5E1YAq4WME,Prince of the South / Atl's Finest (2 for 1: Special Edition),"Lil Scrappy, YoungBloodZ, Lil Scrappy, Youngbloodz",2011-03-22,album,500,1
-3ssPlHN7gHgwlvNepIpADq,The Return of the Prince of the South,Lil Scrappy,2011-03-02,album,501,1
-1LgxMVQIFPODvLslPsnBJk,ATL's Finest (Collector's Edition),"YoungBloodZ, Lil Scrappy, Youngbloodz, Lil Scrappy",2010-11-23,album,502,1
-3cRm1ZND1GHPKTFT32Ve21,"Dat's Her, She Bad",Lil Scrappy,2010-10-25,album,503,1
-3EbIcZKWBrAeIWL0trmBLX,Prince of the South 2,Lil Scrappy,2010-10-05,album,504,1
-6iQc7Ornden2mrT3qev76l,Silence And Secrecy: Black Rag Gang,Lil Scrappy,2009-01-27,album,505,1
-1VTNbcSryRLdr9S4QWPO4A,Live From ATL 1,Lil Scrappy,2007-06-01,album,506,1
-3U89eh6zaNs1svalz6GJ3E,Bred 2 Die Born 2 Live,Lil Scrappy,2006-12-05,album,507,1
-4tEmQmDhb4i6Fp276JAstF,Hood Reality,Lil Scrappy,2006-01-24,album,508,1
-3y4AaloFccKNLQcZNS9L8c,Heavy Is The Head,Stormzy,2019-12-13,album,509,1
-5fkFWJ9LZizXE4yPenNGuy,Gang Signs & Prayer,Stormzy,2017-02-24,album,510,1
-061rinn9eo7RO7uAdDLZrF,Dreamers Disease,Stormzy,2014-07-20,album,511,1
-4FCwf4rl9ZyRWzIy17ZZ6i,Still Disappointed,Stormzy,2020-01-10,album,512,1
-73peotCFQRfXUeNins38aa,Disappointed,Stormzy,2020-01-09,album,513,1
-6GnPOzkkAlFUmxrwnp1yjf,Wiley Flow,Stormzy,2019-09-15,album,514,1
-46FcuBwXjApRxo41rkScqV,Sounds of the Skeng,Stormzy,2019-09-06,album,515,1
-5kWoenzRB7UycYXiRpH1d5,Crown,Stormzy,2019-06-21,album,516,1
-1feZ7dUgDquoQRddxlI5BH,Vossi Bop,Stormzy,2019-04-26,album,517,1
-04ptWp1X3sy97mvBfVJID1,"Blinded By Your Grace, Pt. 2 (Acoustic) [feat. Wretch 32 & Aion Clarke]","Stormzy, Wretch 32, Aion Clarke",2017-12-15,album,518,1
-7sI1t5MJ097aMW3iKACiHi,Birthday Girl,Stormzy,2016-09-02,album,519,1
-647VdffJcPt1KzzP0MBV1t,One Take Freestyle,Stormzy,2016-09-02,album,520,1
-3J7Th8ugosYK3gTOK0MTkx,Scary,Stormzy,2016-09-02,album,521,1
-667t938rEhwHaUHZkEE557,Standard,Stormzy,2016-09-02,album,522,1
-5C3o0lN9q3SL5aR4b6Wf3M,Dude,"Lethal Bizzle, Stormzy",2015-10-30,album,523,1
-1byLjlIHUD1SauJCkDwiop,WickedSkengMan 4,Stormzy,2015-09-11,album,524,1
-6eKr6UDh34UAuQ5RgRKiBF,Know Me From,Stormzy,2015-03-08,album,525,1
-3FuPHbz5iUP8PPsTceDKGy,Not That Deep - EP,"Stormzy, The Heavytrackerz",2014-11-23,album,526,1
-2KlVwY7H9B9KvFXJglqzWq,Ludaversal (Deluxe),Ludacris,2015-03-31,album,527,1
-1nlrqrQvdjMd8N4IqwaApw,Ludaversal,Ludacris,2015-03-31,album,528,1
-00kSgH9g6nYBQhjnRQFBew,Battle Of The Sexes (Deluxe),Ludacris,2010-01-01,album,529,1
-42sEr1brEpwKxe5naC5VwK,Battle Of The Sexes,Ludacris,2010-01-01,album,530,1
-4zK2YeF922VXfzyxFteIfT,Theater Of The Mind (Expanded Edition),Ludacris,2008-11-24,album,531,1
-77u9Ndnhi4raBZfnl22Jzg,Release Therapy,Ludacris,2006-01-01,album,532,1
-57AbXDTvGGw2GDC6rrsH2m,Ludacris Presents...Disturbing Tha Peace,"Ludacris, Disturbing Tha Peace",2005-01-01,album,533,1
-1KushUovbraTDRu9sbO5fg,The Red Light District,Ludacris,2004-01-01,album,534,1
-3hJHXxX04PNuGFIxdEHGzg,Chicken - N - Beer,Ludacris,2003-01-01,album,535,1
-6hHTqyLCYarXP6j8vuRcj9,Word Of Mouf,Ludacris,2001-11-27,album,536,1
-6UNkwysucMEnzl0kg2ubvp,Soldiers on Soil,"Mr. Knightowl, Big Syke",2018-05-21,album,537,1
-2OoRSJ5w5w8XH1Y5b9bZRm,Street Commando,Big Syke,2002-05-21,album,538,1
-7MpzOjnXcOopUZBgxtsIUk,Big Syke,Big Syke,2002,album,539,1
-4PvcWGUVq3bmxNcEouNOb6,Big Syke Daddy,Big Syke,2001-09-25,album,540,1
-4jwT6wtj06Ax9xbfb717CK,X - Single,Big Syke,2012-05-21,album,541,1
-2HGQ4Swv2hR8OaYVQb1JIX,Slide,Big Syke,2012-05-07,album,542,1
-5RTogyFljAPChSga92xW02,Nobody Do It Better (Feat. Knoc Turn'Al),Big Syke,2012-01-31,album,543,1
-6xd9phTkcEIsi1JWhbxZM3,Sensational,Yung Gravy,2019-05-31,album,544,1
-5JzxLWdYLLpZTE6kaBLooY,Snow Cougar,Yung Gravy,2018-05-04,album,545,1
-6qxMNIMOIk7pO9DeQmxdzI,Welcome to Chilis,"Yung Gravy, bbno$",2020-01-17,album,546,1
-7LjgrgyzI7qkkYpEcWSHk6,iunno,"Yung Gravy, bbno$",2019-11-29,album,547,1
-3nxlIYCoppDiW2wYhaZFHy,shining on my ex,"bbno$, Yung Gravy",2019-11-01,album,548,1
-4nmwc78QDPioLFoO88PW5R,Tampa Bay Bustdown,"Yung Gravy, Chief Keef, Y2K",2019-08-23,album,549,1
-3DiEoPHmPxTOxxV6LhBrTL,Baby Gravy EP,"Yung Gravy, bbno$",2017-10-11,album,550,1
-4M9DCQyC3gsWbObsy0zVFw,Back to the Basics,Yung Gravy,2017-09-20,album,551,1
-4nB97jVUpDdMUbDgUezdbY,Whippin,"Yung Gravy, bbno$",2017-06-28,album,552,1
-5DX9xVeoF4aC8mBAnsduSF,Cheryl,Yung Gravy,2017-06-21,album,553,1
-36eeYpoQTi2Tu7UuDzTCkv,Pillow Fight (feat. vbnd),Yung Gravy,2017-06-04,album,554,1
-5iMrtftXr0g9o54ei1HvUP,Boomin,"Yung Gravy, bbno$",2017-05-31,album,555,1
-7JGn5FBHBZZE1o687T557f,Yung Gravity - EP,Yung Gravy,2017-05-01,album,556,1
-1TSAvsPoSVozuiM0geJclq,Thanksgiving's Eve,Yung Gravy,2017-04-24,album,557,1
-6beFnGGWELWS8zLag5Wrf2,Yung Gravity,Yung Gravy,2017-04-02,album,558,1
-7Gii77AiZyqnfayByukCyt,Bought the Plug a Present (feat. Jay Storm),Yung Gravy,2017-02-26,album,559,1
-1fALj3g3fSVEFpbE312kD5,Splash Mountain,Yung Gravy,2016-11-02,album,560,1
-3sq378eneuLa5fXEUxX1zE,Mr. Clean - EP,Yung Gravy,2016-10-10,album,561,1
-4WQTT18MHksk4ktwJ87NJf,The Upstage,"JR Writer, Hell Rell, 40 Cal.",2018-11-22,album,562,1
-1Sf9oldtvLTXMpYZ7M5STG,Heat Season (with 40 Cal of Dipset),"Kholebeatz, 40 Cal.",2016-03-17,album,563,1
-43SUCo9X3s70hkfZ26bPEW,Watch the Chrome,40 Cal.,2012-05-29,album,564,1
-2f7gfjnxuf3U737A03ao75,God's Gift To An iPod,40 Cal.,2011-09-06,album,565,1
-44wdM7nJCx8UvdAuVnMfJQ,40 To Life Part 2,40 Cal.,2009-01-06,album,566,1
-6WxsinNhv0z6AIf62cOd8I,Mooga,40 Cal.,2008-08-04,album,567,1
-21pP686bV5EGmybm5ZJgUT,The Yellow Tape,40 Cal.,2008-04-01,album,568,1
-6io53avLMKPf1KYjgfoh1G,Trigger Happy 2,40 Cal.,2007-11-20,album,569,1
-4p0OpiYix444YGxmRD33TU,Broken Safety 2,40 Cal.,2007-09-11,album,570,1
-3YMQi2GWaMLO7HVI5Nf12l,Broken Safety,40 Cal.,2006-08-08,album,571,1
-5WDeIeSYjLqLakOXpQKpyl,Get the Fxck out My Trap,40 Cal.,2019-07-12,album,572,1
-2XjmEtOw1Pdtiucyf6eSAy,When I Ride By (feat. Killa A & OG Insane),"40 Cal., Casper Capone",2018-01-26,album,573,1
-6PXjKZEFpMqrwjvYvNKN8N,We Getten Cashed Out (feat. Casper Capone & Eclipz),40 Cal.,2017-04-28,album,574,1
-2u1MesYjoO0fmvhOszd85l,We Getten Cashed Out,40 Cal.,2016-09-27,album,575,1
-5rYCEmPj4b7oUSFMLnsckv,Forever Dipset,"40 Cal., Kholebeatz",2016-03-15,album,576,1
-4Obao8H8PuGMjclIGQhirX,Tony Soprano,"40 Cal., Kholebeatz",2014-08-29,album,577,1
-4mgqdyIas3ALHNQ6fWiLJt,Harlem Underworld (feat. 40 Cal),"40 Cal., Kholebeatz",2013-09-20,album,578,1
-6eZWy2xIhIaTOkKPynxNv5,Trigga Happy 3 aka Trigganometry,40 Cal.,2011-03-15,album,579,1
-2JTk5A2zzjmg06JDGOqJWQ,Workin' On It,"Meghan Trainor, Lennon Stella, Sasha Sloan",2019-10-31,album,580,1
-5UZriQSHZOJOjqUtPE5lpg,Self Portrait,Sasha Sloan,2019-10-18,album,581,1
-5bHqzyMbrdJTLui0HQdRG0,smiling when i die,Sasha Sloan,2019-09-20,album,582,1
-3DrwGrEPG3Rq9mIsZVuklB,at least i look cool,Sasha Sloan,2019-07-19,album,583,1
-3I677CWVoiOsbMxOQzjShB,Dancing With Your Ghost,Sasha Sloan,2019-06-28,album,584,1
-3XFWmmwiJR0i7WnHDvgten,Thoughts,Sasha Sloan,2019-05-31,album,585,1
-3xp0XQN5WUqBc8R7TcciMo,Normal (stripped),Sasha Sloan,2018-06-22,album,586,1
-1uKkqozFkKpyjynnTdRqLB,sad girl,Sasha Sloan,2018-04-18,album,587,1
-48DiWQ2OCKUOvBaYoGZyQS,Here,Sasha Sloan,2018-03-16,album,588,1
-74eyfKmtEjMbN0IwnhzOeo,Hurt,Sasha Sloan,2018-03-15,album,589,1
-5UYkrd6u4zHMmCJ58PhrSU,Ready Yet (San Holo Remix),Sasha Sloan,2018-03-09,album,590,1
-14Ee0aGjSCubwgGRdUQyKN,Normal,Sasha Sloan,2018-02-02,album,591,1
-6thHvQWcWMjTTXuFAnlzlL,Fall,Sasha Sloan,2018-02-01,album,592,1
-4iioyYjn5y3TYGTdl7qdL5,Runaway,Sasha Sloan,2017-12-01,album,593,1
-67BQHqbGcgov6qeojDYqry,Ready Yet,Sasha Sloan,2017-10-27,album,594,1
-2o2j4g56F5STu2gZlSFsIJ,Give Thanks,"Paul Wall, Statik Selektah",2019-11-28,album,595,1
-51IagizB811CNXtOQbAkBh,"Frozen Face, Vol. 1",Paul Wall,2018-11-22,album,596,1
-6BhZH0vMHIHhtzxB4P0ysL,"The Legalizers, Vol. 2: Indoor Grow","Baby Bash, Paul Wall",2018-04-20,album,597,1
-0JiHLeDoXiCkoEjgZvyIsB,Bounce Backs Over Setbacks,Paul Wall,2018-01-19,album,598,1
-3C7hxCzQdhOxZPNVCnp1kb,"M.I.B. (Making Independent Bread) [DJ Michael ""5000"" Watts Swishahouse Remix]","D-Boss, Paul Wall",2017-09-27,album,599,1
-5Amg2zmJr1uLrlmI1QZrPn,Diamond Boyz,"Paul Wall, C.Stone",2017-02-03,album,600,1
-6xIiXD3e83WygkqkvmKFee,"True 2 da Game: Chopstick, Vol. 1 (Slowed & Chopped)",Paul Wall,2017-02-01,album,601,1
-7KGrcQZZcHaxy1UabmNt0e,Houston Oiler (Slowed & Chopped),Paul Wall,2016-10-21,album,602,1
-6icrlMiCMZAgqGTcBStl67,Houston Oiler,Paul Wall,2016-10-21,album,603,1
-3xl4wvbUpMmwOgOetj6CD1,"The Legalizers: Legalize or Die, Vol. 1","Paul Wall, Baby Bash",2016-04-15,album,604,1
-0vUjMmaQwKyplM1cf5HQ8G,slab god,Paul Wall,2015-09-25,album,605,1
-5ViZlqyquYLn78KVbHBIvd,Po Up Poet,Paul Wall,2014-12-02,album,606,1
-4Cm5UUZMmAe7habrvrhni4,#checkseason,Paul Wall,2013-12-10,album,607,1
-2ZOLxzVnp1MPlVaBRIJxL7,"Welcome 2 Texas, Vol. 3","Slim Thug, Paul Wall",2013-03-08,album,608,1
-6fKh53oxigiS4Rwl3w2T8S,No Sleep Til Houston,Paul Wall,2012-11-06,album,609,1
-5jfS6vqxVbQLomVuOO8yPu,Heart Of A Champion,Paul Wall,2010-07-13,album,610,1
-7DBSAhTfKSPLx1lNfd0QqO,"""100"" (Swishahouse Remix)",Paul Wall,2009-06-08,album,611,1
-2oTZkqXXGiZaJUsY3IQeBc,My Brother's Keeper,K-Ci & JoJo,2013-09-30,album,612,1
-6jiVoUJWGwcL4ceM7UbaIU,Emotional...,K-Ci & JoJo,2002-01-01,album,613,1
-196buw5EPzqQoCTIxhgTQ0,X,K-Ci & JoJo,2000-01-01,album,614,1
-4bdoso638zheKxQLBJxn2i,It's Real,K-Ci & JoJo,1999-06-22,album,615,1
-5cmtcMzuUZq8vxS5T7NVPu,Love Always,K-Ci & JoJo,1997-01-01,album,616,1
-1HbqfFVMRTLW6m6vWs2seT,Knock It Off,K-Ci & JoJo,2013-06-11,album,617,1
-7bcA3s9lfuoctBtOv8PHKL,All My Life/Tell Me It's Real,K-Ci & JoJo,2001-09-18,album,618,1
-3DgcU1Rvkf4giCPlNbHcRg,Snoop Dogg Presents: That's My Work Vol. 5 (Deluxe Edition),Tha Dogg Pound,2014-10-28,album,619,1
-3tsMsIR1c49vgEBBPH8BsN,Dillinger & Young Gotti (Digitally Remastered),"Tha Dogg Pound, Daz Dillinger, Young Gotti",2014-04-29,album,620,1
-2qEAJ4DEdicGW5NkD6dMz6,Dillinger & Young Gotti - Clean Version (Digitally Remastered),"Tha Dogg Pound, Daz Dillinger, Young Gotti",2014-04-29,album,621,1
-1Te8mjlRQcgmkalApOAz3P,Doggy Bag,Tha Dogg Pound,2012-07-03,album,622,1
-2No1rQDVX5UVGTmq2S6Eyd,DPGC'ology,Tha Dogg Pound,2012-04-24,album,623,1
-2QjQc235DfxhynAlOBUFTP,100 Wayz,Tha Dogg Pound,2010-08-17,album,624,1
-5eljuhhzgrzl859kiPsmPg,That Was Then This Is Now,Tha Dogg Pound,2010-01-19,album,625,1
-0LbFAkqHc8K4jVWgJ5ek3o,Who Ride Wit Us Vol 3,Tha Dogg Pound,2008-08-12,album,626,1
-6p7WBkvSsOX15vDmL6WwZf,Dogg Chit,Tha Dogg Pound,2007-03-27,album,627,1
-4BxPE4VcF5W6JVfL8Kvq2n,Cali Iz Active,Tha Dogg Pound,2006-06-27,album,628,1
-0VFOw1loI3QWUlZxMOqbTO,2002,Tha Dogg Pound,2001-07-31,album,629,1
-37VmP0VgIeJWHMurcTMeJL,Dogg Food,Tha Dogg Pound,2001-05-01,album,630,1
-6ZzHqyeQGSflmKMndyNxYH,The Prodigal Son (Digitally Remastered),Nate Dogg,2015-05-12,album,631,1
-4ZnyBuM29ICNdJBgfukyWl,Ghetto Preacher (Digitally Remastered),Nate Dogg,2015-05-05,album,632,1
-7HWRfeoyrAKJgsufGbgxkc,A Tribute to The King of G-Funk (Deluxe Version),"Nate Dogg, J.PERIOD",2015-04-14,album,633,1
-6P7dE3642xiAXLiCdnod70,G-Funk Mix,Nate Dogg,2010-01-01,album,634,1
-1MCA50GzswxscAouRWnrES,Music And Me,Nate Dogg,2001-12-04,album,635,1
-65VsPlhdWF5PH1CViFskY5,"G Funk Classics, Vols. 1 & 2",Nate Dogg,1998,album,636,1
-2wNNBJ320E95doDNRBvyyM,I Got Love (feat. Nate Dogg),"Don Diablo, Nate Dogg",2018-12-07,album,637,1
-7HGpJnZxTkDmpJZo7GSGLJ,Get Away (feat. Pomona Pimpin Young),"Nate Dogg, Lil Nate Dogg",2017-12-22,album,638,1
-1UWVl7sVnYmY8mBys1Q89n,Should Of Been Mine,"Mister D, Nate Dogg",2009-01-01,album,639,1
-7fSUKD4PKKSWYi4FTlt1ic,Get Up,Nate Dogg,2003-01-07,album,640,1
-3TfK3onfop0xSREaFVvW7H,Nobody Does It Better,Nate Dogg,1999-08-16,album,641,1
-6BH3bTUZ3ZqyNx4nGbvaR9,Girls All Pause,"Kurupt, Nate Dogg",1999,album,642,1
-5Q6AchF9H5Lw0WYr6oTkU4,Smoke Me Out,Daz Dillinger,2018-04-19,album,643,1
-4mTpxqGmwbp6EisybrbjXZ,Dazamataz,Daz Dillinger,2018-02-16,album,644,1
-3uymcMheLvldkL7e7EUXz3,Cuzznz,"Daz Dillinger, Snoop Dogg",2016-01-15,album,645,1
-62tdX3bsM1Sy9jdYPl4BWZ,This Is the Life I Lead (Digitally Remastered),Daz Dillinger,2014-04-29,album,646,1
-1oNoG8UOMSLftB7Jsosxtp,This Is the Life I Lead - Clean Version (Digitally Remastered),Daz Dillinger,2014-04-29,album,647,1
-0zVIk2EIKAV136alfLWnQQ,West Coast Gangsta Sh*t,Daz Dillinger,2013-06-18,album,648,1
-31PcTRtDtDgdQMDFHzuXSz,"Who Ride Wit Us, Vol. 5",Daz Dillinger,2013-02-19,album,649,1
-0TMOsjSk5IAp0syA2pCrif,Witit Witit,Daz Dillinger,2012-12-04,album,650,1
-3u3cJUxiKZLetjz9oHcucv,Matter of Dayz,Daz Dillinger,2010-11-30,album,651,1
-1fUJoMw8ntNgUcSmhF2Q00,Samplin' To The Beat Of The Drum,Daz Dillinger,2008-12-23,album,652,1
-4Wrfbc9WqKj9faxxRsIy2P,Only On The Left Side,Daz Dillinger,2008-08-12,album,653,1
-6QLa28h4nnQTH3Wc43ozyq,Only On The Leftside (Instrumental Album),Daz Dillinger,2008,album,654,1
-1paNt2fYH7mieuvC73iEfa,Gangsta Party,Daz Dillinger,2007-10-09,album,655,1
-3TNphr7SoQPr92DDce7ELE,So So Gangsta,Daz Dillinger,2006-09-12,album,656,1
-34x4oonrpGGlOMKD53iaAk,Gangsta Crunk,Daz Dillinger,2005-05-31,album,657,1
-2EsrHGWEl5Jl53pHDUSMlP,Tha Dogg Pound Gangsta LP,Daz Dillinger,2005-01-25,album,658,1
-29eRbY10zaOKJBBACEojVL,I Got Love In These Streetz,Daz Dillinger,2004-09-04,album,659,1
-483PEYCEMWVPGAubRJzAkP,Meth Lab Season 2: The Lithium,Method Man,2018-12-14,album,660,1
-0NqqvJsBatHVMXUcLfGuad,The Meth Lab,Method Man,2015-08-21,album,661,1
-7DyAbrlPQTi2v6DAmgC8Qa,Tical (Deluxe Edition),Method Man,2014-09-16,album,662,1
-04HkBvk0hRK9rLqmdDTuB8,Wu Massacre,"Method Man, Ghostface Killah, Rae",2010-01-01,album,663,1
-6D9kjJvj2pdYEfjkJZDu9s,Wu Tang Presents…Wu Massacre,"Method Man, Ghostface Killah, Raekwon",2010-01-01,album,664,1
-1MJ7sx0uZvNZlSTVSiEVGR,Blackout! 2,"Method Man, Redman",2009-01-01,album,665,1
-0Y2ArrqJQ8WuUA5tetAkZi,4:21...The Day After,Method Man,2006-01-01,album,666,1
-0Q9WDqknn8vmyIxfZ1SZuA,Tical 0: The Prequel,Method Man,2004-01-01,album,667,1
-5K9kD50P66neofCR8BoYxg,Blackout!,"Method Man, Redman",1999-01-01,album,668,1
-2X9KHxb9910GFGitAH9v1j,Tical 2000 - Judgement Day,Method Man,1998-11-10,album,669,1
-5EGi6pUMlx1UfSCrfYUisa,Tical 2000: Judgement Day,Method Man,1998-10-11,album,670,1
-26RDYvX2sIuiEUhqVPkNaf,Tical,Method Man,1994-11-15,album,671,1
-4Uu5QhxhxFdjdASWUqlz72,Wu Tang Remix,"China Mac, Method Man",2020-01-03,album,672,1
-2V8J1sTedyR0Ucuhq1zcEQ,Mudface,Redman,2015-11-13,album,673,1
-2NUagqIK3CI0DtZrqMtbPT,Redman Presents...Reggie,Redman,2010-01-01,album,674,1
-6By53is534hLrE8PLSVjt5,Red Gone Wild,Redman,2007-01-01,album,675,1
-0PMUPc7P3VM5mrrNCGA6ZJ,Malpractice,Redman,2001-01-01,album,676,1
-1VgJ9FxJXQBbr0rXrTTiER,Doc's Da Name 2000,Redman,1998-01-01,album,677,1
-5iluV9CqP7Wl9wjubwdw5h,Muddy Waters,Redman,1996-01-01,album,678,1
-08UhV7fX8X4wrSNLMVQ5H5,Dare Iz A Darkside,Redman,1994-01-01,album,679,1
-3FsCGJY0JqSxvgezoMWYzF,Whut? The Album,Redman,1992-01-01,album,680,1
-5FkcIXHuWJSpKUjTdkSaZU,3 Joints,Redman,2020-01-10,album,681,1
-28IWdZp5N1hAlhsG2QJySw,The Complete TK Albums,KC & The Sunshine Band,2019-07-05,album,682,1
-2SluzAGWuy0NdVoJod8eTg,A Sunshine Christmas (Special Edition),KC & The Sunshine Band,2018-10-26,album,683,1
-0iDcVzshxRnoHz59aQenrY,Movin' Your Body,KC & The Sunshine Band,2017-06-09,album,684,1
-3NL0NaOgIPKh4d6ybUpxs4,We Belong Together,KC & The Sunshine Band,2016-08-12,album,685,1
-52BJ1S5NOv7eFD6ZFDZga2,All In a Night's Work (Expanded Version),KC & The Sunshine Band,2016-03-11,album,686,1
-4fpfgZ6npUGmkaEhWXhW27,The Painter (Expanded Version),KC & The Sunshine Band,2016-03-11,album,687,1
-3doJKLg7cpNOwZGEJkEqIi,I Love You More Remix - Deluxe,KC & The Sunshine Band,2015-06-29,album,688,1
-6xsN1W274ooUQ1RFJuLH9Z,Feeling You! The 60's,KC & The Sunshine Band,2015-03-10,album,689,1
-2DHN3iunO2gOB1ln6luPnJ,I'll Be There for You,KC & The Sunshine Band,2010-12-29,album,690,1
-3e9xSWw0Q9CMf1Ujd8wLbc,In a Mellow Mood,KC & The Sunshine Band,2005-06-03,album,691,1
-5T10snkEhAnaMLoOc9OTSg,KC & The Sunshine Band - Dance Remixes,KC & The Sunshine Band,2004-10-26,album,692,1
-1nxHfb1EerQyKdT1aLSXf6,KC & The Sunshine Band - Part 3...And More,KC & The Sunshine Band,2004-10-26,album,693,1
-3IL8dGw6kKDw514Zk3vtTf,KC & The Sunshine Band: 25th Anniversary Collection,KC & The Sunshine Band,2004-10-26,album,694,1
-6JR9sYTYiLdGzohiyzkmWz,The Sunshine Band: The Sound Of Sunshine,KC & The Sunshine Band,2004-10-26,album,695,1
-6ufis2iWp3hrox9QJfg5Jq,KC & The Sunshine Band... And More,KC & The Sunshine Band,1994-12-13,album,696,1
-1VyflnFsIEfcxPj4JgM5QR,Do You Wanna Go Party,KC & The Sunshine Band,1979-05-01,album,697,1
-2fbP8aoase5vo69cuvOUNS,Who Do Ya (Love),KC & The Sunshine Band,1978-07-01,album,698,1
-6S2ZnQo8V7k7EQZZEK3WcR,KC and the Sunshine Band,KC & The Sunshine Band,1975,album,699,1
-5xWVJpFGCFsevHgalnzcex,Do It Good,KC & The Sunshine Band,1974,album,700,1
-3ZvT5rT5DfrQ1KgLKabzvA,Give Me Some More (Aye Yai Yai),"KC & The Sunshine Band, Tony Moran",2019-08-16,album,701,1
-1kBeLaqLbXDFFnkYWH1ayn,JoJo (2018),JoJo,2018-12-21,album,702,1
-2U7Vdbcizw7WqeMAnNbX8P,The High Road (2018),JoJo,2018-12-20,album,703,1
-03B7yRw8C4i7Vuxxjy8RJw,Mad Love. (Deluxe),JoJo,2016-10-14,album,704,1
-48ZwTu08oO1in9tgSh6aGY,Sabotage (LIVE Acoustic),JoJo,2019-12-20,album,705,1
-1EHJCMK3kqXhvkGSNOt4T9,Sabotage (feat. CHIKA),"JoJo, CHIKA",2019-10-25,album,706,1
-60vuMJNIZ4WYdKRiKm9HQg,Joanna,JoJo,2019-10-11,album,707,1
-2KRr8Zf51RYAOAUrJVxGyB,It Don't Matter (feat. JoJo),"Jacob Collier, JoJo",2019-07-05,album,708,1
-5DrNMlnbXvlSp4MySEMZXW,Demonstrate (2018),JoJo,2018-12-20,album,709,1
-121XX1kGYMB9Casy8hATip,Disaster (2018),JoJo,2018-12-20,album,710,1
-3oibgwvZlq8bCbrC22qtpz,FAB. (feat. Remy Ma) [Remixes (Explicit)],JoJo,2017-03-03,album,711,1
-6TgpLPgjBFErlmTEKnCBGd,No Apologies. (feat. Wiz Khalifa) [Tropical Remix],JoJo,2016-12-16,album,712,1
-221kj9hd7V5Mz7bzFHQdt1,No Apologies. (Unplugged),JoJo,2016-11-18,album,713,1
-255xpc2w2nFoexCUXhVI1O,F*** Apologies. (feat. Wiz Khalifa) [The Remixes],JoJo,2016-08-26,album,714,1
-2D9NizzzAuQVd0XjKXX3lg,When Love Hurts (Remixes EP),JoJo,2015-10-02,album,715,1
-4hv9Fo7ZOaUwcfxTerdPUl,III.,JoJo,2015-08-21,album,716,1
-1tYbB9mzAMFrCCsFyldBqM,Bay Overdose,Rappin' 4-Tay,2013-12-10,album,717,1
-1yvDpFRbvrdUwRNzC26F9n,My Favorites Vol. 1,Rappin' 4-Tay,2012-08-14,album,718,1
-1qvjPA9O98GdXJrFWBchf6,Still Standing,Rappin' 4-Tay,2011-05-17,album,719,1
-6FLu8Gdlw9MwWsdwVb2ZAm,Strictly Enforced,Rappin' 4-Tay,2011-03-15,album,720,1
-3pCE0HPM76InaqpB9I2EgH,"Ghetto Visa, Vol. 2","Squirrel, Rappin' 4-Tay",2010-12-14,album,721,1
-6Rkq8ZsbJTH6OG2Z4Y0TCZ,The Lost Tapes,"Rappin' 4-Tay, Squirrel",2009-09-22,album,722,1
-3S2sDEuZiZMXVuTifCpv7k,That's What You Thought,Rappin' 4-Tay,2007-04-10,album,723,1
-19D6M3H4k737plY6VHdZyJ,Introduction to Mackin',Rappin' 4-Tay,1999-11-23,album,724,1
-1NcBcYBjmeaub8tfJnFbjf,Bigga Than Da Game,Rappin' 4-Tay,1998-09-15,album,725,1
-0TG84nuzoQ4O1EzeYQXEdR,4 Tha Hard Way,Rappin' 4-Tay,1997-10-21,album,726,1
-7ge7F2UiYFGbzJ0TDdhFwJ,Off Parole,Rappin' 4-Tay,1996,album,727,1
-6kdWNveDmTFMuWgi07VGzg,Don't Fight The Feelin',Rappin' 4-Tay,1994-09-10,album,728,1
-0LbwxoMBNbAezDbFsFDiqA,Trying To Survive In The Ghetto,Rappin' 4-Tay,1994-07-25,album,729,1
-4KjVhNZM2ITRteJaf3QeOj,Rappen 4 Tay Is Back!,Rappin' 4-Tay,1992-04-24,album,730,1
-5Hd7Hikf4phTCq5jAQZ3Cw,4 My Playaz,Rappin' 4-Tay,2019-11-25,album,731,1
-76Ytug2XRQXIA261KGAc3B,I Wanna Be Broke Off,Rappin' 4-Tay,2019-10-30,album,732,1
-0k2EJXdW98tTPCbIDBZVT1,Brand New,Rappin' 4-Tay,2019-04-18,album,733,1
-7MrLhQUNLdUQAr6tVDBzOW,Exclusive Game,Rappin' 4-Tay,2017-10-27,album,734,1
-3rKoEHRcY2QBY2aWcblSbr,The Book Of C-Bo,C-Bo,2019-06-14,album,735,1
-4MmkWwNXUSkNoYYSWYV14S,Gas Chamber 2,C-Bo,2019-04-20,album,736,1
-1oJFcw3RTdHbX1PBDVtxb0,Dj Red Presents: C-BO Htown Style (Slow and Chopped),"C-Bo, DJ Red",2019-01-25,album,737,1
-7sSjV4tounGptIVDUycMc8,Animal,C-Bo,2019-01-18,album,738,1
-71aYeKbNj1p489gOsW83AB,Mobfather: The John Gotti Pack,C-Bo,2018-02-16,album,739,1
-0KkmIFl7qjQkC7y9npYKOd,The Problem,C-Bo,2017-09-01,album,740,1
-5dk0qCcbAqHeBoasvLlCFt,Oneway or Noway (C-Bo Presents Young Capo),"YOUNG CAPO, C-Bo",2016-12-08,album,741,1
-6yIruCiCypOJwxq94MSQVm,Blocc Movement / Tales From The Crypt,"C-Bo, Brotha Lynch Hung",2016-02-05,album,742,1
-3cNQUH8w4VojEVmHZ1qyMa,Blocc Movement / Enemy of the State,"C-Bo, Brotha Lynch Hung",2015-08-28,album,743,1
-4MqU5Zb0UKzwLBI6b5K0oK,The Mobfather 2 (Organized Crime Edition),C-Bo,2015-07-24,album,744,1
-1uypZLKa6Peh5id9AoNpuU,Gas Chamber / Tales From The Crypt,C-Bo,2015-02-24,album,745,1
-4PLRUeHOkJWmi9fLl05mfq,Bridging The Gap,Roger,1991,album,746,1
-65aE9zdkm5FkDhrXozvAux,Unlimited!,Roger,1987,album,747,1
-3vrBoTPqLxjKwewg3TfaXC,The Saga Continues...,Roger,1984,album,748,1
-2hWMz4KhFIl7Qff82wMEXF,The Many Facets Of Roger,Roger,1981,album,749,1
-20wjao2pSPVMfe6cbmjw2D,Vendo a Noite Passar,"Nuth, Juan Camilo El Indio, Roger",2019-03-15,album,750,1
-3UaCC0SZNWcuzme24ud8n5,All on You,Roger,2018-10-19,album,751,1
-5tOTUJcCCaWsmHpRYafSrz,Microship,"Puka, Roger",2017-09-13,album,752,1
-2toIutVJaZKGca3DyPRXpi,Be Alright,"DTTX, Roger",1995,album,753,1
-25VSzZTImcBwhdLwE58ena,Herstory,Jewelle Blackman,2006-03-08,album,754,1
-6z5NAZpP7rXXIFihcMC7o1,"Cashing in Mo Money in the Bank, Pt. 3",Lloyd Banks,2010-11-30,album,755,1
-0h8gzYOChHoUjn3xt4mDsS,H.F.M. 2 (Hunger For More 2),Lloyd Banks,2010-01-01,album,756,1
-0RYhvwOBxLMkiLYSCVSUXK,H.F.M. 2 (Hunger For More 2) [Deluxe],Lloyd Banks,2010-01-01,album,757,1
-6WP2OcxKfKSpZINvLKgTLH,Rotten Apple,Lloyd Banks,2006-01-01,album,758,1
-0Nk2ClpAEN3dLyzpKDVE2v,The Hunger For More,Lloyd Banks,2004-01-01,album,759,1
-683dZDdwHnvyqri9jPeZ20,Money in the Bank,Lloyd Banks,2003,album,760,1
-2Ykf1IsLxsgMLMPv2vkRQU,Mo Money in the Bank,Lloyd Banks,2003,album,761,1
-06pfkm8ab4ex4nX8PPCVLi,Overload,Lloyd Banks,2017-07-20,album,762,1
-2xtHbUGo3N6RyhrTrHvWhQ,The Wave (feat. Juelz Santana & Lloyd Banks),"Trav, Juelz Santana, Lloyd Banks",2011-09-06,album,763,1
-1lzhgqRBzBgATiMeMhAe7o,So Forgetful,Lloyd Banks,2011-01-01,album,764,1
-44S2Q0uJ7y9vxIbrjMzaor,Any Girl,Lloyd Banks,2010-01-01,album,765,1
-4zhIBtwfHDyfy1Q0CKLhsl,Start It Up,Lloyd Banks,2010-01-01,album,766,1
-5ZKnSr5lTWsAodNMSylSnl,My House,Lloyd Banks,2006-01-01,album,767,1
-1EawtrpczEVHBXPGCA4NlX,You Already Know (Remix- Explicit Version),Lloyd Banks,2006-01-01,album,768,1
-0RYyi3ryUrt2hOxYQthRKV,You Already Know (Remix),Lloyd Banks,2006-01-01,album,769,1
-4bJFH9Y6W6YJ4BMuMn1PWw,Cake (Sprint Music Series),Lloyd Banks,2006-01-01,album,770,1
-5lAFtj2EwOiV0Rp7PrqbOU,Friday On Elm Street,"Fabolous, Jadakiss",2017-11-24,album,771,1
-0XTMPQ2ktKd6GNs7sFXfCC,Top 5 Dead Or Alive,Jadakiss,2015-12-11,album,772,1
-7roiS00nYv06FqErK4yXny,I LOVE YOU (A Dedication To My Fans) The Mixtape,Jadakiss,2011-01-01,album,773,1
-5iTDN1BwQ6JdiHD9onpfg0,The Last Kiss,Jadakiss,2009-01-01,album,774,1
-3P7zOlM3IYKqW7f4Px6WKv,Kiss Of Death,Jadakiss,2004-01-01,album,775,1
-0w0pkKJYucpsDacKMKZ3SR,Kiss Tha Game Goodbye,Jadakiss,2001-01-01,album,776,1
-7r4792gZXTSgnx3UyBbGmT,ME,Jadakiss,2019-10-18,album,777,1
-5U3hWhvt4NldJOSNCoW80J,Friday,"Scram Jones, Jadakiss, Xander",2019-08-23,album,778,1
-11rYyAMivWRfXElvxAEvg8,Friends,"Jadakiss, Nino Man, Styles P",2017-12-19,album,779,1
-0cw1gHS7BUBlsIX1w6HLoH,Stand Up,"Fabolous, Jadakiss",2017-10-31,album,780,1
-6LW0BQycvTK3FIH8tqMeVG,I Think She Likes Me (feat. Nicki Minaj) - Single,"Don Mega, Jadakiss",2016-06-10,album,781,1
-6GLnsXe68XBDStRQQty9PN,The Fifth,Obie Trice,2019-08-23,album,782,1
-3valjRIYfL0fyospVmZI51,The Hangover,Obie Trice,2015-08-07,album,783,1
-0nsVCJAISHUNrCSULo0iEx,Bottoms Up,Obie Trice,2012-04-03,album,784,1
-6SivwZc3Yi43CIDjbegEG1,Special Reserve,Obie Trice,2009-12-15,album,785,1
-7liAJFeMLT5QihsB9MhAh5,Second Rounds On Me,Obie Trice,2006-01-01,album,786,1
-7exM52pkWRKdoZqkheCRCC,Cheers,Obie Trice,2003-01-01,album,787,1
-2mRFrg5Ius6iXSZK6n4uRe,SpankyHayes2,Obie Trice,2019-12-23,album,788,1
-3eYQWYEabK43NKjw2QT2GX,92,Obie Trice,2019-08-16,album,789,1
-32SUjwH5gTaBtHh3ZKWMqm,All on Me,"Kontages, Obie Trice",2018-10-05,album,790,1
-5UpbxZNCKEQwFEFfwtjFsX,Ass - Single,Obie Trice,2016-03-25,album,791,1
-5XOwVYQE5faQxx9C4aw0Ta,Good Girls (DJ Motion Remix),Obie Trice,2015-09-18,album,792,1
-0HoNaMwxWRN8kBso6j6Qwx,"Dealer (feat. Young Buck, Tone Tone) - Single",Obie Trice,2015-07-17,album,793,1
-4EZBtjzKDP9AK7IEsBuins,Good Girls - Single,Obie Trice,2015-06-16,album,794,1
-0vO8JrKoG9DacUqG1oftfI,Bang,Obie Trice,2013-05-28,album,795,1
-4EwTe5JBnYKQb33BDJAQHN,Spill My Drink,Obie Trice,2012-08-21,album,796,1
-0UfrQHv0MIBe3HhmO3NTUY,Spend the Day (feat. Drey Skonie) - Single,Obie Trice,2012-03-06,album,797,1
-3jyQ5hXbp62LdCQ3nPgUap,This Song's For You,Ronald Isley,2013-07-16,album,798,1
-7FkcsRzZNmU9WFGxKIhUvy,Mr. I,Ronald Isley,2010-01-01,album,799,1
-3WroTWwicEWQICL1jQJUFd,The Isley Brothers Featuring Ronald Isley: I'll Be Home For Christmas,Ronald Isley,2007-01-01,album,800,1
-4ewmyRgDqMZ5ygDKpOiuVv,Baby Makin' Music,Ronald Isley,2006,album,801,1
-1piKS5TCh9EJgiarOBqHbZ,Here I Am - Isley Meets Bacharach,"Ronald Isley, Burt Bacharach",2003-01-01,album,802,1
-2wGYbksl1kfEdrlURdvIbt,My Favorite Thing (feat. KEM) - Single,Ronald Isley,2013-09-17,album,803,1
-2STzVazph3NsZMq2O7HNzI,Dinner And A Movie,Ronald Isley,2013-03-19,album,804,1
-1sUGncTGcWgopWnh1zSrMw,Just Came Here To Chill,Ronald Isley,2006-01-01,album,805,1
-3o8dJQ9OAvVB2Ze7uDZQlI,You Help Me Write This Song,Ronald Isley,2005-01-01,album,806,1
-3CONpHBzT0a2QQSDXs83U4,Mr. Brown,Sleepy Brown,2006-01-01,album,807,1
-2DQrf2mY8CCADDfhU0jPK7,Intentions,"Big Boi, Sleepy Brown, Steve Aoki",2019-11-01,album,808,1
-3KQ7FBDyFT8qmNb1quqoQo,Amp'd Mobile EP,Sleepy Brown,2006-01-01,album,809,1
-4FYWuiBd6HRP8m6UO6Jfh1,Margarita,"Sleepy Brown, Pharrell Williams, Big Boi",2006-01-01,album,810,1
-5o1Z7ojBhKbzz3tYWJj6yw,Till (Your Legs Start Shaking),Sleepy Brown,2006-01-01,album,811,1
-4roCYuHEKOHiiheXi8sKiT,I Can't Wait featuring Outkast,Sleepy Brown,2004-01-01,album,812,1
-29STRG7wIt5L41sGuCMeyJ,Thug Life: Volume 1,Thug Life,1994-01-01,album,813,1
-26L5xA3aummnX1XD0MgYhh,Försäkringskassanupproret,"MC Stön, Thug Life",2020-01-19,album,814,1
-2vrnX4gW6TkNACFPpqg4jt,Origem,"Thug Life, Gallego",2020-01-10,album,815,1
-0IU5Zmlx4Nx3tjfhSMf3wa,Preto no Corre,"Thug Life, Rich Gang, Rocko",2020-01-09,album,816,1
-3iVPGbmv1Q4h9AyW9DOzIm,Sexy Ass,"MC Stön, Thug Life",2019-11-23,album,817,1
-4CcdgMcMalhv0Eibc0cn2r,Recruta,"Thug Life, La Mosca Tse-Tse",2019-10-03,album,818,1
-0x6JvSu4ZCAnLgPxgJqanb,Sol de Cada Via,"Thug Life, Eddie Dee, Tempo",2019-07-04,album,819,1
-2eWM7hpY6YEihSjiQJh9kW,Gangstas,"Thug Life, Kenny Beats",2019-06-05,album,820,1
-4mdDO9ODcGEk1tOdzRexzE,Gangster Hot Rod,Thug Life,2013-04-16,album,821,1
-5HEs8USAnaIGhggvk6RuGE,Peep Game,Thug Life,1994,album,822,1
-3DatjPtQru6Pq4VbRMKrqW,"Who Got the Gravy? / ""..Cuz a D.U. Party Don't Stop!""",Digital Underground,2010-02-23,album,823,1
-2reKsRm0qvPFFVLSqHUfZ3,..Cuz a D.U. Party Don't Stop!,Digital Underground,2008-10-07,album,824,1
-4kBp06dJudm3Z8RBWFiImA,..Cuz A d.u. Party Don't Stop!,Digital Underground,2008-01-01,album,825,1
-3qVnN3VfHQUdxcqp9abXc3,The Lost Files,Digital Underground,2008-01-01,album,826,1
-3yWqoRF0JRrBjWRqzKnO26,Who Got the Gravy?,Digital Underground,1998-09-08,album,827,1
-2xfIKsHGpvk41Zy9g62PjM,Future Rhythm,Digital Underground,1996-06-04,album,828,1
-09ZeK5ObWruff98qwjmrzF,The Body-Hat Syndrome,Digital Underground,1993-10-01,album,829,1
-2kTKgJcsVVZ9w51XgacRdt,Sons of the P,Digital Underground,1991-10-15,album,830,1
-1qUuOtsaAWlD6D83AebzD0,Sex Packets,Digital Underground,1990-03-26,album,831,1
-4dBcwm5vKtCgpGw4M3k71W,The Greenlight EP,Digital Underground,2010-05-18,album,832,1
-6JtQC7xxZkmNMhrxHTo3kV,Cali Boogie - Single,Digital Underground,2008-11-25,album,833,1
-4vD4BBAJTELpdnae4zsk3b,Blue Skyy - Single,Digital Underground,2008-10-07,album,834,1
-6TOnlk3Wg2oEJvL4RkW4pt,Rhino Hi-Five: Digital Underground,Digital Underground,2005-06-19,album,835,1
-17Toazi0w7Wu7MYX2kzEeq,Walk Real Kool,Digital Underground,1996-05-16,album,836,1
-08DOkFxrQd3qIpQ2DkCqaJ,This is an E.P. Release,Digital Underground,1991-07-01,album,837,1
-1tSsb3t0pqVVONvBJivoT9,I Still Am,Yo Gotti,2017-10-27,album,838,1
-5PrTHkGmgUVewXKOIXpCgh,Gotti Made-It,"Yo Gotti, Mike WiLL Made-It",2017-06-02,album,839,1
-2NLkWfzw3YmRGBhqPqtAvW,White Friday (CM9),Yo Gotti,2016-12-23,album,840,1
-3ppB3UcyOQ6U6CcffL3bPd,2 Federal,"Moneybagg Yo, Yo Gotti",2016-11-04,album,841,1
-0s9cSoniuN0HfXpwlCpGUF,The Art of Hustle (Deluxe),Yo Gotti,2016-02-19,album,842,1
-3aAARBE0DJTMwOU5Jm1yku,CM8: Any Hood America,Yo Gotti,2015-11-27,album,843,1
-2vZKMCQmjl4L0XO6mlrnnh,I Told U So,Yo Gotti,2015-11-24,album,844,1
-4WSvVLGNxpTtTIrA3fU3FW,Cocaine Muzik,Yo Gotti,2015-11-24,album,845,1
-6KgWZPsC6WF8etFXxoMqVL,Cocaine Muzik 4: Gangsta Grillz,"Yo Gotti, Zed Zilla",2015-11-24,album,846,1
-0U0bzib1QqLOQRseevxBBh,January 10th,Yo Gotti,2015-11-24,album,847,1
-1XKuJ9uVmyv5WB6KyAxQU0,Nov. 19th,Yo Gotti,2015-11-24,album,848,1
-3NF6tHNWqqFcSx4ocVxDPs,CM6: Gangsta of the Year,Yo Gotti,2015-11-19,album,849,1
-3XGZQ3ul4wNXyBQ3pZ5aDA,Cocaine Muzik 5: White Friday,Yo Gotti,2015-11-19,album,850,1
-3YSRBiKuHesSQLTCjUJ5E7,Cocaine Muzik 4.5 (Da Documentary),Yo Gotti,2015-11-19,album,851,1
-3bxEPJJClmXrdESm7uMv4p,CM7: The World Is Yours,Yo Gotti,2015-11-19,album,852,1
-2TMEVfGXXU2sTa6frIWGt0,Cocaine Muzik 3,Yo Gotti,2015-11-19,album,853,1
-66Qoql5tphQmXnkZRFUUma,Before Beef,"Yo Gotti, Gucci Mane",2015-10-20,album,854,1
-5Pp9dmBGExH4FNLlaLsLde,11,Trey Songz,2018-11-28,album,855,1
-0DOSrX5RdPZhLBAuEmO6De,28,Trey Songz,2018-11-27,album,856,1
-5gQtvMHA7yqdzKXrHpe63C,Tremaine the Album,Trey Songz,2017-03-24,album,857,1
-3pKTKC0AAe3yTcXQLzvpSW,Trigga Reloaded,Trey Songz,2015-06-23,album,858,1
-0m8NYS3Trz6HLZnMAaFYiH,Intermission I & II,Trey Songz,2015-05-18,album,859,1
-00no0cywmc15sIIoys7kM9,Trigga,Trey Songz,2014-07-01,album,860,1
-24IexOT10jPuK3MR6cS3ag,Chapter V (Deluxe),Trey Songz,2012-08-17,album,861,1
-5BEwruzVInEaispYjeNTlP,Chapter V,Trey Songz,2012-08-17,album,862,1
-5Qex4ioxOJfHrnsWbt8Zlj,"Passion, Pain & Pleasure",Trey Songz,2010-09-13,album,863,1
-61PdQyk3HSwSM3tGy52NPS,MTV Unplugged,Trey Songz,2010-07-06,album,864,1
-44jrX3SThj7pFjOzUTLm85,Ready (Deluxe),Trey Songz,2009-08-31,album,865,1
-6vnUL0NxqV1JrBvYW1M2wn,Trey Day,Trey Songz,2007-10-01,album,866,1
-7sPfDVisrecDYGwiwXeEgW,I Gotta Make It,Trey Songz,2005-07-26,album,867,1
-01BkPytJJRxTSKWS2ONWwD,All Night Long (feat. Trey Songz),"YFN Lucci, Trey Songz",2019-05-17,album,868,1
-4THGFQ0mcBlNSAtwCQXGPx,Chi Chi (feat. Chris Brown) [Hikeii Remix],"Trey Songz, Hikeii",2019-04-22,album,869,1
-5MzGinAqidCJeMypipuIaF,Chi Chi (feat. Chris Brown) [Croatia Squad Remix],Trey Songz,2019-04-05,album,870,1
-6xiI3jTTUIqnU7SUvW6W3z,Undeniable,Kidd Kidd,2019-09-09,album,871,1
-0UMleOnWcFyIo3mBzSwXlh,To Yall from Me,Kidd Kidd,2019-06-02,album,872,1
-4SJ0rppdQ2aDNDQXRoQI0f,Uptown to Downtown,"Kidd Kidd, Diezel DaBeast",2018-12-14,album,873,1
-78RGIdvLWN75jBOcgWC1h4,Hustle or Hate,Kidd Kidd,2018-09-01,album,874,1
-5Np3GZe5wO1IoOHfJ65Ms7,Peanut from Mazant,Kidd Kidd,2018-07-09,album,875,1
-5G1zHwZgEo2O4YCrRhoiUy,Unquestionable,Kidd Kidd,2018-01-29,album,876,1
-6SJWh6Sh0T4gwFCB3ixM5r,The Reallionaire,Kidd Kidd,2011-05-03,album,877,1
-6lisZQoCgrCiksZFspugoX,Abbreviated,Kidd Kidd,2019-12-31,album,878,1
-4UTnnTcWdtq7BPU5CXMLmA,Big Mad,Kidd Kidd,2019-11-20,album,879,1
-2zsTCkRQNJauqoHlpiWE91,Tattoos Over Bullet Wounds,Kidd Kidd,2019-10-14,album,880,1
-0fQm75ZAq52qWy1MLm6wJY,Lord Knows,Kidd Kidd,2019-08-04,album,881,1
-34ZVX5uwm9Rf1vJGGM5Age,Nomo Real Niggas Left,"Zoewithdaflow, Kidddabeast, Kidd Kidd",2019-08-01,album,882,1
-6GAVn1005ySQrV5REYiCEK,Cold Hearted,Kidd Kidd,2019-06-28,album,883,1
-1XAftMHOjwyzOqegPzvYVr,Splash Brothers,"Kidd Kidd, Lord Sauce",2019-06-18,album,884,1
-12T65P7qE9kRfvgu2DL9jY,Lately,Kidd Kidd,2019-05-26,album,885,1
-2AI99tTayxTlzj0pgkZVY9,Gods Plan,Kidd Kidd,2019-05-22,album,886,1
-4s7vjlzic3U4g8vwrXweDC,Don't Shoot,Kidd Kidd,2019-05-17,album,887,1
-5GURckksEAEgtrUGYKE0I1,Count on My Hand,Kidd Kidd,2019-04-19,album,888,1
-41UHZcuebNJobK1q0WLHQN,The Treatment,Mr. Probz,2013-09-16,album,889,1
-4GReJagRcBTMq97kYMU7Zy,Faith (with Dolly Parton) [feat. Mr. Probz] [Acoustic],"Galantis, Dolly Parton, Mr. Probz",2020-01-10,album,890,1
-1QrYKuMTMLwpTwzOFhfnOk,Faith (with Dolly Parton) [feat. Mr. Probz],"Galantis, Dolly Parton, Mr. Probz",2019-10-25,album,891,1
-3eNO7UvTz8clLkINKQtcwK,Praying To A God (Remixes),Mr. Probz,2019-03-01,album,892,1
-5vFbPJNwiERWPvxQDw37zq,Praying To A God,Mr. Probz,2018-12-07,album,893,1
-54XPvNZYbxcaE5X23JWLSS,Space For Two - R3HAB Remix,"Mr. Probz, R3HAB",2018-06-29,album,894,1
-6QdFacG9oVksFA7py1AltG,Space for Two,Mr. Probz,2018-03-09,album,895,1
-4XsH0sy4eEfQnaZJpnHBtB,Gone feat. Anderson .Paak,Mr. Probz,2017-09-01,album,896,1
-6GbfVOg9yzXYH9E9ETguOR,Against The Stream (The Original Soundtrack),Mr. Probz,2017-05-19,album,897,1
-3QjraJGHNWUbnNBuM92xr8,Till You're Loved,Mr. Probz,2017-02-17,album,898,1
-7MwBBBsdKYm9dpu0m9mlTm,Fine Ass Mess (Remixes),Mr. Probz,2016-07-01,album,899,1
-0sTBPvIDEthQT7ah1p3Y75,Fine Ass Mess,Mr. Probz,2016-05-13,album,900,1
-2oO97tYOS5LmK0klvLSvFw,Another You,"Armin van Buuren, Mr. Probz",2015-04-21,album,901,1
-5d7WVFuTwxrJ72NLQMQD1x,Nothing Really Matters (Afrojack Remix),Mr. Probz,2015-02-20,album,902,1
-4KprJhH0cRjZAsGSYfvLIv,Waves feat. Chris Brown & T.I (Robin Schulz Remix),Mr. Probz,2014-11-11,album,903,1
-3melTGvrnMU9IGdi7EpuuU,Nothing Really Matters,Mr. Probz,2014-09-27,album,904,1
-7l4LGPXk2mB80WgXy4VeuB,Waves (Robin Schulz Radio Edit),Mr. Probz,2014-02-07,album,905,1
-1LZ2KaIsWc2hhCjfU72lwK,Waves,Mr. Probz,2013-11-22,album,906,1
-1gnXrUngw8eoJdxUuN0yEw,I'm Right Here,Mr. Probz,2013-09-16,album,907,1
-5V1NzCfuXKcDXrTpnKAHwk,Drivin',Mr. Probz,2010-09-23,album,908,1
-0CnycR4ezQkvLBtCeq9pGV,BLOOD ON THE VINYL,Guordan Banks,2019-10-25,album,909,1
-1vw5BJyKWKPxoEbmRxrYM2,Unpopular,Guordan Banks,2017-12-08,album,910,1
-47h1y6FfiP5Nm6W1KbIVCy,Wanna Be Yours,"Erich G, Guordan Banks",2020-01-09,album,911,1
-5Kj6uTdPaw3pfYRlAhnATC,Can't Keep Runnin’,Guordan Banks,2019-02-18,album,912,1
-5bdZBNAjctrPIEWykcC3MX,Love with You,Guordan Banks,2017-12-01,album,913,1
-5Zmu9yuPu6Bsm3heBKb1tO,Feel Away,Guordan Banks,2017-11-17,album,914,1
-0SqNCUwPuSXnagK7GGIWFW,Dear Friend,Guordan Banks,2017-05-05,album,915,1
-5gYtHzibmhcT1yZSOI0xWL,Crossover,Guordan Banks,2017-04-07,album,916,1
-1TFnDLXza0IMAITvqviHFB,Baby Girl,Guordan Banks,2017-04-07,album,917,1
-6FS8UceiqRynhBEv8S2tOW,Hug,Guordan Banks,2017-02-06,album,918,1
-6d3TEpuPVDpsL47ObTDIn5,Revolution,"EC Twins, Guordan Banks",2016-11-18,album,919,1
-5Jd80LSTxu4Ow5wIUFNTrn,Keep You in Mind (Remix),Guordan Banks,2016-11-02,album,920,1
-65CDKzqSLt1IuqDN89KQDI,Keep You in Mind (Live),Guordan Banks,2016-09-09,album,921,1
-47btUoXZYk6Lk1WN8ZtJtg,Keep You in Mind (EC Twins Mixes),"Guordan Banks, EC Twins",2016-07-01,album,922,1
-7AtoZvomAp7zWTPuMeQteO,#WYWDT (Where You Wanna Do This?),Guordan Banks,2016-06-24,album,923,1
-7g0QTWWbCSFaX9Zj4Z6E03,We Might Die,Guordan Banks,2015-10-23,album,924,1
-5u3fkixJzWOGw4Gv47Ulfl,Leanin' On,Guordan Banks,2015-09-25,album,925,1
-3Yge4r9nwVupVedQQ3T8G6,Keep You in Mind,Guordan Banks,2015-08-23,album,926,1
-4h0ckfzPC0jsbihFDeXxam,Shot Down,"Mobb Deep, Prodigy",2019-05-20,album,927,1
-3OvPrw4mnjqnd7trnNr8G7,Return Of The Mac,Prodigy,2007-03-27,album,928,1
-13A1QckuGeIKxHt5ATtaZU,Drunken Beat,Prodigy,2018-05-07,album,929,1
-170U1DnsM60lmDHjhLwiZH,It's Been Too Long,Prodigy,2018-05-07,album,930,1
-5mJMyrN4x22StAppMdTaZJ,My Attention,Prodigy,2017-10-04,album,931,1
-78Xhk6DOA7SZ81tMZCRA5U,The Life EP (Dirty),Prodigy,2008-04-08,album,932,1
-72WUZelUf9o5QjEvDfshza,Return Of The Mac - Pre-release EP,Prodigy,2007-03-27,album,933,1
-5e74NFuvMuqUs86PMQQy77,The Life,Prodigy,2007,album,934,1
-5z3uDeCGzDiFNJNBokkgsG,Another Kind Of Christmas,Ne-Yo,2019-10-11,album,935,1
-5kXmI1B0BLb2joTTAckz9n,GOOD MAN (Deluxe),Ne-Yo,2018-06-08,album,936,1
-6MGvEl6OdTKKAbmBFjxOKQ,Non-Fiction (Deluxe),Ne-Yo,2015-01-20,album,937,1
-59zddp1qWsZXvMINHvt6Pe,Non-Fiction,Ne-Yo,2015-01-20,album,938,1
-1e5Uy0zFKpSCtuak8LQb8p,R.E.D. (Deluxe Edition),Ne-Yo,2012-01-01,album,939,1
-4sRahma6671yKnZhXl29Qt,R.E.D.,Ne-Yo,2012-01-01,album,940,1
-2qqB7RaEdn2Lkte4St3Ban,Libra Scale,Ne-Yo,2010-01-01,album,941,1
-6dTn9vJSxVTIGm4Cu5dH4x,Year Of The Gentleman (Bonus Track Edition),Ne-Yo,2008-01-01,album,942,1
-52q9xNv8COtSU9phlbO5sg,Because Of You,Ne-Yo,2007-01-01,album,943,1
-6Wx0G7tEhgAsUwpeNa1GER,In My Own Words,Ne-Yo,2006-01-01,album,944,1
-1rybcNrkXCWyuBW6TVaCxs,Unlove You (Club Mix),"Armin van Buuren, Ne-Yo",2019-12-06,album,945,1
-7wt0CS1kQnXMGwWf0X3j7e,Unlove You (Drop G Remix),"Armin van Buuren, Ne-Yo, Drop - G",2019-12-02,album,946,1
-4BQnx9tBDCCQsiCx6xXI0S,Unlove You (Nicky Romero Remix),"Armin van Buuren, Ne-Yo, Nicky Romero",2019-11-29,album,947,1
-6k63cIUizpLu0h5hhIg8LG,Unlove You,"Armin van Buuren, Ne-Yo",2019-10-18,album,948,1
-66wDxN65VkGql48Br9LOBc,Coke Wave,DJ Whoo Kid,2019-03-04,album,949,1
-4M3phDckQl7msT2J2VVibq,Whoo's Afraid of Fiddy,DJ Whoo Kid,2017-03-12,album,950,1
-3mZzL8JYoeZzkgPD8QNrN3,Thraxxx Fifth Avenue,"Lizzle, DJ Whoo Kid",2014-04-30,album,951,1
-4l11FPtg4FZvvs5vO9LR8I,Hollywood Homicide,DJ Whoo Kid,2008-09-23,album,952,1
-1brwI2fsBuJk0iZd5PerER,G-Unit Radio 16: 10 Years of Hate,"Murda Mase, DJ Whoo Kid",2007-02-13,album,953,1
-3AgCuejBHH780ROyGkKUvj,Bullet Proof,"50 Cent, DJ Whoo Kid",2007-01-30,album,954,1
-7i02K57sOCQOmWE3NBOMt1,Kitty Bill,"Tony Yayo, DJ Whoo Kid",2019-07-19,album,955,1
-25IC607wkqYkAIPmtfoue7,Rock Paper Scissors,"Waka Flocka Flame, DJ Whoo Kid, TurnUp Godz",2017-09-08,album,956,1
-1muUjqlJOeqmxA31xVSqbb,Pow,DJ Whoo Kid,2009-11-09,album,957,1
-1aaXxMl2pdwF8PjHh25yrV,Akonda,Akon,2019-10-25,album,958,1
-5ab18n4CGysgcJDv3BJa1Z,El Negreeto,Akon,2019-10-04,album,959,1
-7BuPO7yqJYGScpH2Qq6ZSu,KonKrete Jungle,Akon,2014-02-04,album,960,1
-2OP86R0cJJhDjW3fP9Ee2d,Konkrete Jungle,Akon,2013-12-17,album,961,1
-3ZpfQDwafNdaEUnbWVHIlM,Koncrete Vol. 1,Akon,2013-12-17,album,962,1
-5OxggY6YGvJiYWskRN5T7W,Konvict Allstars,Akon,2013-12-16,album,963,1
-7EZP6OSbWvMZTrEmlBt1HX,Freedom,Akon,2008-01-01,album,964,1
-6uvmhw2fKvUn1qKKoe0egk,Konvicted,Akon,2007-01-01,album,965,1
-6X7HEjHrNHimc0buMQpNya,Trouble,Akon,2006-01-01,album,966,1
-77eKpEVxmSr1RhqMlirlTF,Trouble Deluxe Edition,Akon,2005-01-01,album,967,1
-01l3jTY261V3CESZR4dABz,Man of the Woods,Justin Timberlake,2018-02-02,album,968,1
-2H8u9DigrbmhweDlLr8twg,The Book of Love (Original Motion Picture Soundtrack),"Justin Timberlake, Mitchell Owens",2017-01-13,album,969,1
-5lYzReGzcSNF0Gx47wm6qU,The 20/20 Experience - 2 of 2 (Deluxe),Justin Timberlake,2013-09-27,album,970,1
-0O82niJ0NpcptYRxogeEZu,The 20/20 Experience (Deluxe Version),Justin Timberlake,2013-03-15,album,971,1
-5nEa8zZQgZetmabLXu72Ko,"12"" Masters - The Essential Mixes",Justin Timberlake,2010-09-17,album,972,1
-0tcExuDWMQdBbwSpqN8Ku2,FutureSex/LoveSounds Deluxe Edition,Justin Timberlake,2006-09-13,album,973,1
-2scB1uhcCI1TSf6b9TCZK3,FutureSex/LoveSounds,Justin Timberlake,2006-09-12,album,974,1
-6QPkyl04rXwTGlGlcYaRoW,Justified,Justin Timberlake,2002-11-04,album,975,1
-2FljC0wx1bLyT6GW3FDQFX,SoulMate,Justin Timberlake,2018-07-03,album,976,1
-0K7h1ZxUpBKX0WSRCyV7iY,Say Something (Live Version),Justin Timberlake,2018-03-30,album,977,1
-7Hau1KXnaqrXt4JMx6DS4Y,Say Something,Justin Timberlake,2018-01-25,album,978,1
-0kO76uncDF4puhrLgtszIy,Supplies,Justin Timberlake,2018-01-18,album,979,1
-730MjVEfvrWeEloF42B5U1,Filthy,Justin Timberlake,2018-01-05,album,980,1
-7M83W7iXqtZ2qjYCOXvgWj,True Colors,"Anna Kendrick, Justin Timberlake",2016-09-16,album,981,1
-3dfI9hHNfOeLKtYbk6HIXR,Love Never Felt So Good (David Morales and Eric Kupper Def Mix),"Michael Jackson, Justin Timberlake",2014-07-08,album,982,1
-46GFWEybCT9t4ey4s9sfHt,"TKO (feat. J. Cole, A$AP Rocky & Pusha T) [Black Friday Remix]",Justin Timberlake,2013-12-11,album,983,1
-68OUv0y3fkHMM091wUBIHv,TKO (Radio Edit),Justin Timberlake,2013-09-20,album,984,1
-28GWVLkctSuSWQ1EUIxZ8m,Mirrors (Radio Edit),Justin Timberlake,2013-02-11,album,985,1
-5jlQrOtSuTXojcvBCpivyo,Suit & Tie (feat. JAY Z) (feat. Jay-Z) [Radio Edit],Justin Timberlake,2013-01-15,album,986,1
-2fn396iwhYixSewfPwXlIi,Follow My Lead (feat. Esmee Denters),Justin Timberlake,2008-11-18,album,987,1
-5FK6borHO8QcztXhXCPn5H,Shock Value II,Timbaland,2009-01-01,album,988,1
-2a8Sh6tRZgKM5oQ2KRTfaj,Shock Value II (Deluxe),Timbaland,2009-01-01,album,989,1
-0V7TZQmJBgI81M9Z7GWxCI,Shock Value,Timbaland,2007-01-01,album,990,1
-6OrVYYqQOBSNX07M7y4HnG,God Only Knows (Team Timbo Remix),"for KING & COUNTRY, Dolly Parton, Timbaland",2019-12-06,album,991,1
-1VOT211krIvVC84LHFxUHx,Chase Me,"sid tipton, Timbaland",2019-09-23,album,992,1
-1EVzer4Sth6dDaSXxZRuR0,God Only Knows (Timbaland Remix),"for KING & COUNTRY, Echosmith, Timbaland",2019-06-14,album,993,1
-63y2Fh7kkrctq5ni6QSA69,Grab The Wheel,"Timbaland, 6LACK",2017-12-15,album,994,1
-0oaSm6760w6gbXoLBj0pFC,Unknown (To You) [Timbaland Remix],"Jacob Banks, Timbaland",2017-10-20,album,995,1
-1QLTwHvh5XbVr0uVC2OVeE,Road,"Bruno Martini, Timbaland",2017-10-06,album,996,1
-0mWsO6Aur3YtpT8EV5DaO2,BODY,"Eric Nam, Timbaland",2016-12-03,album,997,1
-2iQUqu44Ff600X4U2cDdxA,"Harmony (From ""Skylanders Academy"")",Timbaland,2016-10-27,album,998,1
-2VuuHUBHaGmQT6yyMW6EL2,Don't Get No Betta,Timbaland,2016-02-10,album,999,1
-7c3AtDFOxyfuJZTJFluES8,UFO,Timbaland,2015-10-02,album,1000,1
-1V2thzjMQhqM5KSZb3iqPc,Smile,"V. Bozeman, Timbaland",2015-09-25,album,1001,1
-49f2200sk24R9SycVavjBb,Blurred Lines (Deluxe Bonus Track Version),Robin Thicke,2014-12-15,album,1002,1
-1MPAZXwr16i3VNSSlSjtvn,Paula,Robin Thicke,2014-07-29,album,1003,1
-2NmFo81WSiknE3NMGvKdnk,Blurred Lines,Robin Thicke,2013-01-01,album,1004,1
-1eHyfkrIOVLGVnt5E4MD2j,Blurred Lines (Deluxe),Robin Thicke,2013-01-01,album,1005,1
-4GtKDsoch29XLgTRkMO44M,Love After War,Robin Thicke,2011-01-01,album,1006,1
-3qVah5U3tWUdC8ARAdNk2S,Love After War (Deluxe Version),Robin Thicke,2011-01-01,album,1007,1
-0zdol3ef01rQ09DaKgTqm1,Love After War Commentary (Deluxe),Robin Thicke,2011-01-01,album,1008,1
-0NrP6lZ1RSuqE7xpmeKlNa,Sex Therapy: The Experience,Robin Thicke,2009-01-01,album,1009,1
-4maascDEpODkuI7j5pSkHb,Sex Therapy: The Session,Robin Thicke,2009-01-01,album,1010,1
-6TyDmcDGOyLSfmjHWi6V0m,Something Else,Robin Thicke,2008-01-01,album,1011,1
-7BhQMbCteLbnJ30ag01Uap,The Evolution of Robin Thicke (Fan Deluxe),Robin Thicke,2007-01-01,album,1012,1
-3uGSvIliWdtMzVisXdEK7J,The Evolution Of Robin Thicke,Robin Thicke,2006-01-01,album,1013,1
-55ErdDg54WTAEySb0r7yzb,The Evolution of Robin Thicke,Robin Thicke,2006-01-01,album,1014,1
-76wI74XuASLFrY9pUVLhO9,A Beautiful World,Robin Thicke,2002-12-13,album,1015,1
-6mZWywiFBnCWDCad1QAymR,When You Love Somebody,Robin Thicke,2019-09-27,album,1016,1
-4QiPoqVm3xVd9Y15xxNybe,"Memory (From ""Cats"")","Andrew Lloyd Webber, Nicole Scherzinger",2018-01-26,album,1017,1
-1Ss1FkS0IiOOvkbE1YMC2J,Run,Nicole Scherzinger,2014-09-30,album,1018,1
-5a73OjliDIi5mmqI3W8VfO,Don't Hold Your Breath,Nicole Scherzinger,2011-01-01,album,1019,1
-3MIat2XJsGOGYO8J9nFCdo,Don't Hold Your Breath (The Remixes),Nicole Scherzinger,2011-01-01,album,1020,1
-4AbocDp0oPUXGaRxIAnWWJ,Right There,Nicole Scherzinger,2011-01-01,album,1021,1
-1PJU2fNnezQMwZZHOSWJa8,Right There (The Remixes),Nicole Scherzinger,2011-01-01,album,1022,1
-79vRggAnNDn2bISeDsF3fa,Baby Love,Nicole Scherzinger,2007-01-01,album,1023,1
-75uuE7LFS7RtcUVJOnNLMg,Whatever U Like,Nicole Scherzinger,2007-01-01,album,1024,1
-3z3SSyLUSnDo49ITnPsRD4,Puakenikeni,Nicole Scherzinger,2007-01-01,album,1025,1
-3gjbjSkggQEmR0fS4Iji6i,Supervillain,Nicole Scherzinger,2007-01-01,album,1026,1
-42trOIladKh6FwRUph59ui,HERstory Vol. 1,Mary J. Blige,2019-12-06,album,1027,1
-6x4uEaPUaL9n0bGDatcSNR,Mudbound (Original Motion Picture Soundtrack),"Mary J. Blige, Raphael Saadiq, Tamar-Kali",2017-11-17,album,1028,1
-4NbiqWISvtpKiWFwpmtzTF,Strength Of A Woman,Mary J. Blige,2017-04-28,album,1029,1
-4CgiEe8ECxncoOlDK93qzV,The London Sessions,Mary J. Blige,2014-12-02,album,1030,1
-6Bvizrnjft6JCqMWSQbJTA,Think Like a Man Too (Music from and Inspired by the Film),Mary J. Blige,2014-06-13,album,1031,1
-54qQgflPZiLpk3YZtQf4Ke,A Mary Christmas,Mary J. Blige,2013-01-01,album,1032,1
-7wCJISfbEMViKgxvn984Jw,My Life II...The Journey Continues (Act 1),Mary J. Blige,2011-01-01,album,1033,1
-7oiXGkcA6OQms4yqjSZEV8,My Life II...The Journey Continues (Act 1) [Deluxe Version],Mary J. Blige,2011-01-01,album,1034,1
-2iy4MXWRu0roV5N7u2GBZk,Stronger withEach Tear,Mary J. Blige,2009-01-01,album,1035,1
-5PlA7xVCN59vR0YAnRVisM,Growing Pains,Mary J. Blige,2007-01-01,album,1036,1
-13HYuDhB1soZvHzwoymXoV,The Breakthrough,Mary J. Blige,2005-01-01,album,1037,1
-14E2CvlcAY07HT9Y9TryxA,Love & Life,Mary J. Blige,2003-01-01,album,1038,1
-0Vu7xskB2NVtPIXb8nBfcr,Dance For Me,Mary J. Blige,2002-01-01,album,1039,1
-1wwKmn4MpJjtPRyjYqpvB5,No More Drama,Mary J. Blige,2001-08-28,album,1040,1
-39EkrZ4JRTaYSXq9p3ibya,Mary (Limited Edition Bonus Pack),Mary J. Blige,1999-12-14,album,1041,1
-4ypknDZM85vplzeVwQoxra,Mary,Mary J. Blige,1999-01-01,album,1042,1
-3BhjFpiHwez5M70jdBbAVE,Long Time Coming,Tony Yayo,2017-09-08,album,1043,1
-3eptb2cxvmcKcKaZrTHnAM,Public Enemies,Tony Yayo,2009-10-06,album,1044,1
-5bi8GTeCVSHNUgxADGKHCS,Thoughts Of A Predicate Felon,Tony Yayo,2005-01-01,album,1045,1
-4ZHDUsEQJ8cLBoCnlr7d4v,No Love,"The Unit, Tony Yayo",2019-01-15,album,1046,1
-2bsSSIXqMVfUOe33OkG5Ni,Drama Setter,Tony Yayo,2005-01-01,album,1047,1
-0zDjzlkvRJZURIczEMS6mw,So Seductive,Tony Yayo,2005-01-01,album,1048,1
-6OJcQcVCEs8LgLXu1yu8qk,MMM,Diddy,2015-12-18,album,1049,1
-48cxgJCwIa4VS27ILrpyeC,11 11,"Guy Gerber, Diddy",2014-08-20,album,1050,1
-7kIi4z3UO8ZqH3GVX18p7h,Press Play,Diddy,2006-10-16,album,1051,1
-2dHr0LpUe6CNV5lNsr8x0W,Forever,Diddy,1999-08-24,album,1052,1
-4OGaOZUHLhSeiicZB909aL,No Way Out,Diddy,1997,album,1053,1
-2MnMFcYpHHlAWQVzpTZXc1,No Way Out (Remastered Edition),Diddy,1997,album,1054,1
-3eieJ5p42cCrF0GgkoYLzD,Divided Souls,"Wax Motif, Diddy",2019-08-28,album,1055,1
-5urKqZF3qG5lZZIEEkhlj4,Watcha Gon' Do? (feat. Biggie & Rick Ross),Diddy,2017-07-22,album,1056,1
-2u840m7XpgYXhgVRmZuobl,Bad Boy Watcha Gon' Do? Dre Day (feat. Biggie & Rick Ross),Diddy,2017-07-22,album,1057,1
-3xvh02DkHN35Wbfcl5yJje,Finna Get Loose (feat. Pharrell Williams),Diddy,2015-06-28,album,1058,1
-2EPE3gxQL87WNAoBc8vmAq,Tourist Trap,"Guy Gerber, Diddy",2015-03-23,album,1059,1
-1ZYj9elz2F21d3J7PRoWna,I Want the Love (feat. Meek Mill),Diddy,2014-06-10,album,1060,1
-7GoZNNb7Yl74fpk8Z6I2cv,4:44,JAY-Z,2017-07-07,album,1061,1
-0OTjYdGtP7AbwOwbYsGhyi,Magna Carta... Holy Grail,JAY-Z,2013-07-04,album,1062,1
-2P2Xwvh2xWXIZ1OWY9S9o5,Watch The Throne (Deluxe),"JAY-Z, Kanye West",2011-08-08,album,1063,1
-7mCeLbChyegbRwwKK5shJs,Watch The Throne,"JAY-Z, Kanye West",2011-08-08,album,1064,1
-1IDwi6urY664Mv1JFuTNlc,The Blueprint Collector's Edition (Explicit Version),JAY-Z,2009-09-08,album,1065,1
-2CUT0104gySOIvqwtXeFsX,The Blueprint 3,JAY-Z,2009-09-08,album,1066,1
-6QOGDVh3mVnAJYPnt66Qj5,American Gangster,JAY-Z,2007-11-06,album,1067,1
-6If8UXZG5DH2fv3DnloHZo,American Gangster Acappella,JAY-Z,2007-11-06,album,1068,1
-2tnDxImtQAgCKdjk5yMIhd,Live From The Hangar Tour,JAY-Z,2007-01-02,album,1069,1
-00WpR5hZn6CsVp6PT5NCvo,Brooklyn Sessions 9,Brooklyn Duo,2019-06-28,album,1070,1
-5QehVVf9rIVoiS12V9DPMq,Brooklyn Sessions 8,Brooklyn Duo,2018-11-24,album,1071,1
-0QkbAPs9bqI9xiygRGBSxw,Brooklyn Sessions VII,Brooklyn Duo,2018-04-10,album,1072,1
-6VLFAmUouEcJioNczVNWUj,Brooklyn Sessions VI,Brooklyn Duo,2017-06-17,album,1073,1
-5sooAMSv33WJ1YBv6oNkPs,Brooklyn Sessions V,Brooklyn Duo,2016-09-23,album,1074,1
-7sM3k7XTUTRwqFD4Nt6X3I,Brooklyn Sessions IV,Brooklyn Duo,2016-04-15,album,1075,1
-1dOfxTCQZC2Oj4ZtcWs2aV,A Brooklyn Duo Christmas,Brooklyn Duo,2015-11-26,album,1076,1
-67jsC77kmu7rqwxNnEIz80,Brooklyn Sessions III,Brooklyn Duo,2015-11-19,album,1077,1
-5d671ezfZZBL7X8gHxFHYe,Brooklyn Sessions II,Brooklyn Duo,2015-05-16,album,1078,1
-7hBwTnRSuuOisqubNG4lwv,Brooklyn Sessions,Brooklyn Duo,2014-11-27,album,1079,1
-3hO9txk8cHWquQG2nf7mgg,Lose You to Love Me,Brooklyn Duo,2019-11-12,album,1080,1
-7zraSlPCz4Y8zoieR8BJqS,Halo,Brooklyn Duo,2019-11-08,album,1081,1
-2JXzbAqhGGDkKClfDb71H7,Someone You Loved,Brooklyn Duo,2019-10-15,album,1082,1
-0YNsmHm09SjOsW3qqu7AtC,Vivaldi Four Seasons: Summer,Brooklyn Duo,2019-09-24,album,1083,1
-1UkrROLQNuM8iKM4wLFSZ2,Señorita,Brooklyn Duo,2019-07-24,album,1084,1
-1WAxiCa1RNRBYJtxNC8hLb,Yellow,Brooklyn Duo,2019-07-09,album,1085,1
-7cL8vEbbEMvvnvnVGQYjxZ,Bad Guy,Brooklyn Duo,2019-06-28,album,1086,1
-5bbyNeMgixUH3to5cRGiiJ,Canon in D,Brooklyn Duo,2019-06-18,album,1087,1
-2u6Qdwdm8Fou3zK80rbc4b,Dancing on My Own,Brooklyn Duo,2019-04-30,album,1088,1
-5cc1QdtLEzzuDzRs1LeOyx,Lovely,Brooklyn Duo,2019-02-09,album,1089,1
-7x6n2jztq7Zlff5xVCfzqB,"Just for a Moment (From ""High School Musical: The Musical: The Series"")","Olivia Rodrigo, Joshua Bassett, Cast of High School Musical: The Musical: The Series",2020-01-01,album,1090,1
-3dmltV5S6vUXzQD4DmpwFq,"Out of the Old (From ""High School Musical: The Musical: The Series"")",Olivia Rodrigo,2019-12-18,album,1091,1
-5p3gSxNiXeYlPlztVAUjB2,"All I Want (From ""High School Musical: The Musical: The Series"")","Olivia Rodrigo, Matt Cornett",2019-11-27,album,1092,1
-14fMbn20pipBmmHWtKWInz,"Wondering (From ""High School Musical: The Musical: The Series"")","Olivia Rodrigo, Julia Lester",2019-11-12,album,1093,1
-1fgrILRm1bhM6oi3eK0eAs,"I Think I Kinda, You Know (From ""High School Musical: The Musical: The Series"")","Olivia Rodrigo, Joshua Bassett",2019-11-08,album,1094,1
-4dPtBNViH8bSO5Xe6MRsfF,"Let It Glow (From ""Frozen Northern Lights"")","Olivia Rodrigo, Madison Hu",2016-11-11,album,1095,1
-40YjPXmE1d3ajv2dcU2Bhx,Bizaardvark (Music from the TV Series),"Olivia Rodrigo, Madison Hu",2016-10-07,album,1096,1
-79EyqF9taW9XFPKci2U5D9,Hollywood: A Story of a Dozen Roses (Deluxe Version),Jamie Foxx,2015-05-15,album,1097,1
-3T1fgMprST5C4hhl19Xv40,Best Night Of My Life,Jamie Foxx,2010-12-17,album,1098,1
-7FLqcLkLH6qvNvwWqHr3vL,Intuition,Jamie Foxx,2008-12-16,album,1099,1
-045D1HbNHv4R31D9vkL8Ve,Unpredictable,Jamie Foxx,2005-12-20,album,1100,1
-25y4pAGCDU3PG1O2ogFM3s,In Love By Now,Jamie Foxx,2015-05-15,album,1101,1
-0TgzExSVH6m0rKKpDnvRDH,Like A Drum,Jamie Foxx,2015-05-12,album,1102,1
-15l1eaTOsGjSBKLQljNs5O,Like A Drum (feat. Wale),Jamie Foxx,2015-05-12,album,1103,1
-2ondPQ4oOKze5CLmmaiUYV,Baby's In Love (feat. Kid Ink),Jamie Foxx,2015-05-04,album,1104,1
-5bj9l3yS8DgqHDToPQPMOu,Baby's In Love,Jamie Foxx,2015-05-01,album,1105,1
-6E18jnFP3v6YkyfZCWqtGB,You Changed Me,Jamie Foxx,2015-03-13,album,1106,1
-3wivv2ypsgh0OFYUFA9fya,You Changed Me (feat. Chris Brown),Jamie Foxx,2015-03-13,album,1107,1
-0lM2anRIOcYKX7Zj3fqLnu,Ain't My Fault,Jamie Foxx,2014-11-25,album,1108,1
-7oHxBR7ipH6NAq4NiwiGXd,Party Ain't A Party,Jamie Foxx,2014-10-07,album,1109,1
-397OLFJAfdQhdygWBYgG0f,Party Ain't A Party (feat. 2 Chainz),Jamie Foxx,2014-10-06,album,1110,1
-0iMp753NUKuztYPJFqeurr,Fall For Your Type,Jamie Foxx,2010-11-16,album,1111,1
-3r5hf3Cj3EMh1C2saQ8jyt,Hoodie SZN,A Boogie Wit da Hoodie,2018-12-21,album,1112,1
-6opJjTuHd4tQ1h2qrus7jH,International Artist,A Boogie Wit da Hoodie,2018-06-20,album,1113,1
-3HHp5I6Q6SEyU5bkvoCtnV,The Bigger Artist,A Boogie Wit da Hoodie,2017-09-29,album,1114,1
-2OQEAqShAl6SodrGhmYZ4Z,Artist,A Boogie Wit da Hoodie,2016-09-16,album,1115,1
-7LMJKPGcBZjZf6AEnTBS2t,"Slide (Remix) (feat. Pop Smoke, A Boogie Wit da Hoodie & Chris Brown)","H.E.R., A Boogie Wit da Hoodie, Chris Brown",2020-01-17,album,1116,1
-24E5CwiXFw2baPZWFgJ8GJ,Wolf,"lil Tr33zy, A Boogie Wit da Hoodie",2020-01-03,album,1117,1
-4PRKR5s0uRpu1KfyJCdVHk,Reply (feat. Lil Uzi Vert),A Boogie Wit da Hoodie,2019-11-15,album,1118,1
-2tGRWs8mrUVyjgbMIQpWQN,Somebody,"Internet Money, Lil Tecca, A Boogie Wit da Hoodie",2019-10-11,album,1119,1
-0ewO3paYhoJwMGX1Yjyebw,Mood Swings,A Boogie Wit da Hoodie,2019-09-13,album,1120,1
-65NFecd93khcFkebyE6l4r,"Mood Swings (Remix) [feat. Youngn Lipz, Creed Tha Kid & Day1]","A Boogie Wit da Hoodie, Youngn Lipz, Creed Tha Kid",2019-09-06,album,1121,1
-4HJfoj7ThDvNVJpj0X9klT,Look Back at It (Tiësto and SWACQ Remix),"A Boogie Wit da Hoodie, SWACQ, Tiësto",2019-08-28,album,1122,1
-6OGBP8kekV91cG9sghPEVw,1000 Nights (feat. Meek Mill & A Boogie wit da Hoodie),"Ed Sheeran, Meek Mill, A Boogie Wit da Hoodie",2019-07-11,album,1123,1
-5tBiYfpUVEht2Fk5rarNFl,fast (Remix) [feat. Offset & A Boogie Wit da Hoodie],"Sueco the Child, A Boogie Wit da Hoodie",2019-06-25,album,1124,1
-3GZEOsf8igpSlMC3bH3DoS,Swervin (feat. Veysel),"A Boogie Wit da Hoodie, Veysel",2019-06-14,album,1125,1
-3oIFxDIo2fwuk4lwCmFZCx,No.6 Collaborations Project,Ed Sheeran,2019-07-12,album,1126,1
-3T4tUhGYeRNVUGevb0wThu,÷ (Deluxe),Ed Sheeran,2017-03-03,album,1127,1
-2hyDesSAYNefikDJXlqhPE,5,Ed Sheeran,2014-06-23,album,1128,1
-1xn54DMo2qIqBuMqHtUsFd,x (Deluxe Edition),Ed Sheeran,2014-06-21,album,1129,1
-6NoBzYmh5gUusGPCfg0pct,x (Wembley Edition),Ed Sheeran,2013,album,1130,1
-4JUtnlZKdLr01xEIymhm0G,Live at the Bedford,Ed Sheeran,2011-12-09,album,1131,1
-3QbPtoOWiJqZurXXxJwaOD,Loose Change,Ed Sheeran,2011-12-09,album,1132,1
-02pi98kE0nra0yBqCStzbC,+,Ed Sheeran,2011-09-09,album,1133,1
-6DpIyaMgt5p9HlGd1c0LDM,No.5 Collaborations Project,Ed Sheeran,2011-09-09,album,1134,1
-1imXAvLuowvPYIsFMYUPY0,South of the Border (feat. Camila Cabello & Cardi B) [Andy Jarvis Remix],"Ed Sheeran, Cardi B, Andy Jarvis",2019-12-11,album,1135,1
-1NXzlVvFqPATxSheVsEVZT,South of the Border (feat. Camila Cabello) [Acoustic],Ed Sheeran,2019-11-29,album,1136,1
-05Bru0ZVTxp4orAyrZIA77,South of the Border (feat. Camila Cabello & Cardi B) [Sam Feldt Remix],"Ed Sheeran, Cardi B, Sam Feldt",2019-10-04,album,1137,1
-3BjxjIkTZKUpeZ6n5MYMNx,South of the Border (feat. Camila Cabello & Cardi B) [Cheat Codes Remix],"Ed Sheeran, Cardi B",2019-09-27,album,1138,1
-71znMnnyOF4NIe4UpTYbw7,"Take Me Back To London (Remix) [feat. Stormzy, Jaykae & Aitch]","Ed Sheeran, Jaykae, Aitch",2019-08-23,album,1139,1
-1GHkv48TNqI8MKWJ1FwKFC,Remember The Name (feat. Eminem & 50 Cent),"Ed Sheeran, Eminem, 50 Cent",2019-07-11,album,1140,1
-0RDH4M8AhISBHwCVr2ByYX,Antisocial (with Travis Scott),"Ed Sheeran, Travis Scott",2019-07-11,album,1141,1
-5FFIZArVcXAMVjPMUJxBy3,Beautiful People (Acoustic),Ed Sheeran,2019-07-11,album,1142,1
-48lDyNIYmK3Dq87A7kKnDE,Back On My B.S.,Busta Rhymes,2009-01-01,album,1143,1
-7BCqM4bAk8VhQubLooP0gB,Tribute To Busta Rhymes,Busta Rhymes,2006-10-31,album,1144,1
-3lT0XTcteJfBbPNoPAmNRq,The Big Bang,Busta Rhymes,2006-01-01,album,1145,1
-6ePc9S1C0Dxiq9drttYjTx,The Big Bang (Verizon Exclusive),Busta Rhymes,2006-01-01,album,1146,1
-3cBk22r1tb6omRQ4jr6SE8,It Ain't Safe No More. . .,Busta Rhymes,2002-11-26,album,1147,1
-1FH8ruELaU1kthrFvdcSmt,Genesis,Busta Rhymes,2001-11-13,album,1148,1
-2lIZst69wS2xmePqhCvLRo,Anarchy (Explicit Version),Busta Rhymes,2000-06-09,album,1149,1
-3k2ywVrjb1oV45Y0HVvbvR,Anarchy,Busta Rhymes,2000-06-09,album,1150,1
-4zb4gmGzDYtlWMjmc1NZWW,Extinction Level Event: The Final World Front,Busta Rhymes,1998,album,1151,1
-6nPdlsKWGOFepgMMXTZReP,When Disaster Strikes,Busta Rhymes,1997,album,1152,1
-51xAMWX0qtB2u9eyOs6OsC,When Disaster Strikes...,Busta Rhymes,1997,album,1153,1
-2wW0v9XWjEpUjOLpz5kJY8,The Coming,Busta Rhymes,1996,album,1154,1
-3uUvL3i6EJatO3hlk0NFoy,"Bigger, Better, Faster - The 'DJ Blizz' Club Edits","Raptile, Busta Rhymes, DJ Blizz",2019-11-15,album,1155,1
-7icH7cfIrZX5qJspb0U1Do,"Bigger, Better, Faster (Feat. Busta Rhymes, Lionezz & Chris Richardson)","Raptile, Busta Rhymes, Lionezz",2019-11-01,album,1156,1
-1KdqfaGse5qef1VkVLjOvW,Thirsty,"Salaam Remi, Busta Rhymes, Majah Hype",2019-08-09,album,1157,1
-0ZySmtCn3MCBiJN7fe8UnR,Do It Like Never Before,Busta Rhymes,2019-07-12,album,1158,1
-1s9KoHg6Aqmw0BmcjxzI44,"Back Home Americana, Vol. 1",Spanky & Our Gang,2010-05-18,album,1159,1
-5lbXHRTqgWEGdniEK8KIpj,The Complete Mercury Recordings,Spanky & Our Gang,2005-01-01,album,1160,1
-688t0uQdGg4GI3cp13WrCN,Spanky & Our Gang - Live,Spanky & Our Gang,1970-01-01,album,1161,1
-2Z2lhb6CDIxPrJuUauT2MV,Anything You Choose B/W Without Rhyme Or Reason,Spanky & Our Gang,1969-01-01,album,1162,1
-6q5t8uq5AcxoU9BfJXbr3Q,Spanky's Greatest Hit(s),Spanky & Our Gang,1969-01-01,album,1163,1
-04ThXm3o86rcG44z9XVAws,Like To Get To Know You,Spanky & Our Gang,1967-01-01,album,1164,1
-3EyP1xCE0ELKrN3gVQia3t,Spanky & Our Gang,Spanky & Our Gang,1967-01-01,album,1165,1
-7fdK1kKJYE0SDTs5UQEbL1,Lazy Day (Performed Live On The Ed Sullivan Show/1967),Spanky & Our Gang,2010-01-01,album,1166,1
-5YMbo88WumEa18nNak17SN,Sunday Will Never Be The Same (Performed Live On The Ed Sullivan Show/1967),Spanky & Our Gang,2010-01-01,album,1167,1
-6EV54PoEbg6OeB9nKJEUkH,Sunday Will Never Be The Same,Spanky & Our Gang,2008-06-01,album,1168,1
-4Y73zi1e1pixm13IWCaxMv,5E,N.O.R.E.,2018-07-27,album,1169,1
-2QOxU9UcQHeITBb1sV1pI5,Drunk Uncle,N.O.R.E.,2016-03-25,album,1170,1
-1l0Xusu5W24vsETxRPt6Pa,Body In The Trunk,N.O.R.E.,2015-03-31,album,1171,1
-5lJ3HBQj49vzm2F5Rlsg5x,Student Of The Game,N.O.R.E.,2013-04-16,album,1172,1
-7pTI86tvDOplmdy7U4Ys3w,DJ Green Lantern Presents - Crack on Steroids,N.O.R.E.,2012-04-06,album,1173,1
-6ExvLMVGYzp2MF2aSEdnmx,NOREASTER,N.O.R.E.,2011,album,1174,1
-15BW79axCS3oqgJiUVTIjU,Nor' Easter,N.O.R.E.,2011,album,1175,1
-1iWvtVs7VPW2aAuGhqFd4D,S.O.R.E.,N.O.R.E.,2009-09-15,album,1176,1
-4JjkgXq3HyAESm8oo4KJY8,Noreality,N.O.R.E.,2007-08-28,album,1177,1
-0RLMAxS9mhy149lu93u7GA,N.O.R.E. Y La Familia,N.O.R.E.,2006-07-18,album,1178,1
-4Gb8Xs87uYNhBwh5wfG7qt,God's Favorite,N.O.R.E.,2002-01-01,album,1179,1
-0En4fNHtKk1xztHsT5yKWm,Melvyn Flynt Da Hustler,N.O.R.E.,1999-08-24,album,1180,1
-4h5Z2bERuSAICA4s66AhA1,N.O.R.E,N.O.R.E.,1998-07-07,album,1181,1
-4DpKBMKtBtjDZMQc43x1SP,Don't Know,N.O.R.E.,2018-07-20,album,1182,1
-3DrUHDFgDiOUhf86geuitv,Strip,"N.O.R.E., Frenzy",2018-04-28,album,1183,1
-6JgBbkBixXqby6HqTaHhoH,Uno Más (Remix),N.O.R.E.,2018-03-30,album,1184,1
-1cvp4wkQnGLPB50jfcmph6,Uno Más,"N.O.R.E., Pharrell Williams",2017-08-31,album,1185,1
-0nXexgTMhiVkKXOpsNHk2f,LION,Punchline,2018-03-30,album,1186,1
-2CcBieEyXMEDjoSEwvyNW0,Thrilled,Punchline,2015-12-04,album,1187,1
-7xFCiUTTYcQG9T8WvyOmeb,Politefully Dead,Punchline,2013-05-07,album,1188,1
-7LbNFjCHuPDcK3zhQoM8C5,Delightfully Pleased,Punchline,2010-08-10,album,1189,1
-0RfFaDwojNb3sSMel1H0jx,Just Say Yes,Punchline,2008-09-16,album,1190,1
-0tpZmfOVL2L45NZPB8tKi3,37 Everywhere,Punchline,2006-04-11,album,1191,1
-1v8oV6uZROxDZXbiy4QpNv,Action,Punchline,2003,album,1192,1
-5WDbwItVY4QNcoghHsP5zz,Songs From '94,Punchline,2019-10-25,album,1193,1
-48PvqTexeFn1bfvh6Ww33j,The World Has Turned And Left Me Here,Punchline,2019-09-27,album,1194,1
-3bVXX1ZZLOtN9OzBg56ZBZ,Linger,Punchline,2019-07-26,album,1195,1
-5iClU20nzANPz8Tyfvb9hP,Found out About You,Punchline,2019-03-07,album,1196,1
-7kD5b3MB7o9v2XihCMyOV2,Friend from the Future,Punchline,2018-03-07,album,1197,1
-53Ikh1RLABj5gjBYZi1OdK,So Nice To Meet You,Punchline,2012-01-03,album,1198,1
-09BYl6wXssw5RQDaZQtTBG,The Rewind Ep,Punchline,2002,album,1199,1
-6FEnlVFt2I9I1CAMRzC4e4,Champion Sounds,"Wordsworth, Pearl Gates",2019-05-24,album,1200,1
-3UHw0njC0bkE0cUgPSTE8Q,Our World Today,"Wordsworth, Sam Brown",2017-08-11,album,1201,1
-0mWZEMIAJr063hlfr5Exrv,Blame It on the Music,"Jsoul, Wordsworth",2016-09-23,album,1202,1
-0YIo3oMg2YguZzHiR5LrJe,New Beginning,"Wordsworth, Donel Smokes",2015-09-18,album,1203,1
-3FkPGGsfORJrEulrxH04ou,The Photo Album,Wordsworth,2012-06-12,album,1204,1
-7bCS6E1qFruUfSvVJskPFT,Oddisee Presents The Mirror Music Remixes,Wordsworth,2006-04-25,album,1205,1
-2IEDcOGbUFY3CzM4ESreGo,Mirror Music,Wordsworth,2004-09-13,album,1206,1
-3Br9AdWpDN80U2wPTp2PnS,Freestyle Marathon / Backpack / Relay Remix,"Wordsworth, PackFM, Rise (of the Demigodz)",2001-01-01,album,1207,1
-4fSERBvTn98d5MyUceXJwT,Worlds Apart,"Wordsworth, Pearl Gates",2019-05-10,album,1208,1
-1CM3zAqF2sq8PlalBMlyEO,Sincerly Yours,"Wordsworth, Pearl Gates",2019-04-26,album,1209,1
-7n9a9IuNHNyT2e7BauucGr,Live On Air,"Wordsworth, Pearl Gates",2019-04-12,album,1210,1
-4xzWPiDcRqIJArpNkkIEVX,Wordless,Wordsworth,2018-11-23,album,1211,1
-2UsFcD7ZkGJPvr1Hdqwgbn,Severin,Wordsworth,2016-12-16,album,1212,1
-6krSsFSkhJBWE9kQ7PhN10,Wonderflow,"Zen6, Wordsworth",2016-08-05,album,1213,1
-6poY1rnL4sHGCg7aV9JTEA,Joy and Pain - Single,Wordsworth,2012-05-29,album,1214,1
-3Ezv8bXs9vS908aaKdWrQ3,The King & I,"Faith Evans, The Notorious B.I.G.",2017-05-19,album,1215,1
-7DxMOQL7k1HF476fsFrsvV,Incomparable,Faith Evans,2014-11-24,album,1216,1
-4lDrys1XMoWv7um9oG73Oy,R&B Diva,Faith Evans,2012-10-02,album,1217,1
-4MVVzn17ZgSSLyerbQtLDS,Something About Faith,Faith Evans,2010-10-05,album,1218,1
-5ylsv1oBEMCLir5HsDpEjg,Something About Faith (Best Buy Bonus Track Edition),Faith Evans,2010-10-05,album,1219,1
-2WiOKRbyIKKeA8L7IossNX,The First Lady,Faith Evans,2005-01-01,album,1220,1
-4OlCa1kTyE2DBcU4ZfBQhX,A Faithful Christmas,Faith Evans,2005-01-01,album,1221,1
-0pP9NBXbbRH2ZJb7fazkZy,Faithfully,Faith Evans,2001,album,1222,1
-2jQdDSxc2T21OFC72lAMYL,Keep The Faith,Faith Evans,1998,album,1223,1
-36G7gDkkRckUGU7lgG6nev,Faith,Faith Evans,1995,album,1224,1
-2aoVCmG1lwSjx0E5HjNpfZ,Rejoice With Me,"Faith Evans, Bobby Jones",2019-12-26,album,1225,1
-1egeScIu3oMI7vqZ4pTqWj,A Minute,Faith Evans,2018-07-27,album,1226,1
-3xpjAmR0B4GYtcdJ0WzJw1,Show Me,"Rufus Blaq, Faith Evans",2017-11-17,album,1227,1
-3PK9NEwsFsE1YIzq9XFWiN,Party On The West Coast (feat. Snoop Dogg),"Matoma, Faith Evans, The Notorious B.I.G.",2017-05-21,album,1228,1
-0duzU1uas5aoOamsPFmkwh,Keep On,"Fonzworth Bentley, Faith Evans",2016-10-05,album,1229,1
-0qQEWvYT6Hr3GONP3ONhJb,I Deserve It (feat. Missy Elliott & Sharaya J),Faith Evans,2014-08-25,album,1230,1
-5WwXVI6HUXkn43fqtolRDO,"Lovin' Me (Theme from R&B Divas) feat. Nicci Gilbert, Monifah Carter, Syleena Johnson and Keke Wyatt",Faith Evans,2012-08-21,album,1231,1
-0O8Kqo7mc7t4gEClqJacEa,Open Heart Acoustic Live,CeeLo Green,2016-03-11,album,1232,1
-4V7teI9GVCoLf6BNdaNj29,Heart Blanche,CeeLo Green,2015-11-06,album,1233,1
-3ssspRe42CXkhPxdc12xcp,CeeLo's Magic Moment,CeeLo Green,2012-10-29,album,1234,1
-3MXU6UoWrf4w4bOvjZTlvY,The Lady Killer,CeeLo Green,2010-11-09,album,1235,1
-0wdleLMeNmGUHChsmx9svt,Cee-Lo Green... Is The Soul Machine,CeeLo Green,2004-03-02,album,1236,1
-2NPcq3gPAxJowlkZWVbVQa,Cee-Lo Green And His Perfect Imperfections,CeeLo Green,2002-04-02,album,1237,1
-6Vc3E3QaIvDlUgbtB5Ujjp,Get The Money,"Tuxedo, CeeLo Green",2019-11-29,album,1238,1
-4KmwdCwxxXnjAimcOxxbtX,Internacional,"Juan Magán, CeeLo Green, André Truth",2019-02-22,album,1239,1
-1FVRbROEgWHgOd3dQL9mRs,Brick Road,CeeLo Green,2018-02-23,album,1240,1
-03cGAWxQzdk4lGGkuXsdiF,Darq Liquor - Single,"CeeLo Green, Tone Trump",2017-06-30,album,1241,1
-4uYtwQqfojzPsT6kuNuEa2,Believer (feat. CeeLo Green) [CID VIP Mix],"CID, CeeLo Green",2017-06-23,album,1242,1
-1W7fGedtuvk2Vuaw9nsYDw,Believer (feat. CeeLo Green),"CID, CeeLo Green",2017-06-09,album,1243,1
-5JxxzGAQ918Xpq1PfhBVbR,Down Down,"Cognito, CeeLo Green",2014-06-10,album,1244,1
-1tpwOCiOmPcV1jkFs0YXuY,Amy (feat. Goodie Mob),CeeLo Green,2013-11-25,album,1245,1
-5yWCv6AGcbyDN81IB4PLnK,Only You (feat. Lauriana Mae),CeeLo Green,2013-02-05,album,1246,1
-6bI4IQKBcLX0KsTjQ9NR97,Floor Seats,A$AP Ferg,2019-08-16,album,1247,1
-0tQ7Iu6EicQTPyhYRNWjaT,Still Striving,A$AP Ferg,2017-08-18,album,1248,1
-2h5LDCGJCWUyaoEXQZHky6,ALWAYS STRIVE AND PROSPER,A$AP Ferg,2016-06-22,album,1249,1
-3smlfAmejcKMmAPg1G2Kki,Trap Lord,A$AP Ferg,2013-08-19,album,1250,1
-3bQVjc0NH5rVJxndr70bwk,REDLIGHT (Justin Jay Remix),"NGHTMRE, A$AP Ferg, Justin Jay",2019-10-18,album,1251,1
-6UgZHNJFfmKLSGLuW9T114,Bezerk,"Big Sean, Hit-Boy, A$AP Ferg",2019-08-26,album,1252,1
-4V8XHsaNdS0PF6p8Xh77tK,REDLIGHT (Crankdat Remix),"NGHTMRE, A$AP Ferg, Crankdat",2019-07-26,album,1253,1
-5JlXMsjusyKCThXakOe4eh,REDLIGHT (Effin Remix),"NGHTMRE, A$AP Ferg, Effin",2019-07-26,album,1254,1
-7IgHTf3cYdcnuBJ1BC7W29,REDLIGHT (Holy Goof Remix),"NGHTMRE, A$AP Ferg, Holy Goof",2019-07-26,album,1255,1
-1opbVvrgNu3y8qFERjLQW1,WAM,"A$AP Ferg, MadeinTYO",2019-07-15,album,1256,1
-0XLFXhashQVtfchnQ6GiQR,Wigs (feat. Asian Doll),A$AP Ferg,2019-07-12,album,1257,1
-6il58nazawpm0I2WUrPggy,Wigs (feat. City Girls & ANTHA),A$AP Ferg,2019-06-24,album,1258,1
-0jPxLnAkjK20xnotuijSUx,"Sincerely, Tokyo",MadeinTYO,2018-10-26,album,1259,1
-2xN75IRtc4e9RyUmmr595C,"Thank You, Mr. Tokyo",MadeinTYO,2016-08-22,album,1260,1
-5oX51HjtKjDJxu6F8cqHPe,You Are Forgiven (Deluxe Edition),MadeinTYO,2016-08-19,album,1261,1
-0jlFChyFxDKLRNx8b59Ywz,You Are Forgiven,MadeinTYO,2016-08-19,album,1262,1
-24ZyrExx41cMhL6XwuHBqZ,Stop Calling (feat. Key Glock & Tay Money),MadeinTYO,2019-09-13,album,1263,1
-5TrTfi59llqy0m35wnmNGA,Chucky Cheese,MadeinTYO,2019-05-10,album,1264,1
-5NToLmDgH4V64h5f3Xzhkn,NEW WIP,"Boombox Cartel, MadeinTYO",2019-05-09,album,1265,1
-4uvnsohYAS99dWfU1xu98R,Ned Flanders (feat. A$AP Ferg) [STWO Remix],"MadeinTYO, Stwo",2019-04-23,album,1266,1
-221uc9dIqatl1ST0aeijDe,You Know Me (MadeinTYO Remix),"Tommy Genesis, MadeinTYO",2019-03-22,album,1267,1
-5kHySbrysy0R1gKuddzDSg,Ned Flanders (feat. A$AP Ferg) [Siobhan Bell Remix],"MadeinTYO, Siobhan Bell",2018-10-25,album,1268,1
-7pvpmoi2v1DbkhYAYeQtG8,SUPERDUPERKYLE (feat. MadeinTYO),"KYLE, MadeinTYO",2018-09-21,album,1269,1
-5euZi2TwSCAei6BeLOwkQ0,The Last Of The Real Ones (Remix) [feat. MadeinTYO & bülow],"Fall Out Boy, MadeinTYO, bülow",2018-06-28,album,1270,1
-41AF9jyipqEEmWrHxNAlNC,Club Close,MadeinTYO,2018-06-01,album,1271,1
-18RzxV31WseTjmTaym1tP7,Good Gas,"MadeinTYO, FKi 1st, UnoTheActivist",2018-02-22,album,1272,1
-3UwFCRTqfL26GcqsvT0lnP,Picture Me Rollin,MadeinTYO,2018-02-02,album,1273,1
-1aLu0YoXuxjGYB6su8SGf0,All Mine (feat. MadeinTYO),"KYLE, MadeinTYO",2017-09-29,album,1274,1
-2m6CkZS0OkQReydGwjIgef,Fight Night,Asian Doll,2019-11-13,album,1275,1
-3Auk6Wl8cYEGo8LkTA3Z6W,So Icy Princess,Asian Doll,2018-10-17,album,1276,1
-6EESvuqiKpAQb0viSwEIPD,Doll Szn,Asian Doll,2018-05-04,album,1277,1
-1Ng6eipX6mRXpBxGjPiMcd,"Kill Bill, Vol. 1",Asian Doll,2017-08-08,album,1278,1
-1D7T7n2iwKoEwWUEOSm4ti,Outtaspace,Asian Doll,2017-03-24,album,1279,1
-1ckPdd6rHHcSpSH2M5LFRd,Project Princess,Asian Doll,2016-09-16,album,1280,1
-5I00OsPSjRYnx9tZl9Dj08,Drippin in Glo,Asian Doll,2016-06-26,album,1281,1
-6gqeL6XeDL44TXQQR2LQz2,Rise of Barbie Doll Gang,Asian Doll,2015-12-16,album,1282,1
-0RIk2OtOehHcqkSQu5oYy0,Stank Walk,Asian Doll,2019-11-06,album,1283,1
-0x3rngeveWP3z5t1YrPsI3,Cravin,Asian Doll,2019-10-30,album,1284,1
-1n4caHCZpJ3GRmtnSYUhUq,Fleek,Asian Doll,2019-09-27,album,1285,1
-3vyU78NxSef9zEGOnL5sek,Kyoto Kush,"DavidBenDavid, Asian Doll",2019-08-27,album,1286,1
-41l3fGEsqcUtXJMQRTP9Vb,Grandson,Asian Doll,2019-01-25,album,1287,1
-7KMopDfCxTVWGBPNtAO0JW,My Niggas,"Oblock Gunz, Asian Doll",2019-01-24,album,1288,1
-7oWu5ncHQMYONyZqWi62lW,Move Ova,"iLuvMuny, Asian Doll",2018-07-06,album,1289,1
-46z98Ty6kbmUSeKmDIHhbA,Flexin Bout a Bag,"JaNissa, Asian Doll",2018-06-08,album,1290,1
-7mSM5ngI6Bk3SfnDniLI0Y,Murda,Asian Doll,2018-02-26,album,1291,1
-3MBsHP8xXMIr3VKmsy2jqy,Queen of Nightmares,Asian Doll,2018-02-16,album,1292,1
-16KWauDKCJ5la7mpba3myN,Road Runner,Asian Doll,2018-01-22,album,1293,1
-0C3Ab2AVLhhQZR9GEH2lIR,Savage Barbie,Asian Doll,2018-01-08,album,1294,1
-16rRmI5wxWWO5dnRWUKCPA,MIH-TY,"MihTy, Jeremih, Ty Dolla $ign",2018-10-26,album,1295,1
-2wtx5XeYMFOpY40eK9f7fA,Beach House 3 (Deluxe Edition),Ty Dolla $ign,2018-05-11,album,1296,1
-7Dj0aaKI4RpehMPqOu56mW,Beach House 3,Ty Dolla $ign,2017-10-27,album,1297,1
-7bSsdgWDh5VRI3ZVOXQEj4,Campaign,Ty Dolla $ign,2016-09-23,album,1298,1
-5smHQ1uTrerU8DyRaqTyxh,Free TC (Deluxe Edition),Ty Dolla $ign,2016-03-25,album,1299,1
-2DtLmzu6cCDYO9U53a6hRA,Free TC,Ty Dolla $ign,2015-11-13,album,1300,1
-6vNnhRIPvolGilILjPma9R,Midnight Hour with Boys Noize & Ty Dolla $ign (Four Tet Remix),"Skrillex, Boys Noize, Ty Dolla $ign",2019-12-13,album,1301,1
+album_uri,album_name,artist,release_date,album_type,remove,notes,index_to_split,groups_to_split
+3nVqeuOMLIkIgIltdgVD6I,Mursday (Deluxe Edition),"MAYDAY!, Murs",6/10/14,album,0,NA,1,1
+6PXVE7UeyAYF6fB5xpyzNq,Bring The Block Outside,03 Greedo,9/18/19,album,0,NA,2,1
+6kfRi7E2DbxcVdMO5aYaqB,Can't Fuccin Believe It,03 Greedo,6/21/19,album,0,NA,3,1
+1hZSkfMsOE2J7dV2NGK7Of,Fortnite,03 Greedo,4/27/18,album,0,NA,4,1
+4elwYqB897R5hwIqJXDXxy,God Level,03 Greedo,6/27/18,album,0,NA,5,1
+1NzRBohVf8UuXnY3MH8wl6,High Off Me (feat. Yung Bans),03 Greedo,5/18/18,album,0,NA,6,1
+1XVEEMdWeAvxugEwzb15Cc,Look Bitch (feat. Mike Wayne),03 Greedo,6/19/19,album,0,NA,7,1
+0mN9qYcfmWYMfsy0t30xUc,Purple Summer,03 Greedo,7/27/16,album,0,NA,8,1
+3bw0OfTkjlkoJLtNIOWf6u,Purple Summer 2: Son Don't Shine,03 Greedo,10/31/16,album,0,NA,9,1
+3l12lny1KiDIRYt7MrVu1R,She's Foreign,03 Greedo,9/18/19,album,0,NA,10,1
+4idSpCksSGx8lXtY4nHS8d,Still Summer In The Projects,03 Greedo,4/19/19,album,0,NA,11,1
+4TnfqHgc2h5iAK87jU2ZKJ,The Wolf of Grape Street,03 Greedo,3/9/18,album,0,NA,12,1
+4O0qVKPXobV27sbc2nHhiR,Maria,"03 Greedo, Kenny Beats",11/13/19,album,0,NA,13,1
+708kDa6raFC1CFOHv2t4lf,Netflix & Deal,"03 Greedo, Kenny Beats",11/22/19,album,0,NA,14,1
+29jkz4rYD0R0b7K98QUZmC,Cellout,"03 Greedo, Travis Barker",7/3/19,album,0,NA,15,1
+5Ees1kZ9IGMmrPTfer6Mt4,Meet The Drummers,"03 Greedo, Travis Barker",7/5/19,album,0,NA,16,1
+09xpVUngS49NvlyFcIaVBk,Accusations,070 Shake,7/20/18,album,0,NA,17,1
+6bfMzBBgOt4CoB88WPn0Yc,Be Myself,070 Shake,7/24/17,album,0,NA,18,1
+5HCBV9Epivfv54NNH7VQqA,Glitter,070 Shake,3/23/18,album,0,NA,19,1
+7atL3NBAVjqASdyz6Pcw5V,Guilty Conscience,070 Shake,1/10/20,album,0,NA,20,1
+6Q2rUMVAKj1DaDh3xB0IEU,Modus Vivendi,070 Shake,1/17/20,album,0,NA,21,1
+3TpwJyKkZkFaM13p5rTuwg,Morrow,070 Shake,4/12/19,album,0,NA,22,1
+5eDQGcfnBYtRPAiTPv6b31,Nice To Have,070 Shake,4/12/19,album,0,NA,23,1
+650xbdr4W9mJfjh6fXNyot,Stranger,070 Shake,4/22/17,album,0,NA,24,1
+1oBtfv3rcOO6NoSotlNP3p,Under The Moon,070 Shake,12/13/19,album,0,NA,25,1
+1UX5QXG2yPar5Tce7BUyyM,Honey - Single,"070 Shake, Ralphy River, Hack & Tree",8/16/16,album,0,NA,26,1
+7IPFhlm939LDCeWAIE2T2n,745 sticky (Injury Reserve Remix),"100 gecs, Injury Reserve",11/6/19,album,0,NA,27,1
+0vMisckPcfHdQpUALWLKq1,California Dreamin,"116, Lecrae",7/19/19,album,0,NA,28,1
+297HtHWJnhnGi4lQk04wze,I Dont See A Thing (With D Savage),"16yrold, D Savage",12/8/17,album,0,NA,29,1
+3Lh212zAMQ3r24BjzTkRR7,Young Scooter,"16yrold, D Savage, Yung Bans",2/16/18,album,0,NA,30,1
+2GK9gUz4nsfwgw7YjtDtai,Uptown,"183rd, Smoke Dza",1/18/19,album,0,NA,31,1
+2eDX0d5LDpnppAuhqFlGzr,B.O.A.T.S. II #METIME (Deluxe),2 Chainz,1/1/13,album,0,NA,32,1
+56TQNcSoy3eQpyWtNwQnrD,COLLEGROVE,2 Chainz,3/3/16,album,0,NA,33,1
+4XRo183q0BeXbtJx2d9VWI,Daniel Son; Necklace Don,2 Chainz,8/5/16,album,0,NA,34,1
+5vvvo79z68vWj9yimoygfS,Pretty Girls Like Trap Music,2 Chainz,6/16/17,album,0,NA,35,1
+1BR69wIifGZUSimcuTjWVg,Rap Or Go To The League,2 Chainz,3/1/19,album,0,NA,36,1
+0HiyOnSs0O9vptexgk9Bh4,TrapAvelli Tre,2 Chainz,8/14/15,album,0,NA,37,1
+4I3EcXD4e3KcEoDJfFEZ5b,Savage Mode,"21 Savage, Metro Boomin",7/15/16,album,0,NA,38,1
+0MV1yCXcNNQBfwApqAVkH0,Without Warning,"21 Savage, Offset, Metro Boomin",10/30/17,album,0,NA,39,1
+3NzBg4NCUMDfbkD1TbAstz,1994,38 Spesh,10/25/19,album,0,NA,40,1
+4AFcrFMi1U4aBhMyTUh91U,38 Strategies Of Raw,38 Spesh,2/1/19,album,0,NA,41,1
+1Tg009I2DdL6VZZYhFhInF,A Bullet For Every Heathen,38 Spesh,8/23/19,album,0,NA,42,1
+5gX31aXiyY1wGO3ERA8HLk,Incustody,38 Spesh,6/7/08,album,0,NA,43,1
+3ipY7YKXQtVuvkQGup1JIN,Out On Bail,38 Spesh,7/15/07,album,0,NA,44,1
+50vLwcQk2ewfeOy2k8yrSS,The 38 Laws of Powder,38 Spesh,9/13/16,album,0,NA,45,1
+5ZrNomYhUD3tHgsHdlWmIi,The Art Of Production,38 Spesh,7/22/14,album,0,NA,46,1
+5wgu9mfU6X4B6Ak61XODNT,The Trust Tape,38 Spesh,5/26/15,album,0,NA,47,1
+0O1LjnS9QcYYr9CZgGANOs,The Trust Tape 2,38 Spesh,6/23/15,album,0,NA,48,1
+7gii3BdFnkiMCkYKrmrjPm,The Trust Tape 3,38 Spesh,4/19/19,album,0,NA,49,1
+1DavXQd1l9sjgtdYVONGb2,TimeServed,38 Spesh,7/23/13,album,0,NA,50,1
+2okuyzDt1boxzPRAvgOf7d,Cocaine Cowboys,"38 Spesh, Benny The Butcher",11/4/08,album,0,NA,51,1
+5RvhL6DMQKD2ikhVpepry8,Stabbed & Shot,"38 Spesh, Benny The Butcher",2/16/18,album,0,NA,52,1
+3JApJFSuxcsGPQmfKMvIs9,Upstate 2 Queens,"38 Spesh, Kool G Rap",5/11/18,album,0,NA,53,1
+44wdM7nJCx8UvdAuVnMfJQ,40 To Life Part 2,40 Cal.,1/6/09,album,0,NA,54,1
+3YMQi2GWaMLO7HVI5Nf12l,Broken Safety,40 Cal.,8/8/06,album,0,NA,55,1
+4p0OpiYix444YGxmRD33TU,Broken Safety 2,40 Cal.,9/11/07,album,0,NA,56,1
+5WDeIeSYjLqLakOXpQKpyl,Get the Fxck out My Trap,40 Cal.,7/12/19,album,0,NA,57,1
+2f7gfjnxuf3U737A03ao75,God's Gift To An iPod,40 Cal.,9/6/11,album,0,NA,58,1
+6WxsinNhv0z6AIf62cOd8I,Mooga,40 Cal.,8/4/08,album,0,NA,59,1
+21pP686bV5EGmybm5ZJgUT,The Yellow Tape,40 Cal.,4/1/08,album,0,NA,60,1
+6eZWy2xIhIaTOkKPynxNv5,Trigga Happy 3 aka Trigganometry,40 Cal.,3/15/11,album,0,NA,61,1
+6io53avLMKPf1KYjgfoh1G,Trigger Happy 2,40 Cal.,11/20/07,album,0,NA,62,1
+43SUCo9X3s70hkfZ26bPEW,Watch the Chrome,40 Cal.,5/29/12,album,0,NA,63,1
+6PXjKZEFpMqrwjvYvNKN8N,We Getten Cashed Out (feat. Casper Capone & Eclipz),40 Cal.,4/28/17,album,0,NA,64,1
+2XjmEtOw1Pdtiucyf6eSAy,When I Ride By (feat. Killa A & OG Insane),"40 Cal., Casper Capone",1/26/18,album,0,NA,65,1
+5rYCEmPj4b7oUSFMLnsckv,Forever Dipset,"40 Cal., Kholebeatz",3/15/16,album,0,NA,66,1
+4mgqdyIas3ALHNQ6fWiLJt,Harlem Underworld (feat. 40 Cal),"40 Cal., Kholebeatz",9/20/13,album,0,NA,67,1
+4Obao8H8PuGMjclIGQhirX,Tony Soprano,"40 Cal., Kholebeatz",8/29/14,album,0,NA,68,1
+3AgCuejBHH780ROyGkKUvj,Bullet Proof,"50 Cent, DJ Whoo Kid",1/30/07,album,0,NA,69,1
+3fc97ZWLIMc1xawhxbKrh2,East Atlanta Love Letter,6LACK,9/14/18,album,0,NA,70,1
+2LhBfBFZVU1IyaAgo5wghT,FREE 6LACK,6LACK,11/13/17,album,0,NA,71,1
+39g2Ja05Jgah0iO3TGI11f,Seasons (with Khalid),"6LACK, Khalid",8/9/19,album,0,NA,72,1
+43hS1ue7E0BnrRDhvrx5i2,The Death Of Adam,88-Keys,11/11/08,album,0,NA,73,1
+1B1xHNQnRq2nJg4xujWgBj,Wake Up Call,88-Keys,2/8/10,album,0,NA,74,1
+1a7behQFUiQ9iHjSJxiZXE,That's Life (feat. Mac Miller & Sia),"88-Keys, Mac Miller, Sia",6/20/19,album,0,NA,75,1
+0mW5Oo4TfFKpjeMrQ1DX5Z,..With All Your Friends,8Ball,8/7/09,album,0,NA,76,1
+4BVUuwY8FXoZgFkhar9JQq,Derty On Purpose: Vol. 2,8Ball,10/13/09,album,0,NA,77,1
+7zkHt1Fg0R95Htr9Nzny8I,Life's Quest,8Ball,7/24/12,album,0,NA,78,1
+6MeuXZaamEd3rhKUjdeX2t,Memphis All Stars,8Ball,2/24/09,album,0,NA,79,1
+11JcQ6NgPsD9nU3x4LBsB9,On Da Grind: Vol. 1,8Ball,10/13/09,album,0,NA,80,1
+45aIaj44DalRptaxBI9MpH,Premro 2,8Ball,5/7/13,album,0,NA,81,1
+06SddgnxumQW8eVw2lcn9S,Comin Out Hard,8Ball & MJG,3/3/15,album,0,NA,82,1
+0UeIQthYzLzoR57PxeSEVf,From the Bottom 2 the Top,8Ball & MJG,7/7/15,album,0,NA,83,1
+0sx7PwQbB76q2S8uqoYpts,Lyrics of a Pimp (Classic Remastered Version 2013),8Ball & MJG,2/20/13,album,0,NA,84,1
+1anke1zBsWVM2QEEjJLYEn,On the Outside Looking In,8Ball & MJG,3/3/15,album,0,NA,85,1
+52cldud3qNYJLGSc8U6x90,Ridin' High,8Ball & MJG,2007,album,0,NA,86,1
+38tSxbJgFfV68aOzRGW1X6,Doin It Big & Pimp Tight (Deluxe Edition),"8Ball & MJG, 8Ball, MJG",5/19/15,album,0,NA,87,1
+7ajO1HYJGC6YaBLaiPewet,Light Up The Bomb,"8Ball, 8 Ways Entertainment",10/31/06,album,0,NA,88,1
+0bfX7K4io8frLngP7GfGS0,The Vet And The Rookie,"8Ball, Devius",10/9/07,album,0,NA,89,1
+3x1CYAp5i9IS0H9oRI3WRT,Bring It Back (feat. T.I.) (remix),"8Ball, MJG",6/7/10,album,0,NA,90,1
+5a2g5yaOJKkXfcNN7Dk711,Look At Me Now,"8Ball, MJG",1/24/18,album,0,NA,91,1
+1mmxvAJVY3UeldNaLXs07W,Space Age 4 Eva,"8Ball, MJG",8/23/05,album,0,NA,92,1
+7wmREJdO1YnCuhYxNuJe1p,Ten Toes Down,"8Ball, MJG",5/4/10,album,0,NA,93,1
+13VX4SeBbXuZEihnA91GSo,93PUNX,"93PUNX, Vic Mensa",8/23/19,album,0,NA,94,1
+3ZHUs1y4aOXHdX2DFBRnez,The Final Adventure,"9th Wonder, Murs",11/13/12,album,0,NA,95,1
+2OQEAqShAl6SodrGhmYZ4Z,Artist,A Boogie Wit da Hoodie,9/16/16,album,0,NA,96,1
+3r5hf3Cj3EMh1C2saQ8jyt,Hoodie SZN,A Boogie Wit da Hoodie,12/21/18,album,0,NA,97,1
+6opJjTuHd4tQ1h2qrus7jH,International Artist,A Boogie Wit da Hoodie,6/20/18,album,0,NA,98,1
+7b6MXjzjNLobZJuGGbqyg2,King Of My City,A Boogie Wit da Hoodie,1/31/20,album,0,NA,99,1
+0ewO3paYhoJwMGX1Yjyebw,Mood Swings,A Boogie Wit da Hoodie,9/13/19,album,0,NA,100,1
+4PRKR5s0uRpu1KfyJCdVHk,Reply (feat. Lil Uzi Vert),A Boogie Wit da Hoodie,11/15/19,album,0,NA,101,1
+3HHp5I6Q6SEyU5bkvoCtnV,The Bigger Artist,A Boogie Wit da Hoodie,9/29/17,album,0,NA,102,1
+2osVvQ5BdONgWS9C7BHrsj,Bag On Me,"A Boogie Wit da Hoodie, Don Q",12/30/16,album,0,NA,103,1
+38n3KJXmdtntBNbuFskewN,Addie Calipari (The Trilogy),A$AP ANT,7/5/19,album,0,NA,104,1
+2lbF5VQk4vPo73umNUQJXl,FREE FLACKO JODYE,A$AP ANT,7/19/19,album,0,NA,105,1
+5HGv9qPN09FtjfMpBLMdQU,Gucci Sox,A$AP ANT,5/1/18,album,0,NA,106,1
+2p19sWgtFt1YUj2GzPDTjj,Lil Black Jean Jacket,A$AP ANT,5/16/18,album,0,NA,107,1
+5be6tTHEtwHKercE8NcOMN,Mario Cart,A$AP ANT,8/17/18,album,0,NA,108,1
+6M4NTapToMW9clvejFgCSB,Set Dat Bitch off (feat. Chynna),A$AP ANT,2/6/15,album,0,NA,109,1
+7d1Zf38b8wfYqakpHqtfgz,Shanghai,A$AP ANT,8/17/18,album,0,NA,110,1
+5cDZTLhCcTUXVTbmZZz93l,So Clean,A$AP ANT,8/19/16,album,0,NA,111,1
+2FdlgKr2rHuaWJkyqaE7tQ,The Prelude,A$AP ANT,2/23/18,album,0,NA,112,1
+679rfe9VplR9TYBVC4wznT,Uber (feat. Soduh & Icce),A$AP ANT,3/16/15,album,0,NA,113,1
+22D161n1jAAGqvaf7yBWj3,The interlude,"A$AP ANT, DJ Nick",10/12/18,album,0,NA,114,1
+46TQNfwVYAbKfDbedGn21Y,Now They Notice Us,"A$AP ANT, Lord Fubu",1/29/20,album,0,NA,115,1
+3ZP2nTdYUvOY6suqdRq8oD,Pharrell,"A$AP ANT, Soduh",7/10/18,album,0,NA,116,1
+2h5LDCGJCWUyaoEXQZHky6,ALWAYS STRIVE AND PROSPER,A$AP Ferg,6/22/16,album,0,NA,117,1
+6bI4IQKBcLX0KsTjQ9NR97,Floor Seats,A$AP Ferg,8/16/19,album,0,NA,118,1
+0tQ7Iu6EicQTPyhYRNWjaT,Still Striving,A$AP Ferg,8/18/17,album,0,NA,119,1
+3smlfAmejcKMmAPg1G2Kki,Trap Lord,A$AP Ferg,8/19/13,album,0,NA,120,1
+5k4FGcPa9XZN2IqSPBYICI,Value,A$AP Ferg,1/29/20,album,0,NA,121,1
+0XLFXhashQVtfchnQ6GiQR,Wigs (feat. Asian Doll),A$AP Ferg,7/12/19,album,0,NA,122,1
+1opbVvrgNu3y8qFERjLQW1,WAM,"A$AP Ferg, MadeinTYO",7/15/19,album,0,NA,123,1
+0qr1Fvi1haEDWVbFtekZLb,Cozy Tapes Vol. 2: Too Cozy,A$AP Mob,8/25/17,album,0,NA,124,1
+3RaACfwYTY9uiDy3VSWLLc,Cozy Tapes: Vol. 1 Friends -,A$AP Mob,10/31/16,album,0,NA,125,1
+6hFk3P1kzIsN083A8SqgXm,"Feels So Good (feat. A$AP Ferg, A$AP Nast, A$AP Rocky & A$AP Twelvyy)",A$AP Mob,8/16/17,album,0,NA,126,1
+04HWLdpkY0sOsIm8wh6o8O,"Hella Hoes (feat. A$AP Rocky, A$AP Ferg, A$AP Nast & A$AP Twelvyy)",A$AP Mob,6/6/14,album,0,NA,127,1
+0Iv5wX7ZgeSMypWT9V4oxO,"RAF (feat. A$AP Rocky, Playboi Carti, Quavo, Lil Uzi Vert & Frank Ocean)",A$AP Mob,5/23/17,album,0,NA,128,1
+1ImqgYGNjfTGYEfQMYYbRs,Trillmatic,A$AP Mob,12/4/13,album,0,NA,129,1
+78B0rb1rWaNLgxrBuCkIdb,Wrong (feat. A$AP Rocky & A$AP Ferg),A$AP Mob,4/28/17,album,0,NA,130,1
+6f8xb749Pxj9rX7DQqytFs,Xscape,A$AP Mob,4/22/14,album,0,NA,131,1
+788rHiWVrWzM8dF7IiumCB,Yamborghini High,A$AP Mob,1/29/16,album,0,NA,132,1
+67Em0g7VkNZGzICh4SZQdY,A$AP Forever (feat. Moby),A$AP Rocky,4/5/18,album,0,NA,133,1
+3arNdjotCvtiiLFfjKngMc,AT.LONG.LAST.A$AP,A$AP Rocky,5/26/15,album,0,NA,134,1
+3zOkSAbg9o7gQ3yXtZhx5v,Babushka Boi,A$AP Rocky,8/28/19,album,0,NA,135,1
+2IB4u7CExI80gM2KbkDtDp,Bad Company (feat. BlocBoy JB),A$AP Rocky,3/28/18,album,0,NA,136,1
+6rzMufuu8sLkIizM4q9c7J,LONG.LIVE.A$AP (Deluxe Version),A$AP Rocky,2013,album,0,NA,137,1
+3AlyvIIMZyT5LjWFeK5LSl,Sundress,A$AP Rocky,11/20/18,album,0,NA,138,1
+3MATDdrpHmQCmuOcozZjDa,TESTING,A$AP Rocky,5/25/18,album,0,NA,139,1
+0xpKlXFqcZuIxCcN2rZj7j,Cocky (feat. London On Da Track),"A$AP Rocky, Gucci Mane, 21 Savage",2/16/18,album,0,NA,140,1
+41tn9gcVocI693HtBidKfi,12,A$AP Twelvyy,8/4/17,album,0,NA,141,1
+2NZV3fNMb9sKiR6DbVyTaJ,12 Days of X-Mas,A$AP Twelvyy,12/21/17,album,0,NA,142,1
+5t19wH8QdBI7kI79jDi38c,All $karz and Pain,A$AP Twelvyy,4/18/19,album,0,NA,143,1
+68GRf5hoSPYViFkBvNrRTS,Bill Collector,A$AP Twelvyy,8/14/19,album,0,NA,144,1
+6YLJj6bhEWgzNMB1ziPjWD,Brinx,A$AP Twelvyy,12/5/19,album,0,NA,145,1
+5tuTwHGf5QRQOb69QVdncW,Child's Play,A$AP Twelvyy,1/31/19,album,0,NA,146,1
+6s3OMGj3DM2aaeuMibyVaI,Gunpla,A$AP Twelvyy,2/10/20,album,0,NA,147,1
+3EK9UFt3Z35yb41TUMTZsp,Kratez,A$AP Twelvyy,8/14/19,album,0,NA,148,1
+5p9SelpKtKwjPoPS9sBk3V,Periodic Table,A$AP Twelvyy,7/28/17,album,0,NA,149,1
+7d1ZtI4mEvF2GeSW4EbzKZ,Spanglish,A$AP Twelvyy,11/14/19,album,0,NA,150,1
+0txtsHWZwnayJhkfM1vi9y,Bust It Open,A$AP TyY,9/21/16,album,0,NA,151,1
+49EkOm1EaQi2dR9268i0sb,Hit the Top,A$AP TyY,2/28/18,album,0,NA,152,1
+4NOH7T6VJw4EEYyFXJN3cl,IDGAF,A$AP TyY,2/22/19,album,0,NA,153,1
+6mJwfqWrklQpKvb50oQrmW,Like Me (feat. Bewhy & Cjamm),A$AP TyY,12/28/16,album,0,NA,154,1
+2L8T3J3c6qfUpk1ChQpdHc,Luther,A$AP TyY,2/23/19,album,0,NA,155,1
+0m3nSsom6t2dDwPLxb5H56,Owell,A$AP TyY,10/24/15,album,0,NA,156,1
+4AxtBckO6YBBNF0TngEQwR,Project Rockstar,A$AP TyY,3/1/19,album,0,NA,157,1
+07vlZuqhF2vzXONN2l2Alq,Troubles of the World,A$AP TyY,4/19/18,album,0,NA,158,1
+0lSbz1qwlwx7dQL6xx52OB,Trump,A$AP TyY,11/7/16,album,0,NA,159,1
+6BhCqW95yuGaKMT3S2teTY,CTC,"A$AP TyY, BLVCKLIST",11/22/19,album,0,NA,160,1
+3G90l63ZH8HcjajFyJ72O4,1 Minute to Pray,A$Ton Matthews,2/9/18,album,0,NA,161,1
+0tvNs0Rw6jCbbScGI0dPy5,10 Toez,A$Ton Matthews,9/4/18,album,0,NA,162,1
+6IlJA1Zk2n3PDmgZOdtTam,Aston 3:16,A$Ton Matthews,3/16/14,album,0,NA,163,1
+3tdZu0CxWNzTsNiYN2gh22,Big Tymin (feat. Doeman),A$Ton Matthews,6/11/19,album,0,NA,164,1
+5iH4ptWrL1F4SMImvlLmPq,Bitchin (feat. Rio Da Yung OG),A$Ton Matthews,11/7/19,album,0,NA,165,1
+3CbyEUBuR5HSNcqGc0mDbK,BRAZY,A$Ton Matthews,10/30/17,album,0,NA,166,1
+5GDffyQmKqXiOU5Wl8h7z5,Coldest Night in Hell,A$Ton Matthews,10/19/16,album,0,NA,167,1
+0u3pvyb6VKTZS0Vg71nUTB,Desperado,A$Ton Matthews,8/17/16,album,0,NA,168,1
+7GYS0XftZadaqtOFDDZoYs,DOE (feat. Rizzoo Rizzoo),A$Ton Matthews,11/9/15,album,0,NA,169,1
+5BHctRG1S9LBbIyoZSC9cW,Ever Since,A$Ton Matthews,5/26/17,album,0,NA,170,1
+4ydHOKIHofmB39ZgiQdjaL,Gangstaz & Stripperz,A$Ton Matthews,12/13/19,album,0,NA,171,1
+1uaj2FP0rI1lo1LsFzgz0C,Gettin' to It,A$Ton Matthews,5/22/18,album,0,NA,172,1
+2kLWpSS400II1y23UhyTS7,Hallelujah,A$Ton Matthews,5/31/16,album,0,NA,173,1
+4S7vcstEdAtFCJIKiRz9es,Maneuvering,A$Ton Matthews,5/11/18,album,0,NA,174,1
+0pXjQnWO03XEH0AyZOqXsx,Money Kallin',A$Ton Matthews,6/15/18,album,0,NA,175,1
+6wH6c2SJtM9cjFreplTIEq,Night To Remember (feat. Da$H),A$Ton Matthews,4/11/17,album,0,NA,176,1
+2xEGJRUrK3GrtpVj9YpPGT,Phantom Of The Opera (feat. Velous),A$Ton Matthews,9/13/17,album,0,NA,177,1
+5AUWZMsnWu3WPVVcG2Zw4I,Shootout (feat. Rucci & Saviii 3rd),A$Ton Matthews,1/8/19,album,0,NA,178,1
+4Br65jcAzGv5nxQ16lOmjj,Trenches,A$Ton Matthews,12/4/18,album,0,NA,179,1
+1DaBEdJDAkt9PftNTzmhhB,Versace Ragz,A$Ton Matthews,8/4/12,album,0,NA,180,1
+1CpGaUOQeF91xvpxnTVEUs,1 Luv,Ace Deuce,6/1/98,album,0,NA,181,1
+4c4FclEUUMnI7LbCMmXg7x,Breakin Boyz Off,Ace Deuce,3/23/99,album,0,NA,182,1
+3lYJgygf5d1a8jG9CUSS3I,Comin' Up N' Da Ghetto,Ace Deuce,1996,album,0,NA,183,1
+6RRB9QpT2xjLGTrXP16xH2,Go to Work,Ace Deuce,10/11/18,album,0,NA,184,1
+36Tl3Cpnu1Ib9DoehJs0Hv,Raw & Uncut,Ace Deuce,6/1/01,album,0,NA,185,1
+5BF9vWXslrtQ0fsaOQbPPR,Southern Gutta Butta,Ace Deuce,6/1/00,album,0,NA,186,1
+0oesVar6wlV7OxTZQvH40S,Street Muzic,Ace Deuce,2003,album,0,NA,187,1
+2nMbzyagsL6osHnaANujkA,The Block All-Star,Ace Deuce,5/11/06,album,0,NA,188,1
+0otk5J8JLQq3vYkGHrWC0u,What Do You See? The Block Star,Ace Deuce,10/27/04,album,0,NA,189,1
+64k1x2JZhoJoh9dyldECx4,Blood Sweat & Tears (Deluxe),Ace Hood,1/1/11,album,0,NA,190,1
+1bifdp6ifwvWkzNIASETQF,Sex Chronicles,Ace Hood,2/14/11,album,0,NA,191,1
+7jTENiaKLEZQUdV8WAUmks,Starvation,Ace Hood,3/30/12,album,0,NA,192,1
+1KHrnIq5oANWK2FzwysZRt,Starvation 2,Ace Hood,1/10/13,album,0,NA,193,1
+2IIDOFE8BxevBgoUgZWqLJ,Starvation 3,Ace Hood,1/17/14,album,0,NA,194,1
+6nshOEWHngJmoRFap6dspX,Starvation 4,Ace Hood,11/3/15,album,0,NA,195,1
+768dhdnqsbqb0iYiOb8NlM,Starvation 5,Ace Hood,7/11/16,album,0,NA,196,1
+3D5QdPaCvdkfYeTfXNlxU7,The Statement 2,Ace Hood,12/9/11,album,0,NA,197,1
+2owsJCZ8OoEkNbfBp1My4r,Trials & Tribulations (Deluxe),Ace Hood,1/1/13,album,0,NA,198,1
+7tYppUxXRwhc23Sox9pXWm,Trust the Process,Ace Hood,8/21/17,album,0,NA,199,1
+7f5WIkHMRgBYvkZd9Qd0V2,Trust the Process II: Undefeated,Ace Hood,5/11/18,album,0,NA,200,1
+0N3HnJ7Jw1VrfO5TnbNWEA,Blue Chips 7000,Action Bronson,8/25/17,album,0,NA,201,1
+0SNj4yfmsonNltL2wv7KNq,Descendant Of The Stars (Traveling The Stars Theme),Action Bronson,9/2/16,album,0,NA,202,1
+22nyt8Q7MnrKtFLJrBagLu,Durag vs. Headband (feat. Big Body Bes),Action Bronson,10/21/16,album,0,NA,203,1
+6sugF8dXXtTqkmziAPrbOp,Hot Shots Part Deux,Action Bronson,5/19/12,album,0,NA,204,1
+3O0wbAmSzG0Hz5vqo40RRS,Let Me Breathe,Action Bronson,6/14/17,album,0,NA,205,1
+7ijgeLAW3W3vZ9jf6tozFq,Mr. Wonderful,Action Bronson,3/23/15,album,0,NA,206,1
+3sUrQoaXZxKlksDLSU287P,Muslim Wedding - Single,Action Bronson,11/12/11,album,0,NA,207,1
+4DkWUkRbixvt2Ut4PVYNax,Prince Charming,Action Bronson,10/19/18,album,0,NA,208,1
+3BClCxsYrpmoL7U1gVFvWa,SAAAB Stories produced by Harry Fraud,Action Bronson,6/11/13,album,0,NA,209,1
+59VElAuhphpm93sBv82ZvW,Strictly 4 My Jeeps,Action Bronson,5/14/13,album,0,NA,210,1
+1RpE0cvRLrWxtaGeUjWqgV,White Bronco,Action Bronson,11/1/18,album,0,NA,211,1
+68xGagYxKhVijZTPRk56BT,Grammy,"Action Bronson, Jody HiGHROLLER",1/29/14,album,0,NA,212,1
+1hNdA7lmK8KNVq99faGmbM,Well Done,"Action Bronson, Statik Selektah",11/22/11,album,0,NA,213,1
+3BPX4x5EQOd9vzpPC2rMrm,Lamb Over Rice,"Action Bronson, The Alchemist",11/22/19,album,0,NA,214,1
+7b9hzKJvQyAM2h62iY2GrC,Bazooka Tooth,Aesop Rock,9/23/03,album,0,NA,215,1
+6VzGx5oL2WlX06kpjjJ3jp,Bushwick (Original Motion Picture Soundtrack),Aesop Rock,8/11/17,album,0,NA,216,1
+6a5f8Ox6TV6wLjUfbIMauo,Daylight,Aesop Rock,2/5/02,album,0,NA,217,1
+1uRuLJQtC0iP0H8uix3TKB,"Fast Cars, Danger, Fire and Knives",Aesop Rock,2/22/05,album,0,NA,218,1
+09wuncmkzKognlB3HQbjjm,Hot Dogs,Aesop Rock,11/1/17,album,0,NA,219,1
+0wPD04mBsHDLuMSIxKYnDz,Klutz,Aesop Rock,5/18/18,album,0,NA,220,1
+1EozNWj9YemnvgrpvqHpca,Labor Days,Aesop Rock,9/18/01,album,0,NA,221,1
+2m2ilugjopzt2Tq6zEfqkg,None Shall Pass (Bonus Edition),Aesop Rock,8/28/07,album,0,NA,222,1
+16Zo7yb2lPAL1Q2MdSUGmY,Rogue Wave,Aesop Rock,1/31/20,album,0,NA,223,1
+7iUK0YF0sRXqnPhY0cSKnw,Skelethon [Deluxe Version],Aesop Rock,7/10/12,album,0,NA,224,1
+1An1m0S3ZdQy9Uuo476D12,The Impossible Kid,Aesop Rock,4/29/16,album,0,NA,225,1
+7tsELfxpVG0HE0fMYcEfZC,69 - Single,Agallah,9/8/16,album,0,NA,226,1
+4MH2Ek01lWYJlaXOiKarPu,Ag Season - Single,Agallah,3/1/16,album,0,NA,227,1
+3bsGAU7XaMiIzDa0OnNUtS,Agalito's Way,Agallah,5/5/15,album,0,NA,228,1
+1whqKCZ6UfOa3XTAIPSHJ6,Bo: The Legend of the Water Dragon,Agallah,2/18/16,album,0,NA,229,1
+1ghTCMypNDWQYdpMAFkHpW,Brooklyn Emcee Murderes (feat. Sean Price & Ike Eyes) - Single,Agallah,2/11/16,album,0,NA,230,1
+4vtJT3jsSSOq6zzKRUe5rJ,Brownsvillain,Agallah,5/3/19,album,0,NA,231,1
+7azuLX9OVNBrgNPS8fkNls,"Club Hoppin' (12"")",Agallah,12/21/10,album,0,NA,232,1
+1YRAIwNX60SYPP6ztk6qjG,Coke Fixtion 2,Agallah,12/25/19,album,0,NA,233,1
+6Z6ahEgnk0d01RrsPsZKio,G.H.U.L ( God's Honor Universal Laws),Agallah,3/1/19,album,0,NA,234,1
+0nsQQshMnePP9bM49gF8rL,Hatred (feat. Soul King & Philieano) - Single,Agallah,5/2/16,album,0,NA,235,1
+5A64dFCxc0y7bxdqbJGbkl,Hercules - Single,Agallah,9/8/16,album,0,NA,236,1
+72UcjDGFOf4Qo7pLN0pmeB,Piece (feat. Action Figure) - Single,Agallah,10/9/15,album,0,NA,237,1
+3Dse3wPh1eQKbvoNnckF2r,T.R.O.P. (They Reminisce Over P) - Single,Agallah,9/4/15,album,0,NA,238,1
+1y0B0OebhaiE9bgYixQI5k,The Heist (feat. Self Jupiter) - Single,Agallah,4/26/16,album,0,NA,239,1
+6MwWuQZKyyhXkH5JCLbPyF,The Red V,Agallah,10/1/13,album,0,NA,240,1
+3OsmBzGpqaunp0iBaIoOtv,You Already Know,Agallah,8/22/06,album,0,NA,241,1
+6EVDPWXLI5q2PX75J2DWvd,Playing With Danger,"Agallah, Yatzee Yates",10/25/19,album,0,NA,242,1
+2AdYWiMAoIVGBGn0OKAqRi,Akinyele Live At The Barbecue - Unreleases Hit's,Akinyele,4/22/04,album,0,NA,243,1
+6Wqglh6BW0p6VudsdSUX69,Aktapuss,Akinyele,11/23/99,album,0,NA,244,1
+1kPTkzGFNblLCDJLZRyEw1,Benny Ill,Akinyele,7/10/01,album,0,NA,245,1
+7vL0p9cpy0kgWY4ISrYO93,Put It In Your Mouth,Akinyele,9/2/96,album,0,NA,246,1
+1aaXxMl2pdwF8PjHh25yrV,Akonda,Akon,10/25/19,album,0,NA,247,1
+5ab18n4CGysgcJDv3BJa1Z,El Negreeto,Akon,10/4/19,album,0,NA,248,1
+7EZP6OSbWvMZTrEmlBt1HX,Freedom,Akon,1/1/08,album,0,NA,249,1
+3ZpfQDwafNdaEUnbWVHIlM,Koncrete Vol. 1,Akon,12/17/13,album,0,NA,250,1
+7BuPO7yqJYGScpH2Qq6ZSu,KonKrete Jungle,Akon,2/4/14,album,0,NA,251,1
+5OxggY6YGvJiYWskRN5T7W,Konvict Allstars,Akon,12/16/13,album,0,NA,252,1
+6uvmhw2fKvUn1qKKoe0egk,Konvicted,Akon,1/1/07,album,0,NA,253,1
+77eKpEVxmSr1RhqMlirlTF,Trouble Deluxe Edition,Akon,1/1/05,album,0,NA,254,1
+185L4oFZbNR8B1fKUucCD2,Angel Eyes,AKTHESAVIOR,2/20/19,album,0,NA,255,1
+4DHVcC3LxT53HMYYfYPPUC,Another Reflection Freestyle,AKTHESAVIOR,2/8/19,album,0,NA,256,1
+4SAdM6o4jVHevuPfTql4i1,Blessings In The Grey 2,AKTHESAVIOR,11/11/16,album,0,NA,257,1
+4NeSLPXf0IstOitXbK3okD,Melting Amethyst,AKTHESAVIOR,12/5/17,album,0,NA,258,1
+37qstKljkC51T6qZ6U0Rsp,The Art of Reading Omens,AKTHESAVIOR,2/22/19,album,0,NA,259,1
+7dfkMtySlFCBpS6CeRghOR,These Days,AKTHESAVIOR,2/20/19,album,0,NA,260,1
+6i1A8GgVuex1AV9GIo4yXX,Club Wiley,Alex Wiley,6/4/13,album,0,NA,261,1
+7voeKH39rLlFNBtzfGLBsh,Feel Like Smoke,Alex Wiley,9/6/19,album,0,NA,262,1
+1dMSMn5RExI2NpbkNNCw3c,Hands Clean,Alex Wiley,6/2/17,album,0,NA,263,1
+2ajn8LDh0syyPu9WDqDuzJ,Tangerine Dream,Alex Wiley,6/12/16,album,0,NA,264,1
+2k7KdzwuIZazC9wfbCHaxS,Tangerine Dream II,Alex Wiley,2/22/19,album,0,NA,265,1
+2X2OtRNCS8ecTF8OCjWOXy,Very Close,Alex Wiley,2/8/19,album,0,NA,266,1
+0OAEcCCFcgnmFT589l581B,Village Party,Alex Wiley,2014,album,0,NA,267,1
+4e4E3cruorwsk3QnRwML84,Village Party 2: Heaven's Gate,Alex Wiley,11/20/15,album,0,NA,268,1
+4gI4rj1eG7m2v4LYtFfT3u,Weight Off My Mind,Alex Wiley,12/20/19,album,0,NA,269,1
+5fo2BX17iOrIQa0686NTcH,Candle Light,"Alex Wiley, Burd Hauz, Mxngrel",1/17/20,album,0,NA,270,1
+6odJHGObpCPy6GAIhUSe5B,Pressure,"Alex Wiley, CRSN, Low Gravity",5/25/17,album,0,NA,271,1
+4jRPbkVxXKJvX8DPWS5JJv,Real Things,"Alex Wiley, Hippie Sabotage",4/27/18,album,0,NA,272,1
+2wihnCSWxxB03713TI7qFz,F.Y.I,"Alex Wiley, Mick Jenkins",6/21/19,album,0,NA,273,1
+1GG3Q31mnJaSaoBU5BJl4L,Like MacGyver,"Alex Wiley, Mick Jenkins, Azizi Gibson",12/1/17,album,0,NA,274,1
+1RxFRuiEbZxkpALv1n4q3e,MYO Freestyle,"Alex Wiley, Mike Gao",5/10/19,album,0,NA,275,1
+0xVj1VqRwSCH7pbQWJ1Q2o,Synthia Part 1: Dial Tone,"Alex Wiley, Mike Gao",9/21/17,album,0,NA,276,1
+6QTJYYuZIcPbStSV3XMUZj,Village Party III: Stoner Symphony,"Alex Wiley, Mike Gao",1/18/17,album,0,NA,277,1
+6iU8JPnD0ogEMQh6vbVk4r,Visions,"Alex Wiley, Mike Gao",8/13/17,album,0,NA,278,1
+0bEFpQcSRFJ46hkzECnhO7,Really Don't (Freestyle),"Alex Wiley, Mulatto Beats",8/3/17,album,0,NA,279,1
+26RuGI34Hlu2xxbZUKJpnj,She Average (Remix),"Ali Profit, Sauce Walka",8/4/19,album,0,NA,280,1
+6KlxyxhXEDo1LdheFulN7h,As I Am (Expanded Edition),Alicia Keys,11/9/07,album,0,NA,281,1
+3qqhNVbjLFNdLviBFrFwCa,Girl On Fire,Alicia Keys,11/26/12,album,0,NA,282,1
+66RQAPD5x5nQgQzOa0X3sz,HERE,Alicia Keys,11/4/16,album,0,NA,283,1
+1N0iT0PwcXXV1zUXNICAgP,Raise A Man,Alicia Keys,2/11/19,album,0,NA,284,1
+1SLgJeTdzDAJLcDyQqoWnu,Songs In A Minor (Expanded Edition),Alicia Keys,6/26/01,album,0,NA,285,1
+7gqZqmM5X8j5lEFGsEUX5H,The Christmas Song,Alicia Keys,12/13/19,album,0,NA,286,1
+2U1Z2tzNEdQpw48QmgmPzB,The Diary Of Alicia Keys (Expanded Edition),Alicia Keys,12/2/03,album,0,NA,287,1
+0Rxab8t0y7GlaTJTHX2wEN,The Element Of Freedom,Alicia Keys,12/15/09,album,0,NA,288,1
+6AyIocBD7P3K6vjTK6Vg0b,Time Machine,Alicia Keys,11/20/19,album,0,NA,289,1
+01aNLzRaKJogmxt3hDeII2,Underdog,Alicia Keys,1/9/20,album,0,NA,290,1
+3SUrSBw1oY5yX0Zlpiux7M,Show Me Love (feat. 21 Savage & Miguel),"Alicia Keys, 21 Savage",10/30/19,album,0,NA,291,1
+0iHBfyXdfH9Fpeh8BPsVJP,Show Me Love,"Alicia Keys, Miguel",9/17/19,album,0,NA,292,1
+7x7HvIQ75EfP2bS6awckGj,AlmightyChike,"Almighty Suspect, AzChike",2/1/19,album,0,NA,293,1
+7xfpXfwN3bC3OgtU8dR2Xm,Put You On,"Amber Mark, DRAM",9/7/18,album,0,NA,294,1
+7vJ4cLdo4B4G3jAlBROURR,Choppa Go Blocka Blocka,Ambjaay,5/3/19,album,0,NA,295,1
+35m4V6j9Fuz47JgjMUTfrS,Ice Cream,Ambjaay,8/16/19,album,0,NA,296,1
+19VXCD4bNQA1WBu5yTGF8W,It Cost to Live Like This,Ambjaay,2/14/19,album,0,NA,297,1
+4a7iURHcQKNzPAMWKudL9e,Uno (Remix),"Ambjaay, Tyga, Lil Pump",10/4/19,album,0,NA,298,1
+11PHAeQGH8o1F44XhdAWT7,Jumpy (Remix),"Ambush Buzzworl, Skepta, Chip",7/20/18,album,0,NA,299,1
+7z4UqvGprXWpQ0wo8ldLDA,'Til It's Over,Anderson .Paak,4/6/18,album,0,NA,300,1
+6N1y1a5qnqN8pBkizOdMvk,Bubblin,Anderson .Paak,5/17/18,album,0,NA,301,1
+4VFG1DOuTeDMBjBLZT7hCK,Malibu,Anderson .Paak,1/15/16,album,0,NA,302,1
+3rqqwtJE89WoWvMyPTvbZc,Oxnard,Anderson .Paak,11/16/18,album,0,NA,303,1
+2MdTsQBOs71AZuqETMyLY2,Tints (feat. Kendrick Lamar),Anderson .Paak,10/4/18,album,0,NA,304,1
+2DOiha5oI19Dmw5M9ryHD8,Venice,Anderson .Paak,10/28/14,album,0,NA,305,1
+0YF8PfcGbsKg5IaFyPnlyY,Ventura,Anderson .Paak,4/12/19,album,0,NA,306,1
+6Ml78jvSDFzJhLnXKyU30z,Who R U?,Anderson .Paak,11/9/18,album,0,NA,307,1
+6wVaHOp0tNrsmuuotjUtcW,Bubblin (feat. Busta Rhymes) [Remix],"Anderson .Paak, Busta Rhymes",7/13/18,album,0,NA,308,1
+2aYzIYTF7x5LP6hOupxnWi,All Together Now,Andre 3000,6/18/10,album,0,NA,309,1
+0wzpbnWHPC8VXyXRJjwsl3,Andre 3000's Style Soundtrack,Andre 3000,4/26/12,album,0,NA,310,1
+2osaP8edSKG8bVFKBoWIcV,Coming In Hot,"Andy Mineo, Lecrae",7/20/18,album,0,NA,311,1
+0861I7iBqbNr6WWCr5mfBE,Andy Mineo and Wordsplayed Present Magic & Bird,"Andy Mineo, Wordsplayed",8/4/17,album,0,NA,312,1
+2VCU4VclvyP1d3vWRZMaYI,Yuck!,"Anoyd, Statik Selektah",6/21/19,album,0,NA,313,1
+1ZOVzllZpyEXqyJqKjJm3i,4 Letter Word,Ant Clemons,10/1/19,album,0,NA,314,1
+0LWaPfhjA9H2DmG14Lsq4v,Beep,Ant Clemons,1/15/20,album,0,NA,315,1
+6P2gTKczOMXWRn2hVUXHlH,Evaporate (Maxi-Single),"Apathy, C-Rayz Walz, Celph Titled",2/20/01,album,0,NA,316,1
+5BTVtGYK6UkaVECoeHIviO,The Order - Single,"Apathy, DJ Premier",2/12/18,album,0,NA,317,1
+6XIPbTjy7pQnbLJevULSoz,Clouds,Apollo Brown,3/1/11,album,0,NA,318,1
+5q8sGkC15mXamhYkQfmJzf,Dominance,Apollo Brown,10/16/19,album,0,NA,319,1
+54RnKLO0fFzIRHDqANLSYo,God Help Me,Apollo Brown,9/12/19,album,0,NA,320,1
+1rQ0bpuCfKnrK1xuRvVVSU,Grandeur,Apollo Brown,9/25/15,album,0,NA,321,1
+1jAowJ8NjIRzKH6YkfUBKv,"Sincerely, Detroit",Apollo Brown,10/29/19,album,0,NA,322,1
+1YxZcxHlr5TfnPPQmQ766e,The Backbone,Apollo Brown,10/1/19,album,0,NA,323,1
+0ZNZn8osTaTVHyzCCL0D3L,The Reset,Apollo Brown,5/25/10,album,0,NA,324,1
+6Ik7COKcRC1lVPRVGpmQOt,Thirty Eight,Apollo Brown,4/29/14,album,0,NA,325,1
+4W9P5P5yVhfTQQYYWW6Yjq,Daily Bread,"Apollo Brown, Hassaan Mackey",7/26/11,album,0,NA,326,1
+25Lia0Q4UWkAqIBF30QVJE,Mona Lisa,"Apollo Brown, Joell Ortiz",10/26/18,album,0,NA,327,1
+4wm203z2Hc5gpfxzJwSCqw,No Question,"Apollo Brown, Locksmith",6/15/18,album,0,NA,328,1
+7fiqvH6O6lAed1gIZWLydx,Trophies,"Apollo Brown, OC",5/1/12,album,0,NA,329,1
+5ED6vvPrAYAdM3bHDaNvKC,Anchovies,"Apollo Brown, Planet Asia",8/25/17,album,0,NA,330,1
+6PE70pAgp4DeMmv1SdI5Aa,Blasphemy,"Apollo Brown, Ras Kass",10/27/14,album,0,NA,331,1
+6DdjqZPAwnMJ7Mt1CcEvcJ,The Easy Truth,"Apollo Brown, Skyzoo",9/30/16,album,0,NA,332,1
+6K8akCaxHlpM3O3xFGh4gs,Memoria Rota,"Arcangel, Myke Towers",10/25/19,album,0,NA,333,1
+4zhCLobdIkDD9JbuRZvEAT,40 Shades of Choke,Ari Lennox,11/9/18,album,0,NA,334,1
+5E7PTNQIGLyIhcW8mWcaT9,Bound,Ari Lennox,6/15/14,album,0,NA,335,1
+1Awi1KtNoZ4ApSSb3Rh8A4,Grampa,Ari Lennox,11/9/18,album,0,NA,336,1
+5RHGz9vnR9CwKe0qfiZFHa,No One,Ari Lennox,11/13/18,album,0,NA,337,1
+3RKdtH2LKTaayLJOaFZUn2,Pedigree,Ari Lennox,11/13/18,album,0,NA,338,1
+1x6E0JYj6wKFHfZQFQCpnU,PHO,Ari Lennox,10/21/16,album,0,NA,339,1
+3hejjJbFsinMBc1KBqF71w,Shea Butter Baby,Ari Lennox,5/7/19,album,0,NA,340,1
+5ONQ9vU556JjK3i4pHvl3z,Kick in the Door,"Ari Stylez, Lil Reese",11/8/19,album,0,NA,341,1
+2XK4uYs7hinvxeKyz84IvG,Communication (feat. DRAM),Arin Ray,1/26/18,album,0,NA,342,1
+1xQBgrUtBGd8TpNycNzW3P,Phases - EP,Arin Ray,7/1/16,album,0,NA,343,1
+6VIjrQlk9cTrufxWJX8pi1,Phases II - EP,Arin Ray,12/13/19,album,0,NA,344,1
+0e8ZsVbYFyzRhHYKNOgthl,Platinum Fire (Deluxe),Arin Ray,12/14/18,album,0,NA,345,1
+0wUrWEO0xIDivjoCRQOXb6,Stressin,Arin Ray,11/24/17,album,0,NA,346,1
+2tpsr93GINWEbUAMDejyrB,We Ain't Homies (feat. YG),Arin Ray,12/7/17,album,0,NA,347,1
+5d3NsRiyUBxEwvNRK55r9F,Ashanti,Ashanti,1/1/03,album,0,NA,348,1
+3owfb8CT6L9QpVLYCRCInt,Braveheart,Ashanti,3/4/14,album,0,NA,349,1
+4vjeaWsf9UH2ecdKXAZaq2,Chapter II,Ashanti,1/1/03,album,0,NA,350,1
+3oL0vq8diYrPLGWVgjJBPD,Concrete Rose,Ashanti,1/1/04,album,0,NA,351,1
+02JhLpxLG18o2Ahk9wGpQC,Floating,Ashanti,6/28/19,album,0,NA,352,1
+23d3EfXK0OEtfOB61bBz9d,The Declaration,Ashanti,1/1/08,album,0,NA,353,1
+4EerWJngQfW8tA1Ymt5Q6b,The Vault,Ashanti,10/14/08,album,0,NA,354,1
+1IGKkQNoAGCMX65iBcGrGO,Pretty Little Thing (feat. Afro B),"Ashanti, Afro B",8/9/19,album,0,NA,355,1
+0x3rngeveWP3z5t1YrPsI3,Cravin,Asian Doll,10/30/19,album,0,NA,356,1
+6EESvuqiKpAQb0viSwEIPD,Doll Szn,Asian Doll,5/4/18,album,0,NA,357,1
+5I00OsPSjRYnx9tZl9Dj08,Drippin in Glo,Asian Doll,6/26/16,album,0,NA,358,1
+2m6CkZS0OkQReydGwjIgef,Fight Night,Asian Doll,11/13/19,album,0,NA,359,1
+1n4caHCZpJ3GRmtnSYUhUq,Fleek,Asian Doll,9/27/19,album,0,NA,360,1
+41l3fGEsqcUtXJMQRTP9Vb,Grandson,Asian Doll,1/25/19,album,0,NA,361,1
+1Ng6eipX6mRXpBxGjPiMcd,"Kill Bill, Vol. 1",Asian Doll,8/8/17,album,0,NA,362,1
+7mSM5ngI6Bk3SfnDniLI0Y,Murda,Asian Doll,2/26/18,album,0,NA,363,1
+1D7T7n2iwKoEwWUEOSm4ti,Outtaspace,Asian Doll,3/24/17,album,0,NA,364,1
+1ckPdd6rHHcSpSH2M5LFRd,Project Princess,Asian Doll,9/16/16,album,0,NA,365,1
+3MBsHP8xXMIr3VKmsy2jqy,Queen of Nightmares,Asian Doll,2/16/18,album,0,NA,366,1
+6gqeL6XeDL44TXQQR2LQz2,Rise of Barbie Doll Gang,Asian Doll,12/16/15,album,0,NA,367,1
+16KWauDKCJ5la7mpba3myN,Road Runner,Asian Doll,1/22/18,album,0,NA,368,1
+0C3Ab2AVLhhQZR9GEH2lIR,Savage Barbie,Asian Doll,1/8/18,album,0,NA,369,1
+3Auk6Wl8cYEGo8LkTA3Z6W,So Icy Princess,Asian Doll,10/17/18,album,0,NA,370,1
+0RIk2OtOehHcqkSQu5oYy0,Stank Walk,Asian Doll,11/6/19,album,0,NA,371,1
+2r2PYFAqu5DVUQwSjEXDaO,Another Day,"Astro Blacksmith, Roc Marciano",2/10/20,album,0,NA,372,1
+5oY2IweQdhYrgPkaZkqZBA,Foundations,"Aura Da Prophet, AKTHESAVIOR, Leo Dynasty",11/24/18,album,0,NA,373,1
+5LyiKwltJ9LQ0Sf4IcPrSm,Fallen Angels,Ayo & Teo,8/3/18,album,0,NA,374,1
+5RTlnMeJq58bO2gzd91Jkx,Fly N Ghetto,Ayo & Teo,12/6/19,album,0,NA,375,1
+0o1YDf0BVavle12vjoUq3R,Hold My Sauce,Ayo & Teo,4/3/18,album,0,NA,376,1
+3jwxuFg4UuQGwteKfh2dNz,In Reverse,Ayo & Teo,11/23/16,album,0,NA,377,1
+61MktaJtuyHaB824D2Dygb,Like Us,Ayo & Teo,12/22/17,album,0,NA,378,1
+262PtXCmS55BETq3OCxNrI,Lit Right Now,Ayo & Teo,3/3/17,album,0,NA,379,1
+1bHj528aZfYOKq0ve5AHMr,Rolex,Ayo & Teo,3/15/17,album,0,NA,380,1
+2LUjOhpSjPjexffPj4j7Hf,Friends (feat. B Smyth),"Ayo & Teo, B. Smyth",3/1/19,album,0,NA,381,1
+6BTVBZh7l6VSbeN4lyZChV,Ay3,"Ayo & Teo, Lil Yachty",7/27/18,album,0,NA,382,1
+2hflOvPcZy7z43E7kvz5Ct,Advanced,AzChike,1/9/20,album,0,NA,383,1
+1H1txyngH4aywPFFGA6zkz,Big Chop,AzChike,8/7/18,album,0,NA,384,1
+28Nj4xZXr12yY82TAw1HXH,Bleedem Joog,AzChike,5/31/19,album,0,NA,385,1
+3uCYmwVr2c4cNKHgT7JYj9,Burn Rubber Again (Remix),AzChike,9/22/17,album,0,NA,386,1
+5MgYdUl9zHuUXT8RZMoHxe,Fuckwaiting,AzChike,8/31/19,album,0,NA,387,1
+7gVGHmXHctg2HsAXNQSYvT,HOW,AzChike,11/5/18,album,0,NA,388,1
+1N0yjwKaicChfh8CdNkgYp,My World,AzChike,3/23/18,album,0,NA,389,1
+5vxz5EMvEQrOBnDtwes1Q8,Oouh,AzChike,6/8/19,album,0,NA,390,1
+2ZjYpns0tniNlcMewZXMey,Rich & Ratchet,AzChike,9/24/19,album,0,NA,391,1
+4l8Juixm3Qa03hVAyy0IaE,That Shit Again,AzChike,7/11/18,album,0,NA,392,1
+7KNPEGGCk7XR6vQHT1WREX,Tweakin',AzChike,12/30/18,album,0,NA,393,1
+5UnKiFLI8N4bZKDwgmqDwd,What Up,AzChike,9/13/19,album,0,NA,394,1
+04QjfQLGbcNTNVlJsBt0rH,Wicked,AzChike,11/10/17,album,0,NA,395,1
+6tBdASS1mqfqZP79LLtUPP,Yadda Mean,AzChike,12/12/19,album,0,NA,396,1
+5A3zPrZZDOChJue0oNEFOC,Strapped Up (feat. Mike Sherm and G-BO Lean),"AzChike, Mike Sherm, G-Bo Lean",2/15/19,album,0,NA,397,1
+5fkZoSOBJyj0PaDo1LUabM,1991 - EP,Azealia Banks,5/28/12,album,0,NA,398,1
+1JUUv2yMD5yYlgT0is99qk,Anna Wintour,Azealia Banks,4/6/18,album,0,NA,399,1
+1YmJl4Cm06bArz3D560pzk,Broke with Expensive Taste,Azealia Banks,11/7/14,album,0,NA,400,1
+5rgC1DdlX93D75eHrDEUeD,Chi Chi,Azealia Banks,6/5/17,album,0,NA,401,1
+0hIEe4pI69ftxZJjKTKmS1,Escapades,Azealia Banks,9/1/17,album,0,NA,402,1
+2Nj39YNwq6SDzLBM6gVumD,Fantasea,Azealia Banks,7/11/12,album,0,NA,403,1
+0INi36nylrF8xtsesStgqs,Icy Colors Change,Azealia Banks,12/20/18,album,0,NA,404,1
+2xVvFruMK1itKdhD3S6GU2,Miss Camaraderie (Bon Vivant Remix),Azealia Banks,7/28/18,album,0,NA,405,1
+68dYo0k9pGQmE0mdcPFuC3,"Movin' On Up (Coco's Song, Love Beats Rhymes)",Azealia Banks,3/9/18,album,0,NA,406,1
+3lVjsGA6BZTm0Kwn4NVWhs,Pyrex Princess,Azealia Banks,1/1/19,album,0,NA,407,1
+0rx21GnAQNPuriKQGRzBnz,Slay-Z,Azealia Banks,7/7/17,album,0,NA,408,1
+2J9zJaG929H93hFTntqVqx,The Big Big Beat,Azealia Banks,5/6/16,album,0,NA,409,1
+16wQYxd5cSUktPbV0Rfu8F,Treasure Island,Azealia Banks,7/6/18,album,0,NA,410,1
+0RqyL11UPCgfuj67lTcJlS,Count Contessa,"Azealia Banks, Lone",12/14/19,album,0,NA,411,1
+61EHnxHkXyuhkjo6jviXCM,Hands Of Time,"B-1, Large Professor",7/30/13,album,0,NA,412,1
+1dN1ve8cK5yphNJfuHVRH7,Block Movement - 100% Savage,B-Legit,10/23/12,album,0,NA,413,1
+7zHUNBWNQE8nIQVe97K260,Game Is To Be Sold,B-Legit,3/31/15,album,0,NA,414,1
+1AcsrFXIHCuuUjSAGsbmA6,Hard 2 B-legit,B-Legit,9/24/02,album,0,NA,415,1
+1anGCTnuSDAzslv9bOJ8IG,Hempin,B-Legit,9/12/00,album,0,NA,416,1
+39z5xOCIMCwssdoQ2VA1Cc,"My Prescription (feat. Taj He Spitz, Ocky Ocky & 4rAx) - Single",B-Legit,8/12/16,album,0,NA,417,1
+79nOACmtyZABVOeMjgnA1F,The Hemp Museum,B-Legit,11/24/96,album,0,NA,418,1
+6oPYNu1mcXMI08pXlkTcU0,Throwblock Muzic,B-Legit,12/4/07,album,0,NA,419,1
+3U4UBYlOU0s6mydJjpNRcJ,Tryin' To Get A Buck,B-Legit,2/28/95,album,0,NA,420,1
+6PyDDWgmawBVH4TJYC5GZb,What We Been Doin,B-Legit,4/14/15,album,0,NA,421,1
+25On6Rbe9wrPhRG177Jala,Block Movement,"B-Legit, Harm, Keak Da Sneak",10/11/05,album,0,NA,422,1
+7JaD1puH0Ux3hhOltavmy4,Reason (feat. Tizèbeatz),B-Real,5/28/17,album,0,NA,423,1
+20XJbyxSWR2X1lxHIdrN45,"The Gunslinger, Pt. II: Fist Full of Dollars",B-Real,11/4/06,album,0,NA,424,1
+5AXtqeXK2aAYcEOyIoSe8d,The Harvest: Vol.1,B-Real,9/28/10,album,0,NA,425,1
+6b1urBPah357QDQhJpGm8G,The Prescription,B-Real,2/22/18,album,0,NA,426,1
+7juIU7sRw4Oj9DpuadXILZ,B.o.B Presents: The Adventures of Bobby Ray,B.o.B,4/27/10,album,0,NA,427,1
+5GnIZcY4ceD8QpjVzSCDWz,Bob vs Bobby Ray,B.o.B,2/10/10,album,0,NA,428,1
+5Ri8SPgxaTuvweov6lcNot,Elements,B.o.B,11/4/16,album,0,NA,429,1
+3t8pnXn3PZ6ERcuwG0NBim,EPIC: Every Play Is Crucial,B.o.B,11/28/11,album,0,NA,430,1
+1UIJP9DCMMfs5aeXLWY4GO,Ether,B.o.B,5/12/17,album,0,NA,431,1
+0OPOPPWDQR7Klmi69idPt9,Fuck Em We Ball,B.o.B,11/15/12,album,0,NA,432,1
+1bkR44GsVn9O16ICnjIqO8,NAGA,B.o.B,7/5/18,album,0,NA,433,1
+3n9DHDLtEYF8r2QTHNQCva,New Black,B.o.B,11/27/14,album,0,NA,434,1
+5Z5jK6sEYSi6SqBjIHQBo8,No Genre,B.o.B,1/18/11,album,0,NA,435,1
+76cB74tvU9m5tqNOjUe6Ti,No Genre 2,B.o.B,7/9/14,album,0,NA,436,1
+5NsQCNMLdKVFF1DwOIK6wm,Psycadelik Thoughtz,B.o.B,8/14/15,album,0,NA,437,1
+49BVHeuFMHqBigkb5R0oJD,Southmatic,B.o.B,6/21/19,album,0,NA,438,1
+5JXkw4LxF9hvWECwy2Mzgy,Strange Clouds,B.o.B,4/30/12,album,0,NA,439,1
+03TCGQfaPXdwMTGSCmocOw,The Upside Down,B.o.B,2/14/18,album,0,NA,440,1
+177byugYOk12NcfRtWvghY,Underground Luxury,B.o.B,12/16/13,album,0,NA,441,1
+7zeOQq6DQjThqgRFxHbTvH,READY TO GO,"Baauer, Channel Tres, Danny Brown",12/13/19,album,0,NA,442,1
+7Cw4LObzgnVqSlkuIyywtI,DIE FOR MY BITCH,Baby Keem,7/19/19,album,0,NA,443,1
+7vI1jW5kLpHBOGXWGXD70A,FRANCE FREESTYLE,Baby Keem,7/10/19,album,0,NA,444,1
+0OF7gS9tJz9xKmU1wlAjnf,Hearts and Darts,Baby Keem,8/16/18,album,0,NA,445,1
+0nuI9g5OiBedbptGviaREF,INVENTED IT,Baby Keem,6/11/19,album,0,NA,446,1
+40MaFpdXW6K4SCThTj5rjZ,ORANGE SODA,Baby Keem,7/16/19,album,0,NA,447,1
+5lxdY4GQkCJMcvScmwRgCx,The Sound of Bad Habit,Baby Keem,10/29/18,album,0,NA,448,1
+6HuWz0GAf3vWx9jFOpqinr,"Confessions, Pt. III (feat. Colin Stetson)",BADBADNOTGOOD,9/22/17,album,0,NA,449,1
+4M2bOcS2ZF3wkxBLnSzNiY,Here & Now / Timewave Zero,BADBADNOTGOOD,4/15/16,album,0,NA,450,1
+36V8mVGat2XFeVTMIa2OhG,I Don't Know (feat. Samuel T. Herring),BADBADNOTGOOD,10/20/17,album,0,NA,451,1
+2VRbf914JFe94E5tHumySe,III,BADBADNOTGOOD,5/6/14,album,0,NA,452,1
+68HLpLmCtvFKUqwQpUCqwn,IV,BADBADNOTGOOD,7/8/16,album,0,NA,453,1
+1J3enVyckc2vOR0xOK1jZX,Late Night Tales: Badbadnotgood,BADBADNOTGOOD,7/28/17,album,0,NA,454,1
+4Rwjd7GtstDv1gEX52njI0,Lavender (Nightfall Remix),BADBADNOTGOOD,6/9/17,album,0,NA,455,1
+1fIi9h7uNWZ5iIUKaveybi,To You,BADBADNOTGOOD,5/24/17,album,0,NA,456,1
+1vc5QohObsJSLXPc4lgow3,Velvet b/w Boogie No. 69,BADBADNOTGOOD,4/7/15,album,0,NA,457,1
+7gP4vkln7Qmbycgx8WwTzL,Sour Soul,"BADBADNOTGOOD, Ghostface Killah",2/19/15,album,0,NA,458,1
+0UyNc1FaDzkzcBlLsDASJA,Key to Love (Is Understanding),"BADBADNOTGOOD, Jonah Yano, Majestics",12/6/19,album,0,NA,459,1
+514czOMCvqEWh5D3chgnY5,Tried,"BADBADNOTGOOD, Little Dragon",9/27/18,album,0,NA,460,1
+2Cbvv6vVb8UVGOoqCAd5dt,In Your Eyes (feat. Charlotte Day Wilson) [Nosaj Thing Remix],"BADBADNOTGOOD, Nosaj Thing",7/26/17,album,0,NA,461,1
+1zxkyKlgkOYdNGMu1JKeoj,Alexander Supertramp,Bangladesh,4/17/18,album,0,NA,462,1
+0q6rfsMB144D06PsVo2eJ0,Bangladesh (Reissue),Bangladesh,3/6/17,album,0,NA,463,1
+2ZtymXeZNCkeSFiWkl5QL0,Gesique,Bangladesh,11/15/19,album,0,NA,464,1
+469Geniq2dMeVKSpi2ohnJ,Piter el Infante,Bangladesh,2/27/17,album,0,NA,465,1
+04LJAlhci01lqE9blyIqWd,Trazos Aleatorios,Bangladesh,5/23/19,album,0,NA,466,1
+1TsrlLkwbeyBECKVFT3dji,Drip Like Dis (feat. Young Dolph & Lil Baby) [Remix],"Bankroll Freddie, Young Dolph, Lil Baby",10/23/19,album,0,NA,467,1
+0lDw0mH0PbzeiFR4kTnwSc,Running Round,"Bankroll Ziggy, Anthony Hamilton, Tierra",2/27/19,album,0,NA,468,1
+7w2Y5YbuQvAmNVljt9bwwF,Don't Front,Bas,3/22/17,album,0,NA,469,1
+4J416xiwBmvAJA5lpFICNE,Housewives (Remix),Bas,7/15/16,album,0,NA,470,1
+1YIaRjeZ3mKQ54tjxXCWr8,Last Winter,Bas,4/29/14,album,0,NA,471,1
+6sDQacCej53Q43vZF9PJ8i,Milky Way,Bas,8/24/18,album,0,NA,472,1
+4qcBL5pE5hQPzcx0IoO9Y2,Pinball II (feat. Correy C),Bas,4/10/18,album,0,NA,473,1
+5L0fqBCRKpkOHDNiwTgJbZ,Spilled Milk 1,Bas,8/9/19,album,0,NA,474,1
+0djZBLLoZgWveXvSGQ6AHI,Too High To Riot,Bas,1/16/16,album,0,NA,475,1
+7jcxfCuUcDMLrJwqMHPXMp,alive,Bass Santana,11/7/19,album,0,NA,476,1
+4OzyNFAfb9fZsa0OW6lL99,Before My Death,Bass Santana,5/14/18,album,0,NA,477,1
+7BE9dvKRV8Eimv3dTBPosb,Before the Mosh,Bass Santana,4/27/18,album,0,NA,478,1
+2svfraY0Cu8KwKMekHGJAY,Cheat Codes (feat. Ski Mask the Slump God & Lxui Savage),Bass Santana,4/28/17,album,0,NA,479,1
+2xTmTA90IcCGMHkPRCNNYr,E-Pill (Vibe off a Pill),Bass Santana,2/19/18,album,0,NA,480,1
+1xP1cIqcw94GMckK7pSmeU,Fuck Victoria (Long Live Jah),Bass Santana,10/19/18,album,0,NA,481,1
+20vUuPFQsrkVR4vrEKmkK1,I Don't Trust Shit,Bass Santana,10/29/17,album,0,NA,482,1
+0nA4rq4pGN54XrRimEkC83,I Hit These Licks for You Momma (feat. Yoshi Thompkins),Bass Santana,3/6/18,album,0,NA,483,1
+73rPo0w0Tf6T07XJWs4nGW,I Need More Drugs (feat. Ski Mask the Slump God),Bass Santana,7/20/17,album,0,NA,484,1
+5EQh1es0kyLo7KuzfXbPSm,Lowe Sound,Bass Santana,5/26/18,album,0,NA,485,1
+2XldPHjgIcE5V2F9lPhrlz,Mix It,Bass Santana,7/13/17,album,0,NA,486,1
+3ByH0tkyiuJMjAAbn91Zfc,Obeah Child,Bass Santana,12/6/18,album,0,NA,487,1
+4KkKGcSAW2m4KZBsuPUlDm,That Thought,Bass Santana,3/6/18,album,0,NA,488,1
+5wjg7084iv0GNfUq9tnJfT,B Boy - Single,Beanie Sigel,5/27/11,album,0,NA,489,1
+1ezskdZl9d8JFXKdPTlPER,Gang Gang,Beanie Sigel,10/10/16,album,0,NA,490,1
+3utwuMXUo8pGtPEMptEcll,Im Coming,Beanie Sigel,10/7/16,album,0,NA,491,1
+2zwzNrZ3QMsgJsbs2a9tWm,Still Public Enemy,Beanie Sigel,11/22/19,album,0,NA,492,1
+5fNLE7ImR4orvJ3u6Utsy7,The B.Coming,Beanie Sigel,3/29/05,album,0,NA,493,1
+4qoWa4ivUbi1GMVfKZGhGy,The Broad Street Bully,Beanie Sigel,9/1/09,album,0,NA,494,1
+2O2K34hjyvLqWpG5wyaszl,The Reason,Beanie Sigel,1/1/01,album,0,NA,495,1
+1wgeyjcqLbR0PPgtGwm2mL,The Solution,Beanie Sigel,1/1/07,album,0,NA,496,1
+0slPxDjRJWa1e3qVkccDwf,The Truth,Beanie Sigel,1/1/00,album,0,NA,497,1
+3sTQotlrTlnDD0LcXrJoFK,This Time,Beanie Sigel,8/28/12,album,0,NA,498,1
+5I1c3G8916NWH3i4dCVznv,Untagged,Beanie Sigel,4/1/16,album,0,NA,499,1
+5xEUexoahLuSLKaEFcFvxb,The Roc Boys,"Beanie Sigel, Freeway",3/9/10,album,0,NA,500,1
+2OhOCwQ5BwevcDKtS92zVJ,Loyalty & Deceit,"Beanie Sigel, Juma",11/13/19,album,0,NA,501,1
+0yyfMnEimm0MScqfGFnyT8,"Coast/Clear (feat. Joey Bada$$, Flatbush Zombies, Kirk Knight, Nyck Caution & Issa Gold)","Beast Coast, Joey Bada$$, Flatbush Zombies",4/12/19,album,0,NA,502,1
+1NPxBmG3k3UzybcaxxSVuB,Escape From New York,"Beast Coast, Joey Bada$$, Flatbush Zombies",5/24/19,album,0,NA,503,1
+0Qhvo7PjCncdnXDtwfdHSL,"Left Hand (feat. Joey Bada$$, Flatbush Zombies, The Underachievers, Kirk Knight, Nyck Caution, CJ Fly)","Beast Coast, Joey Bada$$, Flatbush Zombies",3/11/19,album,0,NA,504,1
+3bzhpZsDbqxQ1qknXNjo90,"Snow In The Stadium (feat. Erick The Architect, Joey Bada$$, Meechy Darko, Kirk Knight, CJ Fly & Issa Gold)","Beast Coast, Joey Bada$$, Flatbush Zombies",5/22/19,album,0,NA,505,1
+6SlaNq4qajGv6GMPOdwEcz,"Underground Cassette Tape Music, Vol. 1","Beatking, Gangsta Boo",9/24/14,album,0,NA,506,1
+6jsM6GfDq8qYFw1FKCia65,"Underground Cassette Tape Music, Vol. 2","Beatking, Gangsta Boo",10/5/18,album,0,NA,507,1
+6fxawKCOVXQ9cfLrB62KWt,Money on My Mind,"Bee Boie, MBNel, Glasses Malone",4/29/19,album,0,NA,508,1
+1LQCzEUoXIGLH9qLfsV7Ur,I Found You / Nildas Story (with Calvin Harris & Miguel),"benny blanco, Calvin Harris, Miguel",1/4/19,album,0,NA,509,1
+0289KRg78G6kSjE9tx9sqE,Better To Lie (with Jesse & Swae Lee),"benny blanco, Jesse, Swae Lee",11/30/18,album,0,NA,510,1
+669dgT2kmrAMrrPaEEHWyE,Graduation (with Juice WRLD),"benny blanco, Juice WRLD",8/30/19,album,0,NA,511,1
+1L5crFW0oLBfmg007gKzxx,Roses (with Juice WRLD feat. Brendon Urie),"benny blanco, Juice WRLD",12/5/18,album,0,NA,512,1
+36RT4BDwNpYWcFdbrYgPx8,1 on a 1,Benny The Butcher,3/8/16,album,0,NA,513,1
+2WCNnYkTQJkTbesYjJYcEk,17 Bullets,Benny The Butcher,12/26/16,album,0,NA,514,1
+4saq5bJoWzwRwlUspDeHXW,18 Wheeler (feat. Pusha T),Benny The Butcher,6/14/19,album,0,NA,515,1
+1fgOzaKi4ZPaGewuAUIacd,A Friend of Ours,Benny The Butcher,6/1/18,album,0,NA,516,1
+0IPkm0xx6Ka7b6vGJJD9Xk,My First Brick,Benny The Butcher,10/8/16,album,0,NA,517,1
+5OsHMGOg6lRV9REoVxbcWA,Tana Talk 3,Benny The Butcher,11/23/18,album,0,NA,518,1
+5So31JibrTO74WvuCozsAb,The Plugs I Met,Benny The Butcher,6/21/19,album,0,NA,519,1
+5hI0Jt4wc3UMIc7WdbCDwu,The Ghost,"Benny The Butcher, Cuns",1/30/17,album,0,NA,520,1
+67AUlGBCiZACO0eBVtEwys,Butcher on Steroids,"Benny The Butcher, DJ Green Lantern",11/27/17,album,0,NA,521,1
+3SzZ1U5ozmJS9rAMD2SpB2,Atterstone (Sir Michael Rocks Remix),"Beretta Biz, Sir Michael Rocks",5/28/18,album,0,NA,522,1
+1IKRUPUhqAIxBR1MipQvv0,Prohibition,"Berner, B-Real",10/14/14,album,0,NA,523,1
+4cW7qcgvgPwbt3Z93CsC4h,Prohibition Part 2,"Berner, B-Real",4/17/15,album,0,NA,524,1
+6InzdcelNU3urf6CgnXCph,"Prohibition, Pt. 3","Berner, B-Real",11/10/16,album,0,NA,525,1
+4eDVyFZHkntC1JLCGVCU1E,Pheno Grigio,"Berner, Curren$y",7/7/19,album,0,NA,526,1
+7Cfjw6HcbDTyYkSVmKM4gN,Slimey Individualz,"Berner, Mozzy",2/13/19,album,0,NA,527,1
+6IDxckzvaMiomiYX0Fw2Jd,Vibes,"Berner, Styles P",6/23/17,album,0,NA,528,1
+0PIe3RuCIe6MKqQMhi7L7R,Tracking Numbers,"Berner, Young Dolph",8/24/17,album,0,NA,529,1
+1bSZC7FhWg3FShT0Ce95mz,Nightslayer,"BEXEY, Lil Peep",9/28/17,album,0,NA,530,1
+1gIC63gC3B7o7FfpPACZQJ,4,Beyonce,6/24/11,album,0,NA,531,1
+7sJrStyxsdgeQOUlBszizA,Above And Beyonce Dance Mixes,Beyonce,6/16/09,album,0,NA,532,1
+0Zd10MKN5j9KwUST0TdBBB,B'Day Deluxe Edition,Beyonce,5/29/07,album,0,NA,533,1
+2UJwKSBUz6rtW4QLK74kQu,BEYONCE [Platinum Edition],Beyonce,11/24/14,album,0,NA,534,1
+1JSCfr9YFx7SAP8sAYS5vx,Crazy In Love (Remix),Beyonce,9/4/15,album,0,NA,535,1
+7vmngE1EExuJ0wpdRescsX,Daddy Lessons,Beyonce,11/20/16,album,0,NA,536,1
+6oxVabMIqCMJRYN1GqR3Vf,Dangerously In Love,Beyonce,6/24/03,album,0,NA,537,1
+23Y5wdyP5byMFktZf8AcWU,I AM...SASHA FIERCE,Beyonce,11/14/08,album,0,NA,538,1
+7dK54iZuOxXFarGhXwEXfF,Lemonade,Beyonce,4/23/16,album,0,NA,539,1
+552zi1M53PQAX5OH4FIdTx,The Lion King: The Gift,Beyonce,7/19/19,album,0,NA,540,1
+4MPlsVxzNfag41woKvMm9m,Big Boi Presents... Got Purp? Vol. 2,Big Boi,1/1/05,album,0,NA,541,1
+3bz7IESLFs1QzjuMmyGKwl,Big Boi Presents Got Purp?,Big Boi,1/1/05,album,0,NA,542,1
+6QYvXMy5cCaY4ixowAb5sw,BOOMIVERSE,Big Boi,6/16/17,album,0,NA,543,1
+4IeT54PIO60A4gav8poCIL,Doin' It,Big Boi,2/1/19,album,0,NA,544,1
+40qvYxSmDmWgk5kU1mPSqx,Gossip,Big Boi,1/1/12,album,0,NA,545,1
+5DT8obd5MbPZrfoYh7HKQl,"My City (feat. Dub Go Diesel, B-Eazy, 834, Street Gov & Kae Wun)",Big Boi,9/12/15,album,0,NA,546,1
+2pxdLt5dNwBB9ISVtw8834,She Said OK,Big Boi,1/1/12,album,0,NA,547,1
+1dkvQiAwd1ONpvxAHzLPKl,Sir Lucious Left Foot...The Son Of Chico Dusty (Deluxe),Big Boi,1/1/10,album,0,NA,548,1
+03L5vIoDkCn0STNBAwTDEF,Vicious Lies and Dangerous Rumors (Deluxe),Big Boi,1/1/12,album,0,NA,549,1
+2DQrf2mY8CCADDfhU0jPK7,Intentions,"Big Boi, Sleepy Brown, Steve Aoki",11/1/19,album,0,NA,550,1
+1h2QcIKbXb9rLuvTuBEOFh,Big Havin',"Big Cuz, Skippa Da Flippa",2/14/19,album,0,NA,551,1
+25VaqNOXtA8pSbynsgfRfc,Ain't No Half-Steppin',Big Daddy Kane,5/12/18,album,0,NA,552,1
+3V0PGl4zCsORyvSprKKC9x,Daddy's Home,Big Daddy Kane,1/1/94,album,0,NA,553,1
+1cvyT4p26JXJicEBbHPzvX,It's A Big Daddy Thing,Big Daddy Kane,1989,album,0,NA,554,1
+5STvD2F7IQ51f4Cd2y5r3z,Long Live The Kane,Big Daddy Kane,1988,album,0,NA,555,1
+0WpSwxcB37PBzS9a9U2UNQ,Looks Like A Job For...,Big Daddy Kane,1993,album,0,NA,556,1
+4bvJHcyBaOeyMqDKcU262C,Prince Of Darkness,Big Daddy Kane,10/29/91,album,0,NA,557,1
+1cr09OfD3IcHGTJ2pKiYQh,Raw (Edit) / Word to the Mother (Land) [45 Version],Big Daddy Kane,1/1/87,album,0,NA,558,1
+6XGoYlrWGfewVEIpZdTQoJ,Taste Of Chocolate,Big Daddy Kane,1990,album,0,NA,559,1
+5cBhomM98xkgQjqFtL78Cb,Veteranz Day,Big Daddy Kane,4/28/98,album,0,NA,560,1
+1PeXknmGhJofzQoq93qNZ1,Beautiful Lover,Big Gipp,2/26/15,album,0,NA,561,1
+3EKhJkvoW6zHcIK8n7MSjq,Gotta Have That (J. Wells Mix),Big Gipp,2009,album,0,NA,562,1
+6qkhjkOb80WDrhY00Swboq,Mutant Mindframe,Big Gipp,8/12/03,album,0,NA,563,1
+6k1rLhalEtzsH2f4TtD9M4,Shine Like Gold,Big Gipp,7/14/14,album,0,NA,564,1
+6lOU9yalba3n1AOJOIvi53,Tequila Blow,Big Gipp,3/3/19,album,0,NA,565,1
+3N8HQYTE7YvNgPIdkt6vJv,1999 (feat. Lloyd),"Big K.R.I.T., Lloyd",10/26/17,album,0,NA,566,1
+3o8M7hyhsPYvVePJExPbDD,100% (KANE),Big Kuntry King,8/10/18,album,0,NA,567,1
+4LsXVargLopKXKenFgrxA5,99 Problems,Big Kuntry King,7/9/19,album,0,NA,568,1
+4ggHysJ3bFLquc62xrg3Sd,Blu Paypa,Big Kuntry King,2/22/19,album,0,NA,569,1
+6p27Xp197Aj8MSCa7PmAMB,Bosses,Big Kuntry King,5/26/17,album,0,NA,570,1
+6I0ZFTpanNeR7L61P6w7kn,Cocaine Kuntry: The Underboss,Big Kuntry King,6/17/08,album,0,NA,571,1
+2JjHlnQQxvPKb4Ime58dpL,Git Dem Racks,Big Kuntry King,10/3/18,album,0,NA,572,1
+5GOM4QfU6wpstWzyJn9IqK,Juvenile (feat. Shad Da God),Big Kuntry King,7/12/19,album,0,NA,573,1
+6bhrNmiAdNGNeZ5g5JQi8v,My Turn To Eat,Big Kuntry King,9/30/08,album,0,NA,574,1
+1iwShrqtOrmYKmbH8eUZEv,Perignon Don,Big Kuntry King,8/11/17,album,0,NA,575,1
+1iv8i6qrcfZm8bpVnNtAtD,Purple & Gold,Big Kuntry King,7/16/19,album,0,NA,576,1
+0kJjhlnnVofeh1p98pF7yB,Rappers,Big Kuntry King,3/2/18,album,0,NA,577,1
+1Mo8oVSMj1g1B74C7Q47oc,Running Up a Check (feat. Mac Boney),Big Kuntry King,6/7/19,album,0,NA,578,1
+1Lg9tpPswNQue4XfdYoIHI,Sack (feat. Mac Boney),Big Kuntry King,6/7/19,album,0,NA,579,1
+1rIFR4dIQxF6624zfufDGd,Stank Hoe (feat. 1247 Swift),Big Kuntry King,2/22/19,album,0,NA,580,1
+0myA2dOdQxFxRgtREAwq1a,Trap Atlanta,Big Kuntry King,4/12/19,album,0,NA,581,1
+7eGvt6iWWrTplW8shH7oDT,Trap Mode (feat. Young Dolph),Big Kuntry King,11/6/15,album,0,NA,582,1
+6TEl4Bu65Tefp1NJSTIvnN,Uzi in da Vert,Big Kuntry King,11/18/17,album,0,NA,583,1
+4LPIlt9x0qV54IxYIAM5xk,Hermes,"Big Lean, Giggs",3/2/18,album,0,NA,584,1
+1eQQZ2H0NZHnGKWapZJsb0,All Out (feat. Phil The Agony & Krondon) - EP,Big Noyd,11/4/08,album,0,NA,585,1
+3eYH0HYBL7itgwZu3JPazS,Episodes Of a Hustla,Big Noyd,9/16/96,album,0,NA,586,1
+1z1A4RMpyG6ca2mCbYGKDI,Illustrious,Big Noyd,1/22/08,album,0,NA,587,1
+4Qks6yTLdNoYFoHqYqhd4G,On The Grind,Big Noyd,1/25/05,album,0,NA,588,1
+0lK9gDM71qjGh2DgsMTLeU,Only The Strong,Big Noyd,9/23/03,album,0,NA,589,1
+24CaIkr4WET8ydYO0sNaDb,Queens Chronicle,Big Noyd,1/19/10,album,0,NA,590,1
+1tR9mZgx9dcThaqZjEZvvP,So Much Trouble,Big Noyd,1/8/08,album,0,NA,591,1
+7fmSLKz52AhXN7frqGw05j,Street Kings,Big Noyd,9/23/08,album,0,NA,592,1
+3SDjDJG0m6RtYQLgwecZxO,The Stick Up Kid,Big Noyd,8/22/06,album,0,NA,593,1
+2elaskxoWkPqgxzsyGhcWF,Bronx Legends Never Die,Big Pun,1/13/15,album,0,NA,594,1
+3IIHk2ZLXKWuVAjCbQ9g4Y,Capital Punishment (Explicit Version),Big Pun,8/28/99,album,0,NA,595,1
+4Dj07YyIWIvo3dUYinvqvR,Endangered Species,Big Pun,4/3/01,album,0,NA,596,1
+39GhNF5p6t8WGryJBspqKi,I'm Not a Player EP,Big Pun,1997,album,0,NA,597,1
+4rfCjDwFylE5gM2Wj6xAEf,Still Not a Player EP,Big Pun,2000,album,0,NA,598,1
+48Ns1gQtKQTsYOWjHsgtFt,The Dream Shatterer EP,Big Pun,11/9/18,album,0,NA,599,1
+2jGHEcn66aPd1I3qSSeY31,Twinz (Deep Cover '98) [feat. Fat Joe] EP,Big Pun,1998,album,0,NA,600,1
+01JWpBPHWbZDogf4rmXBmF,Yeah Baby,Big Pun,4/3/00,album,0,NA,601,1
+4qNrTmcjKVamTio0toVy48,Broken Mirror (feat. BoneFace),Big Rube,9/10/16,album,0,NA,602,1
+4Nlbt2EuXedr6UqaeXEI4c,Dark Sky Paradise (Deluxe),Big Sean,2/24/15,album,0,NA,603,1
+19DGkH750PrQMMnKqBAxfY,Finally Famous (Deluxe),Big Sean,1/1/11,album,0,NA,604,1
+5RlT8X7XGGLKUhoimrDl54,Hall Of Fame (Deluxe),Big Sean,1/1/13,album,0,NA,605,1
+0XAIjjN5qxViVS0Y5fYkar,I Decided.,Big Sean,2/3/17,album,0,NA,606,1
+7JnRw2TyqBA2qEXGZZ5Za5,Overtime,Big Sean,7/24/19,album,0,NA,607,1
+0AIFISfeloajgVP5fB9ulV,Single Again,Big Sean,7/26/19,album,0,NA,608,1
+6UgZHNJFfmKLSGLuW9T114,Bezerk,"Big Sean, Hit-Boy, A$AP Ferg",8/26/19,album,0,NA,609,1
+0llyIxX3nDC3hobbGibVZl,Double Or Nothing (& Metro Boomin),"Big Sean, Metro Boomin",12/8/17,album,0,NA,610,1
+5sAMmOXr23KOxs2wwNp6xN,Pull Up N Wreck (With Metro Boomin),"Big Sean, Metro Boomin",11/3/17,album,0,NA,611,1
+4PvcWGUVq3bmxNcEouNOb6,Big Syke Daddy,Big Syke,9/25/01,album,0,NA,612,1
+5RTogyFljAPChSga92xW02,Nobody Do It Better (Feat. Knoc Turn'Al),Big Syke,1/31/12,album,0,NA,613,1
+2HGQ4Swv2hR8OaYVQb1JIX,Slide,Big Syke,5/7/12,album,0,NA,614,1
+2OoRSJ5w5w8XH1Y5b9bZRm,Street Commando,Big Syke,5/21/02,album,0,NA,615,1
+4jwT6wtj06Ax9xbfb717CK,X - Single,Big Syke,5/21/12,album,0,NA,616,1
+2KbNwn0VlnKDuMSot7uubP,Mr. Houston pt. 2,"Bigga Rankin, Trae Tha Truth",5/6/15,album,0,NA,617,1
+6n09PKuOUkvyOmX9U3uO77,1st Born Second,Bilal,1/1/01,album,0,NA,618,1
+3Ec0HjjpCHnAPzGnRcN4LL,A Love Surreal,Bilal,2/26/13,album,0,NA,619,1
+5BP6rxVKYIUCXR7hTR2t0W,Airtight's Revenge,Bilal,9/14/10,album,0,NA,620,1
+26cJEmjvdq05s3HLeqXeHQ,Back To Love,Bilal,12/11/12,album,0,NA,621,1
+6InQseLVCMxyyoC7a6Y1mq,In Another Life,Bilal,6/30/15,album,0,NA,622,1
+75gptcSUkVgRm5LKtB3sM0,Levels E.P.,Bilal,1/18/11,album,0,NA,623,1
+6CqXAqKWLINQ1sLZ8LTIOn,Pleasure Toy (feat. BIG K.R.I.T.),Bilal,6/16/15,album,0,NA,624,1
+2KC9QuTUzaGZPlpZsuiNqe,Restart,Bilal,8/17/10,album,0,NA,625,1
+2fi9wg1TL5aEu9eodoJz53,Robots - Remixes,Bilal,5/3/11,album,0,NA,626,1
+7D6A2qfXNxzZkkqzMvqPgM,Satellites,Bilal,5/19/15,album,0,NA,627,1
+4h17oeKCAoQ8eKT63ndBFl,My Slime,"Billionaire Burke, Gunna",11/23/18,album,0,NA,628,1
+5iH2L1x8yekLPBNruY4rT6,36 Reasons,Billy Blue,5/27/09,album,0,NA,629,1
+5RQZACKXBQ25DGs5f8DLyE,Ball Fa Eva,Billy Blue,3/29/19,album,0,NA,630,1
+3q2GzbSBQL3BYZHr8YfRjy,Ball Like A Dog,Billy Blue,5/25/08,album,0,NA,631,1
+1pLqLnGzE9bsm6vIS7t0Ht,Blumanatti,Billy Blue,7/29/13,album,0,NA,632,1
+5hIqxRDrwMMX48jpkkIqVU,Cocaine Whippin',Billy Blue,3/30/18,album,0,NA,633,1
+1lt2fG8RwS6YTQ9xYsap55,Fundamentals,Billy Blue,6/24/16,album,0,NA,634,1
+2dqBJX3Br7Jla6e6unlZL5,I'm Just Me,Billy Blue,7/24/09,album,0,NA,635,1
+1UbxvxH35nB45dfVq7Qlea,Revelations,Billy Blue,4/24/17,album,0,NA,636,1
+5ZFhoS5e4gYwcGM9BK2SQo,RN24,Billy Blue,7/29/13,album,0,NA,637,1
+1VxCOIU21Et5SZjjgjzGR0,Wake N Bake 2,Billy Blue,4/22/19,album,0,NA,638,1
+7iaLxi4wMAF7Z6WfqjJzBB,When U Hood U Good,Billy Blue,1/1/10,album,0,NA,639,1
+3DcyqniqhsuSuIbCgPndA9,Chasin After Money,"Billy Danze, Styles P, Havoc",5/23/17,album,0,NA,640,1
+1r7w42IgRTrBtFG5atqDud,No Pressure,"Bino Rideaux, Nipsey Hussle",12/17/17,album,0,NA,641,1
+6oJupyIaAOMlJHxVn05mBH,5 * Stunna,Birdman,1/1/07,album,0,NA,642,1
+3X4jBND37w3MKuiL2MOWfl,Cap Talk,Birdman,4/26/19,album,0,NA,643,1
+113yDW9d37HlX66p54X6nA,Fast Money,Birdman,2005,album,0,NA,644,1
+6dps72Yl8gaQq627hhjzyI,Pricele$$ (Deluxe),Birdman,1/1/09,album,0,NA,645,1
+5iUvjdmu8ytncnsDyBZFEm,Lost At Sea,"Birdman, Jacquees",6/3/16,album,0,NA,646,1
+5uOz2zcMuMT8FecNBR0CKh,Lost At Sea 2,"Birdman, Jacquees",11/16/18,album,0,NA,647,1
+641BPHdzKh47FfiaN7yHJB,Broke,"Birdman, Juvenile",3/28/19,album,0,NA,648,1
+7Edzq93fVoyTCmKu3xSQxk,Just Another Gangsta,"Birdman, Juvenile",3/29/19,album,0,NA,649,1
+3TrslkJubBECwpiNdZWoMl,Ride Dat,"Birdman, Juvenile",8/29/19,album,0,NA,650,1
+3DLSu5fxSIaG7Ph8G5YVBp,Like Father Like Son,"Birdman, Lil Wayne",1/1/06,album,0,NA,651,1
+30LZfuKKBH9P3BNMd7OwiX,Caltroit,Bishop Lamont,4/20/18,album,0,NA,652,1
+0K9sluX7j5TE6rMMin5www,Nigger Noize,Bishop Lamont,4/20/18,album,0,NA,653,1
+4TvmNzCRYLapSnbt0eHIn7,Pope Mobile,Bishop Lamont,4/20/18,album,0,NA,654,1
+2zZlma72H58nmlRFmg4IJe,"Team America, Fuck Yeah Special Forces",Bishop Lamont,4/20/18,album,0,NA,655,1
+7EaNKzt49l4zikE0vxWQTr,The Confessional,Bishop Lamont,4/20/18,album,0,NA,656,1
+00ZERUNygx4f6cjJyHTO2S,The Layover,Bishop Lamont,4/20/18,album,0,NA,657,1
+0LelzQVuIsprK3gCeH2ISo,The Preformation,Bishop Lamont,4/20/18,album,0,NA,658,1
+3ES58Bt9uLMXheOnMp6LTT,The Reformation: G.D.N.I.A.F.T,Bishop Lamont,5/25/18,album,0,NA,659,1
+70iJRyqUlOawpoxmRiACwU,The Shawshank Redemption- Angola 3,Bishop Lamont,4/20/18,album,0,NA,660,1
+74rdVp6806E3etjt6HBbmF,Un-American,Bishop Lamont,4/16/18,album,0,NA,661,1
+35mM2j2PKc0zbsa5XH6umd,Bossed Up,Bishop Nehru,10/1/19,album,0,NA,662,1
+3XCPvtIY6KBt4EJYGqPxBI,Dreams Beat Screams,Bishop Nehru,9/17/19,album,0,NA,663,1
+6Vy4IwMH5C24rOVEcSSqhH,ELEVATORS: Act I & II,Bishop Nehru,3/16/18,album,0,NA,664,1
+16XdCAJyLjOToXIe20aKO8,Emperor Nehru's New Groove,Bishop Nehru,12/15/17,album,0,NA,665,1
+4X3f5AgconGAw5wlvJ7zDi,Everything,Bishop Nehru,12/20/19,album,0,NA,666,1
+5uoRgCo4FeEAaMJVVfZZ4Z,He Got Game,Bishop Nehru,12/3/19,album,0,NA,667,1
+5GIGT9vUvzaMLELe2rtMUe,I Miss,Bishop Nehru,9/24/19,album,0,NA,668,1
+0FqTLoqC6vL7M34wMlaHpG,In My Zone,Bishop Nehru,9/6/19,album,0,NA,669,1
+2lZZsLGZfXbALONk2XvX3Y,Kult Life Freestyle,Bishop Nehru,11/25/19,album,0,NA,670,1
+026KrZ5sMOpeNdIhDgZmNf,MAGIC:19,Bishop Nehru,6/3/16,album,0,NA,671,1
+0sIq4x7QPDLbdcAvEVL7Ii,Me & My Thoughts,Bishop Nehru,10/16/19,album,0,NA,672,1
+2g1tDzsS4jz7cYCs1xKjoR,Nehruvia,Bishop Nehru,11/13/12,album,0,NA,673,1
+6944ph7zTwi3Lx8uLJylgq,Nehruvia: The Nehruvian,Bishop Nehru,5/8/15,album,0,NA,674,1
+41RblghA1xKNOys3K8uI6I,Roam4AHome.,Bishop Nehru,9/3/19,album,0,NA,675,1
+00Nv4NtYhwIqsMbCelgJrV,strictlyFLOWz,Bishop Nehru,7/16/13,album,0,NA,676,1
+7lZWuo8TFgz5ty8PEWa6SO,1123,BJ The Chicago Kid,7/26/19,album,0,NA,677,1
