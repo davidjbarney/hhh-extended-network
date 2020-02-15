@@ -33,7 +33,7 @@ Now we're ready to pull data from Spotify. To keep things reasonable, we'll scra
 **Note**: `../1_input_data/r_hiphopheads_overposted.csv` was pulled on 2019-03-31, and is likely to have been updated since.
 
 ## Initial Data
-```{r Load data, eval=TRUE}
+```{r Load data, eval=FALSE}
 hhhe <- read_csv("../1_input_data/Reddit/r_hiphopheads_overposted.csv")
 hhhe_artists <- unique(hhhe$Artist)
 ```
@@ -146,7 +146,7 @@ rm(albums_df_2)
 ```
 
 #### Clean Extended Albums
-```{r Read in manually cleaned albums, eval=TRUE}
+```{r Read in manually cleaned albums, eval=FALSE}
 albums_df_2 <- read_csv("../1_input_data/Spotify/albums_extended_tagged.csv")
 
 albums_df_2$remove <- replace_na(albums_df_2$remove,0)
@@ -156,7 +156,7 @@ albums_df_2 <- albums_df_2 %>%
 ```
 
 ### Extended Track Data
-```{r Split extended albums dataframe into smaller chunks for manageable queries, eval=TRUE}
+```{r Split extended albums dataframe into smaller chunks for manageable queries, eval=FALSE}
 #albums_df_extended <- read_csv("../1_input_data/Spotify/albums_extended.csv") 
 
 albums_df_extended <- albums_df_2 %>%
@@ -318,27 +318,85 @@ rm(list=ls())
 ```
 
 # Initial Aggregation
-
-```{r Bind all data together, eval=TRUE}
+```{r Read input data, eval=TRUE}
+# Artists
 artists_df <- read_csv("../1_input_data/Spotify/artists.csv")
+artists_extended_df <- read_csv("../1_input_data/Spotify/artists_extended_tagged.csv")
+
+# Albums
 albums_df <- read_csv("../1_input_data/Spotify/albums.csv")
+albums_extended_df <- read_csv("../1_input_data/Spotify/albums_extended_tagged.csv")
+
+# Tracks
 tracks_df <- read_csv("../1_input_data/Spotify/tracks.csv")
+ext_track_files <- list.files("../1_input_data/Spotify/temp_output/")
+ext_track_names <- gsub(".csv", "", ext_track_files)
+
+for (i in 1:length(list.files("../1_input_data/Spotify/temp_output/"))){
+  temp <- read_csv(paste0("../1_input_data/Spotify/temp_output/",ext_track_files[i]))
+  assign(ext_track_names[i], temp)
+}
+
 
 #artists_df_combined <- bind_rows(artists_df, artists_df_2)
 #albums_df_combined <- bind_rows(albums_df, albums_df_2)
 
 
-tidy_tracks <- all_tracklists_with_features_nested %>%
-  left_join(albums_df, by = "album_name") %>%
-  left_join(artists_df, by = "artist_name")
-
-write_csv(tidy_tracks, "../1_input_data/tidy_tracks.csv")
+# tidy_tracks <- all_tracklists_with_features_nested %>%
+#   left_join(albums_df, by = "album_name") %>%
+#   left_join(artists_df, by = "artist_name")
+# 
+# write_csv(tidy_tracks, "../1_input_data/tidy_tracks.csv")
 
 # tracks_df <- tracks_df %>%
 #   group_by(artist_name) %>%
 #   distinct(track_name, .keep_all = TRUE) %>%
 #   ungroup()
 ```
+
+```{r Bind input data, eval=TRUE}
+artists_combined <- bind_rows(artists_df, artists_extended_df)
+albums_combined <- bind_rows(albums_df, albums_extended_df)
+tracks_combined <- bind_rows(tracks_df, tracks_extended_1, tracks_extended_2,
+                             tracks_extended_3, tracks_extended_4, tracks_extended_5,
+                             tracks_extended_6, tracks_extended_7, tracks_extended_8,
+                             tracks_extended_9, tracks_extended_10)
+
+rm(artists_df, artists_extended_df, albums_df, albums_extended_df, 
+   tracks_df, tracks_extended_1, tracks_extended_2, tracks_extended_3, 
+   tracks_extended_4, tracks_extended_5, tracks_extended_6, tracks_extended_7, 
+   tracks_extended_8, tracks_extended_9, tracks_extended_10, temp)
+```
+
+```{r Filter combined data to remove duplicates}
+artists_combined$remove <- replace_na(artists_combined$remove, 0)
+albums_combined$remove <- replace_na(albums_combined$remove, 0)
+tracks_combined$remove <- replace_na(tracks_combined$remove, 0)
+
+
+artists_combined <- artists_combined %>%
+ filter(remove == 0)
+
+albums_combined_test <- albums_combined %>%
+  filter(remove == 0) %>%
+  group_by(artist) %>%
+  distinct()
+
+tracks_combined <- tracks_combined %>%
+ filter(remove == 0)
+```
+
+```{r Join into tidy dataset}
+hhh_df <- tracks_combined %>%
+  left_join(albums_combined, by = "album_name") %>%
+  mutate(feature = track_artists,
+         feature = pmap_chr(list(feature, artist), str_remove),
+         feature = str_remove(feature, "^,"),
+         feature = trimws(feature, which = "both"))
+         
+write_csv(hhh_df, "../3_dataset/hhh_df.csv")
+```
+
 
 # Reproducability
 ```{r}
