@@ -216,7 +216,7 @@ tracks_df_3$track_artists <- str_replace(string = tracks_df_3$track_artists,
 write_csv(tracks_df_3, "../1_data/Spotify/temp_output/tracks_extended_3.csv")
 ```
 
-```{r 4 of 10: Extended Spotify album tracks}
+```{r 4 of 10: Extended Spotify album tracks, eval=FALSE}
 tracks_df_4 <- query_tracks_flat(albums_df_extended_4$album_uri, albums_df_extended_4$album_name)
 
 tracks_df_4 <- tracks_df_4 %>%
@@ -230,7 +230,7 @@ tracks_df_4$track_artists <- str_replace(string = tracks_df_4$track_artists,
 write_csv(tracks_df_4, "../1_data/Spotify/temp_output/tracks_extended_4.csv")
 ```
 
-```{r 5 of 10: Extended Spotify album tracks}
+```{r 5 of 10: Extended Spotify album tracks, eval=FALSE}
 tracks_df_5 <- query_tracks_flat(albums_df_extended_5$album_uri, albums_df_extended_5$album_name)
 
 tracks_df_5 <- tracks_df_5 %>%
