@@ -318,7 +318,7 @@ rm(list=ls())
 ```
 
 # Initial Aggregation
-```{r Read input data, eval=TRUE}
+```{r Read input data, include=FALSE}
 # Artists
 artists_df <- read_csv("../1_input_data/Spotify/artists.csv")
 artists_extended_df <- read_csv("../1_input_data/Spotify/artists_extended_tagged.csv")
@@ -357,43 +357,88 @@ for (i in 1:length(list.files("../1_input_data/Spotify/temp_output/"))){
 ```{r Bind input data, eval=TRUE}
 artists_combined <- bind_rows(artists_df, artists_extended_df)
 albums_combined <- bind_rows(albums_df, albums_extended_df)
-tracks_combined <- bind_rows(tracks_df, tracks_extended_1, tracks_extended_2,
-                             tracks_extended_3, tracks_extended_4, tracks_extended_5,
-                             tracks_extended_6, tracks_extended_7, tracks_extended_8,
-                             tracks_extended_9, tracks_extended_10)
+tracks_combined <- bind_rows(
+  tracks_df, tracks_extended_1, tracks_extended_2,
+  tracks_extended_3, tracks_extended_4, tracks_extended_5,
+  tracks_extended_6, tracks_extended_7, tracks_extended_8,
+  tracks_extended_9, tracks_extended_10
+  )
 
-rm(artists_df, artists_extended_df, albums_df, albums_extended_df, 
-   tracks_df, tracks_extended_1, tracks_extended_2, tracks_extended_3, 
-   tracks_extended_4, tracks_extended_5, tracks_extended_6, tracks_extended_7, 
+rm(artists_df, artists_extended_df, albums_df, 
+   albums_extended_df, tracks_df, tracks_extended_1, 
+   tracks_extended_2, tracks_extended_3, tracks_extended_4, 
+   tracks_extended_5, tracks_extended_6, tracks_extended_7, 
    tracks_extended_8, tracks_extended_9, tracks_extended_10, temp)
 ```
 
-```{r Filter combined data to remove duplicates}
+```{r Clean up combined data}
+# Artists
 artists_combined$remove <- replace_na(artists_combined$remove, 0)
-albums_combined$remove <- replace_na(albums_combined$remove, 0)
-tracks_combined$remove <- replace_na(tracks_combined$remove, 0)
-
 
 artists_combined <- artists_combined %>%
- filter(remove == 0)
-
-albums_combined_test <- albums_combined %>%
   filter(remove == 0) %>%
-  group_by(artist) %>%
-  distinct()
+  rename(artist = artist_name) %>%
+  select(-remove, -notes) %>%
+  distinct(artist_name, .keep_all = TRUE)
 
+# Albums
+albums_combined$remove <- replace_na(albums_combined$remove, 0)
+albums_combined <- albums_combined %>%
+  mutate(artist = str_split(artist, ", ")) %>%
+  unchop(artist) %>%
+  mutate(artist = str_trim(artist)) %>%
+  select(-remove, -notes, -album_type)
+
+# Tracks
 tracks_combined <- tracks_combined %>%
- filter(remove == 0)
+  group_by(track_artists) %>%
+  distinct(track_name, track_artists, .keep_all = TRUE) %>%
+  ungroup() %>%
+  mutate(artist = str_split(track_artists, ", ")) %>%
+  unchop(artist, keep_empty = TRUE) %>%
+  mutate(artist = str_trim(artist))
 ```
 
 ```{r Join into tidy dataset}
-hhh_df <- tracks_combined %>%
-  left_join(albums_combined, by = "album_name") %>%
-  mutate(feature = track_artists,
-         feature = pmap_chr(list(feature, artist), str_remove),
-         feature = str_remove(feature, "^,"),
-         feature = trimws(feature, which = "both"))
+# hhh_df <- tracks_combined %>%
+#   left_join(albums_combined, by = "album_name") %>%
+#   mutate(feature = track_artists,
+#          feature = pmap_chr(list(feature, artist), str_remove),
+#          feature = str_remove(feature, "^,"),
+#          feature = trimws(feature, which = "both"))
          
+artist_albums_df <- 
+  left_join(artists_combined, 
+            albums_combined, 
+            "artist") %>%
+  distinct(artist, artist_uri, 
+           album_name, album_uri,
+           .keep_all = TRUE)
+
+hhh_df <- 
+  inner_join(artist_albums_df,
+             tracks_combined,
+             c("artist", "album_name")) %>%
+  mutate(feature = str_split(track_artists, ", "),
+         feature = map2(feature, artist, str_remove), 
+         feature = map(feature, str_remove, "(^,|,$)"),
+         feature = map(feature, str_trim),
+         feature = map(feature, stri_remove_empty_na),
+         feature = map_chr(feature, function(a){
+           toString(unlist(a))
+         }),
+         feature = na_if(feature, "")) %>%
+  rename(artist_genres = genres, 
+         artist_name = artist,
+         track_release_date = release_date,
+         track_feature = feature) %>%
+  select(-track_artists, artist_name, artist_uri, 
+         artist_genres, artist_followers,
+         album_name, album_uri,
+         track_name, track_uri, 
+         track_feature, track_popularity, 
+         track_release_date)
+  
 write_csv(hhh_df, "../3_dataset/hhh_df.csv")
 ```
 
