@@ -6,7 +6,7 @@ output: html_document
 ---
 
 # Setup
-First, set the working directory to the `../2_scripts/` subfolder of this repository to keep things organized.
+First, set the working directory to the `../implementation/scripts/` subfolder of this repository to keep things organized.
 
 Next, install and source the `spotifyr` package. You'll need to get a "client access token" from Spotify [here](https://developer.spotify.com/) and pass it through the `spotifyr::get_spotify_access_token()` function. Additional instructions from the package developer can be found [here](https://github.com/charlie86/spotifyr). 
 
@@ -22,7 +22,7 @@ library(tidyverse)
 library(stringi)
 
 ## Helper scripts
-source("../2_scripts/query_flat.R")
+source("../scripts/query_flat.R")
 ```
 
 Now we can search the Spotify API for artists, albums, songs, their metadata, etc. 
@@ -30,11 +30,11 @@ Now we can search the Spotify API for artists, albums, songs, their metadata, et
 # Data Pipeline
 Now we're ready to pull data from Spotify. To keep things reasonable, we'll scrape the discography tracklists for all artists that appear in the ["Overposted Albums" list](https://docs.google.com/spreadsheets/d/1Qpbd-fHbMyfWXlWPRA_XfgzYayc8cIjn8J9CuL-aNpE/edit#gid=0) from the [r/hiphopheads](https://www.reddit.com/r/hiphopheads/) subreddit. 
 
-**Note**: `../1_input_data/r_hiphopheads_overposted.csv` was pulled on 2019-03-31, and is likely to have been updated since.
+**Note**: `../input_data/r_hiphopheads_overposted.csv` was pulled on 2019-03-31, and is likely to have been updated since.
 
 ## Initial Data
 ```{r Load data, eval=FALSE}
-hhhe <- read_csv("../1_input_data/Reddit/r_hiphopheads_overposted.csv")
+hhhe <- read_csv("../input_data/Reddit/r_hiphopheads_overposted.csv")
 hhhe_artists <- unique(hhhe$Artist)
 ```
 
@@ -49,7 +49,7 @@ artists_df <- artists_df %>%
   
 artists_df$artist_name <- str_remove(string = artists_df$artist_name, pattern = ",")
 
-write_csv(artists_df, "../1_input_data/Spotify/artists.csv")
+write_csv(artists_df, "../input_data/Spotify/artists.csv")
 ```
 
 ### Initial Album Data
@@ -64,7 +64,7 @@ albums_df <- albums_df %>%
 
 albums_df$artist <- str_replace(string = albums_df$artist, pattern = "Tyler, The Creator", replacement = "Tyler The Creator")
 
-write_csv(albums_df, "../1_input_data/Spotify/albums.csv")
+write_csv(albums_df, "../input_data/Spotify/albums.csv")
 ```
 
 ### Initial Track Data
@@ -79,7 +79,7 @@ tracks_df$track_artists <- str_replace(string = tracks_df$track_artists,
                                        pattern = "Tyler, The Creator", 
                                        replacement = "Tyler The Creator")
 
-write_csv(tracks_df, "../1_input_data/Spotify/tracks.csv")
+write_csv(tracks_df, "../input_data/Spotify/tracks.csv")
 ```
 
 ```{r Clear environment from initial track data, eval=FALSE}
@@ -88,9 +88,9 @@ rm(list=ls())
 
 ## Extended Dataset
 ```{r Load data from initial queries, eval=FALSE}
-artists_df <- read_csv("../1_input_data/Spotify/artists.csv")
-albums_df <- read_csv("../1_input_data/Spotify/albums.csv")
-tracks_df <- read_csv("../1_input_data/Spotify/tracks.csv")
+artists_df <- read_csv("../input_data/Spotify/artists.csv")
+albums_df <- read_csv("../input_data/Spotify/albums.csv")
+tracks_df <- read_csv("../input_data/Spotify/tracks.csv")
 ```
 
 ### Extended Artist Data
@@ -114,14 +114,14 @@ artists_df_2 <- artists_df_2 %>%
 
 artists_df_2$artist_name <- str_remove(string = artists_df_2$artist_name, pattern = ",")
 
-write_csv(artists_df_2, "../1_input_data/Spotify/artists_extended.csv")
+write_csv(artists_df_2, "../input_data/Spotify/artists_extended.csv")
 rm(artists_df_2)
 ```
 
 #### Clean Extended Artists
 Manually tagging artists to remove in `../1_input_data/Spotify/artists_extended_tagged.csv`
 ```{r Read in manually cleaned artists, eval=FALSE}
-artists_df_2 <- read_csv("../1_input_data/Spotify/artists_extended_tagged.csv")
+artists_df_2 <- read_csv("../input_data/Spotify/artists_extended_tagged.csv")
 
 artists_df_2$remove <- replace_na(artists_df_2$remove,0)
 
@@ -141,13 +141,13 @@ albums_df_2 <- albums_df_2 %>%
 
 albums_df_2$artist <- str_replace(string = albums_df_2$artist, pattern = "Tyler, The Creator", replacement = "Tyler The Creator")
 
-write_csv(albums_df_2, "../1_input_data/Spotify/albums_extended.csv")
+write_csv(albums_df_2, "../input_data/Spotify/albums_extended.csv")
 rm(albums_df_2)
 ```
 
 #### Clean Extended Albums
 ```{r Read in manually cleaned albums, eval=FALSE}
-albums_df_2 <- read_csv("../1_input_data/Spotify/albums_extended_tagged.csv")
+albums_df_2 <- read_csv("../input_data/Spotify/albums_extended_tagged.csv")
 
 albums_df_2$remove <- replace_na(albums_df_2$remove,0)
 
@@ -157,8 +157,6 @@ albums_df_2 <- albums_df_2 %>%
 
 ### Extended Track Data
 ```{r Split extended albums dataframe into smaller chunks for manageable queries, eval=FALSE}
-#albums_df_extended <- read_csv("../1_input_data/Spotify/albums_extended.csv") 
-
 albums_df_extended <- albums_df_2 %>%
   mutate(index_to_split = as.numeric(row.names(albums_df_2)),
          groups_to_split = ntile(index_to_split, 10))
@@ -166,7 +164,7 @@ albums_df_extended <- albums_df_2 %>%
 for (i in 1:length(unique(albums_df_extended$groups_to_split))){
   temp <- subset(albums_df_extended, albums_df_extended$groups_to_split == i)
   write_csv(x = temp,
-            path =  paste0("../1_input_data/Spotify/temp_for_query/albums_df_extended_",i,".csv"))
+            path =  paste0("../input_data/Spotify/temp_for_query/albums_df_extended_",i,".csv"))
   assign(x = paste0("albums_df_extended_",i),
          value = temp)
 }
@@ -184,7 +182,7 @@ tracks_df_1$track_artists <- str_replace(string = tracks_df_1$track_artists,
                                        pattern = "Tyler, The Creator", 
                                        replacement = "Tyler The Creator")
 
-write_csv(tracks_df_1, "../1_input_data/Spotify/temp_output/tracks_extended_1.csv")
+write_csv(tracks_df_1, "../input_data/Spotify/temp_output/tracks_extended_1.csv")
 ```
 
 ```{r 2 of 10: Extended Spotify album tracks, eval=FALSE}
@@ -198,7 +196,7 @@ tracks_df_2$track_artists <- str_replace(string = tracks_df_2$track_artists,
                                        pattern = "Tyler, The Creator", 
                                        replacement = "Tyler The Creator")
 
-write_csv(tracks_df_2, "../1_input_data/Spotify/temp_output/tracks_extended_2.csv")
+write_csv(tracks_df_2, "../input_data/Spotify/temp_output/tracks_extended_2.csv")
 ```
 
 ```{r 3 of 10: Extended Spotify album tracks, eval=FALSE}
@@ -212,7 +210,7 @@ tracks_df_3$track_artists <- str_replace(string = tracks_df_3$track_artists,
                                        pattern = "Tyler, The Creator", 
                                        replacement = "Tyler The Creator")
 
-write_csv(tracks_df_3, "../1_input_data/Spotify/temp_output/tracks_extended_3.csv")
+write_csv(tracks_df_3, "../input_data/Spotify/temp_output/tracks_extended_3.csv")
 ```
 
 ```{r 4 of 10: Extended Spotify album tracks, eval=FALSE}
@@ -226,7 +224,7 @@ tracks_df_4$track_artists <- str_replace(string = tracks_df_4$track_artists,
                                        pattern = "Tyler, The Creator", 
                                        replacement = "Tyler The Creator")
 
-write_csv(tracks_df_4, "../1_input_data/Spotify/temp_output/tracks_extended_4.csv")
+write_csv(tracks_df_4, "../input_data/Spotify/temp_output/tracks_extended_4.csv")
 ```
 
 ```{r 5 of 10: Extended Spotify album tracks, eval=FALSE}
@@ -240,7 +238,7 @@ tracks_df_5$track_artists <- str_replace(string = tracks_df_5$track_artists,
                                        pattern = "Tyler, The Creator", 
                                        replacement = "Tyler The Creator")
 
-write_csv(tracks_df_5, "../1_input_data/Spotify/temp_output/tracks_extended_5.csv")
+write_csv(tracks_df_5, "../input_data/Spotify/temp_output/tracks_extended_5.csv")
 ```
 
 ```{r 6 of 10: Extended Spotify album tracks, eval=FALSE}
@@ -254,7 +252,7 @@ tracks_df_6$track_artists <- str_replace(string = tracks_df_6$track_artists,
                                        pattern = "Tyler, The Creator", 
                                        replacement = "Tyler The Creator")
 
-write_csv(tracks_df_6, "../1_input_data/Spotify/temp_output/tracks_extended_6.csv")
+write_csv(tracks_df_6, "../input_data/Spotify/temp_output/tracks_extended_6.csv")
 ```
 
 ```{r 7 of 10: Extended Spotify album tracks, eval=FALSE}
@@ -268,7 +266,7 @@ tracks_df_7$track_artists <- str_replace(string = tracks_df_7$track_artists,
                                        pattern = "Tyler, The Creator", 
                                        replacement = "Tyler The Creator")
 
-write_csv(tracks_df_7, "../1_input_data/Spotify/temp_output/tracks_extended_7.csv")
+write_csv(tracks_df_7, "../input_data/Spotify/temp_output/tracks_extended_7.csv")
 ```
 
 ```{r 8 of 10: Extended Spotify album tracks, eval=FALSE}
@@ -282,7 +280,7 @@ tracks_df_8$track_artists <- str_replace(string = tracks_df_8$track_artists,
                                        pattern = "Tyler, The Creator", 
                                        replacement = "Tyler The Creator")
 
-write_csv(tracks_df_8, "../1_input_data/Spotify/temp_output/tracks_extended_8.csv")
+write_csv(tracks_df_8, "../input_data/Spotify/temp_output/tracks_extended_8.csv")
 ```
 
 ```{r 9 of 10: Extended Spotify album tracks, eval=FALSE}
@@ -296,7 +294,7 @@ tracks_df_9$track_artists <- str_replace(string = tracks_df_9$track_artists,
                                        pattern = "Tyler, The Creator", 
                                        replacement = "Tyler The Creator")
 
-write_csv(tracks_df_9, "../1_input_data/Spotify/temp_output/tracks_extended_9.csv")
+write_csv(tracks_df_9, "../input_data/Spotify/temp_output/tracks_extended_9.csv")
 ```
 
 ```{r 10 of 10: Extended Spotify album tracks, eval=FALSE}
@@ -310,7 +308,7 @@ tracks_df_10$track_artists <- str_replace(string = tracks_df_10$track_artists,
                                        pattern = "Tyler, The Creator", 
                                        replacement = "Tyler The Creator")
 
-write_csv(tracks_df_10, "../1_input_data/Spotify/temp_output/tracks_extended_10.csv")
+write_csv(tracks_df_10, "../input_data/Spotify/temp_output/tracks_extended_10.csv")
 ```
 
 ```{r Clear environment of extended track data, eval=FALSE}
@@ -320,38 +318,22 @@ rm(list=ls())
 # Initial Aggregation
 ```{r Read input data, include=FALSE}
 # Artists
-artists_df <- read_csv("../1_input_data/Spotify/artists.csv")
-artists_extended_df <- read_csv("../1_input_data/Spotify/artists_extended_tagged.csv")
+artists_df <- read_csv("../input_data/Spotify/artists.csv")
+artists_extended_df <- read_csv("../input_data/Spotify/artists_extended_tagged.csv")
 
 # Albums
-albums_df <- read_csv("../1_input_data/Spotify/albums.csv")
-albums_extended_df <- read_csv("../1_input_data/Spotify/albums_extended_tagged.csv")
+albums_df <- read_csv("../input_data/Spotify/albums.csv")
+albums_extended_df <- read_csv("../input_data/Spotify/albums_extended_tagged.csv")
 
 # Tracks
-tracks_df <- read_csv("../1_input_data/Spotify/tracks.csv")
-ext_track_files <- list.files("../1_input_data/Spotify/temp_output/")
+tracks_df <- read_csv("../input_data/Spotify/tracks.csv")
+ext_track_files <- list.files("../input_data/Spotify/temp_output/")
 ext_track_names <- gsub(".csv", "", ext_track_files)
 
-for (i in 1:length(list.files("../1_input_data/Spotify/temp_output/"))){
-  temp <- read_csv(paste0("../1_input_data/Spotify/temp_output/",ext_track_files[i]))
+for (i in 1:length(list.files("../input_data/Spotify/temp_output/"))){
+  temp <- read_csv(paste0("../input_data/Spotify/temp_output/",ext_track_files[i]))
   assign(ext_track_names[i], temp)
 }
-
-
-#artists_df_combined <- bind_rows(artists_df, artists_df_2)
-#albums_df_combined <- bind_rows(albums_df, albums_df_2)
-
-
-# tidy_tracks <- all_tracklists_with_features_nested %>%
-#   left_join(albums_df, by = "album_name") %>%
-#   left_join(artists_df, by = "artist_name")
-# 
-# write_csv(tidy_tracks, "../1_input_data/tidy_tracks.csv")
-
-# tracks_df <- tracks_df %>%
-#   group_by(artist_name) %>%
-#   distinct(track_name, .keep_all = TRUE) %>%
-#   ungroup()
 ```
 
 ```{r Bind input data, eval=TRUE}
@@ -400,13 +382,6 @@ tracks_combined <- tracks_combined %>%
 ```
 
 ```{r Join into tidy dataset}
-# hhh_df <- tracks_combined %>%
-#   left_join(albums_combined, by = "album_name") %>%
-#   mutate(feature = track_artists,
-#          feature = pmap_chr(list(feature, artist), str_remove),
-#          feature = str_remove(feature, "^,"),
-#          feature = trimws(feature, which = "both"))
-         
 artist_albums_df <- 
   left_join(artists_combined, 
             albums_combined, 
@@ -439,7 +414,7 @@ hhh_df <-
          track_feature, track_popularity, 
          track_release_date)
   
-write_csv(hhh_df, "../3_dataset/hhh_df.csv")
+write_csv(hhh_df, "../../dataset/hhh_network_dataset.csv")
 ```
 
 
